@@ -1,12 +1,19 @@
-"""Orquesta el pipeline completo: guion -> imágenes -> audio -> vídeo (Ken
-Burns + subtítulos animados) -> subida.
-Uso: python src/main.py [--no-upload] [--tema "..."]
+"""Orquesta el pipeline completo: guion (de la cola, o generado al vuelo si
+está vacía) -> imágenes -> audio -> vídeo (Ken Burns + subtítulos animados)
+-> subida.
+Uso:
+  python src/main.py [--no-upload]              # coge de la cola; si está
+                                                  # vacía, genera uno nuevo
+  python src/main.py [--no-upload] --tema "..."  # se salta la cola y genera
+                                                  # un guion nuevo sobre ese
+                                                  # tema concreto
 """
 import argparse
 import sys
 import tempfile
 from pathlib import Path
 
+from cola_guiones import guardar_pendiente, sacar_pendiente, marcar_hecho
 from guion_gen import generar_guion
 from image_gen import generar_imagen
 from tts_gen import generar_audio
@@ -47,9 +54,31 @@ TEMAS_PLANETA = [
 ]
 
 
-def ejecutar(tema: str, subir: bool) -> None:
-    print(f"Generando guion sobre: {tema}")
+def _conseguir_guion(tema: str | None) -> tuple[Path, dict]:
+    """Si se pasa --tema, se salta la cola y genera un guion nuevo sobre ese
+    tema. Si no, coge el guion pendiente más antiguo de la cola; si la cola
+    está vacía, genera uno nuevo sobre un tema aleatorio y lo mete en la cola
+    antes de usarlo (así queda registrado igual que si viniera de ella)."""
+    if tema:
+        print(f"Tema forzado por --tema, generando guion nuevo sobre: {tema}")
+        guion = generar_guion(tema)
+        return guardar_pendiente(guion), guion
+
+    pendiente = sacar_pendiente()
+    if pendiente:
+        ruta_guion, guion = pendiente
+        print(f"Cogiendo guion pendiente de la cola: {ruta_guion.name}")
+        return ruta_guion, guion
+
+    import random
+    tema = random.choice(TEMAS_PLANETA)
+    print(f"Cola de guiones vacía, generando uno nuevo sobre: {tema}")
     guion = generar_guion(tema)
+    return guardar_pendiente(guion), guion
+
+
+def ejecutar(tema: str | None, subir: bool) -> None:
+    ruta_guion, guion = _conseguir_guion(tema)
 
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)
@@ -86,10 +115,12 @@ def ejecutar(tema: str, subir: bool) -> None:
             from upload_youtube import subir_short
             url = subir_short(str(salida_final), guion["titulo"], guion["descripcion"])
             print(f"Publicado: {url}")
+            marcar_hecho(ruta_guion, guion)
         else:
             destino_local = Path("preview.mp4")
             destino_local.write_bytes(salida_final.read_bytes())
             print(f"Modo prueba: vídeo guardado en {destino_local.resolve()}, no se sube.")
+            print(f"El guion sigue en la cola ({ruta_guion}), no se marca como hecho.")
 
 
 if __name__ == "__main__":
@@ -98,6 +129,4 @@ if __name__ == "__main__":
     parser.add_argument("--no-upload", action="store_true")
     args = parser.parse_args()
 
-    import random
-    tema = args.tema or random.choice(TEMAS_PLANETA)
-    ejecutar(tema, subir=not args.no_upload)
+    ejecutar(args.tema, subir=not args.no_upload)
