@@ -1,0 +1,30 @@
+{
+  "titulo": "El impacto más colosal de la Tierra: Cráter de Vredefort",
+  "descripcion": "Descubre el cráter de Vredefort en Sudáfrica, la huella del mayor meteorito conocido que ha golpeado nuestro planeta.",
+  "escenas": [
+    {
+      "texto": "Hace 2023 millones de años, un asteroide de 15 kilómetros de diámetro se estrelló contra lo que hoy es Sudáfrica.",
+      "prompt_imagen": "Un asteroide rocoso gigante entrando en la atmósfera terrestre e iluminando una llanura antigua de tierra roja."
+    },
+    {
+      "texto": "Este evento creó el cráter de Vredefort, la cicatriz de impacto confirmada más grande de la Tierra.",
+      "prompt_imagen": "Vista aérea a gran altitud de un inmenso cráter circular humeante en la superficie terrestre."
+    },
+    {
+      "texto": "Su diámetro original alcanzó los 300 kilómetros, duplicando el tamaño del impacto que extinguió a los dinosaurios.",
+      "prompt_imagen": "Gráfico topográfico que muestra dos círculos concéntricos de gran tamaño sobre un mapa geológico continental."
+    },
+    {
+      "texto": "La colisión fue tan brutal que levantó rocas del manto terrestre profundo y las dejó en la superficie.",
+      "prompt_imagen": "Corte transversal geológico de la corteza terrestre mostrando capas de roca deformadas y empujadas hacia arriba."
+    },
+    {
+      "texto": "Tras millones de años de erosión, los geólogos confirmaron el impacto al hallar conos de fractura en el granito.",
+      "prompt_imagen": "Un geólogo en un laboratorio examinando con lupa una roca gris con estrías cónicas características de alta presión."
+    },
+    {
+      "texto": "Hoy, los satélites en órbita aún pueden fotografiar los semicírculos montañosos que rodean al río Vaal.",
+      "prompt_imagen": "Fotografía satelital orbital que muestra crestas de colinas formando arcos concéntricos con un río cruzando el paisaje."
+    }
+  ]
+}
