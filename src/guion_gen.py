@@ -1,8 +1,11 @@
-"""Genera título, descripción y escenas de un short usando la API gratuita de Gemini."""
+"""Genera título, descripción y escenas de un short. Intenta primero con la API
+gratuita de Gemini, y si falla (por ejemplo, cuota diaria agotada), usa Groq
+(Llama 3.3 70B) como respaldo automático."""
 import json
 import os
 import sys
 
+import requests
 import google.generativeai as genai
 
 PROMPT_SISTEMA = """
@@ -29,7 +32,13 @@ Reglas:
 """
 
 
-def generar_guion(tema: str) -> dict:
+def _limpiar_json(texto: str) -> dict:
+    texto = texto.strip()
+    texto = texto.removeprefix("```json").removesuffix("```").strip()
+    return json.loads(texto)
+
+
+def _generar_con_gemini(tema: str) -> dict:
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("Falta la variable de entorno GEMINI_API_KEY")
@@ -39,18 +48,45 @@ def generar_guion(tema: str) -> dict:
         model_name="gemini-2.0-flash",
         system_instruction=PROMPT_SISTEMA,
     )
+    respuesta = modelo.generate_content(f"Tema: {tema}")
+    return _limpiar_json(respuesta.text)
+
+
+def _generar_con_groq(tema: str) -> dict:
+    api_key = os.environ.get("GROQ_API_KEY")
+    if not api_key:
+        raise RuntimeError("Falta la variable de entorno GROQ_API_KEY")
+
+    respuesta = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={"Authorization": f"Bearer {api_key}"},
+        json={
+            "model": "llama-3.3-70b-versatile",
+            "messages": [
+                {"role": "system", "content": PROMPT_SISTEMA},
+                {"role": "user", "content": f"Tema: {tema}"},
+            ],
+        },
+        timeout=60,
+    )
+    respuesta.raise_for_status()
+    texto = respuesta.json()["choices"][0]["message"]["content"]
+    return _limpiar_json(texto)
+
+
+def generar_guion(tema: str) -> dict:
+    """Prueba primero Gemini; si falla por cualquier motivo (cuota agotada,
+    error de red, etc.), reintenta con Groq como respaldo antes de rendirse."""
+    try:
+        return _generar_con_gemini(tema)
+    except Exception as e:
+        print(f"Gemini falló (¿cuota agotada?): {e}. Probando con Groq...", file=sys.stderr)
 
     try:
-        respuesta = modelo.generate_content(f"Tema: {tema}")
+        return _generar_con_groq(tema)
     except Exception as e:
-        # Si se agota la cuota gratuita diaria, fallamos de forma controlada
-        # en vez de reintentar en bucle.
-        print(f"Error llamando a Gemini (¿cuota agotada?): {e}", file=sys.stderr)
-        raise
-
-    texto = respuesta.text.strip()
-    texto = texto.removeprefix("```json").removesuffix("```").strip()
-    return json.loads(texto)
+        print(f"Groq también falló: {e}", file=sys.stderr)
+        raise RuntimeError("No se pudo generar el guion: fallaron Gemini y Groq")
 
 
 if __name__ == "__main__":
