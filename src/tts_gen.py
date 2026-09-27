@@ -1,34 +1,57 @@
 """Genera la narración en audio.
 
-gTTS (Google Translate TTS) como motor principal: es HTTP simple y no depende
-del endpoint no oficial de WebSocket de Bing, que Microsoft está cortando (403)
-desde IPs de datacenter como las de los runners de GitHub Actions. Por eso la
-automatización de la Raspberry Pi (que usa edge-tts como motor único, con
-tiempos reales por palabra vía WordBoundary) no se puede portar tal cual aquí.
+MOTOR PRINCIPAL — StreamElements TTS (voz neural de Amazon Polly, gratis, sin
+API key, HTTP simple, funciona igual desde cualquier IP incluida la de los
+runners de GitHub Actions). Es una API no oficial pero muy usada y estable en
+la práctica; usa una voz neural real (no la síntesis robótica de gTTS), así
+que soluciona tanto el problema de sonar "robótica" como, en gran parte, el de
+ir demasiado lenta (las voces neurales de Polly ya narran a un ritmo natural,
+sin las pausas largas que mete gTTS entre frases).
 
-edge-tts se mantiene como fallback con reintentos, por si algún día vuelve a
-funcionar de forma fiable en CI o si gTTS falla puntualmente.
+FALLBACKS, en este orden, por si StreamElements falla puntualmente:
+1. gTTS (Google Translate TTS) + aceleración con FFmpeg — motor anterior,
+   sigue disponible como red de seguridad.
+2. edge-tts con la voz de la Raspberry Pi (es-ES-AlvaroNeural) — motor de
+   mejor calidad, pero su endpoint de WebSocket está bloqueado (403) desde
+   las IPs de datacenter de los runners de GitHub Actions, así que casi
+   nunca llega a usarse aquí; se deja solo por si algún día deja de estarlo.
 
-Dos cambios respecto a la versión anterior:
-
-1. VELOCIDAD: la narración con gTTS se percibía muy lenta y "pesaba" el vídeo
-   comparada con la voz del canal de la Pi (edge-tts a -4%, ya de por sí
-   ágil). Aquí se reencodea el audio con FFmpeg (filtro atempo) para acelerar
-   el ritmo de lectura y que suene parecido.
-2. TIMING POR PALABRA ESTIMADO: gTTS no expone tiempos reales por palabra.
-   Para poder generar subtítulos animados palabra a palabra como en el canal
-   de la Pi, se reparte la duración real del audio ya generado entre las
-   palabras del texto, proporcionalmente a su longitud. No es tan preciso
-   como un timing real (WordBoundary), pero da un resultado visualmente
-   correcto para subtítulos tipo "caption viral".
+TIMING POR PALABRA: ninguno de estos motores expone tiempos reales por
+palabra en este entorno (edge-tts sí lo haría vía WordBoundary, pero rara vez
+se llega a usar). Para poder generar subtítulos animados palabra a palabra
+como en el canal de la Pi, se reparte la duración real del audio ya generado
+entre las palabras del texto, proporcionalmente a su longitud. No es tan
+preciso como un timing real, pero da un resultado visualmente correcto para
+subtítulos tipo "caption viral".
 """
 import asyncio
 import os
 import subprocess
 import time
+import urllib.parse
 
+import requests
+
+VOZ_STREAMELEMENTS = "Sergio"  # voz neural masculina es-ES (Amazon Polly), ritmo natural
 VOZ_EDGE = "es-ES-AlvaroNeural"
-VELOCIDAD_GTTS = 1.15  # factor de aceleración aplicado con ffmpeg (atempo)
+VELOCIDAD_GTTS = 1.2  # factor de aceleración aplicado con ffmpeg (atempo) al motor de respaldo
+
+
+def _generar_streamelements(texto: str, destino: str) -> None:
+    url = (
+        "https://api.streamelements.com/kappa/v2/speech"
+        f"?voice={VOZ_STREAMELEMENTS}&text={urllib.parse.quote(texto)}"
+    )
+    r = requests.get(url, timeout=30)
+    r.raise_for_status()
+    content_type = r.headers.get("Content-Type", "")
+    if not content_type.startswith("audio/") or len(r.content) < 2000:
+        raise RuntimeError(
+            f"StreamElements no devolvió audio válido (content-type={content_type!r}, "
+            f"tamaño={len(r.content)} bytes)"
+        )
+    with open(destino, "wb") as f:
+        f.write(r.content)
 
 
 def _generar_gtts_bruto(texto: str, destino: str) -> None:
@@ -63,7 +86,7 @@ async def _generar_edge(texto: str, destino: str) -> None:
     await comunicador.save(destino)
 
 
-def _generar_edge_con_reintentos(texto: str, destino: str, intentos: int = 3) -> None:
+def _generar_edge_con_reintentos(texto: str, destino: str, intentos: int = 2) -> None:
     ultimo_error: Exception | None = None
     for intento in range(1, intentos + 1):
         try:
@@ -112,10 +135,14 @@ def generar_audio(texto: str, destino: str) -> tuple[float, list[dict]]:
     "dur_ms"} — ver la cabecera del módulo sobre por qué es un timing estimado
     y no real."""
     try:
-        _generar_gtts(texto, destino)
+        _generar_streamelements(texto, destino)
     except Exception as e:
-        print(f"gTTS falló ({e}), probando edge-tts como respaldo...")
-        _generar_edge_con_reintentos(texto, destino)
+        print(f"StreamElements falló ({e}), probando gTTS como respaldo...")
+        try:
+            _generar_gtts(texto, destino)
+        except Exception as e2:
+            print(f"gTTS también falló ({e2}), probando edge-tts como último respaldo...")
+            _generar_edge_con_reintentos(texto, destino)
 
     duracion = _duracion_audio(destino)
     palabras = _estimar_timing_palabras(texto, duracion)
