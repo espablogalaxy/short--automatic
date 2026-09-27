@@ -82,5 +82,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     import random
-    tema = args.tema or random.choice(TEMAS_POR_DEFECTO)
+    tema = args.tema or random.choice(TEMAS_PLANETA)
     ejecutar(tema, subir=not args.no_upload)
