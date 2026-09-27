@@ -1,0 +1,45 @@
+name: Rellenar cola de guiones
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"  # cada 4 horas -> 6 veces/día (00, 04, 08, 12, 16, 20 UTC)
+  workflow_dispatch:
+    inputs:
+      cantidad:
+        description: "Cuántos guiones generar en esta pasada"
+        default: "3"
+
+permissions:
+  contents: write
+
+jobs:
+  rellenar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Descargar repo
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Generar lote de guiones
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python src/generar_lote.py "${{ github.event.inputs.cantidad || 3 }}"
+
+      - name: Guardar guiones nuevos en la cola
+        run: |
+          git config user.name "shorts-bot"
+          git config user.email "shorts-bot@users.noreply.github.com"
+          git add content/pending/
+          git diff --cached --quiet || git commit -m "Rellena cola de guiones [skip ci]"
+          git fetch origin main
+          git rebase origin/main
+          git push
