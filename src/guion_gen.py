@@ -1,6 +1,6 @@
 """Genera título, descripción y escenas de un short. Intenta primero con la API
 gratuita de Gemini, y si falla (por ejemplo, cuota diaria agotada), usa Groq
-(Llama 3.3 70B) como respaldo automático."""
+(GPT-OSS 120B) como respaldo automático."""
 import json
 import os
 import sys
@@ -45,7 +45,7 @@ def _generar_con_gemini(tema: str) -> dict:
 
     genai.configure(api_key=api_key)
     modelo = genai.GenerativeModel(
-        model_name="gemini-2.0-flash",
+        model_name="gemini-3.8-flash",
         system_instruction=PROMPT_SISTEMA,
     )
     respuesta = modelo.generate_content(f"Tema: {tema}")
@@ -61,7 +61,7 @@ def _generar_con_groq(tema: str) -> dict:
         "https://api.groq.com/openai/v1/chat/completions",
         headers={"Authorization": f"Bearer {api_key}"},
         json={
-            "model": "llama-3.3-70b-versatile",
+            "model": "openai/gpt-oss-120b",
             "messages": [
                 {"role": "system", "content": PROMPT_SISTEMA},
                 {"role": "user", "content": f"Tema: {tema}"},
