@@ -1,8 +1,8 @@
-"""Orquesta el pipeline completo: guion -> imágenes -> audio -> vídeo -> subida.
+"""Orquesta el pipeline completo: guion -> imágenes -> audio -> vídeo (Ken
+Burns + subtítulos animados) -> subida.
 Uso: python src/main.py [--no-upload] [--tema "..."]
 """
 import argparse
-import os
 import sys
 import tempfile
 from pathlib import Path
@@ -10,7 +10,13 @@ from pathlib import Path
 from guion_gen import generar_guion
 from image_gen import generar_imagen
 from tts_gen import generar_audio
-from render import renderizar_escena, concatenar_escenas
+from render import (
+    renderizar_escena,
+    concatenar_escenas,
+    fusionar_timings,
+    construir_subtitulos_ass,
+    quemar_subtitulos,
+)
 
 TEMAS_PLANETA = [
     "el abismo de Challenger y su profundidad exacta",
@@ -48,6 +54,8 @@ def ejecutar(tema: str, subir: bool) -> None:
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)
         rutas_escenas = []
+        palabras_por_escena = []
+        duraciones = []
 
         for i, escena in enumerate(guion["escenas"]):
             imagen = tmp / f"img_{i}.png"
@@ -58,12 +66,21 @@ def ejecutar(tema: str, subir: bool) -> None:
                 print(f"No se pudo generar la imagen de la escena {i}, se aborta este vídeo.")
                 sys.exit(1)
 
-            generar_audio(escena["texto"], str(audio))
-            renderizar_escena(str(imagen), str(audio), str(clip))
+            duracion, palabras = generar_audio(escena["texto"], str(audio))
+            renderizar_escena(str(imagen), str(audio), str(clip), duracion)
             rutas_escenas.append(str(clip))
+            palabras_por_escena.append(palabras)
+            duraciones.append(duracion)
+
+        sin_subtitulos = tmp / "short_sin_subs.mp4"
+        concatenar_escenas(rutas_escenas, str(sin_subtitulos))
+
+        palabras_totales = fusionar_timings(palabras_por_escena, duraciones)
+        ruta_ass = tmp / "subtitulos.ass"
+        construir_subtitulos_ass(palabras_totales, str(ruta_ass))
 
         salida_final = tmp / "short_final.mp4"
-        concatenar_escenas(rutas_escenas, str(salida_final))
+        quemar_subtitulos(str(sin_subtitulos), str(ruta_ass), str(salida_final))
 
         if subir:
             from upload_youtube import subir_short
