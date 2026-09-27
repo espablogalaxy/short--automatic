@@ -8,13 +8,23 @@ que soluciona tanto el problema de sonar "robótica" como, en gran parte, el de
 ir demasiado lenta (las voces neurales de Polly ya narran a un ritmo natural,
 sin las pausas largas que mete gTTS entre frases).
 
-FALLBACKS, en este orden, por si StreamElements falla puntualmente:
+Como es una API no oficial y gratuita, puede fallar puntualmente por timeout,
+429 o un simple hipo de red — antes NO tenía reintentos (a diferencia de
+image_gen.py o del fallback de edge-tts), así que cualquier fallo puntual
+caía en silencio a gTTS, que es la síntesis robótica que se quería evitar.
+Ahora reintenta antes de rendirse.
+
+FALLBACKS, en este orden, por si StreamElements sigue fallando tras reintentar:
 1. gTTS (Google Translate TTS) + aceleración con FFmpeg — motor anterior,
    sigue disponible como red de seguridad.
 2. edge-tts con la voz de la Raspberry Pi (es-ES-AlvaroNeural) — motor de
    mejor calidad, pero su endpoint de WebSocket está bloqueado (403) desde
    las IPs de datacenter de los runners de GitHub Actions, así que casi
    nunca llega a usarse aquí; se deja solo por si algún día deja de estarlo.
+
+El motor que termina generando el audio se imprime siempre por stdout (se ve
+en el log de la Action) para poder diagnosticar sin adivinar si algún día
+vuelve a sonar raro.
 
 TIMING POR PALABRA: ninguno de estos motores expone tiempos reales por
 palabra en este entorno (edge-tts sí lo haría vía WordBoundary, pero rara vez
@@ -34,10 +44,10 @@ import requests
 
 VOZ_STREAMELEMENTS = "Sergio"  # voz neural masculina es-ES (Amazon Polly), ritmo natural
 VOZ_EDGE = "es-ES-AlvaroNeural"
-VELOCIDAD_GTTS = 1.2  # factor de aceleración aplicado con ffmpeg (atempo) al motor de respaldo
+VELOCIDAD_GTTS = 1.3  # factor de aceleración aplicado con ffmpeg (atempo) al motor de respaldo
 
 
-def _generar_streamelements(texto: str, destino: str) -> None:
+def _generar_streamelements_una_vez(texto: str, destino: str) -> None:
     url = (
         "https://api.streamelements.com/kappa/v2/speech"
         f"?voice={VOZ_STREAMELEMENTS}&text={urllib.parse.quote(texto)}"
@@ -52,6 +62,23 @@ def _generar_streamelements(texto: str, destino: str) -> None:
         )
     with open(destino, "wb") as f:
         f.write(r.content)
+
+
+def _generar_streamelements(texto: str, destino: str, intentos: int = 3) -> None:
+    """Antes esta llamada no reintentaba nada: un solo timeout o 429 puntual
+    de esta API no oficial hacía caer todo el vídeo a gTTS (la voz "robótica"
+    que se quería evitar). Ahora reintenta con backoff antes de rendirse."""
+    ultimo_error: Exception | None = None
+    for intento in range(1, intentos + 1):
+        try:
+            _generar_streamelements_una_vez(texto, destino)
+            return
+        except Exception as e:
+            ultimo_error = e
+            print(f"[tts_gen] StreamElements intento {intento}/{intentos} falló: {e}")
+            if intento < intentos:
+                time.sleep(2 * intento)
+    raise ultimo_error
 
 
 def _generar_gtts_bruto(texto: str, destino: str) -> None:
@@ -94,7 +121,7 @@ def _generar_edge_con_reintentos(texto: str, destino: str, intentos: int = 2) ->
             return
         except Exception as e:
             ultimo_error = e
-            print(f"edge-tts intento {intento}/{intentos} falló: {e}")
+            print(f"[tts_gen] edge-tts intento {intento}/{intentos} falló: {e}")
             if intento < intentos:
                 time.sleep(2 * intento)
     raise ultimo_error
@@ -136,13 +163,16 @@ def generar_audio(texto: str, destino: str) -> tuple[float, list[dict]]:
     y no real."""
     try:
         _generar_streamelements(texto, destino)
+        print("[tts_gen] motor usado: streamelements (voz neural Sergio)")
     except Exception as e:
-        print(f"StreamElements falló ({e}), probando gTTS como respaldo...")
+        print(f"[tts_gen] StreamElements falló tras reintentar ({e}), probando gTTS como respaldo...")
         try:
             _generar_gtts(texto, destino)
+            print("[tts_gen] motor usado: gtts (respaldo, síntesis no neural)")
         except Exception as e2:
-            print(f"gTTS también falló ({e2}), probando edge-tts como último respaldo...")
+            print(f"[tts_gen] gTTS también falló ({e2}), probando edge-tts como último respaldo...")
             _generar_edge_con_reintentos(texto, destino)
+            print("[tts_gen] motor usado: edge-tts (último respaldo)")
 
     duracion = _duracion_audio(destino)
     palabras = _estimar_timing_palabras(texto, duracion)
