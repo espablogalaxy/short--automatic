@@ -3,6 +3,7 @@ name: Shorts Bot Diario
 on:
   schedule:
     - cron: "0 9 * * *"   # 09:00 UTC
+    - cron: "0 12 * * *"  # 12:00 UTC
     - cron: "0 18 * * *"  # 18:00 UTC (turno de respaldo)
   workflow_dispatch: {}    # permite lanzarlo a mano desde la pestaña Actions
 
