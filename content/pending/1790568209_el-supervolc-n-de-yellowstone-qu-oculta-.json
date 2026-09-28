@@ -1,0 +1,30 @@
+{
+  "titulo": "El Supervolcán de Yellowstone: ¿Qué oculta bajo el parque?",
+  "descripcion": "Descubre cómo la tecnología vigila el gigante dormido bajo Yellowstone y por qué es crucial.",
+  "escenas": [
+    {
+      "texto": "En 1980, la erupción liberó 1 000 km³ de material.",
+      "prompt_imagen": "Nube de ceniza densa y oscura elevándose del cráter del volcán de Yellowstone, con tonos rojizos y grises."
+    },
+    {
+      "texto": "Su cámara magmática mide unos 10 km de diámetro.",
+      "prompt_imagen": "Corte transversal del suelo mostrando una gran cámara de magma bajo el parque, con escala de 10 km."
+    },
+    {
+      "texto": "Sensores GPS registran movimientos de hasta 2 cm al año.",
+      "prompt_imagen": "Estación GPS sobre el terreno del parque, con pantalla que muestra un desplazamiento de 2 cm."
+    },
+    {
+      "texto": "Más de 80 sismógrafos capturan temblores imperceptibles.",
+      "prompt_imagen": "Fila de sismógrafos instalados en el bosque, con ondas sísmicas leves en sus monitores."
+    },
+    {
+      "texto": "Drones con LIDAR cartografían el subsuelo.",
+      "prompt_imagen": "Drone sobrevolando el bosque de Yellowstone, emitiendo pulsos LIDAR y mostrando una nube de puntos 3D."
+    },
+    {
+      "texto": "Si despertara, alteraría el clima mundial.",
+      "prompt_imagen": "Mapa mundial con áreas coloreadas que indican cambios de temperatura y precipitaciones tras una hipotética erupción."
+    }
+  ]
+}

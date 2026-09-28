@@ -1,0 +1,30 @@
+{
+  "titulo": "La puerta del infierno de Darvaza: el fuego que nunca se apaga",
+  "descripcion": "Descubre los datos sorprendentes de este cráter ardiente en Turkmenistán, su origen, dimensiones y por qué sigue en llamas tras más de 60 años.",
+  "escenas": [
+    {
+      "texto": "En 1971, los geólogos soviéticos perforaron un pozo de 70 metros que se incendió al instante.",
+      "prompt_imagen": "Vista aérea del cráter de Darvaza al amanecer, mostrando la zona desértica de Turkmenistán y la columna de fuego que sale del centro del cráter."
+    },
+    {
+      "texto": "El cráter mide aproximadamente 70 metros de diámetro y 20 metros de profundidad.",
+      "prompt_imagen": "Imagen del cráter visto desde arriba con una escala que indica 70 metros de ancho y 20 metros de profundidad, rodeado de terreno árido."
+    },
+    {
+      "texto": "El fuego se mantiene gracias al gas natural que brota continuamente.",
+      "prompt_imagen": "Fotografía que muestra flujos de gas escapando del borde del cráter, con llamas azules y naranjas iluminando la superficie rocosa."
+    },
+    {
+      "texto": "Durante la Guerra Fría, la zona estaba cerrada al público.",
+      "prompt_imagen": "Foto histórica en blanco y negro de soldados soviéticos con equipos de perforación alrededor del cráter, con carteles que dicen \"Prohibido el paso\"."
+    },
+    {
+      "texto": "Hoy, el sitio atrae a cientos de turistas cada año.",
+      "prompt_imagen": "Imagen de visitantes con cámaras y mochilas observando el cráter al atardecer, con la luz del fuego reflejándose en sus caras."
+    },
+    {
+      "texto": "Se estima que el gas que alimenta el fuego equivale a 50 millones de metros cúbicos.",
+      "prompt_imagen": "Gráfica simple que muestra un medidor de gas con la cifra \"50,000,000 m³\" y una silueta del cráter al fondo."
+    }
+  ]
+}

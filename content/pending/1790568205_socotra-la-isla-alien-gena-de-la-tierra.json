@@ -1,0 +1,30 @@
+{
+  "titulo": "Socotra: La isla alienígena de la Tierra",
+  "descripcion": "Descubre la flora única de Socotra, sus especies extrañas y cómo la tecnología moderna ayuda a estudiarlas.",
+  "escenas": [
+    {
+      "texto": "En 2023, investigadores catalogaron 30 nuevas especies de plantas en Socotra.",
+      "prompt_imagen": "Equipo de científicos con mochilas caminando entre árboles extraños en Socotra, con señal de GPS visible y fondo de costa rocosa."
+    },
+    {
+      "texto": "El árbol dragón tiene una copa en forma de paraguas que parece sacada de otro planeta.",
+      "prompt_imagen": "Primer plano del árbol dragón (Dracaena cinnabari) con tronco grueso y copa redondeada tipo paraguas bajo cielo azul."
+    },
+    {
+      "texto": "La rosa del desierto exhibe flores rosadas que brillan como cristales.",
+      "prompt_imagen": "Rosa del desierto (Adenium obesum) con tallos gruesos y flores rosadas brillantes sobre suelo arenoso."
+    },
+    {
+      "texto": "Drones equipados con IA mapean la flora en 3D para protegerla.",
+      "prompt_imagen": "Drone sobrevolando la selva de Socotra, con pantalla holográfica que muestra un modelo 3D de una planta exótica."
+    },
+    {
+      "texto": "Una app de realidad aumentada reconoce cada especie al apuntar el móvil.",
+      "prompt_imagen": "Mano sosteniendo smartphone que muestra overlay de información sobre una planta alienígena de Socotra."
+    },
+    {
+      "texto": "Socotra es el laboratorio natural que parece de otro planeta.",
+      "prompt_imagen": "Panorámica de la costa de Socotra al atardecer, con siluetas de árboles extraños contra el cielo naranja."
+    }
+  ]
+}
