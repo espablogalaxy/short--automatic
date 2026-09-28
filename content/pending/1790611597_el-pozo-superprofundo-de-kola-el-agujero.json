@@ -1,0 +1,30 @@
+{
+  "titulo": "El pozo superprofundo de Kola: el agujero más profundo de la Tierra",
+  "descripcion": "Descubre los datos sorprendentes del Pozo Superprofundo de Kola, la perforación que alcanzó más de 12 km bajo la superficie rusa.",
+  "escenas": [
+    {
+      "texto": "En 1989 los científicos soviéticos alcanzaron 12 262 metros, la profundidad más grande jamás perforada.",
+      "prompt_imagen": "Imagen del pozo de perforación en la tundra rusa con una torre de perforación y una cinta métrica marcando 12,262 metros."
+    },
+    {
+      "texto": "El proyecto comenzó en 1970 para estudiar la corteza terrestre.",
+      "prompt_imagen": "Mapa de Rusia resaltando la península de Kola con una línea que indica el sitio del pozo y la fecha 1970."
+    },
+    {
+      "texto": "Se perforó en roca granítica a una velocidad de 2 metros por día.",
+      "prompt_imagen": "Corte transversal mostrando una broca perforando roca granítica, con un reloj indicando 2 metros por día."
+    },
+    {
+      "texto": "Los científicos encontraron agua a 7 000 metros de profundidad.",
+      "prompt_imagen": "Vista del interior del pozo a 7,000 metros mostrando una capa de agua brillante rodeada de rocas."
+    },
+    {
+      "texto": "A 12 262 metros hallaron una zona de alta temperatura, casi 180 °C.",
+      "prompt_imagen": "Termómetro gigante dentro del pozo marcando 180 grados Celsius, rodeado de rocas calientes."
+    },
+    {
+      "texto": "El pozo dejó más preguntas que respuestas y quedó abandonado en 1992.",
+      "prompt_imagen": "Foto del pozo cerrado con una señal de 'Prohibido el paso' y vegetación creciendo alrededor."
+    }
+  ]
+}

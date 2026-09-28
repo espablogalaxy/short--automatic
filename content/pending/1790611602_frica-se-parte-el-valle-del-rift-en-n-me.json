@@ -1,0 +1,30 @@
+{
+  "titulo": "África se parte: el Valle del Rift en números",
+  "descripcion": "Descubre cómo la tectónica está dividiendo el continente africano, con datos reales y tecnología de medición.",
+  "escenas": [
+    {
+      "texto": "En 2023, los satélites mostraron que la placa africana se separa 2 cm cada año.",
+      "prompt_imagen": "Imagen de satélite que muestra la grieta del Valle del Rift con líneas de medición de 2 cm por año sobre el mapa de África."
+    },
+    {
+      "texto": "Esta separación forma el Valle del Rift, una enorme hendidura que atraviesa el continente.",
+      "prompt_imagen": "Vista aérea del Valle del Rift con una grieta profunda rodeada de montañas y lagos en África Oriental."
+    },
+    {
+      "texto": "Los volcanes como el Kilimanjaro son parte de esta zona de colisión tectónica.",
+      "prompt_imagen": "Fotografía del volcán Kilimanjaro emergiendo sobre la llanura del Rift, con humo y nieve en la cumbre."
+    },
+    {
+      "texto": "Los científicos usan GPS para rastrear el movimiento de las placas en tiempo real.",
+      "prompt_imagen": "Pantalla de ordenador con mapa interactivo de GPS mostrando puntos rojos moviéndose lentamente a lo largo del Rift."
+    },
+    {
+      "texto": "Cada década, la abertura puede alargarse varios metros, creando nuevos lagos.",
+      "prompt_imagen": "Lago recién formado en el Rift con aguas claras y costas rocosas, rodeado de vegetación."
+    },
+    {
+      "texto": "En el futuro, esta fractura podría dividir África en dos continentes separados.",
+      "prompt_imagen": "Ilustración futurista de África partida en dos por una gran grieta azul brillante en el centro del continente."
+    }
+  ]
+}

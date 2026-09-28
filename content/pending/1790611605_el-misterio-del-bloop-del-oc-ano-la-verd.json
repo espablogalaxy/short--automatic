@@ -1,0 +1,30 @@
+{
+  "titulo": "El misterio del 'Bloop' del océano: la verdadera causa",
+  "descripcion": "Descubre cómo se explicó el enigmático sonido de baja frecuencia llamado 'Bloop', captado en el Pacífico y su origen real.",
+  "escenas": [
+    {
+      "texto": "En 1997, los hidrófonos de la NOAA grabaron un fuerte sonido bajo el agua llamado 'Bloop'.",
+      "prompt_imagen": "Barco de investigación de la NOAA en el océano Pacífico, con equipos de hidrófonos sumergidos, fecha 1997"
+    },
+    {
+      "texto": "El 'Bloop' alcanzó frecuencias de 1 a 10 kHz y parecía provenir de una fuente gigantesca.",
+      "prompt_imagen": "Espectro de frecuencias en pantalla de computadora mostrando un pico entre 1 y 10 kHz"
+    },
+    {
+      "texto": "Al principio, algunos pensaron que podría ser una criatura marina desconocida.",
+      "prompt_imagen": "Ilustración de una criatura enorme del océano, estilo científico, con notas de hipótesis"
+    },
+    {
+      "texto": "Los científicos compararon el sonido con el de ballenas y lo descartaron por la intensidad.",
+      "prompt_imagen": "Gráfica comparativa de ondas sonoras de ballenas y del 'Bloop' con diferencias marcadas"
+    },
+    {
+      "texto": "En 2005, estudios revelaron que el 'Bloop' coincidía con el crujido de icebergs en la Antártida.",
+      "prompt_imagen": "Iceberg rompiéndose en el agua antártica, con ondas sonoras visualizadas alrededor"
+    },
+    {
+      "texto": "Así, el origen real del 'Bloop' es el colapso de grandes masas de hielo, no un monstruo marino.",
+      "prompt_imagen": "Vista submarina de hielo fracturándose, generando burbujas y ondas acústicas"
+    }
+  ]
+}
