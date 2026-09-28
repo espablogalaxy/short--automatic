@@ -1,0 +1,30 @@
+{
+  "titulo": "El lugar más alienígena de la Tierra: Isla Socotra",
+  "descripcion": "Descubre la isla de Socotra, un territorio aislado durante millones de años con plantas que parecen sacadas de otro planeta. #Socotra #Naturaleza #Curiosidades #Ciencia",
+  "escenas": [
+    {
+      "texto": "Aislada del continente africano hace más de 20 millones de años, la isla de Socotra alberga un 37% de plantas que no existen en ningún otro rincón del planeta.",
+      "prompt_imagen": "Vista aérea de la costa árida y montañosa de la isla de Socotra, con acantilados de roca caliza y el mar azul turquesa de fondo."
+    },
+    {
+      "texto": "El árbol de sangre de dragón parece un paraguas gigante invertido o una nave espacial posada en el suelo.",
+      "prompt_imagen": "Plano medio de un árbol Dracaena cinnabari con su copa densa y redondeada en forma de hongo sobre una meseta rocosa desértica."
+    },
+    {
+      "texto": "Al cortar su corteza, este árbol supura una resina espesa y de color rojo intenso que los botánicos llamaron sangre de dragón.",
+      "prompt_imagen": "Primer plano del tronco rugoso de un árbol del que brotan gotas densas de resina líquida de color rojo carmesí brillante."
+    },
+    {
+      "texto": "La rosa del desierto de Socotra tiene un tronco bulboso y gigante que parece la pata de un elefante rematada con flores rosas.",
+      "prompt_imagen": "Una planta Adenium obesum socotranum con tronco gris extremadamente hinchado y pequeñas flores rosadas en la cima, en un terreno seco con piedras."
+    },
+    {
+      "texto": "Aquí también crece el árbol del pepino, la única especie de su familia botánica que logró convertirse en un árbol macizo.",
+      "prompt_imagen": "Un árbol Dendrosicyos socotrana con un tronco grueso y cilíndrico de corteza blanca amarillenta y pocas ramas verdes en la copa."
+    },
+    {
+      "texto": "Millones de años de aislamiento geográfico convirtieron a esta isla en el laboratorio botánico más extraño de la Tierra.",
+      "prompt_imagen": "Panorámica al atardecer de una llanura en Socotra llena de árboles de sangre de dragón silueteados contra un cielo dorado y rojizo."
+    }
+  ]
+}

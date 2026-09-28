@@ -1,0 +1,30 @@
+{
+  "titulo": "La Puerta del Infierno de Darvaza: el cráter que arde desde 1971",
+  "descripcion": "Descubre los datos sorprendentes de este incendio natural en Turkmenistán, desde su origen hasta su impacto hoy.",
+  "escenas": [
+    {
+      "texto": "En 1971, los geólogos soviéticos prendieron fuego al cráter de Darvaza.",
+      "prompt_imagen": "Geólogos soviéticos con antorchas encendiendo el cráter de gas en el desierto de Darvaza, Turkmenistán, 1971"
+    },
+    {
+      "texto": "El cráter mide aproximadamente 70 metros de diámetro y 30 metros de profundidad.",
+      "prompt_imagen": "Vista aérea del cráter de Darvaza mostrando un círculo de fuego de 70 m de diámetro y una profundidad visible de 30 m, rodeado de tierra rojiza"
+    },
+    {
+      "texto": "La combustión ha quemado gas natural durante más de 50 años.",
+      "prompt_imagen": "Imagen nocturna del cráter de Darvaza con llamas azules y amarillas iluminando la zona desértica"
+    },
+    {
+      "texto": "Cada año cientos de turistas se acercan a fotografiar sus llamas.",
+      "prompt_imagen": "Turistas de pie alrededor del cráter de Darvaza, tomando fotos con smartphones mientras el fuego arde en el fondo"
+    },
+    {
+      "texto": "Los científicos advierten que el gas podría agotarse y el cráter apagarse.",
+      "prompt_imagen": "Científico con equipo de medición de gas observando el cráter, con paneles de datos que indican disminución de presión"
+    },
+    {
+      "texto": "Hoy, la 'Puerta del Infierno' sigue siendo un símbolo de energía incontrolable.",
+      "prompt_imagen": "Atardecer sobre el cráter de Darvaza, el fuego sigue ardiendo y el horizonte desértico se extiende en la distancia"
+    }
+  ]
+}

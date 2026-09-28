@@ -1,0 +1,34 @@
+{
+  "titulo": "Vida bajo 1.100 bares: especies abisales de la fosa de las Marianas",
+  "descripcion": "Descubre cómo la presión extrema de la Fosa de las Marianas permite la existencia de criaturas únicas adaptadas a más de 11.000 metros de profundidad.",
+  "escenas": [
+    {
+      "texto": "En la Fosa de las Marianas, la presión supera los 1.100 bares a 11.034 metros de profundidad.",
+      "prompt_imagen": "Vista submarina de la Fosa de las Marianas con una marca de profundidad que indica 11.034 metros y una etiqueta que muestra 1.100 bares de presión."
+    },
+    {
+      "texto": "Los instrumentos de buceo muestran una lectura de 1.100 bares en tiempo real.",
+      "prompt_imagen": "Primer plano de un medidor de presión digital bajo el agua, indicando 1.100 bares en una pantalla luminosa."
+    },
+    {
+      "texto": "El pez caracol (Pseudoliparis swirei) vive a 8.000 metros sin que su cuerpo se comprima.",
+      "prompt_imagen": "Pez caracol de aspecto translúcido nadando cerca de una roca en la oscuridad profunda, con luz tenue resaltando su cuerpo."
+    },
+    {
+      "texto": "El cangrejo yeti posee pinzas cubiertas de filamentos que resisten la presión.",
+      "prompt_imagen": "Cangrejo yeti de color blanco con largas pinzas y filamentos, posado sobre el lecho marino de la fosa."
+    },
+    {
+      "texto": "El camarón gigante de la fosa tiene una concha reforzada para soportar la compresión.",
+      "prompt_imagen": "Camarón de gran tamaño con exoesqueleto robusto, descansando sobre sedimentos negros del fondo marino."
+    },
+    {
+      "texto": "Sus proteínas se doblan de forma diferente para evitar que se desnaturalicen bajo presión.",
+      "prompt_imagen": "Representación microscópica de proteínas en forma de hélice dentro de una célula abisal, resaltando su estructura compacta."
+    },
+    {
+      "texto": "Así, la vida prospera donde la presión sería mortal para cualquier otro ser.",
+      "prompt_imagen": "Escena panorámica del fondo de la Fosa de las Marianas, mostrando varios organismos abisales iluminados por la luz de una linterna submarina."
+    }
+  ]
+}
