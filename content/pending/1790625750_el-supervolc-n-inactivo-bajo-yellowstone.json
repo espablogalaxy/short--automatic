@@ -1,0 +1,34 @@
+{
+  "titulo": "El supervolcán inactivo bajo Yellowstone: datos que asombran",
+  "descripcion": "Descubre curiosidades sorprendentes sobre el gigantesco volcán bajo el Parque Nacional Yellowstone y por qué sigue siendo una amenaza latente.",
+  "escenas": [
+    {
+      "texto": "En 1988, los sensores registraron más de 1 300 microtemblores bajo Yellowstone.",
+      "prompt_imagen": "Mapa topográfico de Yellowstone con marcadores rojos que indican más de 1300 puntos de microtemblores bajo el parque."
+    },
+    {
+      "texto": "Este volcán tiene unos 55 km de diámetro, del tamaño de una gran ciudad.",
+      "prompt_imagen": "Imagen aérea del Parque Nacional Yellowstone con un círculo imaginario de 55 km de diámetro superpuesto sobre el terreno."
+    },
+    {
+      "texto": "En su interior hay una chimenea de magma a 5 km de profundidad.",
+      "prompt_imagen": "Corte transversal del interior de la Tierra bajo Yellowstone, mostrando una cámara de magma a 5 km bajo la superficie."
+    },
+    {
+      "texto": "Los géiseres son la señal visible de esa energía térmica subterránea.",
+      "prompt_imagen": "Géiser en erupción en Yellowstone, expulsando vapor y agua caliente bajo un cielo azul."
+    },
+    {
+      "texto": "Un deslizamiento de magma podría provocar una erupción catastrófica en menos de 72 horas.",
+      "prompt_imagen": "Representación de una nube de ceniza gigantesca elevándose sobre Yellowstone, vista desde el aire."
+    },
+    {
+      "texto": "Los científicos monitorizan la presión con satélites y sensores terrestres.",
+      "prompt_imagen": "Satélite en órbita terrestre tomando imágenes de Yellowstone, con paneles de datos de presión mostrados en pantalla."
+    },
+    {
+      "texto": "Aunque está inactivo, el riesgo afecta a millones de personas en Estados Unidos.",
+      "prompt_imagen": "Mapa de Estados Unidos resaltando la zona de influencia del supervolcán de Yellowstone con un círculo de cientos de kilómetros."
+    }
+  ]
+}

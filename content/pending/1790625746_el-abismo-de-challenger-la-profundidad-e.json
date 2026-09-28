@@ -1,0 +1,30 @@
+{
+  "titulo": "El abismo de Challenger: la profundidad exacta revelada",
+  "descripcion": "Descubre cuán profundo es el punto más bajo del océano y los datos sorprendentes que lo rodean.",
+  "escenas": [
+    {
+      "texto": "El Challenger Deep, en la Fosa de las Marianas, llega a 10 984 metros bajo el nivel del mar.",
+      "prompt_imagen": "Vista submarina del fondo de la Fosa de las Marianas con una escala que muestra 10 984 metros de profundidad, iluminado por luces de un sumergible."
+    },
+    {
+      "texto": "Es la zona más profunda conocida del planeta.",
+      "prompt_imagen": "Mapa mundial resaltando la ubicación de la Fosa de las Marianas en el Pacífico, con un punto marcado en el Challenger Deep."
+    },
+    {
+      "texto": "Solo unos pocos buques han llegado allí, como el Trieste en 1960.",
+      "prompt_imagen": "Fotografía histórica del sumergible Trieste emergiendo del agua, con fondo marino oscuro."
+    },
+    {
+      "texto": "En 2012, James Cameron descendió a 10 908 metros en el Deepsea Challenger.",
+      "prompt_imagen": "James Cameron dentro del sumergible Deepsea Challenger, con una ventana que muestra el fondo rocoso a 10 908 metros."
+    },
+    {
+      "texto": "A esa presión, la carga supera los 1 100 atmósferas.",
+      "prompt_imagen": "Ilustración que muestra una representación de la presión a 1 100 atmósferas sobre un vehículo submarino."
+    },
+    {
+      "texto": "Aún hay misterios y criaturas nunca vistas en esas oscuras profundidades.",
+      "prompt_imagen": "Imagen artística de una criatura bioluminiscente nadando cerca del fondo del Challenger Deep."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "titulo": "El lago de lava permanente del Monte Nyiragongo",
+  "descripcion": "Descubre los datos sorprendentes del lago de lava que fluye sin cesar en el cráter del Nyiragongo, su tamaño, temperatura y el riesgo para la región.",
+  "escenas": [
+    {
+      "texto": "En 2002, una erupción abrió el lago de lava del Monte Nyiragongo, que ahora fluye sin cesar.",
+      "prompt_imagen": "Vista aérea del cráter del Monte Nyiragongo con un lago de lava brillante, rodeado de niebla y rocas volcánicas."
+    },
+    {
+      "texto": "Este lago tiene aproximadamente 140 metros de diámetro y alcanza los 1 200 °C.",
+      "prompt_imagen": "Primer plano del lago de lava, mostrando su superficie ondulante y el borde rocoso, con una escala visual que indica 140 metros."
+    },
+    {
+      "texto": "La lava se mueve a una velocidad de hasta 60 metros por minuto, más rápido que la mayoría de los ríos.",
+      "prompt_imagen": "Imagen del lago de lava con líneas de movimiento que indican una velocidad de 60 m/min, comparado visualmente con un río de agua."
+    },
+    {
+      "texto": "A diferencia de otros volcanes, el Nyiragongo no tiene un conducto de magma estrecho, lo que permite que la lava se acumule.",
+      "prompt_imagen": "Diagrama simplificado del interior del volcán mostrando un amplio depósito de magma bajo el cráter, sin conducto estrecho."
+    },
+    {
+      "texto": "El lago alimenta la actividad volcánica de la zona, pero también amenaza a la ciudad de Goma, a 12 km de distancia.",
+      "prompt_imagen": "Mapa topográfico que muestra el Monte Nyiragongo, el lago de lava y la ciudad de Goma a 12 km, con una línea que indica la distancia."
+    },
+    {
+      "texto": "Gracias a la vigilancia constante, los científicos pueden predecir cambios y salvar vidas.",
+      "prompt_imagen": "Equipo de científicos en una estación de monitoreo, observando pantallas con datos del lago de lava y gráficos de actividad."
+    }
+  ]
+}
