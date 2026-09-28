@@ -1,0 +1,30 @@
+{
+  "titulo": "El Triángulo de las Bermudas del Espacio",
+  "descripcion": "¿Sabías que los satélites se apagan al pasar sobre Sudamérica? Descubre la Anomalía del Atlántico Sur y su impacto en la tecnología espacial.",
+  "escenas": [
+    {
+      "texto": "A 500 kilómetros sobre Brasil, el campo magnético de la Tierra pierde un tercio de su fuerza habitual.",
+      "prompt_imagen": "Un satélite artificial metálico con paneles solares desplegados orbitando sobre el continente de Sudamérica y el océano Atlántico visto desde el espacio."
+    },
+    {
+      "texto": "Esta región se llama la Anomalía del Atlántico Sur, donde el cinturón de radiación espacial desciende a su punto más bajo.",
+      "prompt_imagen": "Un mapa hidrográfico global centrado en el océano Atlántico Sur con líneas de latitud y longitud técnicas marcadas sobre el océano."
+    },
+    {
+      "texto": "Cuando un satélite entra aquí, protones de alta velocidad impactan directamente contra los microchips de sus ordenadores.",
+      "prompt_imagen": "Primer plano de una placa de circuito electrónico de tecnología aeroespacial con microchips negros y pistas de cobre doradas."
+    },
+    {
+      "texto": "El telescopio espacial Hubble apaga sus cámaras ópticas cada vez que cruza esta zona para evitar que sus sensores se quemen.",
+      "prompt_imagen": "El telescopio espacial Hubble completo flotando en la órbita terrestre sobre el horizonte curvado del planeta."
+    },
+    {
+      "texto": "En la Estación Espacial Internacional, los astronautas ven extraños destellos de luz blanca en sus ojos provocados por la radiación.",
+      "prompt_imagen": "Un astronauta con ropa de trabajo azul dentro del módulo de observación de la Estación Espacial Internacional mirando hacia el exterior."
+    },
+    {
+      "texto": "Esta falla magnética se está ensanchando hacia el oeste, obligando a los ingenieros a blindar cada nuevo satélite que lanzan.",
+      "prompt_imagen": "Técnicos con trajes blancos de sala limpia instalando paneles protectores de aluminio en un satélite comercial dentro de un laboratorio."
+    }
+  ]
+}

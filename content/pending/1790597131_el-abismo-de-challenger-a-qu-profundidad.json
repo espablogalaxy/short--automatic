@@ -1,0 +1,30 @@
+{
+  "titulo": "El Abismo de Challenger: ¿A qué profundidad está?",
+  "descripcion": "Descubre la profundidad exacta del abismo de Challenger y la increíble tecnología necesaria para medir el fondo de la fosa de las Marianas.",
+  "escenas": [
+    {
+      "texto": "A 10.994 metros de profundidad se encuentra el abismo de Challenger, el punto más hondo jamás registrado en la Tierra.",
+      "prompt_imagen": "Un submarino científico amarillo descendiendo hacia una fosa oceánica oscura con dos potentes focos halógenos iluminando el agua turbia."
+    },
+    {
+      "texto": "Si colocaras el Monte Everest en el fondo de esta fosa, su cima aún quedaría sumergida a más de dos kilómetros de la superficie.",
+      "prompt_imagen": "Representación gráfica en corte transversal del Monte Everest completamente cubierto de agua dentro de un cañón marino profundo."
+    },
+    {
+      "texto": "La presión en ese lecho supera las 1.100 atmósferas, suficiente para aplastar casi cualquier estructura convencional de acero.",
+      "prompt_imagen": "Un bloque cúbico de metal deformado y aplastado sobre una mesa de laboratorio junto a herramientas mecánicas."
+    },
+    {
+      "texto": "Para obtener la cifra exacta, barcos científicos utilizan ecosondas multihaz de alta frecuencia que calculan el rebote acústico milisegundo a milisegundo.",
+      "prompt_imagen": "Un buque oceanográfico moderno visto desde el lateral en altamar, con una cuadrícula de líneas de sonar azules proyectándose hacia el fondo del mar."
+    },
+    {
+      "texto": "En 2019, el explorador Victor Vescovo descendió hasta allí en un sumergible con casco de titanio de nueve centímetros de grosor.",
+      "prompt_imagen": "Un sumergible compacto de titanio blanco posado suavemente sobre el lecho marino de sedimentos claros en absoluta oscuridad."
+    },
+    {
+      "texto": "Actualmente, robots autónomos equipados con sensores de presión de cristal de cuarzo continúan mapeando este rincón donde jamás entra la luz solar.",
+      "prompt_imagen": "Un vehículo submarino no tripulado de color naranja con hélices y una cámara frontal iluminando rocas basálticas en el fondo del océano."
+    }
+  ]
+}
