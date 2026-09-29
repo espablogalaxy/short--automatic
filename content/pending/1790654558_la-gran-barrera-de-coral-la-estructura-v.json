@@ -1,0 +1,30 @@
+{
+  "titulo": "La Gran Barrera de Coral: la estructura viva más grande del planeta",
+  "descripcion": "Descubre datos asombrosos sobre la mayor estructura viva de la Tierra y su relevancia para la ciencia y la tecnología.",
+  "escenas": [
+    {
+      "texto": "La Gran Barrera de Coral mide más de 2,300 km, ¡es la estructura viva más larga del mundo!",
+      "prompt_imagen": "Mapa satelital que muestra la Gran Barrera de Coral extendiéndose a lo largo de la costa de Queensland, Australia, con líneas que indican su longitud."
+    },
+    {
+      "texto": "Formada por miles de millones de pólipos, crea un ecosistema único.",
+      "prompt_imagen": "Primer plano de pólipos de coral de colores brillantes sobre el lecho marino, con peces tropicales nadando alrededor."
+    },
+    {
+      "texto": "Su superficie cubre aproximadamente 344,400 km², del tamaño de Alemania.",
+      "prompt_imagen": "Comparación visual entre el contorno de Alemania y la forma de la Gran Barrera de Coral sobre el océano."
+    },
+    {
+      "texto": "Más del 25 % de todas las especies marinas viven allí.",
+      "prompt_imagen": "Diversos animales marinos como tortugas, tiburones y bancos de peces rodeando arrecifes de coral."
+    },
+    {
+      "texto": "Los científicos usan sensores y drones para monitorear su salud en tiempo real.",
+      "prompt_imagen": "Drone sobrevolando la Gran Barrera de Coral con equipos de medición, mostrando una pantalla con datos de temperatura del agua."
+    },
+    {
+      "texto": "Si la temperatura del agua sube 1 °C, se pierden hasta un 10 % de los corales cada década.",
+      "prompt_imagen": "Gráfico de barras que muestra la pérdida porcentual de coral con el aumento de temperatura, superpuesto a una imagen de coral blanqueado."
+    }
+  ]
+}

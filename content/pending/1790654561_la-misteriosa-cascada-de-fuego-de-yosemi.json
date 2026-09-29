@@ -1,0 +1,34 @@
+{
+  "titulo": "La misteriosa cascada de fuego de Yosemite",
+  "descripcion": "Descubre el fenómeno natural que ilumina Yosemite cada primavera y cómo se forma.",
+  "escenas": [
+    {
+      "texto": "En 2023, miles de visitantes vieron la cascada de fuego en Yosemite por primera vez.",
+      "prompt_imagen": "Vista panorámica del valle de Yosemite al atardecer con una columna de fuego natural emergiendo de una grieta en la roca, rodeada de árboles y niebla."
+    },
+    {
+      "texto": "La cascada de fuego nace de gases metano atrapados bajo la corteza.",
+      "prompt_imagen": "Corte transversal del suelo rocoso mostrando capas de sedimento con burbujas de gas metano acumuladas."
+    },
+    {
+      "texto": "Cuando el sol calienta la zona, el gas se enciende al contacto con la atmósfera.",
+      "prompt_imagen": "Sol brillante sobre una grieta en la roca, con una llama azulada emergiendo y ascendiendo."
+    },
+    {
+      "texto": "El fuego dura solo unos minutos, pero crea un espectáculo de luz rojiza.",
+      "prompt_imagen": "Primer plano de la llama roja y amarilla contra el cielo nocturno, con sombras de árboles al fondo."
+    },
+    {
+      "texto": "Este fenómeno solo ocurre entre marzo y mayo, cuando la presión del gas es máxima.",
+      "prompt_imagen": "Calendario marcando los meses de marzo a mayo sobre un paisaje montañoso nevado."
+    },
+    {
+      "texto": "Los científicos monitorean la zona para prevenir incendios forestales.",
+      "prompt_imagen": "Equipo de científicos en ropa de campo instalando sensores alrededor de la grieta con una laptop."
+    },
+    {
+      "texto": "Si visitas, mantén distancia y respeta la naturaleza.",
+      "prompt_imagen": "Senderista observando la cascada de fuego desde una distancia segura, con señal de advertencia al fondo."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "titulo": "El misterioso glaciar de sangre de la Antártida: ¿qué revela la tecnología?",
+  "descripcion": "Descubre cómo los satélites, drones e IA explican el fenómeno del glaciar rojo en la Antártida y su impacto climático.",
+  "escenas": [
+    {
+      "texto": "En 2016, científicos descubrieron un glaciar con agua teñida de rojo intenso en la Antártida.",
+      "prompt_imagen": "Imagen satelital del glaciar con tonos rojos brillantes sobre la superficie helada, vista aérea clara"
+    },
+    {
+      "texto": "El color proviene de algas microscópicas que crecen sobre el hielo.",
+      "prompt_imagen": "Primer plano de algas rojo‑carmesí cubriendo una capa delgada de hielo bajo luz natural"
+    },
+    {
+      "texto": "Drones equipados con cámaras térmicas miden la temperatura del agua en tiempo real.",
+      "prompt_imagen": "Drone volando sobre el glaciar, pantalla de cámara térmica que muestra áreas calientes y frías"
+    },
+    {
+      "texto": "Inteligencia artificial analiza miles de imágenes para predecir el ritmo de derretimiento.",
+      "prompt_imagen": "Computadora con software de IA procesando imágenes del glaciar, gráficos de tendencias y datos"
+    },
+    {
+      "texto": "Los sensores IoT instalados en el hielo envían datos a estaciones de investigación en todo el mundo.",
+      "prompt_imagen": "Conjunto de sensores pequeños incrustados en el hielo, conectados vía satélite a una pantalla de monitor"
+    },
+    {
+      "texto": "Los resultados ayudan a los climatólogos a entender mejor el efecto del cambio climático en la región.",
+      "prompt_imagen": "Mapa interactivo en pantalla que muestra la ubicación del glaciar y variables climáticas como temperatura y albedo"
+    },
+    {
+      "texto": "¿Qué otros misterios revelará la tecnología en los confines del planeta?",
+      "prompt_imagen": "Aurora sobre el horizonte helado, estilo futurista con luces de datos flotando en el cielo"
+    }
+  ]
+}
