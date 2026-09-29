@@ -1,0 +1,30 @@
+{
+  "titulo": "El misterio de las luces de Hessdalen",
+  "descripcion": "Descubre los datos más sorprendentes del fenómeno luminoso que ha desconcertado a científicos y locales en Noruega.",
+  "escenas": [
+    {
+      "texto": "En 1981 se observaron por primera vez las misteriosas luces en el valle de Hessdalen.",
+      "prompt_imagen": "Foto nocturna del valle de Hessdalen con luces brillantes flotando sobre el terreno, cielo estrellado y montañas al fondo"
+    },
+    {
+      "texto": "Las luces pueden aparecer en forma de esferas, columnas o destellos rápidos.",
+      "prompt_imagen": "Ilustración que muestra una esfera luminosa, una columna de luz y un destello rápido sobre un paisaje montañoso"
+    },
+    {
+      "texto": "Algunos avistamientos duran menos de un segundo, mientras que otros permanecen minutos.",
+      "prompt_imagen": "Reloj digital indicando 0:00:01 junto a una luz fugaz, y otro reloj marcando 0:05:00 junto a una luz constante"
+    },
+    {
+      "texto": "Los investigadores de la Universidad de Trondheim registraron más de 30.000 eventos entre 1998 y 2010.",
+      "prompt_imagen": "Pantalla de ordenador con gráficas y datos que muestran 30.000 eventos marcados en un mapa del valle"
+    },
+    {
+      "texto": "Los sensores de magnetismo no detectan anomalías durante la aparición de las luces.",
+      "prompt_imagen": "Equipo de sensores magnéticos en el campo, con lecturas normales mientras una luz brilla en el cielo"
+    },
+    {
+      "texto": "Hasta hoy, la causa exacta sigue sin explicación científica definitiva.",
+      "prompt_imagen": "Científico con bata mirando una luz en el horizonte, rodeado de equipos de medición, con expresión de asombro"
+    }
+  ]
+}

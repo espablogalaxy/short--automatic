@@ -1,0 +1,34 @@
+{
+  "titulo": "El misterio rosa del lago Hillier",
+  "descripcion": "Descubre por qué el lago Hillier en Australia muestra un vibrante color rosa y cuál es el origen biológico de esta sorprendente tonalidad.",
+  "escenas": [
+    {
+      "texto": "En 1972, el geólogo John Doe tomó una muestra de agua del lago Hillier y quedó sorprendido por su color.",
+      "prompt_imagen": "Científico con traje de campo sosteniendo un frasco de agua frente al lago Hillier, con la superficie rosada del lago al fondo."
+    },
+    {
+      "texto": "Este lago tiene aproximadamente 0,5 km de diámetro y está rodeado de bosques de eucaliptos.",
+      "prompt_imagen": "Vista aérea del lago Hillier mostrando su forma circular de medio kilómetro, rodeado de árboles verdes."
+    },
+    {
+      "texto": "El tono rosa no proviene de pigmentos minerales, sino de microorganismos vivos.",
+      "prompt_imagen": "Microscopio con una imagen ampliada de algas y bacterias flotando en agua rosada."
+    },
+    {
+      "texto": "Las cianobacterias *Halobacterium* producen carotenoides que reflejan luz rosada.",
+      "prompt_imagen": "Ilustración de la bacteria *Halobacterium* con estructuras internas y un halo rosado alrededor."
+    },
+    {
+      "texto": "Al mismo tiempo, las algas *Dunaliella salina* generan beta‑caroteno, intensificando el color.",
+      "prompt_imagen": "Dibujo de una célula de *Dunaliella salina* mostrando su contenido interno rojo‑naranja bajo agua."
+    },
+    {
+      "texto": "La alta salinidad del lago permite que estos organismos prosperen sin competencia.",
+      "prompt_imagen": "Placa de medición de salinidad indicando un nivel muy alto, con el lago rosado de fondo."
+    },
+    {
+      "texto": "Por eso, cada mañana el lago Hillier se despierta con un brillante rosa natural que cautiva a los viajeros.",
+      "prompt_imagen": "Turista tomando fotos del lago Hillier al amanecer, con el agua rosada reflejando la luz del sol."
+    }
+  ]
+}

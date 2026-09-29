@@ -1,0 +1,30 @@
+{
+  "titulo": "La estructura viva más grande del planeta",
+  "descripcion": "Descubre cómo diminutos animales construyeron la Gran Barrera de Coral, una megaestructura visible desde el espacio exterior.",
+  "escenas": [
+    {
+      "texto": "Con 2.300 kilómetros de longitud, la Gran Barrera de Coral es la estructura viva más grande de todo el planeta.",
+      "prompt_imagen": "Fotografía tomada desde la órbita terrestre que muestra la costa este de Australia con una franja turquesa brillante en el mar azul oscuro."
+    },
+    {
+      "texto": "Cubre una superficie de unos 344.000 kilómetros cuadrados, un tamaño superior al de todo el país de Italia.",
+      "prompt_imagen": "Plano aéreo cenital de aguas cristalinas que revelan formaciones de arrecifes de coral gigantescas bajo el mar tropical."
+    },
+    {
+      "texto": "No es una sola roca, sino una red de miles de millones de diminutos organismos llamados pólipos de coral.",
+      "prompt_imagen": "Fotografía macro submarina de pólipos de coral individuales con pequeños tentáculos extendidos capturando plancton."
+    },
+    {
+      "texto": "Cada pólipo extrae minerales del agua para construir un exoesqueleto rígido hecho de carbonato de calcio.",
+      "prompt_imagen": "Primer plano de la superficie porosa y calcárea de un coral blanco rígido bajo el agua clara."
+    },
+    {
+      "texto": "Esta gigantesca fortaleza natural es el hogar de 1.500 especies de peces y cientos de tipos de moluscos.",
+      "prompt_imagen": "Buceador nadando junto a un banco de peces tropicales de colores amarillos y azules sobre una colina de corales multicolores."
+    },
+    {
+      "texto": "Es tan masiva que los astronautas de la Estación Espacial Internacional pueden identificarla a simple vista sin telescopios.",
+      "prompt_imagen": "Astronauta dentro de la cúpula de observación de la Estación Espacial Internacional mirando hacia la Tierra mientras señala la costa australiana."
+    }
+  ]
+}
