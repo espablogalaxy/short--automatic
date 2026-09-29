@@ -1,0 +1,34 @@
+{
+  "titulo": "La Puerta del Infierno: El fuego eterno de Darvaza",
+  "descripcion": "Descubre los secretos del cráter de gas que arde sin parar en Turkmenistán y cómo se convirtió en una atracción mundial.",
+  "escenas": [
+    {
+      "texto": "En 1971, los geólogos soviéticos encendieron la puerta del infierno de Darvaza.",
+      "prompt_imagen": "Fotografía en blanco y negro de varios geólogos con ropa de la época alrededor de un cráter de gas encendido en el desierto de Turkmenistán, con una placa que muestra el año 1971."
+    },
+    {
+      "texto": "El cráter mide aproximadamente 60 metros de diámetro y 30 metros de profundidad.",
+      "prompt_imagen": "Vista aérea del cráter de Darvaza con su forma circular claramente visible, una línea de referencia que indica 60 metros de diámetro."
+    },
+    {
+      "texto": "Se pensó que el fuego duraría solo 2 años, pero lleva más de 50.",
+      "prompt_imagen": "Calendario que muestra los años 1971 a 2023 superpuestos sobre una foto del cráter en llamas."
+    },
+    {
+      "texto": "El gas proviene de una reserva subterránea de metano descubierta en 1960.",
+      "prompt_imagen": "Corte transversal del subsuelo mostrando capas de roca y una zona de gas metano bajo el cráter, con la fecha 1960 marcada."
+    },
+    {
+      "texto": "Los turistas pueden acercarse, pero el terreno es inestable y se requiere permiso.",
+      "prompt_imagen": "Grupo de turistas con chalecos de seguridad y cascos mirando el cráter a distancia, señal de advertencia al pie del sitio."
+    },
+    {
+      "texto": "La temperatura del fuego supera los 1000 °C, suficiente para fundir metal.",
+      "prompt_imagen": "Termómetro digital apuntando a 1000 °C colocado junto al borde del cráter en llamas."
+    },
+    {
+      "texto": "Científicos estudian el cráter para entender la combustión a gran escala.",
+      "prompt_imagen": "Equipo de científicos con equipos portátiles de medición de gases alrededor del cráter, tomando lecturas."
+    }
+  ]
+}

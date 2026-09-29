@@ -1,0 +1,30 @@
+{
+  "titulo": "El verdadero origen del 'Bloop' del océano",
+  "descripcion": "Descubre cómo un misterioso sonido de baja frecuencia, detectado en la década de los 90, resultó ser simplemente el crujido de hielo en la Antártida.",
+  "escenas": [
+    {
+      "texto": "En 1997, la NOAA captó un sonido ultra bajo llamado 'The Bloop' en el Pacífico.",
+      "prompt_imagen": "Pantalla de ordenador con gráficos de ondas sonoras y el logo de NOAA, sobre un fondo de océano profundo."
+    },
+    {
+      "texto": "El eco se escuchó a 5,000 metros de profundidad y era más potente que un terremoto.",
+      "prompt_imagen": "Vista submarina con una regla de profundidad marcando 5,000 metros y ondas sonoras visibles en el agua."
+    },
+    {
+      "texto": "Al principio, algunos pensaron que provenía de una criatura gigantesca.",
+      "prompt_imagen": "Ilustración de un monstruo marino enorme con boca abierta, emergiendo entre las sombras del océano."
+    },
+    {
+      "texto": "Los científicos compararon el Bloop con los crujidos que hacen los glaciares.",
+      "prompt_imagen": "Primer plano de un glaciar en la Antártida con grietas que se expanden, mostrando sonido visualizado como ondas."
+    },
+    {
+      "texto": "En 2005, identificaron que el origen era el colapso de una gran placa de hielo.",
+      "prompt_imagen": "Placa de hielo gigante rompiéndose bajo el agua, con fragmentos flotando y ondas sonoras emanando."
+    },
+    {
+      "texto": "Hoy sabemos que el Bloop es simplemente hielo derrumbándose en la Antártida.",
+      "prompt_imagen": "Laboratorio moderno con científicos analizando datos en pantallas mientras se muestra un mapa de la Antártida y una foto de hielo fracturándose."
+    }
+  ]
+}

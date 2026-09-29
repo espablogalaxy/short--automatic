@@ -1,0 +1,30 @@
+{
+  "titulo": "El misterio de las luces de Hessdalen",
+  "descripcion": "Descubre los datos más sorprendentes sobre las extrañas luces que aparecen en el valle noruego de Hessdalen y por qué la ciencia aún no ha encontrado una explicación definitiva.",
+  "escenas": [
+    {
+      "texto": "Desde 1981, los residentes de Hessdalen reportan extrañas luces en el cielo.",
+      "prompt_imagen": "Paisaje nocturno del valle de Hessdalen en Noruega, con luces brillantes flotando sobre la montaña bajo un cielo estrellado."
+    },
+    {
+      "texto": "Las luces aparecen como bolas, cilindros o discos y pueden durar segundos o minutos.",
+      "prompt_imagen": "Varias luces de diferentes formas (bola, cilindro, disco) flotando sobre el valle, algunas pequeñas y otras más grandes."
+    },
+    {
+      "texto": "Los científicos noruegos instalaron una estación de observación en 1995 para estudiarlas.",
+      "prompt_imagen": "Estación de investigación con antenas y equipos en el valle, rodeada de nieve y luces en el cielo nocturno."
+    },
+    {
+      "texto": "Los espectros de luz revelan emisiones en frecuencias ultravioletas y rojas.",
+      "prompt_imagen": "Gráfica de espectro luminoso con picos en ultravioleta y rojo, superpuesta a una foto de una luz del valle."
+    },
+    {
+      "texto": "Algunos creen que son descargas atmosféricas, otros las atribuyen a actividad extraterrestre.",
+      "prompt_imagen": "División visual: a la izquierda una nube de plasma, a la derecha una nave espacial estilizada, ambas sobre el valle de Hessdalen."
+    },
+    {
+      "texto": "Hasta hoy, el origen exacto sigue sin resolverse, manteniendo vivo el enigma.",
+      "prompt_imagen": "Cielo nocturno sobre Hessdalen con luces difusas y la silueta de la montaña, con un signo de interrogación flotando en el aire."
+    }
+  ]
+}
