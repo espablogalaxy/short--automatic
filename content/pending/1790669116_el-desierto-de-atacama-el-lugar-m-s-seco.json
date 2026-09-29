@@ -1,0 +1,30 @@
+{
+  "titulo": "El Desierto de Atacama: el lugar más seco fuera de los polos",
+  "descripcion": "Descubre por qué el Atacama es el desierto más árido del planeta, sus datos sorprendentes y cómo la ciencia lo estudia.",
+  "escenas": [
+    {
+      "texto": "En los últimos 500 años, el Atacama recibió menos de 5 mm de lluvia total.",
+      "prompt_imagen": "Mapa del desierto de Atacama resaltado en Chile, con un ícono de gota casi vacía sobre la zona."
+    },
+    {
+      "texto": "Algunas áreas no han visto lluvia en más de 400 años.",
+      "prompt_imagen": "Paisaje del desierto de Atacama con suelo gris y rocas, sin vegetación, bajo un cielo azul claro."
+    },
+    {
+      "texto": "La humedad del aire es tan baja que el cielo parece una pantalla negra.",
+      "prompt_imagen": "Cielo nocturno sobre el desierto de Atacama, estrellas brillantes y sin nubes."
+    },
+    {
+      "texto": "Los científicos usan el Atacama para simular la superficie de Marte.",
+      "prompt_imagen": "Equipo de científicos con rovers y trajes espaciales trabajando en una zona rocosa del desierto."
+    },
+    {
+      "texto": "Aún así, hay lagunas de sal que brillan bajo el sol.",
+      "prompt_imagen": "Laguna salina en el Atacama con agua cristalina y reflejo del sol, rodeada de montañas."
+    },
+    {
+      "texto": "Este desierto nos muestra cuán extremos pueden ser los climas de la Tierra.",
+      "prompt_imagen": "Vista panorámica del Atacama al atardecer con sombras largas y tonos rojizos."
+    }
+  ]
+}

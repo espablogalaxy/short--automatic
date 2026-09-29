@@ -1,0 +1,30 @@
+{
+  "titulo": "El hongo gigante de Oregón: el ser vivo más grande del planeta",
+  "descripcion": "Descubre cómo un hongo subterráneo en Oregón se extiende por kilómetros, convirtiéndose en el organismo más extenso del mundo.",
+  "escenas": [
+    {
+      "texto": "En 1998 los científicos descubrieron que el hongo de Oregón cubre 9,000 m² bajo tierra.",
+      "prompt_imagen": "Vista aérea de un bosque de pinos en Oregón mostrando una zona rectangular marcada, con el suelo ligeramente amarillento donde crece el hongo."
+    },
+    {
+      "texto": "Se trata de Armillaria ostoyae, conocido como el “hongo del miel”.",
+      "prompt_imagen": "Primer plano de un sombrero de hongo marrón con manchas amarillas, sobre un tronco de árbol caído en el bosque."
+    },
+    {
+      "texto": "Este organismo tiene más de 2,400 años de edad.",
+      "prompt_imagen": "Calendario antiguo con fechas marcadas, superpuesto a una raíz gruesa y envejecida emergiendo del suelo."
+    },
+    {
+      "texto": "Su masa total se estima en 600 toneladas.",
+      "prompt_imagen": "Balanza industrial con una gran carga de tierra y raíces, indicando 600 t en la pantalla."
+    },
+    {
+      "texto": "Aunque su mayor parte está bajo tierra, sus setas aparecen cada otoño.",
+      "prompt_imagen": "Bosque otoñal con setas marrones y anaranjadas emergiendo entre la hojarasca caida."
+    },
+    {
+      "texto": "El hongo gigante de Oregón es el ser vivo más grande que conocemos.",
+      "prompt_imagen": "Mapa del mundo con un punto resaltado en Oregón, EE. UU., y un icono de hongo gigante sobre la zona."
+    }
+  ]
+}

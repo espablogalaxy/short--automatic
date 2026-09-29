@@ -1,0 +1,34 @@
+{
+  "titulo": "El misterio del 'Bloop': la verdadera causa del rugido del océano",
+  "descripcion": "Descubre cómo un sonido ultra bajo detectado en 1997 resultó ser el eco de un glaciar que se partía, y no el grito de una criatura gigante.",
+  "escenas": [
+    {
+      "texto": "En 1997, la NOAA captó un sonido de 15 hertzios llamado 'The Bloop' en el Pacífico Sur.",
+      "prompt_imagen": "Pantalla de monitoreo de la NOAA con gráficos de frecuencia mostrando un pico pronunciado a 15 hertzios etiquetado como 'Bloop' sobre un mapa del océano Pacífico."
+    },
+    {
+      "texto": "Al principio, algunos científicos imaginaron que podía ser el canto de una criatura desconocida.",
+      "prompt_imagen": "Ilustración de un gigantesco animal marino ficticio emitiendo ondas sonoras bajo el agua, con científicos observando en un laboratorio."
+    },
+    {
+      "texto": "El sonido era tan potente que podía escucharse a más de 5.000 kilómetros de distancia.",
+      "prompt_imagen": "Mapa mundi con líneas radiales que parten del punto de origen en el Pacífico Sur y llegan a varios continentes, indicando distancia de 5.000 km."
+    },
+    {
+      "texto": "Su frecuencia coincidía con la de una ballena azul, el animal más grande del planeta.",
+      "prompt_imagen": "Silueta de una ballena azul nadando en el océano, con una onda de sonido marcada a 15 hertzios sobrepuesta."
+    },
+    {
+      "texto": "Sin embargo, análisis posteriores revelaron que el origen era una grieta de hielo en la Antártida.",
+      "prompt_imagen": "Fotografía aérea de una grieta enorme en un iceberg de la Antártida, con ondas sonoras representadas saliendo de la fisura."
+    },
+    {
+      "texto": "Los movimientos del glaciar producían vibraciones que se propagaron como el 'Bloop'.",
+      "prompt_imagen": "Glaciar rompiéndose, mostrando bloques de hielo cayendo al mar mientras se dibujan líneas de vibración que atraviesan el agua."
+    },
+    {
+      "texto": "Hoy, los científicos usan estos registros para monitorear la actividad de los hielos polares.",
+      "prompt_imagen": "Estación de investigación en la Antártida con pantallas que muestran datos sísmicos y acústicos en tiempo real."
+    }
+  ]
+}
