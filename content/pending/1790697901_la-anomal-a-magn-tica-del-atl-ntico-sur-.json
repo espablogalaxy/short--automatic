@@ -1,0 +1,34 @@
+{
+  "titulo": "La anomalía magnética del Atlántico Sur y su efecto en satélites",
+  "descripcion": "Descubre cómo una zona de la Tierra afecta la precisión de los satélites y qué hacen los ingenieros para corregirlo.",
+  "escenas": [
+    {
+      "texto": "En 1999, los satélites GPS perdieron hasta 10 metros de precisión sobre el Atlántico Sur.",
+      "prompt_imagen": "Gráfico de satélite GPS mostrando una ruta con desviación de 10 metros sobre el mapa del Atlántico Sur."
+    },
+    {
+      "texto": "Esta zona se llama la Anomalía del Atlántico Sur.",
+      "prompt_imagen": "Mapa mundi centrado en el Atlántico Sur con un recuadro resaltado en rojo indicando la anomalía."
+    },
+    {
+      "texto": "La Tierra allí tiene un campo magnético más débil que el promedio.",
+      "prompt_imagen": "Ilustración del planeta Tierra con líneas de campo magnético, mostrando una zona más tenue en el Atlántico Sur."
+    },
+    {
+      "texto": "Los satélites usan el magnetómetro para orientarse y medir su posición.",
+      "prompt_imagen": "Satélite en órbita con paneles solares y un sensor de magnetómetro resaltado en azul."
+    },
+    {
+      "texto": "Cuando el campo es irregular, el magnetómetro da lecturas erróneas.",
+      "prompt_imagen": "Pantalla de datos del magnetómetro con valores inestables y una señal de alerta."
+    },
+    {
+      "texto": "Los ingenieros aplican correcciones de software para compensar el error.",
+      "prompt_imagen": "Programador frente a una computadora ajustando un algoritmo de corrección de posición satelital."
+    },
+    {
+      "texto": "Así, los usuarios siguen recibiendo coordenadas precisas a nivel mundial.",
+      "prompt_imagen": "Mapa interactivo de navegación con un marcador verde indicando posición exacta en tiempo real."
+    }
+  ]
+}

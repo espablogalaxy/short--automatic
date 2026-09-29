@@ -1,0 +1,30 @@
+{
+  "titulo": "Los cristales gigantes de Naica: una maravilla subterránea",
+  "descripcion": "Descubre los increíbles cristales de selenita de la cueva Naica, sus dimensiones y el misterioso entorno que los conserva.",
+  "escenas": [
+    {
+      "texto": "En 2000, los científicos descubrieron una cueva en Naica con cristales de selenita de hasta 12 metros de longitud.",
+      "prompt_imagen": "Cueva de Naica iluminada, enormes cristales transparentes alineados, luz tenue entrando por una abertura."
+    },
+    {
+      "texto": "Algunos de estos cristales pesan más de 50 toneladas.",
+      "prompt_imagen": "Gran cristal de selenita enorme, comparado con una camioneta, en la cueva con fondo rocoso."
+    },
+    {
+      "texto": "La temperatura dentro de la cueva supera los 58 °C y la humedad alcanza el 100 %.",
+      "prompt_imagen": "Termómetro digital marcando 58°C y vapor de agua condensándose en las paredes de la cueva."
+    },
+    {
+      "texto": "El calor proviene de una enorme veta de magma a 1,000 metros bajo la superficie.",
+      "prompt_imagen": "Corte transversal de tierra mostrando magma rojo brillante a gran profundidad bajo la cueva."
+    },
+    {
+      "texto": "Para estudiarlos, los investigadores tuvieron que usar trajes de protección y equipos de refrigeración portátil.",
+      "prompt_imagen": "Científicos con trajes de aislamiento, portando ventiladores y tanques de agua dentro de la cueva."
+    },
+    {
+      "texto": "Hoy, la cueva está cerrada al público para preservar estos cristales únicos en el mundo.",
+      "prompt_imagen": "Entrada sellada de la cueva Naica con una señal de 'Prohibido el paso' y un paisaje desértico alrededor."
+    }
+  ]
+}

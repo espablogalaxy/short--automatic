@@ -1,0 +1,30 @@
+{
+  "titulo": "El lugar más aislado del planeta: Punto Nemo",
+  "descripcion": "Descubre el Punto Nemo, el lugar del océano más alejado de tierra firme y el cementerio secreto de satélites espaciales.",
+  "escenas": [
+    {
+      "texto": "Estás a 2.688 kilómetros de la masa de tierra más cercana: bienvenido al Punto Nemo.",
+      "prompt_imagen": "Vista satelital del Océano Pacífico Sur con un marcador rojo en el centro de una enorme extensión de agua azul profundo sin islas a la vista."
+    },
+    {
+      "texto": "Fue calculado en 1992 por el ingeniero croata Hrvoje Lukatela usando un software especializado de navegación.",
+      "prompt_imagen": "Computadora de escritorio clásica de los años 90 con un monitor de tubo que muestra coordenadas numéricas y mapas vectoriales en pantalla."
+    },
+    {
+      "texto": "Está tan aislado que las personas más cercanas suelen ser los astronautas de la Estación Espacial Internacional a 400 kilómetros de altura.",
+      "prompt_imagen": "La Estación Espacial Internacional orbitando la Tierra, vista con el vasto océano azul debajo y paneles solares dorados al frente."
+    },
+    {
+      "texto": "Por esta razón, las agencias espaciales mundiales lo eligieron como el basurero tecnológico oficial para naves fuera de servicio.",
+      "prompt_imagen": "Ilustración de restos de un satélite artificial metálico cayendo al mar con una estela de humo blanco detrás al entrar en la atmósfera."
+    },
+    {
+      "texto": "Más de 260 naves y módulos espaciales, incluida la gigantesca estación rusa Mir, yacen a cuatro mil metros bajo sus olas.",
+      "prompt_imagen": "Restos metálicos de una estación espacial sumergida en el fondo arenoso del océano, iluminados por los focos de un submarino robótico."
+    },
+    {
+      "texto": "Es el punto geográfico más solitario del mundo y la tumba final de la tecnología humana en el mar.",
+      "prompt_imagen": "Un submarino de investigación amarillo operado por control remoto flotando sobre un objeto metálico oxidado en el fondo marino oscuro."
+    }
+  ]
+}
