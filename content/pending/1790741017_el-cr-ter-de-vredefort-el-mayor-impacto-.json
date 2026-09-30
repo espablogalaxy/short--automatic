@@ -1,0 +1,34 @@
+{
+  "titulo": "El cráter de Vredefort: el mayor impacto registrado",
+  "descripcion": "Descubre por qué el cráter de Vredefort en Sudáfrica es el mayor cráter de impacto conocido, su tamaño, edad y los misterios que aún guarda.",
+  "escenas": [
+    {
+      "texto": "Hace 2 023 millones de años, un meteorito de 10 km de diámetro chocó con la Tierra.",
+      "prompt_imagen": "Vista aérea del cráter de Vredefort en Sudáfrica, mostrando su forma circular y la vegetación que lo cubre, con una escala de distancia visible."
+    },
+    {
+      "texto": "El impacto formó un cráter de 300 km de diámetro, el más grande del planeta.",
+      "prompt_imagen": "Mapa topográfico resaltando un círculo de 300 km de diámetro que indica el contorno del cráter Vredefort."
+    },
+    {
+      "texto": "El centro original está ahora cubierto por la Meseta de Vredefort.",
+      "prompt_imagen": "Fotografía de la Meseta de Vredefort con rocas erosionadas y vegetación, señalando la posición del centro del cráter."
+    },
+    {
+      "texto": "Los anillos concéntricos visibles son restos de la onda de choque que deformó la corteza.",
+      "prompt_imagen": "Imagen satelital que muestra varios anillos concéntricos alrededor del cráter, con colores contrastantes para distinguir cada anillo."
+    },
+    {
+      "texto": "Desde 2004, el cráter es Patrimonio de la Humanidad de la UNESCO.",
+      "prompt_imagen": "Placa informativa de la UNESCO instalada en el sitio del cráter Vredefort, con el logo oficial y texto descriptivo."
+    },
+    {
+      "texto": "Los tektitos, cristales de vidrio, son evidencia directa del impacto.",
+      "prompt_imagen": "Primer plano de una muestra de tektito bajo una lupa, mostrando su superficie vidriosa y fracturas características."
+    },
+    {
+      "texto": "Hoy, científicos estudian el cráter para entender mejor los eventos de extinción masiva.",
+      "prompt_imagen": "Grupo de investigadores en campo, con equipos de medición y laptops, observando el terreno del cráter bajo un cielo despejado."
+    }
+  ]
+}

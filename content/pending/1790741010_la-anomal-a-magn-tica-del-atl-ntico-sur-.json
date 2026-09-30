@@ -1,0 +1,30 @@
+{
+  "titulo": "La anomalía magnética del Atlántico Sur y su amenaza a los satélites",
+  "descripcion": "Descubre cómo la zona más débil del campo magnético terrestre afecta a los satélites y a la Estación Espacial Internacional.",
+  "escenas": [
+    {
+      "texto": "En 1999 los científicos detectaron que la Anomalía del Atlántico Sur reduce la intensidad del campo magnético en más de un 30 %.",
+      "prompt_imagen": "Mapa del campo magnético terrestre con colores que indican intensidad, mostrando claramente la depresión de la Anomalía del Atlántico Sur sobre Sudamérica y África."
+    },
+    {
+      "texto": "La SAA es una zona donde el campo magnético de la Tierra es mucho más débil que en el resto del planeta.",
+      "prompt_imagen": "Ilustración del planeta Tierra con la capa magnética representada y la zona de la Anomalía del Atlántico Sur resaltada en rojo."
+    },
+    {
+      "texto": "Esa debilidad permite que más partículas cargadas del cinturón de Van Allen alcancen altitudes bajas.",
+      "prompt_imagen": "Diagrama del cinturón de Van Allen mostrando partículas cargadas que penetran la atmósfera dentro de la zona de la SAA."
+    },
+    {
+      "texto": "Los satélites que cruzan la SAA experimentan aumentos de ruido en sus sensores y fallos temporales.",
+      "prompt_imagen": "Satélite en órbita terrestre con una señal de advertencia roja y una zona sombreada que indica el paso por la Anomalía del Atlántico Sur."
+    },
+    {
+      "texto": "En 2015 la Estación Espacial Internacional tuvo que reprogramar varios experimentos al cruzar la SAA.",
+      "prompt_imagen": "ISS sobre la Tierra con una trayectoria marcada que atraviesa la zona de la SAA, mostrando iconos de alerta y ajustes de experimentos."
+    },
+    {
+      "texto": "Los ingenieros utilizan blindaje y algoritmos de corrección para proteger los sistemas durante el paso.",
+      "prompt_imagen": "Panel de control de satélite con gráficos de corrección de errores y una representación de escudos de radiación alrededor del dispositivo."
+    }
+  ]
+}

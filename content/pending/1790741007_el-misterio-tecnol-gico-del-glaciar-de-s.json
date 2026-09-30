@@ -1,0 +1,30 @@
+{
+  "titulo": "El misterio tecnológico del Glaciar de Sangre",
+  "descripcion": "Cómo los radares y sensores científicos resolvieron el misterio de las Cascadas de Sangre en la Antártida.",
+  "escenas": [
+    {
+      "texto": "En 1911, el geólogo Griffith Taylor descubrió una cascada de líquido rojo brillante saliendo del hielo puro en la Antártida.",
+      "prompt_imagen": "Una cascada de agua de color rojo óxido brotando del frente de un gigantesco glaciar blanco hacia un lago congelado en la Antártida."
+    },
+    {
+      "texto": "Durante décadas se creyó que eran algas, hasta que en 2017 un equipo desplegó radares de radio eco polar para escanear el subsuelo.",
+      "prompt_imagen": "Dos investigadores con trajes térmicos amarillos arrastrando una antena de radar sobre una superficie de nieve dura y blanca."
+    },
+    {
+      "texto": "Los sensores revelaron un lago subterráneo sellado bajo cuatrocientos metros de hielo hace dos millones de años.",
+      "prompt_imagen": "Representación transversal hiperrealista que muestra un bloque macizo de hielo y una cavidad subterránea con líquido atrapado en la roca profunda."
+    },
+    {
+      "texto": "El líquido tiene tres veces más sal que el mar y está cargado de hierro que se oxida inmediatamente al contacto con el aire.",
+      "prompt_imagen": "Primer plano del agua rojiza y densa fluyendo sobre el hielo cristalino y cambiando de color anaranjado a rojo intenso al aire libre."
+    },
+    {
+      "texto": "Al analizar las muestras con microscopios electrónicos, hallaron bacterias vivas que subsisten sin oxígeno ni luz solar procesando sulfatos.",
+      "prompt_imagen": "Un científico en un laboratorio de campaña polar observando un tubo de ensayo con líquido rojizo bajo una lámpara blanca."
+    },
+    {
+      "texto": "Ahora, ingenieros de la NASA usan este ecosistema para calibrar los sensores de las sondas que buscarán agua líquida en la luna Europa.",
+      "prompt_imagen": "Prototipo de un robot explorador con ruedas metálicas y brazos mecánicos siendo probado en un desierto polar de hielo y roca."
+    }
+  ]
+}
