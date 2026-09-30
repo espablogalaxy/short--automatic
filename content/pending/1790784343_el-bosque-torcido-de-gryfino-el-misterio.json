@@ -1,0 +1,30 @@
+{
+  "titulo": "El Bosque Torcido de Gryfino: El Misterio del Bosque de los Árboles Enroscados",
+  "descripcion": "Descubre el enigmático Bosque Torcido de Gryfino en Polonia, donde los pinos crecen en espirales y la ciencia busca explicarlo. Un viaje visual que combina naturaleza y tecnología.",
+  "escenas": [
+    {
+      "texto": "En 2006, un turista encontró el Bosque Torcido de Gryfino, donde los pinos crecen en espirales.",
+      "prompt_imagen": "Vista aérea del Bosque Torcido de Gryfino en Polonia, con árboles curvados formando espirales bajo un cielo claro."
+    },
+    {
+      "texto": "Los árboles se curvan 90 grados, formando figuras que parecen hechas a mano.",
+      "prompt_imagen": "Primer plano de varios pinos torcidos 90 grados, con troncos curvos y ramas entrelazadas."
+    },
+    {
+      "texto": "Los científicos creen que el suelo rico en minerales y la falta de viento provocan el crecimiento anómalo.",
+      "prompt_imagen": "Ilustración del suelo del bosque mostrando capas de minerales, con una lupa resaltando los nutrientes."
+    },
+    {
+      "texto": "Este fenómeno fue documentado por la Universidad de Szczecin en 2012, usando drones.",
+      "prompt_imagen": "Equipo de investigadores de la Universidad de Szczecin operando un dron sobre el bosque, con pantalla de datos en primer plano."
+    },
+    {
+      "texto": "El bosque se ha convertido en un atractivo turístico, con más de 10 000 visitantes al año.",
+      "prompt_imagen": "Grupo de turistas caminando por un sendero del bosque, con letreros informativos y árboles torcidos al fondo."
+    },
+    {
+      "texto": "Aunque el misterio persiste, el Bosque Torcido muestra cómo la naturaleza puede sorprender a la tecnología.",
+      "prompt_imagen": "Representación de un escáner 3D del bosque, con modelo holográfico de los árboles torcidos proyectado en una pantalla."
+    }
+  ]
+}

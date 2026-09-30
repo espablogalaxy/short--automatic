@@ -1,0 +1,30 @@
+{
+  "titulo": "Los cristales gigantes de Naica: un tesoro oculto bajo tierra",
+  "descripcion": "Descubre cómo la tecnología permite explorar la cueva de los cristales gigantes de Naica, en México, y los sorprendentes datos que la rodean.",
+  "escenas": [
+    {
+      "texto": "En el año 2000, un equipo de mineros descubrió la cueva de Naica, llena de cristales de selenita gigantes.",
+      "prompt_imagen": "Entrada de la cueva de Naica con mineros señalando cristales gigantes bajo luz natural."
+    },
+    {
+      "texto": "Algunos cristales miden hasta 12 metros de altura y pesan más de 55 toneladas.",
+      "prompt_imagen": "Cristal de selenita de 12 metros de alto dentro de la cueva, comparado con una persona."
+    },
+    {
+      "texto": "Para estudiarlos, los científicos usan drones con cámaras 4K que resisten 58 °C y 100 % de humedad.",
+      "prompt_imagen": "Drone equipado con cámara 4K flotando cerca de un cristal en una cueva húmeda y caliente."
+    },
+    {
+      "texto": "Se creó un sistema de refrigeración portátil que baja la temperatura a 12 °C, evitando que los cristales se dañen.",
+      "prompt_imagen": "Equipo de refrigeración portátil con tuberías y ventiladores instalados dentro de la cueva."
+    },
+    {
+      "texto": "Los datos de escaneo 3D permiten reproducir los cristales en realidad virtual para que los veas sin ponerte el traje.",
+      "prompt_imagen": "Pantalla de ordenador mostrando un modelo 3D de un cristal gigante en realidad virtual."
+    },
+    {
+      "texto": "Gracias a la tecnología, la cueva sigue oculta al público, pero sus imágenes viajan por internet.",
+      "prompt_imagen": "Mapa de México con un punto brillante en Naica y una transmisión de video en línea."
+    }
+  ]
+}

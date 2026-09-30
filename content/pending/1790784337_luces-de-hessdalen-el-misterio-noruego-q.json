@@ -1,0 +1,26 @@
+{
+  "titulo": "Luces de Hessdalen: El misterio noruego que ilumina el valle",
+  "descripcion": "Descubre el enigmático fenómeno de luces que aparecen en el valle de Hessdalen, Noruega, y las teorías que intentan explicarlas.",
+  "escenas": [
+    {
+      "texto": "Desde 1981, los habitantes de Hessdalen registran luces que aparecen sin explicación.",
+      "prompt_imagen": "Vista nocturna del valle de Hessdalen en Noruega, con luces brillantes flotando sobre la montaña, cielo estrellado."
+    },
+    {
+      "texto": "Las luces pueden ser rojas, blancas o azuladas y duran desde segundos hasta varios minutos.",
+      "prompt_imagen": "Close-up de una luz roja brillante flotando sobre la vegetación del valle, con contraste de sombras."
+    },
+    {
+      "texto": "Los científicos de la Universidad de Trondheim instalaron 12 sensores que captaron picos de energía.",
+      "prompt_imagen": "Equipo de científicos con instrumentos de medición en el campo, paneles solares y antenas bajo la luz del atardecer."
+    },
+    {
+      "texto": "En 1995, un piloto de avión militar observó una esfera luminosa a 3 km de altura.",
+      "prompt_imagen": "Cabina de avión con piloto mirando por la ventana, mostrando una esfera luminosa en el horizonte."
+    },
+    {
+      "texto": "Hasta ahora, ninguna teoría ha logrado explicar todos los fenómenos simultáneamente.",
+      "prompt_imagen": "Pizarra con fórmulas físicas, diagramas de plasma y notas, bajo luz tenue."
+    }
+  ]
+}
