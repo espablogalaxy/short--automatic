@@ -1,0 +1,30 @@
+{
+  "titulo": "Socotra: La isla con flora de otro planeta",
+  "descripcion": "Descubre los árboles y plantas que parecen sacados de una película de ciencia ficción en la remota isla de Socotra.",
+  "escenas": [
+    {
+      "texto": "En 2008, la UNESCO declaró a Socotra Patrimonio de la Humanidad por su flora única.",
+      "prompt_imagen": "Vista aérea de la isla de Socotra con su costa rocosa y vegetación verde bajo un cielo azul claro."
+    },
+    {
+      "texto": "Los dragones de sangre, Dracaena cinnabari, tienen copa ancha y tronco retorcido.",
+      "prompt_imagen": "Árbol Dracaena cinnabari con copa densa de ramas en forma de paraguas, tronco grueso y piel grisácea, bajo un cielo despejado."
+    },
+    {
+      "texto": "El árbol de botella, Adenium obesum, almacena agua y parece una escultura.",
+      "prompt_imagen": "Árbol de botella con tallo grueso y liso, ramas escasas y flores rosadas, situado en un terreno árido con rocas."
+    },
+    {
+      "texto": "Las rosas de Socotra florecen en colores intensos contra el desierto.",
+      "prompt_imagen": "Primer plano de flores rojas y rosadas de Adenium con hojas verdes, sobre suelo arenoso."
+    },
+    {
+      "texto": "El cactus de Socotra, Euphorbia, tiene forma de columna y secreta savia rojiza.",
+      "prompt_imagen": "Cactus Euphorbia alto, con tallos segmentados, rodeado de pequeñas hojas verdes, con gotas de savia roja en la base."
+    },
+    {
+      "texto": "Más del 30 % de las especies vegetales de Socotra no existen en ningún otro lugar.",
+      "prompt_imagen": "Mapa de la isla de Socotra resaltado en azul sobre el océano, con iconos de plantas únicas dispersos."
+    }
+  ]
+}

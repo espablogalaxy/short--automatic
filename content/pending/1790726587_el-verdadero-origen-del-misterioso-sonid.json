@@ -1,0 +1,30 @@
+{
+  "titulo": "El verdadero origen del misterioso sonido \"The Bloop\"",
+  "descripcion": "Descubre cómo un ruido de baja frecuencia detectado en el océano resultó ser hielo rompiéndose, no una criatura gigante.",
+  "escenas": [
+    {
+      "texto": "En 1997, los científicos de la NOAA detectaron un fuerte sonido llamado \"The Bloop\".",
+      "prompt_imagen": "Pantalla de un monitor de la NOAA con una gráfica de espectro de sonido mostrando una gran señal azul marcada como \"The Bloop\" y la fecha 1997 en la esquina."
+    },
+    {
+      "texto": "El sonido alcanzó hasta 200 decibelios, más fuerte que un avión a reacción.",
+      "prompt_imagen": "Ilustración comparativa que muestra un avión a reacción y una onda sonora etiquetada \"200 dB\" junto a la señal \"The Bloop\"."
+    },
+    {
+      "texto": "Al principio se pensó que provenía de una criatura gigante, como una ballena azul.",
+      "prompt_imagen": "Dibujo de una enorme ballena azul emergiendo del océano bajo una onda sonora grande que lleva la etiqueta \"The Bloop\"."
+    },
+    {
+      "texto": "En 2005, los investigadores relacionaron la señal con el colapso de hielo en la Antártida.",
+      "prompt_imagen": "Fotografía de una grieta de hielo en la Antártida rompiéndose, con ondas sonoras visibles superpuestas y la etiqueta \"The Bloop\"."
+    },
+    {
+      "texto": "El crujido del hielo al romperse genera ondas de baja frecuencia que viajan miles de kilómetros.",
+      "prompt_imagen": "Animación estática de una placa de hielo rompiéndose bajo el agua, mostrando ondas sonoras que se propagan en el fondo marino."
+    },
+    {
+      "texto": "Hoy sabemos que \"The Bloop\" es simplemente el sonido del hielo, no un monstruo marino.",
+      "prompt_imagen": "Mapa del océano con una señal de sonido marcada \"The Bloop\" y una nota al margen que dice \"crujido de hielo\"."
+    }
+  ]
+}

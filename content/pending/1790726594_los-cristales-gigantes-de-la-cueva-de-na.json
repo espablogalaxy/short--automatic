@@ -1,0 +1,30 @@
+{
+  "titulo": "Los cristales gigantes de la Cueva de Naica",
+  "descripcion": "Descubre los impresionantes cristales de selenita que crecen bajo la tierra en México y los misterios que los rodean.",
+  "escenas": [
+    {
+      "texto": "Los cristales de Naica alcanzan hasta 12 metros de longitud.",
+      "prompt_imagen": "Interior de la cueva de Naica con enormes cristales de selenita transparentes, uno de ellos mide aproximadamente 12 metros, iluminado con luz tenue que resalta su brillo."
+    },
+    {
+      "texto": "La temperatura es de 58 °C y la humedad del 90 %.",
+      "prompt_imagen": "Primer plano de un gran cristal de selenita con un termómetro marcando 58 °C y un higrómetro indicando 90 % de humedad, todo dentro de la cueva."
+    },
+    {
+      "texto": "La caverna mide 200 m de largo y 50 m de ancho.",
+      "prompt_imagen": "Vista panorámica de la cueva mostrando su gran extensión, con indicadores de medida que señalan 200 metros de longitud y 50 metros de ancho, rodeada de cristales gigantes."
+    },
+    {
+      "texto": "Los cristales están hechos de selenita, una forma de yeso.",
+      "prompt_imagen": "Detalle de la superficie de un cristal de selenita con una etiqueta que dice \"yeso\" y una textura clara y translúcida."
+    },
+    {
+      "texto": "Crecieron durante más de 500 000 años bajo condiciones estables.",
+      "prompt_imagen": "Ilustración secuencial que muestra capas de cristal formándose lentamente a lo largo de 500 000 años dentro de la cueva."
+    },
+    {
+      "texto": "Hoy solo los científicos con trajes especiales pueden entrar.",
+      "prompt_imagen": "Investigador vestido con traje de protección completo dentro de la cueva, sosteniendo una linterna, con señal de acceso restringido al fondo."
+    }
+  ]
+}
