@@ -1,0 +1,34 @@
+{
+  "titulo": "El Glaciar de Sangre: ¿Por qué se tiñe de rojo la Antártida?",
+  "descripcion": "Descubre el misterioso fenómeno del glaciar que se vuelve rojo y la tecnología que lo reveló.",
+  "escenas": [
+    {
+      "texto": "En 2016, los satélites de la NASA detectaron un tono rojizo en el glaciar Taylor, en la Antártida.",
+      "prompt_imagen": "Vista satelital del glaciar Taylor con una franja roja visible sobre la superficie helada."
+    },
+    {
+      "texto": "El color proviene de algas fotosintéticas que crecen bajo el hielo.",
+      "prompt_imagen": "Primer plano de hielo con manchas rojizas de algas en la superficie."
+    },
+    {
+      "texto": "Se trata de Chlamydomonas nivalis, conocida como 'algas de nieve roja'.",
+      "prompt_imagen": "Imagen microscópica de células de Chlamydomonas nivalis mostrando su pigmentación roja."
+    },
+    {
+      "texto": "Los científicos usan drones equipados con cámaras multiespectrales para mapear la distribución.",
+      "prompt_imagen": "Drone sobrevolando el glaciar con una cámara multiespectral apuntando hacia el hielo rojo."
+    },
+    {
+      "texto": "Estas algas absorben más luz, acelerando el derretimiento del hielo.",
+      "prompt_imagen": "Ilustración que muestra rayos solares incidiendo sobre algas rojas y el hielo fundiéndose alrededor."
+    },
+    {
+      "texto": "Con IA se predice que la zona roja se expandirá un 30 % en la próxima década.",
+      "prompt_imagen": "Gráfico de barras con una línea de tendencia creciente que indica la expansión del área roja, acompañado de un icono de inteligencia artificial."
+    },
+    {
+      "texto": "Así, la biología y la tecnología se unen para entender un fenómeno que cambia el paisaje antártico.",
+      "prompt_imagen": "Combinación de un microscopio, un dron y un mapa de la Antártida resaltando el glaciar con colores rojo y azul."
+    }
+  ]
+}

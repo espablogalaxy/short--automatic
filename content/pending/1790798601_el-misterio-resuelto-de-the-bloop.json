@@ -1,0 +1,34 @@
+{
+  "titulo": "El misterio resuelto de The Bloop",
+  "descripcion": "En 1997 la NOAA detectó un sonido inexplicable a 5.000 km de distancia. Esta es la verdad sobre The Bloop.",
+  "escenas": [
+    {
+      "texto": "En 1997, los sensores submarinos de la NOAA captaron un sonido tan potente que se registró a más de 5.000 kilómetros de distancia.",
+      "prompt_imagen": "Pantalla de un ordenador de tubo de los años noventa mostrando un mapa hidrográfico del océano Pacífico con coordenadas en verde."
+    },
+    {
+      "texto": "Bautizado como 'The Bloop', duró apenas un minuto, pero superaba el volumen de cualquier ballena conocida.",
+      "prompt_imagen": "Monitor con un espectrograma de audio en fósforo verde que muestra una curva de frecuencia ascendente etiquetada como Bloop."
+    },
+    {
+      "texto": "Durante casi una década, circularon teorías sobre un descomunal monstruo marino oculto en las fosas del Pacífico.",
+      "prompt_imagen": "Submarino de investigación amarillo sumergido en aguas profundas y oscuras, iluminando una pared de roca submarina con sus faros."
+    },
+    {
+      "texto": "La señal fue registrada gracias a hidrófonos de la red SOSUS, micrófonos que la armada estadounidense usaba para rastrear submarinos soviéticos.",
+      "prompt_imagen": "Cilindro metálico de un hidrófono submarino cubierto de algas descansando en el lecho marino con un cable grueso."
+    },
+    {
+      "texto": "Al cruzar datos acústicos en 2005, los sismólogos descubrieron patrones idénticos a los causados por el hielo polar.",
+      "prompt_imagen": "Investigador en una oficina técnica frente a dos monitores planos analizando gráficas de ondas sísmicas impresas en papel continuo."
+    },
+    {
+      "texto": "El verdadero origen no fue un animal: fue un terremoto de hielo provocado por un enorme glaciar fracturándose en la Antártida.",
+      "prompt_imagen": "Muro vertical de un glaciar blanco y azul agrietándose mientras grandes bloques de hielo caen al agua levantando espuma."
+    },
+    {
+      "texto": "La tensión acumulada en el hielo liberó tanta energía mecánica que hizo vibrar el océano entero.",
+      "prompt_imagen": "Enorme iceberg tabular flotando en un mar polar en calma bajo un cielo frío y cubierto de nubes grises."
+    }
+  ]
+}

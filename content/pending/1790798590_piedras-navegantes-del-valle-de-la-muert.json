@@ -1,0 +1,30 @@
+{
+  "titulo": "Piedras navegantes del Valle de la Muerte: el misterio de las rocas que se mueven",
+  "descripcion": "Descubre por qué algunas rocas del Valle de la Muerte parecen desplazarse solas y qué teorías explican este fenómeno.",
+  "escenas": [
+    {
+      "texto": "En 1948, el geólogo Robert W. Gentry observó una piedra desplazarse 30 cm sin intervención humana.",
+      "prompt_imagen": "Desierto del Valle de la Muerte en 1948, una gran roca rojiza sobre arena, con una huella marcada que indica un desplazamiento de 30 centímetros."
+    },
+    {
+      "texto": "Los vientos intensos del desierto pueden empujar las rocas ligeras.",
+      "prompt_imagen": "Viento soplando arena en el Valle de la Muerte, rocas redondas y lisas desplazándose ligeramente sobre la superficie arenosa."
+    },
+    {
+      "texto": "La presión del suelo bajo la roca crea un efecto de flotación.",
+      "prompt_imagen": "Corte transversal del suelo del desierto mostrando capas de arcilla compacta y una roca apoyada sobre una zona de presión reducida."
+    },
+    {
+      "texto": "Durante la noche, la temperatura baja hasta -40 °C, formando una capa de hielo fina.",
+      "prompt_imagen": "Atardecer en el desierto con termómetro marcando -40 °C, pequeñas manchas de hielo y condensación visibles sobre una piedra."
+    },
+    {
+      "texto": "Los científicos colocan GPS para registrar cada movimiento milimétrico.",
+      "prompt_imagen": "Equipo de investigadores en el desierto con dispositivos GPS sujetos a una roca, pantalla mostrando coordenadas y desplazamiento."
+    },
+    {
+      "texto": "El fenómeno sigue sin una explicación definitiva, pero fascina a todos.",
+      "prompt_imagen": "Vista panorámica del Valle de la Muerte bajo un cielo estrellado, varias rocas alineadas en la arena, ambiente misterioso."
+    }
+  ]
+}
