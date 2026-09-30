@@ -1,0 +1,30 @@
+{
+  "titulo": "Presión extrema en la Fosa de las Marianas: datos que te sorprenderán",
+  "descripcion": "Descubre cómo la tecnología permite explorar la zona más profunda del océano y conoce a las increíbles especies que sobreviven bajo más de mil bares de presión.",
+  "escenas": [
+    {
+      "texto": "A 10 984 metros bajo el océano, la presión supera los 1 100 bares.",
+      "prompt_imagen": "Vista submarina mostrando una sonda descendiendo en la oscuridad del océano, con medidor de presión marcando 1,100 bares."
+    },
+    {
+      "texto": "Los vehículos autónomos como el \"Nereid\" pueden soportar esa fuerza.",
+      "prompt_imagen": "Robot submarino de forma cilíndrica con luces LED, rodeado de agua profunda, con estructura reforzada visible."
+    },
+    {
+      "texto": "Los sensores de presión usan materiales de titanio y cerámica.",
+      "prompt_imagen": "Primer plano de un sensor de presión compacto hecho de titanio y cerámica, conectado a cables dentro de una carcasa."
+    },
+    {
+      "texto": "A esas profundidades viven los gusanos de tubo de 3 metros.",
+      "prompt_imagen": "Gusano de tubo blanco, largo 3 metros, adherido a una chimenea hidrotermal bajo el agua."
+    },
+    {
+      "texto": "Sus proteínas no se desnaturalizan bajo 1 100 bares.",
+      "prompt_imagen": "Representación microscópica de una proteína en forma de hélice, rodeada de moléculas de agua bajo alta presión."
+    },
+    {
+      "texto": "Los datos recogidos se transmiten vía acústica a la superficie.",
+      "prompt_imagen": "Pantalla de computadora mostrando ondas acústicas y gráficas de datos provenientes del fondo marino."
+    }
+  ]
+}

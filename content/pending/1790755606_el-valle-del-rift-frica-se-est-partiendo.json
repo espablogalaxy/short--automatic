@@ -1,0 +1,34 @@
+{
+  "titulo": "El Valle del Rift: África se está partiendo",
+  "descripcion": "Descubre cómo la placa tectónica está dividiendo el continente africano, el proceso que forma el Valle del Rift y sus consecuencias geológicas.",
+  "escenas": [
+    {
+      "texto": "Hace 2,5 millones de años empezó la separación de la placa africana en el Valle del Rift.",
+      "prompt_imagen": "Mapa geológico en colores que muestra la placa africana dividida, con una línea roja que marca la zona del Valle del Rift y la anotación '2,5 M años'."
+    },
+    {
+      "texto": "La falla del East African Rift se extiende más de 6 000 km.",
+      "prompt_imagen": "Imagen satelital del Valle del Rift con una grieta larga cruzando África Oriental, escala superpuesta que indica 6 000 km."
+    },
+    {
+      "texto": "Volcanes como el Kilimanjaro son prueba del levantamiento tectónico.",
+      "prompt_imagen": "Fotografía del monte Kilimanjaro nevado, resaltado sobre la zona del Rift con un ícono de volcán y la etiqueta 'Actividad tectónica'."
+    },
+    {
+      "texto": "La placa se separa a una velocidad de 2 cm por año.",
+      "prompt_imagen": "Dos bloques de tierra separados por una regla que marca 2 cm, con una etiqueta que dice '2 cm/año' y flechas que indican movimiento opuesto."
+    },
+    {
+      "texto": "Esta separación forma lagos profundos como el lago Tanganyika.",
+      "prompt_imagen": "Vista aérea del lago Tanganyika, alargado en el Rift, con contornos profundos marcados y la etiqueta 'Lago Tanganyika'."
+    },
+    {
+      "texto": "Los terremotos frecuentes son señal de la actividad tectónica.",
+      "prompt_imagen": "Ilustración de ondas sísmicas emanando de una grieta en el suelo, con un sismógrafo mostrando lecturas en movimiento."
+    },
+    {
+      "texto": "En millones de años, África podría convertirse en dos continentes.",
+      "prompt_imagen": "Proyección artística del futuro que muestra dos masas continentales separadas por un amplio océano donde ahora está el Rift, con la etiqueta 'Futuro: dos continentes'."
+    }
+  ]
+}

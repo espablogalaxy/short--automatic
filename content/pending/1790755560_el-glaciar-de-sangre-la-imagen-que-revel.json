@@ -1,0 +1,30 @@
+{
+  "titulo": "El Glaciar de Sangre: la imagen que reveló la NASA en 2023",
+  "descripcion": "Descubre cómo los satélites y la inteligencia artificial desvelaron el misterioso glaciar rojo en la Antártida, y qué tecnología estuvo detrás de este hallazgo.",
+  "escenas": [
+    {
+      "texto": "En 2023, la NASA detectó un glaciar rojo del tamaño de Manhattan.",
+      "prompt_imagen": "Imagen satelital en colores reales del glaciar rojo en la Antártida, mostrando una zona de hielo con tonalidades rojizas que contrastan con el blanco circundante."
+    },
+    {
+      "texto": "Los satélites Sentinel‑2 y Landsat capturan la señal en diferentes bandas espectrales.",
+      "prompt_imagen": "Pantalla de computadora con la interfaz del software de procesamiento de datos satelitales, mostrando capas de imágenes multibanda del glaciar."
+    },
+    {
+      "texto": "Una IA clasifica el rojo y separa el hielo del resto.",
+      "prompt_imagen": "Monitor que muestra un algoritmo de IA coloreando en rojo las áreas del glaciar mientras el resto del mapa permanece en escala de grises."
+    },
+    {
+      "texto": "Los científicos descubren microbios extremófilos que tiñen el hielo.",
+      "prompt_imagen": "Microscopio óptico con una lámina que revela pequeños microorganismos rojos sobre una muestra de hielo."
+    },
+    {
+      "texto": "Este fenómeno ayuda a modelar el cambio climático en la región.",
+      "prompt_imagen": "Laboratorio con un científico frente a una pantalla que muestra gráficas y mapas climáticos relacionados con el glaciar."
+    },
+    {
+      "texto": "¡Suscríbete para más curiosidades tecnológicas!",
+      "prompt_imagen": "Creador de contenido de YouTube en un estudio con luces, frente a una pizarra digital que muestra el logo del canal."
+    }
+  ]
+}
