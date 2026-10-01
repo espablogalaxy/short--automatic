@@ -1,0 +1,30 @@
+{
+  "titulo": "La anomalía magnética del Atlántico Sur y su impacto en satélites",
+  "descripcion": "Descubre cómo la extraña zona del planeta afecta la operación de los satélites y por qué los ingenieros luchan contra ella.",
+  "escenas": [
+    {
+      "texto": "En 1999, la anomalía magnética del Atlántico Sur provocó la caída de tres satélites de comunicación.",
+      "prompt_imagen": "Mapa del Atlántico Sur con una zona roja que indica la anomalía magnética, y tres satélites descendiendo del espacio."
+    },
+    {
+      "texto": "Esta zona tiene un campo magnético hasta 1,5 veces más fuerte que el promedio terrestre.",
+      "prompt_imagen": "Representación comparativa de dos campos magnéticos: uno normal y otro intensificado en la región del Atlántico Sur, con líneas de fuerza visibles."
+    },
+    {
+      "texto": "Los electrones de alta energía se acumulan allí y perturban las órbitas de los satélites.",
+      "prompt_imagen": "Vista del espacio con electrones brillantes concentrándose sobre la zona del Atlántico Sur, rodeando un satélite."
+    },
+    {
+      "texto": "Los operadores deben ajustar la trayectoria y activar sistemas de protección.",
+      "prompt_imagen": "Sala de control con ingenieros observando pantallas que muestran datos de la anomalía y botones de ajuste de órbita."
+    },
+    {
+      "texto": "Los satélites equipados con sensores de radiación pueden anticipar los picos de actividad.",
+      "prompt_imagen": "Primer plano de un satélite con paneles solares y sensores, mostrando lecturas de radiación en una pantalla."
+    },
+    {
+      "texto": "Aún hoy, la anomalía sigue siendo un reto para la próxima generación de constelaciones de internet.",
+      "prompt_imagen": "Constelación de satélites en órbita baja, con una zona sombreada que representa la anomalía del Atlántico Sur."
+    }
+  ]
+}

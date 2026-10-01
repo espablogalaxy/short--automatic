@@ -1,0 +1,30 @@
+{
+  "titulo": "El Pozo Superprofundo de Kola: El agujero más profundo de la Tierra",
+  "descripcion": "Descubre los datos más sorprendentes del proyecto soviético que perforó 12 262 metros bajo la superficie, revelando misterios del interior del planeta.",
+  "escenas": [
+    {
+      "texto": "En 1970, la Unión Soviética comenzó a perforar el Pozo Superprofundo de Kola, alcanzando 12 262 metros.",
+      "prompt_imagen": "Plataforma de perforación en un terreno nevado de Rusia, con una gran torre de perforación y una señal que indica 12,262 metros de profundidad."
+    },
+    {
+      "texto": "El pozo es casi tres veces más profundo que la Torre Eiffel invertida bajo tierra.",
+      "prompt_imagen": "Comparación visual que muestra la Torre Eiffel de pie y una línea vertical que desciende tres veces su altura bajo tierra, etiquetada como 12,262 m."
+    },
+    {
+      "texto": "Durante la perforación se encontraron rocas de más de 2 200 millones de años.",
+      "prompt_imagen": "Muestra de una muestra de roca brillante en una mano de científico, con un texto que indica 2,200 millones de años."
+    },
+    {
+      "texto": "La temperatura en el fondo supera los 180 °C, suficiente para hervir agua rápidamente.",
+      "prompt_imagen": "Termómetro digital marcando 180 °C junto a una tubería de perforación en el fondo del pozo."
+    },
+    {
+      "texto": "El proyecto se detuvo en 1992 por falta de fondos, dejando el agujero sin terminar.",
+      "prompt_imagen": "Imagen del pozo detenido con la señal de “FIN DE PERFORACIÓN” y un fondo de cielo gris sobre la zona de trabajo abandonada."
+    },
+    {
+      "texto": "Hoy, el Pozo de Kola sigue siendo el agujero más profundo jamás excavado por el ser humano.",
+      "prompt_imagen": "Mapa mundi resaltando Rusia y una marca que indica la ubicación del Pozo de Kola, con un texto que dice “Pozo más profundo del mundo”."
+    }
+  ]
+}

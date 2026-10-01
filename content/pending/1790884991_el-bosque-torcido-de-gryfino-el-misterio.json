@@ -1,0 +1,30 @@
+{
+  "titulo": "El Bosque Torcido de Gryfino: El misterio de los pinos curvados",
+  "descripcion": "Descubre el enigmático bosque de pinos que se doblan en forma de arco en Gryfino, Polonia, y las teorías que explican su extraña forma.",
+  "escenas": [
+    {
+      "texto": "En 1932 se descubrieron alrededor de 400 pinos con troncos curvados en Gryfino, Polonia.",
+      "prompt_imagen": "Bosque de pinos torcidos en Gryfino, Polonia, vista amplia de árboles con troncos curvados formando una curva pronunciada, cielo nublado, suelo de bosque."
+    },
+    {
+      "texto": "Estos pinos fueron plantados a principios del siglo XX y ahora tienen casi 90 años.",
+      "prompt_imagen": "Árboles jóvenes plantados en filas rectas en un campo abierto, algunos ya curvados, con indicación de la época del siglo XX."
+    },
+    {
+      "texto": "Cada tronco se dobla 90 grados a unos 1,5 metros del suelo y vuelve a crecer recto.",
+      "prompt_imagen": "Primer plano de un pino torcido mostrando la curva de 90 grados a 1,5 metros del suelo y el tronco recto arriba, fondo de bosque."
+    },
+    {
+      "texto": "Los científicos no saben con certeza la causa; una teoría es que los agricultores los doblaron para obtener madera en forma de arco.",
+      "prompt_imagen": "Ilustración de agricultores de la década de 1920 usando cuerdas y pesos para doblar troncos jóvenes, bosque de pinos torcidos de fondo."
+    },
+    {
+      "texto": "El bosque está protegido y se ha convertido en una atracción turística popular.",
+      "prompt_imagen": "Visitantes con cámaras caminando entre los pinos torcidos, señal de información turística, día soleado."
+    },
+    {
+      "texto": "Si alguna vez visitas Polonia, no te pierdas este misterioso bosque que parece sacado de un cuento.",
+      "prompt_imagen": "Camino de tierra que lleva al bosque torcido, con señal de dirección y cielo azul, invitando al espectador."
+    }
+  ]
+}
