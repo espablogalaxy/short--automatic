@@ -1,0 +1,34 @@
+{
+  "titulo": "La anomalía magnética del Atlántico Sur y su impacto en los satélites",
+  "descripcion": "Descubre cómo el punto débil del campo magnético terrestre afecta la operatividad de los satélites y qué medidas se están tomando.",
+  "escenas": [
+    {
+      "texto": "En 1995 los científicos descubrieron una zona de debilidad magnética en el Atlántico Sur.",
+      "prompt_imagen": "Mapa del planeta mostrando la ubicación del Atlántico Sur con un círculo rojo resaltando la zona de debilidad magnética."
+    },
+    {
+      "texto": "Esta zona, conocida como el Atlántico Sur Anomalous Region, tiene un campo magnético hasta 30% más débil que el promedio.",
+      "prompt_imagen": "Ilustración comparativa de dos áreas del campo magnético terrestre, una normal y la anomalía del Atlántico Sur, con barras de intensidad."
+    },
+    {
+      "texto": "Los satélites que cruzan esa región pueden experimentar interrupciones en sus sistemas de control.",
+      "prompt_imagen": "Satélite en órbita terrestre con una trayectoria que pasa por la zona marcada del Atlántico Sur, mostrando una señal de alerta en la pantalla."
+    },
+    {
+      "texto": "En 2003, el satélite GPS Block IIR-1 perdió precisión durante una maniobra sobre la anomalía.",
+      "prompt_imagen": "Pantalla de control del satélite GPS Block IIR-1 mostrando una desviación de posición mientras está sobre el Atlántico Sur."
+    },
+    {
+      "texto": "Para compensar, las agencias utilizan algoritmos de corrección que ajustan la órbita en tiempo real.",
+      "prompt_imagen": "Ingeniero frente a varios monitores con gráficos de órbita y códigos de algoritmo, señalando ajustes en tiempo real."
+    },
+    {
+      "texto": "También se están desarrollando satélites con blindaje magnético reforzado para reducir los efectos.",
+      "prompt_imagen": "Modelo 3D de un satélite con una capa adicional visible etiquetada como 'blindaje magnético'."
+    },
+    {
+      "texto": "Aún así, la anomalía sigue siendo una de las mayores incertidumbres para futuras misiones de exploración espacial.",
+      "prompt_imagen": "Vista del espacio con varios satélites en diferentes órbitas, una zona sombreada indica la anomalía del Atlántico Sur."
+    }
+  ]
+}

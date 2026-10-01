@@ -1,0 +1,30 @@
+{
+  "titulo": "El Pozo Superprofundo de Kola: el agujero más profundo del planeta",
+  "descripcion": "Descubre los datos sorprendentes del pozo de Kola, el proyecto soviético que alcanzó más de 12 kilómetros bajo la tierra y reveló misterios de la corteza terrestre.",
+  "escenas": [
+    {
+      "texto": "En 1989, el pozo alcanzó los 12.262 metros, el punto más profundo jamás perforado.",
+      "prompt_imagen": "Imagen del pozo de perforación en la península de Kola, Rusia, con una torre de perforación y una escala que indique 12.262 metros de profundidad."
+    },
+    {
+      "texto": "El proyecto empezó en 1970 bajo la iniciativa soviética para estudiar la corteza terrestre.",
+      "prompt_imagen": "Mapa antiguo de la Unión Soviética resaltando la ubicación de Kola, con la fecha 1970 y equipos de perforación dibujados."
+    },
+    {
+      "texto": "Los científicos descubrieron agua a 7.000 metros, algo inesperado.",
+      "prompt_imagen": "Sección transversal del pozo mostrando capas de roca y una zona azul que indica presencia de agua a 7 km de profundidad."
+    },
+    {
+      "texto": "A 8.000 metros hallaron granos de cuarzo que revelaban una temperatura de 180 °C.",
+      "prompt_imagen": "Imagen microscópica de granos de cuarzo brillante bajo una lámpara, con un termómetro que marca 180 °C."
+    },
+    {
+      "texto": "El pozo reveló que la corteza terrestre es más rígida y fracturada de lo que se pensaba.",
+      "prompt_imagen": "Ilustración de la corteza terrestre con grietas y zonas rígidas, destacando la zona del pozo de Kola."
+    },
+    {
+      "texto": "El proyecto se cerró en 1992, pero el pozo sigue siendo el más profundo jamás alcanzado.",
+      "prompt_imagen": "Fotografía del pozo abandonado, con la torre de perforación derruida y una señal que dice 'Cerrado 1992'."
+    }
+  ]
+}

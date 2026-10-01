@@ -1,0 +1,30 @@
+{
+  "titulo": "El supervolcán de Yellowstone y la tecnología que lo vigila",
+  "descripcion": "Descubre cómo la informática y la ciencia de datos monitorizan el gigante dormido bajo el parque más famoso de EE. UU.",
+  "escenas": [
+    {
+      "texto": "En 2023, los sensores detectaron una zona caliente de 30 km bajo Yellowstone.",
+      "prompt_imagen": "Mapa topográfico del Parque Nacional Yellowstone con una zona subterránea resaltada en rojo y la etiqueta \"30 km\""
+    },
+    {
+      "texto": "Se usan supercomputadoras para simular erupciones en tiempo real.",
+      "prompt_imagen": "Sala de servidores con varias racks iluminados, pantallas mostrando gráficos de simulación de volcanes"
+    },
+    {
+      "texto": "Los drones equipados con LIDAR cartografían la superficie del cráter.",
+      "prompt_imagen": "Drone volando sobre un paisaje de géiseres, con un haz de LIDAR visible y un mapa 3D en una pantalla cercana"
+    },
+    {
+      "texto": "Inteligencia artificial analiza millones de lecturas sísmicas al día.",
+      "prompt_imagen": "Interfaz de IA con gráficos de ondas sísmicas, números de datos en pantalla y un cerebro digital resaltado"
+    },
+    {
+      "texto": "Satélites de observación monitorean la temperatura del suelo desde el espacio.",
+      "prompt_imagen": "Satélite en órbita sobre la Tierra, con una vista de Yellowstone marcada en rojo por aumento de temperatura"
+    },
+    {
+      "texto": "Gracias a estos datos, los científicos pueden alertar al mundo con semanas de anticipación.",
+      "prompt_imagen": "Pantalla de alerta temprana con un mapa de EE. UU., iconos de aviso y la palabra \"Alerta\" en rojo"
+    }
+  ]
+}
