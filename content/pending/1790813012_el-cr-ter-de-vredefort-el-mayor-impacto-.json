@@ -1,0 +1,30 @@
+{
+  "titulo": "El cráter de Vredefort: el mayor impacto registrado",
+  "descripcion": "Descubre cómo el cráter de Vredefort, formado hace 2.023 millones de años, es la evidencia del mayor choque de meteorito en la Tierra.",
+  "escenas": [
+    {
+      "texto": "Hace 2.023 millones de años, un meteorito de 10 km de diámetro impactó Sudáfrica.",
+      "prompt_imagen": "Vista aérea del cráter de Vredefort en Sudáfrica, con su forma circular y bordes erosionados, bajo un cielo azul."
+    },
+    {
+      "texto": "El impacto creó un cráter de 300 km de diámetro, el más grande conocido.",
+      "prompt_imagen": "Mapa topográfico resaltando el diámetro de 300 km del cráter Vredefort, con escala y contorno visible."
+    },
+    {
+      "texto": "La energía liberada fue equivalente a 10 millones de bombas de Hiroshima.",
+      "prompt_imagen": "Ilustración comparativa mostrando una explosión masiva y la silueta de la ciudad de Hiroshima al lado, con números indicativos."
+    },
+    {
+      "texto": "El cráter está parcialmente cubierto por la erosión y la vegetación.",
+      "prompt_imagen": "Fotografía del interior del cráter mostrando colinas verdes, rocas expuestas y vegetación densa."
+    },
+    {
+      "texto": "En su centro se encuentra el pico de la Montaña del Sol, a 2.200 metros sobre el nivel del mar.",
+      "prompt_imagen": "Imagen del pico de la Montaña del Sol dentro del cráter, con vista panorámica y señal de altitud visible."
+    },
+    {
+      "texto": "Hoy, Vredefort es Patrimonio de la Humanidad y un laboratorio natural de geología.",
+      "prompt_imagen": "Placa de Patrimonio de la Humanidad sobre un paisaje del cráter con turistas y señal informativa."
+    }
+  ]
+}

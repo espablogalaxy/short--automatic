@@ -1,0 +1,38 @@
+{
+  "titulo": "El Bosque Torcido de Gryfino: Un Enigma Natural y Tecnológico",
+  "descripcion": "Descubre cómo la tecnología revela los misterios del bosque torcido de Gryfino, en Polonia, y qué lo hace tan singular.",
+  "escenas": [
+    {
+      "texto": "En 2020, un dron cartografió 1 200 árboles torcidos en Gryfino.",
+      "prompt_imagen": "Vista aérea de un bosque con árboles inclinados de forma extraña, capturada por dron, mostrando la zona de Gryfino en Polonia."
+    },
+    {
+      "texto": "Los árboles giran hasta 90 grados respecto al suelo.",
+      "prompt_imagen": "Primer plano de varios troncos de árboles inclinados casi horizontales, con el fondo del bosque."
+    },
+    {
+      "texto": "Los científicos usan LIDAR para medir cada curvatura.",
+      "prompt_imagen": "Equipo portátil LIDAR apuntando a un árbol torcido, con pantalla mostrando datos de distancia."
+    },
+    {
+      "texto": "El análisis revela que el suelo tiene un campo magnético anómalo.",
+      "prompt_imagen": "Mapa de calor en pantalla de un ordenador, mostrando áreas con anomalías magnéticas bajo el bosque."
+    },
+    {
+      "texto": "Las raíces siguen la misma dirección, formando un laberinto subterráneo.",
+      "prompt_imagen": "Representación 3D de raíces entrelazadas bajo tierra, vista desde un programa de modelado."
+    },
+    {
+      "texto": "La comunidad local cree que es obra de una antigua energía.",
+      "prompt_imagen": "Habitantes del pueblo de Gryfino conversando frente a un árbol torcido, con expresión curiosa."
+    },
+    {
+      "texto": "Gracias al GIS, podemos visitar el bosque virtualmente.",
+      "prompt_imagen": "Pantalla de ordenador mostrando un modelo GIS del bosque torcido, con cursor navegando."
+    },
+    {
+      "texto": "Este misterio sigue desafiando la ciencia y la tecnología.",
+      "prompt_imagen": "Cierre con vista al atardecer sobre el bosque torcido, con siluetas de árboles inclinados contra el cielo."
+    }
+  ]
+}

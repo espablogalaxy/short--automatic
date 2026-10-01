@@ -1,0 +1,30 @@
+{
+  "titulo": "El misterioso Ojo del Sahara: la estructura de Richat vista desde el espacio",
+  "descripcion": "Descubre cómo la gigantesca formación circular del desierto de Mauritania, conocida como el Ojo del Sahara, se hizo famosa al ser capturada desde la órbita terrestre.",
+  "escenas": [
+    {
+      "texto": "En 1975 los astronautas del Apolo 15 fotografiaron la estructura de Richat, el Ojo del Sahara, con un diámetro de 40 km.",
+      "prompt_imagen": "Fotografía de la Tierra tomada desde el espacio que muestra un gran círculo concéntrico de arena y rocas en el desierto de Mauritania, identificado como la estructura de Richat."
+    },
+    {
+      "texto": "Esta formación tiene más de 30 anillos concéntricos que parecen un enorme objetivo.",
+      "prompt_imagen": "Vista aérea de la estructura de Richat con varios anillos de diferentes tonos de arena y rocas, claramente visibles como círculos concéntricos."
+    },
+    {
+      "texto": "Se extiende por una zona de aproximadamente 40 kilómetros de diámetro, ¡casi el tamaño de una gran ciudad!",
+      "prompt_imagen": "Mapa topográfico que muestra la escala de la estructura de Richat, indicando su diámetro de 40 km y comparándolo con la silueta de una ciudad grande."
+    },
+    {
+      "texto": "Los geólogos creen que se formó por erosión diferencial sobre una antigua cúpula geológica.",
+      "prompt_imagen": "Ilustración que combina una cúpula rocosas subyacente y capas erosionadas, resaltando cómo el viento y el agua crearon los anillos."
+    },
+    {
+      "texto": "Desde satélite, la estructura se ve como una “rosquilla” perfecta sobre el desierto de Sahara.",
+      "prompt_imagen": "Imagen de satélite en colores reales que muestra la estructura de Richat como una rosquilla blanca rodeada de arena marrón del Sahara."
+    },
+    {
+      "texto": "Hoy es un punto de referencia para misiones espaciales y para los viajeros curiosos del planeta.",
+      "prompt_imagen": "Fotografía de una nave espacial en órbita y, en primer plano, la estructura de Richat resaltada en la superficie terrestre, con una señal de ubicación marcada."
+    }
+  ]
+}
