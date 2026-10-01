@@ -1,0 +1,30 @@
+{
+  "titulo": "Misterio de las luces de Hessdalen",
+  "descripcion": "Descubre el enigma de las extrañas luces que aparecen en el valle de Hessdalen, Noruega, y las teorías que intentan explicarlas.",
+  "escenas": [
+    {
+      "texto": "En 1981, los residentes de Hessdalen empezaron a ver luces extrañas en el cielo.",
+      "prompt_imagen": "casa de madera en el valle de Hessdalen al anochecer, con luces brillantes flotando sobre el horizonte"
+    },
+    {
+      "texto": "Desde entonces, se han registrado más de 20 000 avistamientos.",
+      "prompt_imagen": "gráfica sencilla mostrando un número 20,000 sobre fondo del valle nocturno"
+    },
+    {
+      "texto": "Las luces pueden aparecer como destellos rojos, blancos o azules.",
+      "prompt_imagen": "destellos luminosos de colores rojo, blanco y azul sobre el cielo estrellado del valle"
+    },
+    {
+      "texto": "Algunas duran solo segundos, mientras que otras permanecen minutos.",
+      "prompt_imagen": "reloj digital mostrando 00:05 y 02:30 junto a luces persistentes en el horizonte del valle"
+    },
+    {
+      "texto": "Los científicos han usado radares, cámaras y drones sin llegar a una explicación definitiva.",
+      "prompt_imagen": "equipos de investigación con radares, cámaras de alta velocidad y drones apuntando al cielo del valle"
+    },
+    {
+      "texto": "Hasta hoy, las luces de Hessdalen siguen siendo uno de los mayores misterios de la Tierra.",
+      "prompt_imagen": "mapa del mundo resaltando Noruega y el valle de Hessdalen con un signo de interrogación"
+    }
+  ]
+}

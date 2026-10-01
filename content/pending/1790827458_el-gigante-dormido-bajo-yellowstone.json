@@ -1,0 +1,34 @@
+{
+  "titulo": "El gigante dormido bajo Yellowstone",
+  "descripcion": "Descubre los datos sorprendentes del supervolcán que yace bajo el Parque Nacional de Yellowstone y por qué sigue vigilado por científicos.",
+  "escenas": [
+    {
+      "texto": "En 1988, los científicos detectaron una erupción bajo el lago de Yellowstone de 1,5 km³ de magma.",
+      "prompt_imagen": "Mapa topográfico de Yellowstone con una zona resaltada bajo el lago indicando la erupción de 1988 y una línea de tiempo."
+    },
+    {
+      "texto": "El supervolcán mide aproximadamente 55 kilómetros de ancho, ¡casi el tamaño de una gran ciudad!",
+      "prompt_imagen": "Vista aérea del Parque Nacional de Yellowstone con un círculo superpuesto de 55 km de diámetro marcado en el centro."
+    },
+    {
+      "texto": "Cada 600.000 años, el magma se acumula y podría provocar una explosión de escala global.",
+      "prompt_imagen": "Ilustración de capas subterráneas mostrando la acumulación de magma bajo Yellowstone con una escala de tiempo de 600.000 años."
+    },
+    {
+      "texto": "Los sismógrafos registran cientos de temblores al día, pero la mayoría son apenas perceptibles.",
+      "prompt_imagen": "Pantalla de sismógrafo con múltiples líneas de registro, resaltando pequeños picos y una etiqueta que indique 'hundreds daily'."
+    },
+    {
+      "texto": "El Parque está equipado con más de 30 estaciones de monitoreo para medir calor y gases.",
+      "prompt_imagen": "Fotografía de una estación de monitoreo en el bosque de Yellowstone con sensores de temperatura y medidores de gases."
+    },
+    {
+      "texto": "Si el volcán despertara, la erupción podría cubrir 1.200 km² de ceniza en solo 48 horas.",
+      "prompt_imagen": "Mapa de la región mostrando una zona sombreada de 1.200 km² alrededor de Yellowstone, con una etiqueta de '48 horas'."
+    },
+    {
+      "texto": "Afortunadamente, los datos indican que el supervolcán está en reposo y no hay señales de una inminente erupción.",
+      "prompt_imagen": "Gráfico de barras que muestra la actividad sísmica reduciéndose a niveles bajos, con un sello de 'IN REPOSO' sobre el volcán."
+    }
+  ]
+}

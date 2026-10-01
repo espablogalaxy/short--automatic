@@ -1,0 +1,30 @@
+{
+  "titulo": "El verdadero origen del misterioso sonido 'The Bloop'",
+  "descripcion": "Descubre cómo se resolvió el enigma del potente sonido de baja frecuencia detectado en el Pacífico y por qué ya no se trata de una criatura gigante.",
+  "escenas": [
+    {
+      "texto": "En 1997, los hidrófonos del NOAA capturaron un estruendo de 1 Hz llamado 'The Bloop' en el Pacífico.",
+      "prompt_imagen": "Mapa del océano Pacífico con marcadores rojos donde se encuentran los hidrófonos del NOAA, y una onda sonora azul brillante emergiendo del punto de detección."
+    },
+    {
+      "texto": "Al principio, los científicos pensaron que podía ser una ballena gigante.",
+      "prompt_imagen": "Ilustración de una enorme ballena azul nadando en aguas profundas, con líneas de sonido que la rodean."
+    },
+    {
+      "texto": "Otros especularon que era el ruido de un iceberg rompiéndose bajo el agua.",
+      "prompt_imagen": "Gran iceberg flotando en el océano, mostrando grietas y fragmentos desprendiéndose bajo la superficie."
+    },
+    {
+      "texto": "Un estudio de 2005 analizó la firma acústica y la comparó con eventos de deshielo.",
+      "prompt_imagen": "Laboratorio de análisis acústico con pantallas mostrando gráficas de frecuencias y una foto de un iceberg en el fondo."
+    },
+    {
+      "texto": "Los datos coincidían con la energía liberada por la ruptura de un iceberg de 200 metros de altura.",
+      "prompt_imagen": "Escena subacuática de un iceberg de 200 metros rompiéndose, generando una explosión de burbujas y ondas sonoras."
+    },
+    {
+      "texto": "Así, 'The Bloop' dejó de ser misterio y se confirmó como el sonido de un iceberg calving.",
+      "prompt_imagen": "Vista submarina clara mostrando el iceberg fragmentado y ondas sonoras disipándose en el agua, con un texto superpuesto que dice 'The Bloop = iceberg'."
+    }
+  ]
+}
