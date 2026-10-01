@@ -1,0 +1,30 @@
+{
+  "titulo": "El abismo de Challenger y su profundidad exacta",
+  "descripcion": "Descubre datos sorprendentes del punto más profundo del océano, su ubicación, la cifra exacta de su profundidad y los desafíos que ha supuesto explorar este abismo.",
+  "escenas": [
+    {
+      "texto": "El Challenger Deep alcanza una profundidad exacta de 10 929 metros.",
+      "prompt_imagen": "Mapa del océano Pacífico mostrando la ubicación del abismo Challenger en la Fosa de las Marianas, con una marca indicando 10 929 metros de profundidad"
+    },
+    {
+      "texto": "Se encuentra en la Fosa de las Marianas, al oeste del Pacífico.",
+      "prompt_imagen": "Vista aérea del océano Pacífico con la Fosa de las Marianas resaltada en color azul oscuro y una etiqueta que dice 'Fosa de las Marianas'"
+    },
+    {
+      "texto": "La presión allí supera los 1 100 atmósferas, más de 1 000 veces la presión a nivel del mar.",
+      "prompt_imagen": "Ilustración que muestra un medidor de presión con la aguja marcada en 1 100 atm y una comparación visual con la presión al nivel del mar"
+    },
+    {
+      "texto": "El primer descenso tripulado lo realizó James Cameron en 2012 con el Deepsea Challenger.",
+      "prompt_imagen": "Fotografía del sumergible Deepsea Challenger de James Cameron sumergiendo en aguas oscuras, con luces brillantes y una silueta del océano profundo"
+    },
+    {
+      "texto": "Los sonar multihaz miden el lecho marino con precisión milimétrica.",
+      "prompt_imagen": "Equipo de sonar multihaz instalado en un barco, mostrando en una pantalla un mapa detallado del lecho marino con líneas de profundidad"
+    },
+    {
+      "texto": "Aún quedan misterios por descubrir en sus paredes cubiertas de vida microbiana.",
+      "prompt_imagen": "Primer plano de rocas del fondo del Challenger Deep con organismos bioluminiscentes y pequeños animales marinos visibles en la oscuridad"
+    }
+  ]
+}

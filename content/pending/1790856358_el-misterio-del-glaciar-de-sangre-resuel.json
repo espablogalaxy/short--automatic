@@ -1,0 +1,34 @@
+{
+  "titulo": "El misterio del Glaciar de Sangre resuelto con radar",
+  "descripcion": "En 1911 descubrieron una cascada roja en la Antártida. Un siglo después, la tecnología reveló su secreto.",
+  "escenas": [
+    {
+      "texto": "En 1911, el explorador Griffith Taylor descubrió una cascada de agua roja brotando de un glaciar antártico.",
+      "prompt_imagen": "Fotografía histórica de una cascada de agua rojiza saliendo de la pared de un glaciar blanco en un valle seco de la Antártida."
+    },
+    {
+      "texto": "Durante casi cien años se creyó erróneamente que el color provenía de algún tipo de alga microscópica.",
+      "prompt_imagen": "Un científico con abrigo térmico analizando una muestra de agua rojiza en un tubo de ensayo dentro de una tienda polar."
+    },
+    {
+      "texto": "En 2017, un equipo de geofísicos utilizó un radar de penetración terrestre para escanear el glaciar.",
+      "prompt_imagen": "Dos investigadores con ropa de expedición arrastrando una antena de radar sobre un trineo en una superficie de hielo."
+    },
+    {
+      "texto": "El radar detectó una enorme red de agua líquida oculta bajo cuatrocientos metros de hielo sólido.",
+      "prompt_imagen": "Esquema en corte transversal mostrando un glaciar blanco con un lago subterráneo líquido atrapado en su base rocosa."
+    },
+    {
+      "texto": "El agua lleva dos millones de años atrapada sin luz ni oxígeno, saturada de sal y nanopartículas de hierro.",
+      "prompt_imagen": "Primer plano de agua espesa de tono naranja oxidado goteando sobre hielo transparente."
+    },
+    {
+      "texto": "Al tocar el aire exterior, el hierro se oxida instantáneamente y convierte el agua en un torrente carmesí.",
+      "prompt_imagen": "Plano general del frente del glaciar Taylor con una cascada de color rojo intenso cayendo sobre la nieve blanca."
+    },
+    {
+      "texto": "Hoy, la NASA prueba en este glaciar los sensores que buscarán vida bajo el hielo de Marte y Europa.",
+      "prompt_imagen": "Un vehículo robótico de exploración polar con cámaras y sensores operando sobre la superficie congelada antártica."
+    }
+  ]
+}

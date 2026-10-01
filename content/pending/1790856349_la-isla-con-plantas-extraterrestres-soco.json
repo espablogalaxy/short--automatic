@@ -1,0 +1,30 @@
+{
+  "titulo": "La isla con plantas extraterrestres: Socotra",
+  "descripcion": "Descubre Socotra, la misteriosa isla en Yemen donde el 37% de su flora no existe en ninguna otra parte del mundo.",
+  "escenas": [
+    {
+      "texto": "El 37% de las 825 especies de plantas de la isla de Socotra no existe en ningún otro lugar del planeta.",
+      "prompt_imagen": "Fotografía aérea de una meseta rocosa en la isla de Socotra con el océano azul de fondo y montañas áridas."
+    },
+    {
+      "texto": "El árbol de sangre de dragón parece una nave espacial vegetal con forma de paraguas perfectamente denso.",
+      "prompt_imagen": "Plano medio de un árbol de sangre de dragón con copa simétrica en forma de hongo gigante sobre tierra seca."
+    },
+    {
+      "texto": "Si se corta su corteza, brota una savia espesa de color rojo oscuro que los romanos ya usaban como tinte.",
+      "prompt_imagen": "Primer plano del tronco rugoso de un árbol del que escurre una resina densa de color rojo carmesí brillante."
+    },
+    {
+      "texto": "También abundan los árboles botella, troncos hinchados gigantescos que almacenan agua para soportar meses de sequía extrema.",
+      "prompt_imagen": "Varios árboles botella con troncos anchos y bulbosos con flores rosas creciendo en una ladera pedregosa."
+    },
+    {
+      "texto": "Esta isla se separó del continente africano hace 20 millones de años, creando una cápsula de evolución aislada.",
+      "prompt_imagen": "Ilustración de satélite que muestra la posición geográfica de la isla de Socotra en el mar Arábigo frente a Somalia."
+    },
+    {
+      "texto": "Por su aspecto irreal, Socotra sirve de referencia directa para ilustradores y diseñadores de entornos extraterrestres en videojuegos.",
+      "prompt_imagen": "Panorámica de un valle en Socotra durante el atardecer con docenas de árboles de sangre de dragón proyectando sombras largas."
+    }
+  ]
+}
