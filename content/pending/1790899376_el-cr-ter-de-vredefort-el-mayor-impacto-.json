@@ -1,0 +1,30 @@
+{
+  "titulo": "El cráter de Vredefort: el mayor impacto de meteorito registrado",
+  "descripcion": "Descubre los datos asombrosos del cráter de Vredefort, el mayor impacto de meteorito conocido en la Tierra.",
+  "escenas": [
+    {
+      "texto": "Hace 2.023 millones de años, un meteorito de 10 km de diámetro impactó Sudáfrica creando el cráter de Vredefort.",
+      "prompt_imagen": "Vista aérea del cráter de Vredefort en Sudáfrica, mostrando su forma circular gigante sobre un paisaje de llanuras verdes y rocosas, con una escala que indica 300 km de diámetro."
+    },
+    {
+      "texto": "El cráter original medía unos 300 km de diámetro, el más grande de la Tierra.",
+      "prompt_imagen": "Mapa topográfico que destaca el contorno del cráter de Vredefort con un círculo de 300 km de diámetro sobre el mapa de Sudáfrica."
+    },
+    {
+      "texto": "El impacto liberó energía equivalente a 10 mil millones de bombas atómicas.",
+      "prompt_imagen": "Ilustración comparativa que muestra una explosión gigante con el símbolo de una bomba nuclear y la cifra '10.000.000.000' al lado."
+    },
+    {
+      "texto": "El impacto fundió la corteza terrestre, creando rocas únicas llamadas brechas de impacto.",
+      "prompt_imagen": "Primer plano de una roca de brecha de impacto con textura brillante y vetas, sobre fondo neutro."
+    },
+    {
+      "texto": "Hoy el cráter es Patrimonio Mundial de la UNESCO desde 2004.",
+      "prompt_imagen": "Placa de la UNESCO colgando sobre una foto del paisaje del cráter, con el año '2004' visible."
+    },
+    {
+      "texto": "Los científicos estudian Vredefort para entender los efectos de impactos masivos en la vida.",
+      "prompt_imagen": "Grupo de científicos con equipos de campo, mirando rocas y tomando notas dentro del cráter."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "titulo": "El origen real del misterioso sonido \"The Bloop\"",
+  "descripcion": "Descubre cómo un enigmático sonido captado en 1997 resultó ser el crujido de un iceberg y no una criatura desconocida.",
+  "escenas": [
+    {
+      "texto": "En 1997, los hidrófonos del NOAA registraron un sonido de 1 Hz a 5 kHz llamado \"The Bloop\".",
+      "prompt_imagen": "Mapa del océano Pacífico mostrando varios hidrófonos bajo el agua y una representación visual de una onda sonora que se extiende desde el punto de captura."
+    },
+    {
+      "texto": "Al principio, los científicos temieron que fuera una criatura marina gigantesca.",
+      "prompt_imagen": "Ilustración de una criatura marina enorme, similar a una ballena, nadando en aguas profundas y oscuras."
+    },
+    {
+      "texto": "Compararon su firma con los crujidos que emiten los icebergs al romperse.",
+      "prompt_imagen": "Fotografía de un iceberg grande desprendiéndose del hielo, con ondas de sonido visibles alrededor del punto de fractura."
+    },
+    {
+      "texto": "El análisis mostró una coincidencia exacta en la frecuencia del sonido del hielo.",
+      "prompt_imagen": "Gráfica de frecuencia sonora que compara la señal de \"The Bloop\" con la de un iceberg rompiéndose, ambas líneas coinciden."
+    },
+    {
+      "texto": "En 2005, confirmaron que el origen era el iceberg A68 frente a la Antártida.",
+      "prompt_imagen": "Imagen aérea del iceberg A68 flotando cerca de la costa antártica, con etiquetas que indican su posición."
+    },
+    {
+      "texto": "El sonido viajó miles de kilómetros hasta llegar a los receptores en Hawái.",
+      "prompt_imagen": "Mapa oceánico con una línea punteada que muestra el trayecto del sonido desde la Antártida hasta Hawái."
+    },
+    {
+      "texto": "Hoy se usa como referencia en estudios de acústica submarina.",
+      "prompt_imagen": "Laboratorio con científicos frente a una pantalla que muestra ondas sonoras bajo el agua y datos de frecuencia."
+    }
+  ]
+}

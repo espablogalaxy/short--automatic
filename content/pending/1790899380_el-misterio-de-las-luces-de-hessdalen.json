@@ -1,0 +1,30 @@
+{
+  "titulo": "El misterio de las luces de Hessdalen",
+  "descripcion": "Descubre los datos más sorprendentes sobre las luces inexplicables que aparecen en el valle de Hessdalen, Noruega, y por qué aún nadie ha encontrado una explicación definitiva.",
+  "escenas": [
+    {
+      "texto": "En 1981, los residentes de Hessdalen, Noruega, comenzaron a ver luces misteriosas que desaparecían en segundos.",
+      "prompt_imagen": "Aldea pequeña de Hessdalen al atardecer, cielo oscuro con varias luces brillantes flotando sobre el valle, montañas nevadas al fondo"
+    },
+    {
+      "texto": "Estas luces aparecen tanto de día como de noche, y su color varía entre blanco, rojo y azul.",
+      "prompt_imagen": "Cielo diurno sobre el valle de Hessdalen con una luz blanca brillante flotando cerca del horizonte, y una segunda escena nocturna con luces rojas y azules"
+    },
+    {
+      "texto": "Los científicos instalaron una estación de observación en 1995 para registrar el fenómeno.",
+      "prompt_imagen": "Edificio de laboratorio de observación en el valle, con antenas, paneles solares y equipos de medición, rodeado de nieve y montañas"
+    },
+    {
+      "texto": "Los registros muestran que las luces pueden moverse a más de 500 km/h.",
+      "prompt_imagen": "Luz brillante trazando una línea de movimiento rápido sobre el paisaje de Hessdalen, con indicadores de velocidad de 500 km/h en la esquina"
+    },
+    {
+      "texto": "Algunas teorías sugieren que son plasma atmosférico, mientras que otras hablan de actividad extraterrestre.",
+      "prompt_imagen": "Dos científicos frente a una pantalla grande, uno señalando gráficos de plasma y el otro una ilustración de una nave espacial, en una sala de control"
+    },
+    {
+      "texto": "Hasta hoy, el misterio sigue sin resolverse, y los turistas visitan Hessdalen con la esperanza de verlo.",
+      "prompt_imagen": "Grupo de turistas con cámaras apuntando al cielo nocturno sobre Hessdalen, luces misteriosas visibles en el firmamento"
+    }
+  ]
+}
