@@ -1,0 +1,34 @@
+{
+  "titulo": "La puerta del infierno de Darvaza: el fuego que nunca se apaga",
+  "descripcion": "Descubre la historia de la cráter ardiente de Darvaza, el ‘infierno’ que lleva quemando gas natural desde 1971 en el desierto de Turkmenistán.",
+  "escenas": [
+    {
+      "texto": "En 1971, geólogos soviéticos encendieron la puerta del infierno de Darvaza.",
+      "prompt_imagen": "Grupo de geólogos con ropa de los años 70 junto a una gran grieta en el suelo del desierto, encendiendo una llama."
+    },
+    {
+      "texto": "El cráter mide unos 70 metros de diámetro y 20 metros de profundidad.",
+      "prompt_imagen": "Vista aérea del cráter circular de 70 metros de ancho y 20 metros de profundidad, con fuego brillante en el interior."
+    },
+    {
+      "texto": "Se perforó para extraer gas natural, pero el pozo colapsó.",
+      "prompt_imagen": "Equipo de perforación abandonado en el desierto, con una gran grieta de donde salió gas."
+    },
+    {
+      "texto": "Para evitar una explosión, quemaron el gas que escapaba.",
+      "prompt_imagen": "Llamas intensas emergiendo de la grieta, rodeadas de polvo y humo, bajo un cielo despejado."
+    },
+    {
+      "texto": "El fuego ha permanecido encendido durante más de 50 años.",
+      "prompt_imagen": "Cronología visual con una línea de tiempo mostrando los años 1971, 1990, 2010 y 2023, todas con el mismo cráter en llamas."
+    },
+    {
+      "texto": "Hoy, turistas de todo el mundo acuden a fotografiar el infierno de la Tierra.",
+      "prompt_imagen": "Grupo de turistas con cámaras y mochilas frente al cráter iluminado por la noche, tomando fotos."
+    },
+    {
+      "texto": "Los científicos estudian cómo apagarlo antes de que se agote el gas subterráneo.",
+      "prompt_imagen": "Equipo de investigadores con instrumentos científicos alrededor del cráter, discutiendo planos y mapas."
+    }
+  ]
+}

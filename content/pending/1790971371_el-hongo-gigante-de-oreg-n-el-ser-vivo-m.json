@@ -1,0 +1,30 @@
+{
+  "titulo": "El hongo gigante de Oregón: el ser vivo más grande del planeta",
+  "descripcion": "Descubre cómo el hongo Armillaria ostoyae, conocido como el \"hongo de miel\", se extiende bajo tierra en el bosque nacional de Malheur, convirtiéndose en el organismo viviente más extenso del mundo.",
+  "escenas": [
+    {
+      "texto": "En el bosque de Malheur, Oregón, el hongo Armillaria ostoyae ocupa 9,6 km².",
+      "prompt_imagen": "Vista aérea del bosque de Malheur en Oregón, mostrando una zona delimitada de 9,6 km² con árboles y vegetación."
+    },
+    {
+      "texto": "Se estima que su masa supera las 35.000 toneladas.",
+      "prompt_imagen": "Representación gráfica de un hongo subterráneo con una balanza marcando 35.000 toneladas."
+    },
+    {
+      "texto": "Este organismo tiene más de 2.400 años de edad.",
+      "prompt_imagen": "Calendario histórico con años marcados, resaltando el número 2.400, sobre fondo de raíces y tierra."
+    },
+    {
+      "texto": "Se extiende bajo tierra a través de una densa red de micelios como un bosque invisible.",
+      "prompt_imagen": "Ilustración de micelios bajo tierra formando una densa red entre troncos de árboles."
+    },
+    {
+      "texto": "A pesar de su tamaño, la mayor parte está oculta bajo el suelo.",
+      "prompt_imagen": "Corte transversal del suelo mostrando raíces y micelios que ocupan la mayor parte del espacio."
+    },
+    {
+      "texto": "Los científicos lo descubrieron en 1998 al estudiar la enfermedad del árbol.",
+      "prompt_imagen": "Laboratorio de campo con científicos tomando muestras de madera y consultando un mapa del hongo."
+    }
+  ]
+}

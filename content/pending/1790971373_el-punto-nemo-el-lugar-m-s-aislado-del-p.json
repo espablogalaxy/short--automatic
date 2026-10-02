@@ -1,0 +1,30 @@
+{
+  "titulo": "El punto Nemo: el lugar más aislado del planeta",
+  "descripcion": "Descubre qué es el punto Nemo, dónde está y por qué es el punto más alejado de cualquier masa terrestre.",
+  "escenas": [
+    {
+      "texto": "El punto Nemo está a 2 688 km de la isla Ducie, la tierra más cercana.",
+      "prompt_imagen": "Mapa satelital del Pacífico Sur con un punto rojo en las coordenadas 48°52′S 123°23′W y la isla Ducie señalada al noreste, líneas de distancia indicando 2,688 km."
+    },
+    {
+      "texto": "Se ubica en el Pacífico Sur, exactamente a 48°52′S 123°23′W.",
+      "prompt_imagen": "Vista aérea del océano Pacífico Sur con un marcador en las coordenadas latitud -48.87, longitud -123.38 resaltado en rojo."
+    },
+    {
+      "texto": "Ningún continente está a menos de 2 688 km de ese punto.",
+      "prompt_imagen": "Ilustración con círculos concéntricos alrededor del punto Nemo, el círculo más interno tocando la isla Ducie y mostrando la distancia mínima de 2,688 km."
+    },
+    {
+      "texto": "Incluso la Antártida está a más de 3 000 km de distancia.",
+      "prompt_imagen": "Mapa que conecta el punto Nemo con la costa antártica, con una flecha y una etiqueta que indica aproximadamente 3,000 km."
+    },
+    {
+      "texto": "Cuando la ISS pasa sobre él, la nave está a 400 km de altura.",
+      "prompt_imagen": "Imagen de la Estación Espacial Internacional orbitando sobre el océano, con el punto Nemo marcado en la superficie y una línea que muestra 400 km de distancia."
+    },
+    {
+      "texto": "Por su aislamiento, se usa como cementerio de satélites y naves espaciales.",
+      "prompt_imagen": "Fotografía del fondo oceánico mostrando restos de varios satélites y una nave espacial sumergida, con una señal de advertencia flotando cerca."
+    }
+  ]
+}
