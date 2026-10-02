@@ -1,0 +1,30 @@
+{
+  "titulo": "¿Por qué el lago Hillier es rosa?",
+  "descripcion": "Descubre el origen biológico detrás del agua rosa chicle del lago Hillier en Australia y la ciencia de sus microorganismos.",
+  "escenas": [
+    {
+      "texto": "En 2015, los científicos del Extreme Microbiome Project lograron resolver el misterio del lago Hillier en Australia.",
+      "prompt_imagen": "Vista aérea cenital del lago Hillier en Australia, mostrando agua de color rosa brillante rodeada por un bosque verde oscuro y la costa azul del océano."
+    },
+    {
+      "texto": "Este lago de seiscientos metros de longitud mantiene su color chicle incluso cuando sacas el agua en un vaso de cristal.",
+      "prompt_imagen": "Una mano sosteniendo un frasco de vidrio transparente lleno de agua de color rosa brillante, con la orilla arenosa del lago de fondo."
+    },
+    {
+      "texto": "El análisis genético reveló que no era un fenómeno químico, sino un ecosistema biológico extremo.",
+      "prompt_imagen": "Un científico con bata blanca y guantes usando una pipeta en un laboratorio, frente a varios tubos de ensayo con muestras de líquido rosado."
+    },
+    {
+      "texto": "El principal responsable es la microalga Dunaliella salina, que produce betacaroteno para protegerse del sol en aguas hipersalinas.",
+      "prompt_imagen": "Micrografía óptica de células microscópicas individuales de Dunaliella salina de color naranja rojizo sobre un fondo neutro de microscopio."
+    },
+    {
+      "texto": "También habitan miles de millones de arqueas halófilas, microbios que utilizan pigmentos rojos para absorber luz en lugar de clorofila.",
+      "prompt_imagen": "Imagen de microscopio de colonias de bacterias halófilas de color rojo claro creciendo sobre una superficie de cristales de sal blanca."
+    },
+    {
+      "texto": "Aunque el agua es totalmente segura para nadar, el lago es hoy una reserva natural protegida accesible solo por el aire.",
+      "prompt_imagen": "Un helicóptero blanco volando a media distancia sobre el borde del lago rosa, con árboles verdes y la costa marina en el horizonte."
+    }
+  ]
+}

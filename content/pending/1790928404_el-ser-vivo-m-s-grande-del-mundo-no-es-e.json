@@ -1,0 +1,34 @@
+{
+  "titulo": "El ser vivo más grande del mundo no es el que imaginas",
+  "descripcion": "Descubre a Armillaria ostoyae en Oregón, el gigantesco hongo subterráneo que supera en tamaño y masa a cualquier animal del planeta.",
+  "escenas": [
+    {
+      "texto": "En 1998, un equipo de científicos en Oregón descubrió un solo organismo vivo que abarca 965 hectáreas.",
+      "prompt_imagen": "Fotografía aérea con dron sobre un denso bosque de pinos en las montañas de Oregón bajo un cielo nublado matutino."
+    },
+    {
+      "texto": "No es una ballena azul ni una secuoya gigante, sino un hongo subterráneo llamado Armillaria ostoyae.",
+      "prompt_imagen": "Un botánico con abrigo impermeable y lupa de mano inspeccionando la base de un pino cubierto de musgo en el bosque húmedo."
+    },
+    {
+      "texto": "En la superficie solo asoman pequeñas setas de color miel agrupadas al pie de los troncos.",
+      "prompt_imagen": "Primer plano macro de pequeñas setas de color marrón claro creciendo en la corteza de un tronco caído con hojas secas alrededor."
+    },
+    {
+      "texto": "Bajo tierra, una vasta red de filamentos microscópicos llamada micelio conecta todo el bosque entre sí.",
+      "prompt_imagen": "Corte transversal fotográfico de tierra oscura mostrando raíces gruesas de árboles y una red densa de filamentos blancos ramificados."
+    },
+    {
+      "texto": "Las pruebas de ADN confirmaron que toda esa masa es un único clon genético de más de 30.000 toneladas.",
+      "prompt_imagen": "Interior de un laboratorio de biología forestal con muestras de tierra en placas de Petri sobre una mesa metálica iluminada."
+    },
+    {
+      "texto": "Con más de 2.400 años de antigüedad, se extiende lentamente pudriendo las raíces de los árboles huéspedes.",
+      "prompt_imagen": "Detalle macro de la raíz subterránea de un pino invadida por cordones de rizomorfos oscuros y moho blanquecino en la tierra."
+    },
+    {
+      "texto": "Así, la criatura viva más colosal del planeta opera como una gigantesca red oculta bajo nuestros pies.",
+      "prompt_imagen": "Plano general de una persona con mochila de senderismo caminando por un sendero rodeado de gigantescos pinos rectos hacia el horizonte."
+    }
+  ]
+}
