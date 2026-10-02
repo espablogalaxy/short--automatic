@@ -1,0 +1,30 @@
+{
+  "titulo": "Las piedras navegantes del Valle de la Muerte",
+  "descripcion": "Descubre el misterioso fenómeno de las rocas que se desplazan solas en Racetrack Playa, cómo y por qué ocurre.",
+  "escenas": [
+    {
+      "texto": "En 2014 los investigadores confirmaron que el viento y el hielo impulsan las piedras.",
+      "prompt_imagen": "Una vista aérea de Racetrack Playa con rocas pequeñas sobre la tierra seca, viento soplando y una capa delgada de hielo bajo la superficie."
+    },
+    {
+      "texto": "Las rocas pueden viajar hasta 200 metros en una sola noche.",
+      "prompt_imagen": "Una pista de tierra del desierto con varias rocas alineadas, una de ellas marcada con una cinta de color para indicar movimiento, bajo la luz de la luna."
+    },
+    {
+      "texto": "El proceso necesita una capa de hielo de apenas 2 centímetros de grosor.",
+      "prompt_imagen": "Primer plano de una delgada capa de hielo transparente sobre arena del desierto, con pequeñas grietas y una piedra parcialmente cubierta."
+    },
+    {
+      "texto": "Cuando el hielo se rompe, el viento lo empuja y la piedra avanza.",
+      "prompt_imagen": "Una piedra de forma ovalada siendo empujada por una corriente de aire visible como líneas de movimiento, mientras fragmentos de hielo se desprenden a su alrededor."
+    },
+    {
+      "texto": "Los rastros dejados son surcos que parecen caminos.",
+      "prompt_imagen": "Suelo del desierto mostrando surcos estrechos y líneas trazadas por el paso de una piedra, con arena desplazada a los lados."
+    },
+    {
+      "texto": "Aún hoy, el fenómeno sigue sorprendiéndonos en el desierto.",
+      "prompt_imagen": "Un atardecer en el Valle de la Muerte con la pista de arena iluminada, rocas solitarias y sombras largas, transmitiendo misterio."
+    }
+  ]
+}

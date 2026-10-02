@@ -1,0 +1,30 @@
+{
+  "titulo": "Vida bajo presión: los seres de la Fosa de las Marianas",
+  "descripcion": "Descubre cómo la presión de más de 1 100 atmósferas permite la existencia de criaturas únicas en la zona más profunda del océano.",
+  "escenas": [
+    {
+      "texto": "A 11 034 metros bajo el mar, la presión supera las 1 100 atmósferas.",
+      "prompt_imagen": "Vista submarina mostrando el fondo de la Fosa de las Marianas con una sonda profunda en el agua, escala de profundidad marcada en metros."
+    },
+    {
+      "texto": "Los anfípodos gigantes pueden medir hasta 30 centímetros.",
+      "prompt_imagen": "Primer plano de un anfípodo gigante sobre el lecho marino, con detalles de su cuerpo translúcido y patas largas."
+    },
+    {
+      "texto": "El pez caracol abre su mandíbula 180 grados para atrapar presas.",
+      "prompt_imagen": "Imagen del pez caracol mostrando su mandíbula abierta al máximo, rodeado de arena y rocas negras."
+    },
+    {
+      "texto": "Los cangrejos de cueva viven a 8 000 metros gracias a su exoesqueleto reforzado.",
+      "prompt_imagen": "Cangrejo de cueva de colores pálidos caminando sobre una superficie rocosa profunda."
+    },
+    {
+      "texto": "Bacterias quimiosintéticas convierten sulfuro en energía sin luz.",
+      "prompt_imagen": "Microcolonias de bacterias brillando en un ventarrón hidrotermal, con tubos de sulfuro expulsando vapor."
+    },
+    {
+      "texto": "Solo tres misiones tripuladas han alcanzado la fosa de las Marianas.",
+      "prompt_imagen": "Interior del sumergible Trieste o del DSV Limiting Factor, con pilotos mirando una ventana hacia la oscuridad profunda."
+    }
+  ]
+}

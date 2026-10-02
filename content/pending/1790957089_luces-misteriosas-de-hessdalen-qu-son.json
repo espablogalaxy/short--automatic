@@ -1,0 +1,30 @@
+{
+  "titulo": "Luces misteriosas de Hessdalen: ¿qué son?",
+  "descripcion": "Descubre el enigmático fenómeno luminoso que ha sorprendido a científicos y turistas en el valle de Hessdalen, Noruega.",
+  "escenas": [
+    {
+      "texto": "Desde 1981 se han registrado más de 20 000 avistamientos de luces en Hessdalen.",
+      "prompt_imagen": "Valle de Hessdalen al atardecer, con montañas cubiertas de nieve y una esfera de luz blanca flotando sobre el terreno."
+    },
+    {
+      "texto": "Las luces aparecen en forma de orbes, columnas o destellos que duran segundos o minutos.",
+      "prompt_imagen": "Cielo nocturno sobre Hessdalen, mostrando varios orbes luminosos de colores rojo y azul, algunos alargados como columnas."
+    },
+    {
+      "texto": "Los residentes locales afirman que el fenómeno ocurre sin pronóstico meteorológico.",
+      "prompt_imagen": "Casa de madera típica de los pueblos noruegos, con una familia mirando hacia el cielo mientras una luz parpadea cerca."
+    },
+    {
+      "texto": "Equipos científicos instalaron sensores y cámaras en 1998 para medir la energía de las luces.",
+      "prompt_imagen": "Laboratorio al aire libre en Hessdalen, con antenas, cámaras de alta velocidad y medidores de campo electromagnético bajo una noche estrellada."
+    },
+    {
+      "texto": "Algunos estudios sugieren que la ionización del aire y el plasma podrían explicar el brillo.",
+      "prompt_imagen": "Ilustración científica que muestra una nube de plasma brillante emergiendo del suelo, con diagramas de partículas cargadas."
+    },
+    {
+      "texto": "Aún hoy, el misterio persiste y atrae a visitantes de todo el mundo.",
+      "prompt_imagen": "Turistas con linternas y cámaras de fotos reunidos en la orilla del valle, observando una luz verde que se eleva lentamente."
+    }
+  ]
+}
