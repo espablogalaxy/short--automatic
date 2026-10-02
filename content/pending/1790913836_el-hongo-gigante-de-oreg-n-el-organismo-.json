@@ -1,0 +1,30 @@
+{
+  "titulo": "El hongo gigante de Oregón: el organismo viviente más grande del planeta",
+  "descripcion": "Descubre cómo un hongo bajo tierra se extiende por miles de hectáreas, convirtiéndose en el ser vivo más grande y antiguo del mundo.",
+  "escenas": [
+    {
+      "texto": "En 1998, científicos descubrieron que el hongo Armillaria ostoyae en Oregón cubre 9.65 km².",
+      "prompt_imagen": "Mapa topográfico de Oregón con un área sombreada de 9.65 kilómetros cuadrados resaltada, sobre un bosque de coníferas."
+    },
+    {
+      "texto": "Este hongo se extiende bajo tierra como un solo organismo, pese a que sus setas aparecen esporádicamente.",
+      "prompt_imagen": "Vista subterránea que muestra una densa red de filamentos blancos (micelio) conectando las raíces de varios árboles."
+    },
+    {
+      "texto": "Su edad se estima en más de 2,400 años, lo que lo convierte también en uno de los seres más antiguos.",
+      "prompt_imagen": "Sección transversal del suelo con capas de sedimento y una escala de tiempo que marca 2,400 años, con el micelio destacado en la capa más profunda."
+    },
+    {
+      "texto": "El hongo necesita madera muerta, por lo que ayuda a reciclar bosques y mantener el ecosistema.",
+      "prompt_imagen": "Troncos caídos cubiertos de hongos en un bosque, con hojas y musgo alrededor, mostrando descomposición natural."
+    },
+    {
+      "texto": "A pesar de su tamaño, es difícil de ver porque la mayor parte vive bajo la tierra.",
+      "prompt_imagen": "Primer plano de una pequeña seta marrón emergiendo del suelo entre hierbas, con tierra alrededor."
+    },
+    {
+      "texto": "Si se pudiera ver toda su extensión, cubriría todo el estado de Oregón y más.",
+      "prompt_imagen": "Vista aérea de Oregon con un gran contorno verde que abarca gran parte del estado, resaltando el área del hongo."
+    }
+  ]
+}

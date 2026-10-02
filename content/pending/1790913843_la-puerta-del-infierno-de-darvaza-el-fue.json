@@ -1,0 +1,30 @@
+{
+  "titulo": "La Puerta del Infierno de Darvaza: El fuego que nunca se apaga",
+  "descripcion": "Descubre los datos sorprendentes del cráter de gas que lleva ardiendo en Turkmenistán desde 1971.",
+  "escenas": [
+    {
+      "texto": "En 1971, los geólogos soviéticos encendieron la Puerta del Infierno de Darvaza.",
+      "prompt_imagen": "Paisaje desértico de Turkmenistán con un enorme cráter circular de fuego, aproximadamente 70 metros de diámetro, llamas intensas y humo denso bajo un cielo nocturno."
+    },
+    {
+      "texto": "El cráter mide unos 70 metros de diámetro y 30 metros de profundidad.",
+      "prompt_imagen": "Vista aérea del cráter de Darvaza mostrando su forma circular y dimensiones marcadas, con la llama visible en el fondo del hueco."
+    },
+    {
+      "texto": "Se pensó que el fuego duraría solo 2 años, pero ya lleva más de 50.",
+      "prompt_imagen": "Reloj de arena gigante al lado del cráter, con la arena casi agotada y las llamas encendidas bajo él."
+    },
+    {
+      "texto": "El fuego se alimenta de una reserva subterránea de metano atrapada bajo la tierra.",
+      "prompt_imagen": "Corte transversal del subsuelo mostrando capas rocosas, una reserva de gas y la fuga que alimenta el fuego del cráter."
+    },
+    {
+      "texto": "Hoy es una atracción turística conocida como la \"Puerta del Infierno\".",
+      "prompt_imagen": "Turistas con linternas y cámaras caminando alrededor del cráter, tomando fotos mientras la llama arde intensamente al fondo."
+    },
+    {
+      "texto": "El calor del cráter alcanza aproximadamente 1.000 °C, suficiente para fundir metal.",
+      "prompt_imagen": "Termómetro digital marcando 1000°C colocado al borde del cráter, con chispas de metal fundiéndose cerca del fuego."
+    }
+  ]
+}

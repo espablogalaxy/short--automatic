@@ -1,0 +1,30 @@
+{
+  "titulo": "El lago de lava permanente del Monte Nyiragongo",
+  "descripcion": "Descubre los datos sorprendentes del lago de lava más estable del planeta, su historia, temperatura y peligros.",
+  "escenas": [
+    {
+      "texto": "En 2002, el lago de lava de Nyiragongo alcanzó los 140 °C y cubrió 700 m².",
+      "prompt_imagen": "Vista aérea del cráter del Monte Nyiragongo mostrando un lago brillante de lava roja dentro del borde negro del cráter."
+    },
+    {
+      "texto": "Este lago ha existido de forma continua desde 1902.",
+      "prompt_imagen": "Ilustración comparativa de fotos históricas del cráter mostrando la lava constante a lo largo de un siglo."
+    },
+    {
+      "texto": "La lava es basáltica, muy fluida, con viscosidad similar al aceite.",
+      "prompt_imagen": "Primer plano de la superficie del lago de lava con ondas ligeras y brillo naranja, resaltando su fluidez."
+    },
+    {
+      "texto": "Una erupción en 2002 destruyó la ciudad de Goma a solo 13 km.",
+      "prompt_imagen": "Foto aérea de la ciudad de Goma con flujos de lava alcanzando sus edificios, mostrando humo y destrucción."
+    },
+    {
+      "texto": "El lago se renueva cada 30 minutos gracias a la constante subida de magma.",
+      "prompt_imagen": "Animación esquemática del magma subiendo desde la cámara magmática hacia el cráter, llenando el lago."
+    },
+    {
+      "texto": "Los científicos monitorean la temperatura con drones equipados con sensores infrarrojos.",
+      "prompt_imagen": "Drone sobrevolando el cráter con una cámara térmica que muestra un mapa de colores de la lava."
+    }
+  ]
+}
