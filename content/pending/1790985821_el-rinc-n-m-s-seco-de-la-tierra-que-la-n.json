@@ -1,0 +1,34 @@
+{
+  "titulo": "El rincón más seco de la Tierra que la NASA usa como Marte",
+  "descripcion": "El desierto de Atacama no solo es el lugar no polar más seco del planeta, sino también el laboratorio natural donde la ciencia prueba tecnología espacial.",
+  "escenas": [
+    {
+      "texto": "En varias zonas del desierto de Atacama no se ha registrado ni una sola gota de lluvia desde hace más de 400 años.",
+      "prompt_imagen": "Fotografía en plano amplio de un desierto de tierra agrietada y rojiza, completamente seco, sin ninguna vegetación, bajo un cielo despejado sin nubes."
+    },
+    {
+      "texto": "Ubicado en el norte de Chile, este territorio extremo es el lugar no polar más seco de todo el planeta Tierra.",
+      "prompt_imagen": "Vista aérea cenital de cañones rocosos y salares blancos secos que se extienden hacia montañas áridas en el horizonte."
+    },
+    {
+      "texto": "Debido a su aridez extrema, ingenieros de la NASA lo utilizan como campo de pruebas para sus robots de exploración espacial.",
+      "prompt_imagen": "Un prototipo de rover espacial con seis ruedas metálicas y un brazo robótico avanzando sobre un terreno de piedras y polvo rojo."
+    },
+    {
+      "texto": "Los científicos calibran allí sensores biológicos porque el suelo de Atacama es químicamente casi idéntico al de Marte.",
+      "prompt_imagen": "Un científico con chaqueta de campo y guantes agachado en el suelo seco, insertando una sonda electrónica con pantalla digital en la tierra agrietada."
+    },
+    {
+      "texto": "La ausencia casi total de vapor de agua en el aire también atrajo a la mayor instalación astronómica terrestre: el observatorio ALMA.",
+      "prompt_imagen": "Una enorme antena parabólica blanca de telecomunicaciones instalada sobre una meseta desértica rocosa a gran altitud."
+    },
+    {
+      "texto": "Un conjunto de 66 antenas gigantescas trabaja de forma coordinada captando señales de galaxias lejanas con precisión milimétrica.",
+      "prompt_imagen": "Fila de múltiples antenas parabólicas gigantescas de color blanco alineadas sobre el desierto rocoso, todas apuntando hacia el cielo despejado."
+    },
+    {
+      "texto": "El lugar más seco del mundo se convirtió así en la herramienta tecnológica perfecta para explorar el resto del universo.",
+      "prompt_imagen": "Atardecer en el desierto con la silueta de antenas parabólicas científicas recortadas contra un cielo de tonos naranjas y púrpuras."
+    }
+  ]
+}

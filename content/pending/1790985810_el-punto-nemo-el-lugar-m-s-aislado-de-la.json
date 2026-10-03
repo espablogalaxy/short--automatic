@@ -1,0 +1,30 @@
+{
+  "titulo": "El punto Nemo: el lugar más aislado de la Tierra",
+  "descripcion": "Descubre por qué el punto Nemo se encuentra a miles de kilómetros de cualquier masa terrestre y qué curiosidades lo rodean.",
+  "escenas": [
+    {
+      "texto": "El 7 de junio de 1999, el buque USS Nautilus se quedó a 2 550 km del punto Nemo, la zona más alejada de tierra.",
+      "prompt_imagen": "Mapa del océano Pacífico con un punto rojo en coordenadas 48°52′S 123°23′W, y una línea que muestra 2 550 km hasta la costa más cercana."
+    },
+    {
+      "texto": "El punto Nemo es el llamado “polo de inaccesibilidad” del océano.",
+      "prompt_imagen": "Ilustración sencilla con la frase \"Polo de inaccesibilidad\" y un símbolo de ubicación rojo sobre el mapa del Pacífico."
+    },
+    {
+      "texto": "Se ubica a 48°52′S y 123°23′W, en medio del Pacífico Sur.",
+      "prompt_imagen": "Mapa mundi resaltando la latitud 48°52′S y longitud 123°23′W en medio del océano, sin tierra alrededor."
+    },
+    {
+      "texto": "Está a 2 688 km de la isla Ducie, la masa terrestre más cercana.",
+      "prompt_imagen": "Mapa mostrando el punto Nemo y la isla Ducie con una línea que indica una distancia de 2 688 km entre ambos."
+    },
+    {
+      "texto": "El vecino más cercano es la Estación Espacial Internacional, que pasa a 400 km de altura cada 90 minutos.",
+      "prompt_imagen": "Dibujo del punto Nemo en el océano con una representación de la ISS sobrevolando a 400 km, indicando su trayectoria."
+    },
+    {
+      "texto": "Ningún avión ha aterrizado allí; solo submarinos de investigación han llegado.",
+      "prompt_imagen": "Imagen de un submarino moderno bajo el agua cerca de un marcador rojo que indica la posición del punto Nemo."
+    }
+  ]
+}
