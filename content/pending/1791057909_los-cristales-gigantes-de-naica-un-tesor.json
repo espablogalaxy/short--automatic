@@ -1,0 +1,34 @@
+{
+  "titulo": "Los cristales gigantes de Naica: un tesoro natural revelado con tecnología",
+  "descripcion": "Descubre cómo la ciencia y la tecnología desvelaron la cueva de Naica y sus cristales de hasta 12 metros de longitud.",
+  "escenas": [
+    {
+      "texto": "En 2000, científicos descubrieron la Cueva de Naica, famosa por sus cristales de hasta 12 metros.",
+      "prompt_imagen": "Entrada de la cueva de Naica con una luz tenue, mostrando una gran cámara subterránea y una placa de información con la fecha 2000."
+    },
+    {
+      "texto": "Los cristales están formados de yeso (sulfato de calcio) y pesan hasta 55 toneladas.",
+      "prompt_imagen": "Primer plano de un cristal de yeso gigantesco, con una cinta métrica indicando 12 metros y una etiqueta que dice 55 toneladas."
+    },
+    {
+      "texto": "Una temperatura constante de 58 °C y 100 % de humedad mantiene el crecimiento del mineral.",
+      "prompt_imagen": "Termómetro digital marcando 58 °C y un higrómetro mostrando 100 % en la pared de la cueva."
+    },
+    {
+      "texto": "Para estudiarlos, los investigadores usaron drones con cámaras 4K y sensores térmicos.",
+      "prompt_imagen": "Drone pequeño flotando dentro de la cueva, equipado con cámara 4K y sensor térmico, iluminando cristales."
+    },
+    {
+      "texto": "Los datos se transmitieron en tiempo real a un laboratorio en la Universidad Nacional Autónoma de México.",
+      "prompt_imagen": "Pantalla de ordenador mostrando transmisión en vivo de video y datos de sensores, con el logo de la UNAM."
+    },
+    {
+      "texto": "El proyecto reveló que el proceso de cristalización duró más de 500 000 años.",
+      "prompt_imagen": "Gráfica de línea en una pantalla que muestra la cronología de 500 000 años de formación del cristal."
+    },
+    {
+      "texto": "Hoy la cueva está cerrada al público, pero la tecnología permite visitas virtuales.",
+      "prompt_imagen": "Persona con gafas de realidad virtual explorando una recreación digital de la cueva en su casa."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "titulo": "Vida bajo presión: especies de la fosa de las Marianas",
+  "descripcion": "Descubre cómo sobreviven criaturas únicas a más de 1 100 metros de profundidad y a 1.086 bares de presión en la zona más profunda del océano.",
+  "escenas": [
+    {
+      "texto": "En la fosa de las Marianas, la presión alcanza 1.086 bares, ¡más de 1 000 veces la presión atmosférica!",
+      "prompt_imagen": "Vista submarina del fondo de la fosa de las Marianas con instrumentos de medición marcando 1.086 bares, rocas y aguas oscuras."
+    },
+    {
+      "texto": "El cangrejo yeti, descubierto en 2005, vive a 7.200 metros de profundidad.",
+      "prompt_imagen": "Cangrejo yeti de color blanco en el fondo fangoso de la fosa, rodeado de tubos de lava y luces tenues."
+    },
+    {
+      "texto": "Los pepinos de mar pueden soportar la presión sin colapsar gracias a su cuerpo gelatinoso.",
+      "prompt_imagen": "Primer plano de un pepino de mar transparente, mostrando su textura gelatinosa contra el fondo rocoso."
+    },
+    {
+      "texto": "El pez anguila de los abismos tiene una bioluminiscencia que atrae presas en la oscuridad.",
+      "prompt_imagen": "Pez anguila iluminado con luz azulada en la penumbra del abismo, rodeado de sombras."
+    },
+    {
+      "texto": "Los organismos de la fosa usan proteínas especiales que no se desnaturalizan bajo alta presión.",
+      "prompt_imagen": "Representación microscópica de proteínas en una célula de pez abisal, resaltando su estructura estable."
+    },
+    {
+      "texto": "A pesar de la presión extrema, la biodiversidad de la fosa supera a la de muchos océanos superficiales.",
+      "prompt_imagen": "Collage de varias especies abisales: cangrejo yeti, pepino de mar, pez anguila y bacterias, sobre un fondo de aguas profundas."
+    }
+  ]
+}
