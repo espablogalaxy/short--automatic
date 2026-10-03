@@ -1,0 +1,38 @@
+{
+  "titulo": "El Bosque Torcido de Gryfino: Misterio y Ciencia",
+  "descripcion": "Descubre el extraño bosque de Polonia donde los árboles crecen en ángulos imposibles y cómo la tecnología ayuda a investigarlo.",
+  "escenas": [
+    {
+      "texto": "En 2014, investigadores encontraron más de 400 árboles retorcidos en Gryfino.",
+      "prompt_imagen": "Fotografía aérea del bosque torcido de Gryfino mostrando cientos de árboles inclinados en diferentes direcciones bajo un cielo gris."
+    },
+    {
+      "texto": "Los troncos forman ángulos de hasta 90 grados, como si fueran esculturas.",
+      "prompt_imagen": "Primer plano de varios troncos de árboles formando ángulos rectos, con tierra húmeda y hojas caídas."
+    },
+    {
+      "texto": "Los científicos usan drones con cámaras LIDAR para mapear la forma del bosque.",
+      "prompt_imagen": "Drone volando sobre el bosque con una pantalla que muestra un mapa de puntos en 3D del terreno."
+    },
+    {
+      "texto": "Con escáneres 3D crean modelos digitales de cada árbol para analizar su crecimiento.",
+      "prompt_imagen": "Ordenador mostrando un modelo 3D de un árbol torcido, con líneas de malla y colores de análisis."
+    },
+    {
+      "texto": "Los datos revelan que el suelo tiene una alta concentración de sales, lo que afecta al crecimiento.",
+      "prompt_imagen": "Laboratorio con muestras de suelo bajo microscopio, etiquetas que indican contenido de sales."
+    },
+    {
+      "texto": "Algunos creen que es una anomalía magnética; se instalaron sensores para medir campos.",
+      "prompt_imagen": "Sensor magnetométrico colocado en el suelo del bosque, con lecturas numéricas en una pantalla portátil."
+    },
+    {
+      "texto": "Hasta ahora, la teoría más aceptada es que la contaminación del río Oder alteró el pH del agua.",
+      "prompt_imagen": "Río Oder cercano al bosque, con aguas turbias y una señal que muestra nivel de pH."
+    },
+    {
+      "texto": "El bosque torcido sigue siendo un laboratorio viviente para la investigación tecnológica.",
+      "prompt_imagen": "Grupo de investigadores caminando entre los árboles con tabletas y equipos de medición."
+    }
+  ]
+}

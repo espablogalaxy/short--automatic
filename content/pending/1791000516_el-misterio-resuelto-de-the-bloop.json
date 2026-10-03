@@ -1,0 +1,30 @@
+{
+  "titulo": "El misterio resuelto de The Bloop",
+  "descripcion": "En 1997 la NOAA detectó el sonido más potente del océano Pacífico. Descubre la verdadera explicación científica detrás de The Bloop.",
+  "escenas": [
+    {
+      "texto": "En el verano de 1997, los hidrófonos de la NOAA detectaron un estruendo submarino a más de cinco mil kilómetros de distancia.",
+      "prompt_imagen": "Un hidrófono metálico sumergido en el lecho marino oscuro del océano, con cables negros extendidos sobre la arena y pequeñas burbujas subiendo."
+    },
+    {
+      "texto": "Bautizado como The Bloop, era un sonido tan potente que superaba con creces el canto de una ballena azul.",
+      "prompt_imagen": "Una enorme ballena azul nadando de perfil en agua marina profunda y clara, iluminada por tenues rayos de sol desde la superficie."
+    },
+    {
+      "texto": "Al acelerar la grabación dieciséis veces, parecía el rugido orgánico de un animal colosal nunca antes visto.",
+      "prompt_imagen": "Un monitor CRT de computadora de los años noventa en un laboratorio oscuro, mostrando un espectrograma de audio con líneas y crestas de color verde brillante."
+    },
+    {
+      "texto": "El punto de origen estaba inquietantemente cerca de la ubicación ficticia de la ciudad de Cthulhu creada por Lovecraft.",
+      "prompt_imagen": "Un mapa náutico antiguo del océano Pacífico Sur extendido sobre una mesa de madera, con un compás de latón y un círculo rojo dibujado en coordenadas remotas."
+    },
+    {
+      "texto": "Sin embargo, los científicos descartaron la criatura al analizar el patrón acústico con estaciones sísmicas polares.",
+      "prompt_imagen": "Un científico con bata y gafas observando con atención dos pantallas modernas de ordenador que muestran gráficos de ondas sísmicas en blanco y negro."
+    },
+    {
+      "texto": "La realidad fue un terremoto de hielo: la fractura y desprendimiento violento de un iceberg gigante en la costa de la Antártida.",
+      "prompt_imagen": "Un inmenso iceberg antártico fracturándose por la mitad, con grandes bloques de hielo cayendo al agua fría del océano y levantando espuma blanca."
+    }
+  ]
+}

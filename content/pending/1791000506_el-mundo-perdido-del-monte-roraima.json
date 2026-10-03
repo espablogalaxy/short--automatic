@@ -1,0 +1,30 @@
+{
+  "titulo": "El mundo perdido del monte Roraima",
+  "descripcion": "Descubre las extrañas especies aisladas en la cima del monte Roraima que no existen en ninguna otra parte del planeta.",
+  "escenas": [
+    {
+      "texto": "A 2810 metros de altura, la cima del monte Roraima lleva aislada del resto del mundo más de dos mil millones de años.",
+      "prompt_imagen": "Vista aerea panoramica de la meseta plana del monte Roraima rodeada por un mar de nubes blancas bajo la luz dorada del amanecer."
+    },
+    {
+      "texto": "Sus paredes verticales de 400 metros de caída libre crearon una isla en el cielo donde la evolución tomó un camino diferente.",
+      "prompt_imagen": "Primer plano de un acantilado vertical de roca oscura y vertical en el monte Roraima con una cascada que cae hacia la densa selva verde."
+    },
+    {
+      "texto": "Aquí vive el sapito minero de Roraima, un anfibio negro del tamaño de una moneda que no sabe nadar ni saltar.",
+      "prompt_imagen": "Fotografia macro de un diminuto sapo negro de piel rugosa llamado Oreophrynella quelchii sobre una roca mojada con cristales de cuarzo."
+    },
+    {
+      "texto": "Para escapar de las tarántulas, este sapo simplemente mete sus patas hacia dentro y se deja rodar por las pendientes de piedra.",
+      "prompt_imagen": "Un pequeno sapo negro enrollado sobre si mismo rodando por una superficie rocosa inclinada y humeda."
+    },
+    {
+      "texto": "Debido a que la lluvia constante lava los nutrientes del suelo rocoso, abundan plantas carnívoras como la Heliamphora.",
+      "prompt_imagen": "Primer plano detallado de una planta carnivora Heliamphora nutans con hojas tubulares en forma de jarra llenas de agua sobre suelo pedregoso."
+    },
+    {
+      "texto": "Más del 35 por ciento de las especies que caminan y crecen en esta cima no existen en ningún otro rincón del planeta.",
+      "prompt_imagen": "Paisaje sobre la cima del monte Roraima mostrando formaciones de piedra negra esculpidas por el viento, pequenos charcos de agua cristalina y niebla baja."
+    }
+  ]
+}
