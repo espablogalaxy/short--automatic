@@ -1,0 +1,30 @@
+{
+  "titulo": "El Bosque Torcido de Gryfino: Misterio y Ciencia",
+  "descripcion": "Descubre cómo la tecnología reveló los extraños árboles curvados del bosque de Gryfino y las teorías que explican este fenómeno natural.",
+  "escenas": [
+    {
+      "texto": "En 2017, científicos detectaron 147 árboles torcidos en el bosque de Gryfino, Polonia.",
+      "prompt_imagen": "Vista aérea del bosque torcido de Gryfino en Polonia, con árboles inclinados formando patrones irregulares, día claro, vegetación verde."
+    },
+    {
+      "texto": "Los locales cuentan que el bosque apareció de la nada tras una tormenta del siglo XIX.",
+      "prompt_imagen": "Pequeña aldea polaca tradicional cerca del bosque, casas de madera, gente mirando los árboles torcidos."
+    },
+    {
+      "texto": "Con GPS de alta precisión se cartografiaron las coordenadas exactas de cada árbol.",
+      "prompt_imagen": "Pantalla de ordenador mostrando un mapa GPS con marcadores rojos en la ubicación de los árboles torcidos del bosque."
+    },
+    {
+      "texto": "Un escáner LiDAR reveló la forma tridimensional de los troncos sin tocar el suelo.",
+      "prompt_imagen": "Escáner LiDAR portátil apuntando a un árbol torcido, pantalla mostrando una nube de puntos 3D del árbol."
+    },
+    {
+      "texto": "Los análisis de suelo detectaron una ligera anomalía magnética que podría influir en el crecimiento.",
+      "prompt_imagen": "Laboratorio con medidor de campo magnético sobre muestra de suelo del bosque, gráficos de lectura en pantalla."
+    },
+    {
+      "texto": "El misterio sigue, pero la tecnología nos acerca cada día más a la explicación.",
+      "prompt_imagen": "Cierre con el logo del canal sobre un atardecer en el bosque torcido, texto 'Suscríbete para más misterios tecnológicos' en la parte inferior."
+    }
+  ]
+}

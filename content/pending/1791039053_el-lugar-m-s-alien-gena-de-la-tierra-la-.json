@@ -1,0 +1,30 @@
+{
+  "titulo": "El lugar más alienígena de la Tierra: la isla de Socotra",
+  "descripcion": "Descubre Socotra, la isla del océano Índico aislada durante 18 millones de años con plantas que parecen de otro planeta.",
+  "escenas": [
+    {
+      "texto": "Aislada durante más de 18 millones de años en el océano Índico, la isla de Socotra alberga un ecosistema único.",
+      "prompt_imagen": "Vista aérea de la costa árida y montañosa de la isla de Socotra rodeada por el mar azul turquesa bajo la luz del día."
+    },
+    {
+      "texto": "El 37% de sus 825 especies de plantas no existen en ningún otro rincón del planeta Tierra.",
+      "prompt_imagen": "Primer plano de plantas suculentas de formas extrañas creciendo directamente sobre rocas calizas blancas en un terreno desértico."
+    },
+    {
+      "texto": "El espécimen más famoso es el árbol de sangre de dragón, cuya copa densa parece un platillo volador invertido.",
+      "prompt_imagen": "Varios árboles de sangre de dragón con copas verdes en forma de paraguas extendidas sobre una meseta rocosa."
+    },
+    {
+      "texto": "Si se corta su corteza, supura una resina espesa de color rojo intenso que los antiguos romanos usaban como medicina.",
+      "prompt_imagen": "Detalle en primer plano de un tronco de árbol con savia de resina roja brillante goteando por la corteza rugosa."
+    },
+    {
+      "texto": "Otro habitante insólito es el árbol botella, con un tronco hinchado capaz de almacenar cientos de litros de agua en la roca seca.",
+      "prompt_imagen": "Un árbol botella de tronco grueso y bulboso con flores rosas en la cima, arraigado en una pendiente rocosa escarpada."
+    },
+    {
+      "texto": "Este aislamiento extremo convirtió a Socotra en un laboratorio evolutivo protegido por la UNESCO como Patrimonio de la Humanidad.",
+      "prompt_imagen": "Paisaje panorámico al atardecer del cañón de Dixam en Socotra, con decenas de árboles de silueta extraña frente al sol poniente."
+    }
+  ]
+}
