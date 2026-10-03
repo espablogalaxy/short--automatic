@@ -1,0 +1,30 @@
+{
+  "titulo": "La anomalía magnética del Atlántico Sur y su impacto en los satélites",
+  "descripcion": "Descubre cómo la zona de la Anomalía del Atlántico Sur altera las comunicaciones y la precisión de los satélites en órbita.",
+  "escenas": [
+    {
+      "texto": "En 1999, la Anomalía del Atlántico Sur provocó una pérdida del 10 % de señal en el satélite Iridium.",
+      "prompt_imagen": "Mapa del océano Atlántico Sur resaltando la zona de la Anomalía Magnética, con la trayectoria del satélite Iridium en 1999 dibujada en línea azul."
+    },
+    {
+      "texto": "Es una zona donde el campo magnético terrestre se debilita y se distorsiona.",
+      "prompt_imagen": "Ilustración 3D del campo magnético terrestre con una zona roja concentrada sobre el Atlántico Sur."
+    },
+    {
+      "texto": "Los satélites pueden sufrir interferencias de hasta 5 dB en esa región.",
+      "prompt_imagen": "Panel de control de un satélite mostrando una caída de señal de 5 dB, con una alerta roja parpadeante."
+    },
+    {
+      "texto": "Los receptores GPS pueden presentar errores de posición de varios metros.",
+      "prompt_imagen": "Mapa de navegación GPS donde la ubicación marcada está desplazada varios metros respecto al punto real, en la zona del Atlántico Sur."
+    },
+    {
+      "texto": "Se emplean algoritmos de corrección y órbitas alternativas para mitigar el problema.",
+      "prompt_imagen": "Ingeniero frente a una pantalla con gráficos de órbitas ajustadas y líneas de código de corrección de señal."
+    },
+    {
+      "texto": "Los próximos satélites incluirán blindaje magnético y calibración automática.",
+      "prompt_imagen": "Modelo futurista de satélite en órbita, con escudos magnéticos visibles alrededor y sensores realizando calibración automática."
+    }
+  ]
+}

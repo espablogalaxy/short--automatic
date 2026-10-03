@@ -1,0 +1,34 @@
+{
+  "titulo": "Vida al límite: la fosa de las Marianas",
+  "descripcion": "Descubre cómo sobreviven animales únicos bajo la aplastante presión de casi 11.000 metros bajo el mar.",
+  "escenas": [
+    {
+      "texto": "A 10.994 metros de profundidad, la fosa de las Marianas soporta una presión de 1.100 atmósferas.",
+      "prompt_imagen": "Submarino no tripulado descendiendo en aguas oceánicas completamente oscuras, iluminando una pared rocosa vertical en el fondo del mar."
+    },
+    {
+      "texto": "Esto equivale a soportar el peso de cincuenta aviones comerciales sobre el cuerpo humano.",
+      "prompt_imagen": "Una prensa hidráulica de taller de acero macizo aplastando un cilindro de metal grueso, fotografía nítida."
+    },
+    {
+      "texto": "A pesar de esto, el pez caracol de las Marianas prospera a más de 8.000 metros de profundidad.",
+      "prompt_imagen": "Un pez caracol de las Marianas, de piel blanca casi transparente y sin escamas, nadando cerca del fondo marino limoso."
+    },
+    {
+      "texto": "No tiene huesos duros, sino cartílago blando y un cráneo abierto que no se rompe con la presión.",
+      "prompt_imagen": "Radiografía médica de un pez pequeño mostrando un esqueleto cartilaginoso difuso y flexible sobre fondo oscuro."
+    },
+    {
+      "texto": "Sus células contienen óxido de trimetilamina, un compuesto que evita que las proteínas se deformen.",
+      "prompt_imagen": "Diagrama tridimensional detallado de una molécula biológica y cadenas de proteínas, renderizado científico claro."
+    },
+    {
+      "texto": "Allí abajo también habitan xenofióforos: amebas gigantes de diez centímetros compuestas por una sola célula.",
+      "prompt_imagen": "Primer plano submarino de un xenofióforo, una estructura con aspecto de bola de hojas o esponja oscura sobre arena gris submarina."
+    },
+    {
+      "texto": "En 2019, el sumergible Limiting Factor confirmó que la vida en el abismo es mucho más diversa de lo previsto.",
+      "prompt_imagen": "El sumergible esférico de titanio blanco Limiting Factor apoyado en el lecho marino arenoso con focos amarillos encendidos."
+    }
+  ]
+}
