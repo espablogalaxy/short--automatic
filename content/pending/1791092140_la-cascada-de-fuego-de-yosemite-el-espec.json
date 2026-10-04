@@ -1,0 +1,30 @@
+{
+  "titulo": "La Cascada de Fuego de Yosemite: El espectáculo natural que enciende el otoño",
+  "descripcion": "Descubre la misteriosa cascada de fuego que solo aparece en Yosemite cada otoño, su origen, la ciencia detrás del fenómeno y datos sorprendentes.",
+  "escenas": [
+    {
+      "texto": "En octubre de 2023, cientos de visitantes presenciaron la cascada de fuego en Yosemite.",
+      "prompt_imagen": "Vista panorámica del valle de Yosemite al atardecer, con una columna de fuego rojizo emergiendo de una grieta en la roca, rodeada de árboles otoñales."
+    },
+    {
+      "texto": "La luz del sol al atardecer calienta rocas de hierro, creando chispas que parecen fuego.",
+      "prompt_imagen": "Rocas rojas brillando bajo la luz del sol, pequeñas chispas iluminando el aire sobre ellas."
+    },
+    {
+      "texto": "El fenómeno solo ocurre cuando la humedad está por debajo del 30% y la temperatura supera los 20°C.",
+      "prompt_imagen": "Gráfica sencilla mostrando un termómetro marcando 20°C y un medidor de humedad indicando 30%."
+    },
+    {
+      "texto": "Los científicos lo llaman 'combustión espontánea de minerales' y lo estudian para entender procesos planetarios.",
+      "prompt_imagen": "Laboratorio con científicos en bata blanca observando muestras de rocas bajo una lámpara."
+    },
+    {
+      "texto": "Aunque es seguro observarlo, nunca se debe acercar demasiado por el riesgo de quemaduras.",
+      "prompt_imagen": "Cartel de advertencia rojo con símbolo de fuego y la frase 'Mantén distancia de seguridad'."
+    },
+    {
+      "texto": "La próxima vez que visites Yosemite en otoño, busca la zona de El Capitan para no perderte este espectáculo.",
+      "prompt_imagen": "Mapa del parque Yosemite resaltando El Capitan y una flecha indicando la ubicación de la cascada de fuego."
+    }
+  ]
+}

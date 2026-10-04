@@ -1,0 +1,34 @@
+{
+  "titulo": "¿Por qué el lago Hillier es rosa?",
+  "descripcion": "Descubre el sorprendente origen biológico del color rosado del lago Hillier, uno de los más extraños del planeta.",
+  "escenas": [
+    {
+      "texto": "En 1826, el capitán Matthew Flinders descubrió el lago Hillier, famoso por su intenso color rosa.",
+      "prompt_imagen": "Vista aérea del lago Hillier en Australia, con aguas rosadas brillantes rodeadas de vegetación verde y cielo azul."
+    },
+    {
+      "texto": "Su tonalidad no proviene del polvo, sino de microorganismos que viven en el agua.",
+      "prompt_imagen": "Primer plano del agua del lago mostrando microorganismos microscópicos flotando, con una escala de tamaño visible."
+    },
+    {
+      "texto": "Las algas Dunaliella salina producen carotenoides, un pigmento rojo‑naranja.",
+      "prompt_imagen": "Ilustración científica de la alga Dunaliella salina bajo el microscopio, resaltando su forma y color rojo."
+    },
+    {
+      "texto": "Las bacterias Halobacteria generan bacteriorodopsina, que también tiñe el agua de rosa.",
+      "prompt_imagen": "Representación detallada de bacterias Halobacteria en una placa de cultivo, mostrando su color rosado."
+    },
+    {
+      "texto": "Cuando la salinidad supera el 30 %, estas especies se multiplican y el lago se vuelve más rosado.",
+      "prompt_imagen": "Gráfico comparativo del nivel de salinidad y la intensidad del color del lago, con barras y colores rosados."
+    },
+    {
+      "texto": "A diferencia de otros lagos, el color de Hillier permanece constante todo el año.",
+      "prompt_imagen": "Fotografía del lago en diferentes estaciones, mostrando la misma tonalidad rosada en cada una."
+    },
+    {
+      "texto": "Por eso, el lago Hillier es un laboratorio natural de pigmentos vivos.",
+      "prompt_imagen": "Escena del lago al atardecer, con científicos tomando muestras y el reflejo rosado en el horizonte."
+    }
+  ]
+}

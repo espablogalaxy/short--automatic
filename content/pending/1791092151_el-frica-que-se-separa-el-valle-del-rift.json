@@ -1,0 +1,30 @@
+{
+  "titulo": "El África que se separa: el Valle del Rift en acción",
+  "descripcion": "Descubre cómo la placa africana se está fragmentando a lo largo del Valle del Rift y qué implica este proceso para el continente.",
+  "escenas": [
+    {
+      "texto": "Hace 30 millones de años, la zona del Valle del Rift empezó a abrirse, creando una grieta de más de 6 000 km.",
+      "prompt_imagen": "Mapa geológico del Valle del Rift mostrando una grieta larga de 6,000 km sobre el continente africano, con colores de relieve y etiquetas."
+    },
+    {
+      "texto": "La placa Africana se está dividiendo en dos microplacas: la Nubia y la Somalí.",
+      "prompt_imagen": "Ilustración que muestra la placa Africana separándose en dos bloques etiquetados como Nubia y Somalí, con líneas de falla marcadas en rojo."
+    },
+    {
+      "texto": "Los volcanes como el Monte Kilimanjaro y el Monte Kenya son evidencia de la actividad tectónica.",
+      "prompt_imagen": "Imagen de los volcanes Kilimanjaro y Kenya emergiendo de la tierra, con humo sutil y fondo de cielo claro."
+    },
+    {
+      "texto": "Cada año el fondo del Rift se hunde unos 2 cm, creando nuevos lagos.",
+      "prompt_imagen": "Fotografía aérea del Valle del Rift con un lago azul rodeado de montañas, y una regla gráfica que indica 2 cm de hundimiento anual."
+    },
+    {
+      "texto": "Este proceso genera terremotos frecuentes en Tanzania, Kenia y Etiopía.",
+      "prompt_imagen": "Mapa de África resaltando Tanzania, Kenia y Etiopía con símbolos de temblor y ondas sísmicas en tonos amarillos."
+    },
+    {
+      "texto": "Se espera que en unos 50 millones de años África se separe completamente, formando un nuevo océano.",
+      "prompt_imagen": "Ilustración futurista del continente africano dividido con agua azul formando un océano entre los dos fragmentos, con continentes separados y líneas de separación visibles."
+    }
+  ]
+}
