@@ -1,27 +1,39 @@
-"""Genera N guiones de golpe con el LLM y los deja en content/pending/, sin
-producir vídeo ni gastar cuota de imágenes/TTS/YouTube — solo para tener una
-reserva de guiones ya escritos, igual que la cola del canal de la Pi.
+"""Rellena la cola de guiones SIN producir vídeo ni gastar cuota de imágenes/TTS/YouTube.
 
-Pensado para lanzarlo a mano de vez en cuando (o añadir un workflow_dispatch
-aparte), no como parte del cron diario.
+Antes sacaba temas al azar de una lista fija de 25 (de ahí que la cola estuviese llena
+de Hessdalen/Vredefort/Bloop repetidos) y generaba 18 guiones al día aunque solo se
+publican 3. Ahora:
+  - el modelo elige temas NUEVOS (con la lista de títulos usados y el antiduplicado);
+  - solo rellena hasta --min-cola (30 por defecto = ~10 días de reserva);
+  - genera como máximo N por ejecución.
 
-Uso: python src/generar_lote.py [N]   (N=5 por defecto)
+Uso: python src/generar_lote.py [N] [--min-cola 30]
 """
-import random
-import sys
+import argparse
 
-from cola_guiones import guardar_pendiente
-from guion_gen import generar_guion
-from main import TEMAS_PLANETA
+import dedup
+from cola_guiones import contar_pendientes, guardar_pendiente
+from guion_gen import GuionGenError, generar_guion
 
 if __name__ == "__main__":
-    n = int(sys.argv[1]) if len(sys.argv) > 1 else 5
-    temas = random.sample(TEMAS_PLANETA, k=min(n, len(TEMAS_PLANETA)))
+    ap = argparse.ArgumentParser()
+    ap.add_argument("n", nargs="?", type=int, default=3, help="máximo de guiones a generar")
+    ap.add_argument("--min-cola", type=int, default=30, help="no generar si ya hay tantos pendientes")
+    args = ap.parse_args()
 
-    for i, tema in enumerate(temas, start=1):
-        print(f"[{i}/{len(temas)}] Generando guion sobre: {tema}")
-        guion = generar_guion(tema)
-        ruta = guardar_pendiente(guion)
-        print(f"  -> guardado en {ruta}")
+    hay = contar_pendientes()
+    faltan = max(0, args.min_cola - hay)
+    objetivo = min(args.n, faltan)
+    print(f"Cola: {hay} pendientes (mínimo deseado {args.min_cola}) -> generando {objetivo}")
 
-    print(f"\nListo: {len(temas)} guiones nuevos en content/pending/.")
+    creados = 0
+    for i in range(1, objetivo + 1):
+        corpus = dedup.construir_corpus()  # se recalcula: incluye los recién creados
+        try:
+            guion = generar_guion(corpus=corpus)
+        except GuionGenError as e:
+            print(f"  [{i}/{objetivo}] no se pudo generar un guion nuevo: {e}")
+            continue
+        print(f"  [{i}/{objetivo}] {guion['titulo']} -> {guardar_pendiente(guion)}")
+        creados += 1
+    print(f"Listo: {creados} guiones nuevos en content/pending/.")
