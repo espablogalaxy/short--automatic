@@ -6,7 +6,22 @@ encendido" gratuito. No necesitas Raspberry Pi ni PC encendido 24/7.
 
 Mismo enfoque visual que el canal de la Raspberry Pi (Soporte IT): imágenes
 fotorrealistas, zoom Ken Burns por escena y subtítulos palabra a palabra tipo
-"caption viral".
+"caption viral". Temática de este canal: curiosidades verificables del planeta Tierra.
+
+## Mejoras portadas del canal de la Raspberry Pi (oct. 2026)
+
+| Mejora | Dónde | Por qué |
+|---|---|---|
+| Shorts de ~20-25 s (8 escenas de 4-7 palabras, 48-64 palabras) | `guion_gen.py`, `cola_guiones.py` | En la Pi, 20-24 s ≈ 1200 vistas de mediana; 40+ s ≈ 100. La cola sube el guion más corto entre los 12 primeros |
+| Especificidad obligatoria (cifra, nombre, año), gancho + hueco de curiosidad + cierre en bucle | `guion_gen.py` | Lo que separa los shorts con 1000+ vistas de los de <100 |
+| Antiduplicados por código + carpeta `content/discarded/` | `dedup.py`, `limpiar_cola.py` | La cola tenía el mismo tema 5-7 veces (Hessdalen, Vredefort, Bloop...) |
+| El modelo elige temas nuevos (ya no hay lista fija de 25) | `guion_gen.py`, `generar_lote.py` | La lista fija agotaba los temas y generaba repetidos |
+| Cola con tope (`--min-cola 30`) | `generar_lote.py`, `rellenar_cola.yml` | Antes generaba 18 guiones/día y solo se publican 3 |
+| Bucle de feedback con vistas reales | `metricas.py`, `metricas.yml` | Se inyectan en el prompt los títulos que mejor/peor rinden |
+| Imagen en negro por moderación detectada + prompt suavizado + reutilizar imagen anterior en vez de abortar | `image_gen.py`, `main.py` | Un fallo en una escena tiraba el vídeo entero y el hueco del día |
+| Voz neural con MeloTTS (Cloudflare) | `tts_gen.py` | StreamElements da 403 desde GitHub Actions: toda la narración caía a gTTS (robótica) |
+| `containsSyntheticMedia`, tags, idioma y categoría 28 al subir | `upload_youtube.py` | Política de YouTube sobre imágenes realistas generadas con IA + SEO |
+| Concurrencia única entre workflows | `.github/workflows/*.yml` | Evita carreras de push entre pipeline, cola y métricas |
 
 ## 0. Coste real: por qué es gratis
 
@@ -15,7 +30,7 @@ fotorrealistas, zoom Ken Burns por escena y subtítulos palabra a palabra tipo
 | Orquestación / cron | GitHub Actions | Gratis (repo público = minutos ilimitados; repo privado = 2.000 min/mes gratis) |
 | Guion (LLM) | Google Gemini API (free tier), con Groq (GPT-OSS 120B) como respaldo si se agota la cuota | Gratis |
 | Imágenes | Cloudflare Workers AI (Stable Diffusion XL, free tier), con una segunda cuenta como respaldo | Gratis |
-| Voz (TTS) | StreamElements (voz neural Amazon Polly, sin cuenta), con gTTS+FFmpeg y edge-tts como fallback | Gratis |
+| Voz (TTS) | MeloTTS en Cloudflare Workers AI (voz neural en español, mismas credenciales que las imágenes), con StreamElements, gTTS+FFmpeg y edge-tts como fallback | Gratis (free tier) |
 | Render de vídeo | FFmpeg (viene preinstalado en los runners de GitHub) | Gratis |
 | Subida | YouTube Data API v3 | Gratis (cuota diaria de 10.000 unidades; cada subida cuesta 1.600 → hasta 6 vídeos/día) |
 
@@ -62,6 +77,7 @@ Crea estos secretos (nunca se ven en los logs ni aunque el repo sea público):
 
 - `GEMINI_API_KEY`
 - `GROQ_API_KEY` (respaldo del guion)
+- `GROQ_API_KEY_2` (opcional, segunda cuenta de Groq como tercer respaldo)
 - `YT_CLIENT_ID`
 - `YT_CLIENT_SECRET`
 - `YT_REFRESH_TOKEN`
@@ -82,7 +98,7 @@ python src/main.py --no-upload   # genera un vídeo de prueba sin subirlo
 
 El archivo `.github/workflows/daily_run.yml` ya está configurado para:
 
-- Ejecutarse automáticamente cada día a las 09:00 y 18:00 UTC.
+- Ejecutarse automáticamente cada día a las 06:00, 09:00 y 18:00 UTC (la franja de las 12:00 UTC se retiró: mediana ~200 vistas frente a ~1000 en las otras; se revisa con `python src/metricas.py --informe`).
 - Poder lanzarse a mano desde la pestaña **Actions → Run workflow** (útil para probar).
 - Instalar Python, FFmpeg y las dependencias, ejecutar `src/main.py`, y hacer commit
   de vuelta al repo del guion ya usado (para no repetirlo) y de cualquier log.
@@ -94,8 +110,10 @@ ya funciona solo.
 
 Igual que el canal de la Pi, `main.py` no genera el guion siempre al vuelo:
 
-- Si hay algún `.json` en `content/pending/`, coge el más antiguo y lo usa.
-- Si la cola está vacía, genera uno nuevo con el LLM sobre un tema aleatorio.
+- Si hay algún `.json` en `content/pending/`, coge el más corto de los 12 más antiguos
+  (evitando repetir el formato de título de los 2 últimos subidos).
+- Si la cola está vacía, genera uno nuevo con el LLM sobre un tema nuevo elegido por el
+  modelo (sin repetir nada de `pending/`, `done/` ni `discarded/`).
 - Al publicarse con éxito, el guion usado se mueve a `content/done/` (histórico,
   nunca se repite).
 - `--tema "..."` se salta la cola y fuerza un guion nuevo sobre ese tema concreto.
@@ -103,7 +121,9 @@ Igual que el canal de la Pi, `main.py` no genera el guion siempre al vuelo:
 Para tener una reserva de guiones ya escritos sin gastar cuota de imágenes/TTS/YouTube:
 
 ```bash
-python src/generar_lote.py 10   # genera 10 guiones y los deja en content/pending/
+python src/generar_lote.py 10 --min-cola 30   # genera hasta 10 (solo si hay <30 pendientes)
+python src/limpiar_cola.py [--aplicar]        # mueve a content/discarded/ los pendientes que repiten tema
+python src/dedup.py --auditar                 # lista pares de guiones sospechosos de repetir tema
 ```
 
 ## 8. Límites a tener en cuenta (para que no falle silenciosamente)
@@ -123,16 +143,22 @@ python src/generar_lote.py 10   # genera 10 guiones y los deja en content/pendin
 
 ```
 .github/workflows/daily_run.yml   # el "cron" que sustituye a la Raspberry Pi
-src/guion_gen.py                  # genera título/descripción/escenas (Gemini, fallback Groq)
-src/cola_guiones.py               # gestiona content/pending/ -> content/done/
+.github/workflows/rellenar_cola.yml  # mantiene la cola de guiones (tope 30)
+.github/workflows/metricas.yml    # lee las vistas a diario y acumula el histórico
+src/guion_gen.py                  # genera título/descripción/tags/escenas (Gemini, fallback Groq x2)
+src/cola_guiones.py               # cola: pending/ -> done/ (y discarded/), elige el guion más corto
+src/dedup.py                      # detecta temas repetidos por código
+src/limpiar_cola.py               # descarta duplicados de la cola
+src/metricas.py                   # vistas reales del canal (feed RSS) -> content/metricas.json
 src/generar_lote.py               # prellena la cola de guiones sin producir vídeo
 src/image_gen.py                  # genera imágenes fotorrealistas (Cloudflare Workers AI)
-src/tts_gen.py                    # narración con StreamElements (fallback gTTS, edge-tts)
+src/tts_gen.py                    # narración con MeloTTS/Cloudflare (fallback StreamElements, gTTS, edge-tts)
 src/render.py                     # monta el vídeo final: Ken Burns + subtítulos .ass
 src/upload_youtube.py             # sube el corto a YouTube
 src/main.py                       # orquesta todo el pipeline
 src/generar_refresh_token.py      # script de un solo uso (paso 3)
 content/pending/                  # guiones generados, pendientes de producir
 content/done/                     # guiones ya publicados
+content/discarded/                # duplicados descartados (cuentan para el antiduplicado)
 requirements.txt
 ```
