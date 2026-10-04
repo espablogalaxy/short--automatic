@@ -1,0 +1,30 @@
+{
+  "titulo": "El pozo más profundo de la Tierra: Kola",
+  "descripcion": "Descubre la historia del pozo superprofundo de Kola, la perforación de 12.262 metros realizada en Rusia.",
+  "escenas": [
+    {
+      "texto": "En 1970, científicos soviéticos comenzaron a perforar el pozo de Kola hasta alcanzar 12.262 metros bajo tierra.",
+      "prompt_imagen": "Fotografía histórica de una enorme torre de perforación metálica de color gris en medio de un paisaje ártico nevado en la península de Kola."
+    },
+    {
+      "texto": "Este abismo artificial es más profundo que la altura del monte Everest si lo colocáramos al revés.",
+      "prompt_imagen": "Gráfico esquemático que muestra una sección vertical de la corteza terrestre comparando la silueta invertida del Monte Everest con la línea del pozo de Kola."
+    },
+    {
+      "texto": "A siete kilómetros de profundidad encontraron agua líquida, algo que los geólogos consideraban imposible a esa presión.",
+      "prompt_imagen": "Cilindro de roca granítica extraído del subsuelo sobre una mesa de laboratorio, con pequeñas gotas de agua visibles en sus grietas."
+    },
+    {
+      "texto": "Al superar los doce kilómetros, la temperatura rozó los 180 grados Celsius y las rocas se comportaban como plástico blando.",
+      "prompt_imagen": "Un cabezal de perforación industrial de acero con dientes rotos y deformados por el calor extremo, apoyado sobre una bandeja de metal."
+    },
+    {
+      "texto": "Las brocas comenzaron a doblarse y el colapso de la Unión Soviética obligó a detener el proyecto en 1992.",
+      "prompt_imagen": "Interior de un laboratorio de perforación soviético abandonado, con paneles de control analógicos apagados y cables colgando del techo."
+    },
+    {
+      "texto": "Hoy, el punto más hondo jamás perforado está tapado por una simple placa de acero oxidada con doce pernos.",
+      "prompt_imagen": "Primer plano de una tapa circular de hierro oxidado de unos treinta centímetros de diámetro, atornillada al suelo de hormigón agrietado."
+    }
+  ]
+}

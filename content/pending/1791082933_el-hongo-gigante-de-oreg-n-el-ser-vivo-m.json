@@ -1,0 +1,30 @@
+{
+  "titulo": "El hongo gigante de Oregón: el ser vivo más grande del planeta",
+  "descripcion": "Descubre cómo un hongo subterráneo en Oregón se extiende bajo tierra formando el organismo viviente más extenso del mundo.",
+  "escenas": [
+    {
+      "texto": "En 1992 se descubrió que el hongo Armillaria ostoyae cubre 9,6 km² en el bosque de Malheur, Oregón.",
+      "prompt_imagen": "Mapa topográfico del bosque de Malheur resaltando un área de 9,6 km² con un contorno visible."
+    },
+    {
+      "texto": "Este hongo se extiende bajo tierra hasta 30 metros de profundidad.",
+      "prompt_imagen": "Corte transversal del suelo forestal mostrando micelios del hongo llegando a 30 metros bajo la superficie."
+    },
+    {
+      "texto": "Su masa se estima en 605 000 toneladas, más pesada que cualquier animal.",
+      "prompt_imagen": "Balanza gigante con una aguja marcando 605 000 toneladas al lado de la silueta de un elefante."
+    },
+    {
+      "texto": "Es un organismo clonal de varios milenios que parece una sola entidad.",
+      "prompt_imagen": "Primer plano de una seta grande rodeada de un fondo con anillos concéntricos que simbolizan la clonación."
+    },
+    {
+      "texto": "El hongo se alimenta de árboles muertos, reciclando sus nutrientes.",
+      "prompt_imagen": "Árbol caído cubierto de musgo y micelios del hongo con raíces visibles y hojas en descomposición."
+    },
+    {
+      "texto": "Su hallazgo cambió la forma en que medimos el tamaño de los seres vivos.",
+      "prompt_imagen": "Laboratorio con científicos frente a una pantalla que muestra el mapa del hongo gigante extendiéndose bajo tierra."
+    }
+  ]
+}

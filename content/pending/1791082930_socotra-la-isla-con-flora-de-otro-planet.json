@@ -1,0 +1,34 @@
+{
+  "titulo": "Socotra: La isla con flora de otro planeta",
+  "descripcion": "Descubre por qué la vegetación de Socotra parece sacada de una película de ciencia ficción y los secretos que la tecnología nos ayuda a revelar.",
+  "escenas": [
+    {
+      "texto": "¿Sabías que la isla de Socotra alberga más de 300 especies que no existen en ningún otro lugar?",
+      "prompt_imagen": "Vista aérea de la isla de Socotra con su costa rocosa y vegetación única, mostrando árboles de sangre de dragón y plantas suculentas."
+    },
+    {
+      "texto": "Los árboles de sangre de dragón tienen una savia roja que parece sangre.",
+      "prompt_imagen": "Primer plano de un árbol de sangre de dragón con su tronco grueso y savia roja goteando."
+    },
+    {
+      "texto": "Sus extrañas formaciones se deben a siglos de aislamiento geológico.",
+      "prompt_imagen": "Paisaje rocoso de Socotra con formaciones de piedra y plantas exóticas creciendo entre grietas."
+    },
+    {
+      "texto": "Los drones de alta resolución cartografían cada rincón de la isla.",
+      "prompt_imagen": "Drone volando sobre la selva de Socotra, capturando imágenes detalladas del terreno y la flora."
+    },
+    {
+      "texto": "Los algoritmos de IA identifican más de 1.200 especies en segundos.",
+      "prompt_imagen": "Pantalla de computadora con software de reconocimiento de plantas mostrando imágenes de flora de Socotra y etiquetas de especies."
+    },
+    {
+      "texto": "Esta combinación de naturaleza y tecnología ayuda a proteger un patrimonio mundial.",
+      "prompt_imagen": "Científicos trabajando en campo con tabletas, rodeados de plantas alienígenas, con un fondo de montañas."
+    },
+    {
+      "texto": "¡Socotra, el planeta Tierra en versión extraterrestre!",
+      "prompt_imagen": "Imagen que muestra la isla con un estilo sci‑fi, resaltando la flora como si fuera de otro planeta, sin elementos abstractos."
+    }
+  ]
+}
