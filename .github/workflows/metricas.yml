@@ -1,0 +1,44 @@
+name: Actualizar métricas del canal
+
+on:
+  schedule:
+    - cron: "30 5 * * *"  # a diario, antes de la primera subida
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+
+jobs:
+  metricas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Descargar repo
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Leer vistas del feed público y acumular histórico
+        run: |
+          python src/metricas.py
+          python src/metricas.py --informe
+
+      - name: Guardar métricas
+        run: |
+          git config user.name "shorts-bot"
+          git config user.email "shorts-bot@users.noreply.github.com"
+          git add content/metricas.json
+          git diff --cached --quiet || git commit -m "Actualiza métricas del canal [skip ci]"
+          git fetch origin main
+          git rebase origin/main
+          git push
