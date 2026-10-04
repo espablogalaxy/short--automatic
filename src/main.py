@@ -25,40 +25,10 @@ from render import (
     quemar_subtitulos,
 )
 
-TEMAS_PLANETA = [
-    "el abismo de Challenger y su profundidad exacta",
-    "el hongo gigante de Oregón como el ser vivo más grande del mundo",
-    "el supervolcán inactivo bajo el parque de Yellowstone",
-    "el punto Nemo y su lejanía extrema de cualquier masa terrestre",
-    "la anomalía magnética del Atlántico Sur y su efecto en satélites",
-    "el pozo superprofundo de Kola en Rusia",
-    "el lago Hillier en Australia y el origen biológico de su color rosa",
-    "el río hirviente de la Amazonía peruana",
-    "el monte Roraima y sus especies endémicas aisladas",
-    "la puerta del infierno de Darvaza ardiendo en Turkmenistán",
-    "el glaciar de sangre en la Antártida",
-    "las piedras navegantes que se mueven solas en el Valle de la Muerte",
-    "la cueva de los cristales gigantes de Naica en México",
-    "el bosque torcido de Gryfino en Polonia",
-    "la cascada de fuego estacional del parque Yosemite",
-    "el lago de lava permanente del monte Nyiragongo",
-    "la presión extrema y las especies abisales de la fosa de las Marianas",
-    "el ojo del Sahara o estructura de Richat visible desde el espacio",
-    "el fenómeno inexplicado de las luces de Hessdalen en Noruega",
-    "el desierto de Atacama como el lugar no polar más seco del planeta",
-    "el cráter de Vredefort como el mayor impacto de meteorito registrado",
-    "la isla de Socotra y su flora con apariencia alienígena",
-    "el origen real del sonido de baja frecuencia 'The Bloop' en el océano",
-    "la Gran Barrera de Coral como la estructura viva más grande de la Tierra",
-    "el movimiento tectónico que está partiendo África en el valle del Rift",
-]
-
-
 def _conseguir_guion(tema: str | None) -> tuple[Path, dict]:
-    """Si se pasa --tema, se salta la cola y genera un guion nuevo sobre ese
-    tema. Si no, coge el guion pendiente más antiguo de la cola; si la cola
-    está vacía, genera uno nuevo sobre un tema aleatorio y lo mete en la cola
-    antes de usarlo (así queda registrado igual que si viniera de ella)."""
+    """--tema fuerza un guion nuevo sobre ese tema. Si no, coge el siguiente de la cola
+    (el más corto de los primeros pendientes); si la cola está vacía, genera uno nuevo
+    (tema elegido por el modelo, sin repetir nada de pending/done/discarded)."""
     if tema:
         print(f"Tema forzado por --tema, generando guion nuevo sobre: {tema}")
         guion = generar_guion(tema)
@@ -70,10 +40,8 @@ def _conseguir_guion(tema: str | None) -> tuple[Path, dict]:
         print(f"Cogiendo guion pendiente de la cola: {ruta_guion.name}")
         return ruta_guion, guion
 
-    import random
-    tema = random.choice(TEMAS_PLANETA)
-    print(f"Cola de guiones vacía, generando uno nuevo sobre: {tema}")
-    guion = generar_guion(tema)
+    print("Cola de guiones vacía, generando uno nuevo")
+    guion = generar_guion()
     return guardar_pendiente(guion), guion
 
 
@@ -92,8 +60,15 @@ def ejecutar(tema: str | None, subir: bool) -> None:
             clip = tmp / f"clip_{i}.mp4"
 
             if not generar_imagen(escena["prompt_imagen"], str(imagen)):
-                print(f"No se pudo generar la imagen de la escena {i}, se aborta este vídeo.")
-                sys.exit(1)
+                anterior = tmp / f"img_{i - 1}.png"
+                if i > 0 and anterior.exists():
+                    # Antes se abortaba TODO el vídeo (y se perdía el hueco del día) si una
+                    # sola escena fallaba; ahora se reutiliza la imagen anterior.
+                    print(f"No se pudo generar la imagen de la escena {i}, se reutiliza la anterior.")
+                    imagen.write_bytes(anterior.read_bytes())
+                else:
+                    print(f"No se pudo generar la imagen de la escena {i}, se aborta este vídeo.")
+                    sys.exit(1)
 
             duracion, palabras = generar_audio(escena["texto"], str(audio))
             renderizar_escena(str(imagen), str(audio), str(clip), duracion)
@@ -113,9 +88,9 @@ def ejecutar(tema: str | None, subir: bool) -> None:
 
         if subir:
             from upload_youtube import subir_short
-            url = subir_short(str(salida_final), guion["titulo"], guion["descripcion"])
+            url = subir_short(str(salida_final), guion["titulo"], guion["descripcion"], guion.get("tags"))
             print(f"Publicado: {url}")
-            marcar_hecho(ruta_guion, guion)
+            marcar_hecho(ruta_guion, guion, url)
         else:
             destino_local = Path("preview.mp4")
             destino_local.write_bytes(salida_final.read_bytes())

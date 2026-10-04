@@ -1,6 +1,12 @@
 """Genera la narración en audio.
 
-MOTOR PRINCIPAL — StreamElements TTS (voz neural de Amazon Polly, gratis, sin
+ACTUALIZACIÓN (oct. 2026): el motor principal es ahora MeloTTS (Cloudflare Workers
+AI, voz neural en español, mismas credenciales CF_* que las imágenes).
+StreamElements devuelve 403 desde las IPs de los runners de GitHub, así que toda la
+narración caía a gTTS (síntesis robótica). Orden actual: MeloTTS -> StreamElements
+(1 intento) -> gTTS -> edge-tts. El resto de este texto describe el diseño original.
+
+MOTOR PRINCIPAL ORIGINAL — StreamElements TTS (voz neural de Amazon Polly, gratis, sin
 API key, HTTP simple, funciona igual desde cualquier IP incluida la de los
 runners de GitHub Actions). Es una API no oficial pero muy usada y estable en
 la práctica; usa una voz neural real (no la síntesis robótica de gTTS), así
@@ -35,6 +41,7 @@ preciso como un timing real, pero da un resultado visualmente correcto para
 subtítulos tipo "caption viral".
 """
 import asyncio
+import base64
 import os
 import subprocess
 import time
@@ -156,23 +163,77 @@ def _estimar_timing_palabras(texto: str, duracion_s: float) -> list[dict]:
     return palabras_out
 
 
+
+def _generar_melotts(texto: str, destino: str) -> None:
+    """MeloTTS de Cloudflare Workers AI (voz neural en español, ~2 s por frase, coste
+    despreciable y mismas credenciales CF_* que las imágenes). Es el motor principal desde
+    que StreamElements responde 403 desde las IPs de los runners de GitHub: sin él TODAS las
+    narraciones caían a gTTS (robótica). Devuelve WAV en base64 -> se convierte a mp3."""
+    cuentas = []
+    if os.environ.get("CF_ACCOUNT_ID") and os.environ.get("CF_API_TOKEN"):
+        cuentas.append((os.environ["CF_ACCOUNT_ID"], os.environ["CF_API_TOKEN"]))
+    if os.environ.get("CF_ACCOUNT_ID_2") and os.environ.get("CF_API_TOKEN_2"):
+        cuentas.append((os.environ["CF_ACCOUNT_ID_2"], os.environ["CF_API_TOKEN_2"]))
+    if not cuentas:
+        raise RuntimeError("Sin credenciales de Cloudflare para MeloTTS")
+    ultimo: Exception | None = None
+    for account_id, token in cuentas:
+        for intento in (1, 2):
+            try:
+                r = requests.post(
+                    f"https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/@cf/myshell-ai/melotts",
+                    headers={"Authorization": f"Bearer {token}"},
+                    json={"prompt": texto, "lang": "es"},
+                    timeout=45,
+                )
+                if r.status_code in (402, 429):
+                    raise RuntimeError(f"MeloTTS sin cuota: {r.status_code}")
+                r.raise_for_status()
+                audio = (r.json().get("result") or {}).get("audio")
+                if not audio:
+                    raise RuntimeError("MeloTTS no devolvió audio")
+                wav = destino + ".melo.wav"
+                with open(wav, "wb") as f:
+                    f.write(base64.b64decode(audio))
+                try:
+                    subprocess.run(
+                        ["ffmpeg", "-y", "-i", wav, "-codec:a", "libmp3lame", "-q:a", "3", destino],
+                        check=True, capture_output=True,
+                    )
+                finally:
+                    os.remove(wav)
+                return
+            except Exception as e:
+                ultimo = e
+                print(f"[tts_gen] MeloTTS intento {intento} falló: {e}")
+                if "sin cuota" in str(e):
+                    break
+                time.sleep(2 * intento)
+    raise ultimo
+
+
 def generar_audio(texto: str, destino: str) -> tuple[float, list[dict]]:
     """Genera el audio de la escena y devuelve (duracion_s, palabras) para el
     render con subtítulos. `palabras` es una lista de {"text", "start_ms",
     "dur_ms"} — ver la cabecera del módulo sobre por qué es un timing estimado
     y no real."""
     try:
-        _generar_streamelements(texto, destino)
-        print("[tts_gen] motor usado: streamelements (voz neural Sergio)")
-    except Exception as e:
-        print(f"[tts_gen] StreamElements falló tras reintentar ({e}), probando gTTS como respaldo...")
+        _generar_melotts(texto, destino)
+        print("[tts_gen] motor usado: melotts (Cloudflare, voz neural es)")
+    except Exception as e0:
+        print(f"[tts_gen] MeloTTS falló ({e0}), probando StreamElements...")
         try:
-            _generar_gtts(texto, destino)
-            print("[tts_gen] motor usado: gtts (respaldo, síntesis no neural)")
-        except Exception as e2:
-            print(f"[tts_gen] gTTS también falló ({e2}), probando edge-tts como último respaldo...")
-            _generar_edge_con_reintentos(texto, destino)
-            print("[tts_gen] motor usado: edge-tts (último respaldo)")
+            _generar_streamelements(texto, destino, intentos=1)
+            print("[tts_gen] motor usado: streamelements (voz neural Sergio)")
+        except Exception as e:
+            print(f"[tts_gen] StreamElements falló ({e}), probando gTTS como respaldo...")
+            try:
+                _generar_gtts(texto, destino)
+                print("[tts_gen] motor usado: gtts (respaldo, síntesis no neural)")
+            except Exception as e2:
+                print(f"[tts_gen] gTTS también falló ({e2}), probando edge-tts como último respaldo...")
+                _generar_edge_con_reintentos(texto, destino)
+                print("[tts_gen] motor usado: edge-tts (último respaldo)")
 
     duracion = _duracion_audio(destino)
     palabras = _estimar_timing_palabras(texto, duracion)

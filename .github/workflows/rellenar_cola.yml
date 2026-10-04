@@ -2,15 +2,22 @@ name: Rellenar cola de guiones
 
 on:
   schedule:
-    - cron: "0 */4 * * *"  # cada 4 horas -> 6 veces/día (00, 04, 08, 12, 16, 20 UTC)
+    - cron: "30 */6 * * *"  # cada 6 horas; solo genera si la cola baja de --min-cola
   workflow_dispatch:
     inputs:
       cantidad:
-        description: "Cuántos guiones generar en esta pasada"
-        default: "3"
+        description: "Máximo de guiones a generar en esta pasada"
+        default: "5"
+      min_cola:
+        description: "No generar si ya hay tantos pendientes"
+        default: "30"
 
 permissions:
   contents: write
+
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
 
 jobs:
   rellenar:
@@ -28,11 +35,12 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
-      - name: Generar lote de guiones
+      - name: Generar lote de guiones (sin repetir temas)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: python src/generar_lote.py "${{ github.event.inputs.cantidad || 3 }}"
+          GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
+        run: python src/generar_lote.py "${{ github.event.inputs.cantidad || 5 }}" --min-cola "${{ github.event.inputs.min_cola || 30 }}"
 
       - name: Guardar guiones nuevos en la cola
         run: |

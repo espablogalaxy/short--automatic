@@ -2,13 +2,20 @@ name: Shorts Bot Diario
 
 on:
   schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC (08:00 en España): franja que más rinde en el canal de la Pi
     - cron: "0 9 * * *"   # 09:00 UTC
-    - cron: "0 12 * * *"  # 12:00 UTC
-    - cron: "0 18 * * *"  # 18:00 UTC (turno de respaldo)
+    - cron: "0 18 * * *"  # 18:00 UTC
+    # Se retiró 12:00 UTC: en este canal es la franja más floja (mediana ~200 vistas vs ~1000-1100
+    # a las 09 y 18 UTC, datos del 03/10/2026). Revisar con: python src/metricas.py --informe
   workflow_dispatch: {}    # permite lanzarlo a mano desde la pestaña Actions
 
 permissions:
   contents: write   # necesario para poder commitear los guiones ya usados
+
+# Un solo workflow a la vez escribe en el repo (evita carreras de push entre pipeline, cola y métricas).
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
 
 jobs:
   run-pipeline:
@@ -33,6 +40,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
