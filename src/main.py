@@ -16,7 +16,7 @@ from pathlib import Path
 from cola_guiones import guardar_pendiente, sacar_pendiente, marcar_hecho
 from guion_gen import generar_guion
 from image_gen import generar_imagen
-from tts_gen import generar_audio
+from tts_gen import generar_narracion
 from render import (
     renderizar_escena,
     concatenar_escenas,
@@ -54,9 +54,11 @@ def ejecutar(tema: str | None, subir: bool) -> None:
         palabras_por_escena = []
         duraciones = []
 
+        # Una sola locución continua para todo el vídeo (más natural y 1 petición de TTS en vez de 8)
+        pistas = generar_narracion([e["texto"] for e in guion["escenas"]], str(tmp))
+
         for i, escena in enumerate(guion["escenas"]):
             imagen = tmp / f"img_{i}.png"
-            audio = tmp / f"audio_{i}.mp3"
             clip = tmp / f"clip_{i}.mp4"
 
             if not generar_imagen(escena["prompt_imagen"], str(imagen)):
@@ -70,8 +72,8 @@ def ejecutar(tema: str | None, subir: bool) -> None:
                     print(f"No se pudo generar la imagen de la escena {i}, se aborta este vídeo.")
                     sys.exit(1)
 
-            duracion, palabras = generar_audio(escena["texto"], str(audio))
-            renderizar_escena(str(imagen), str(audio), str(clip), duracion)
+            audio, duracion, palabras = pistas[i]
+            renderizar_escena(str(imagen), audio, str(clip), duracion)
             rutas_escenas.append(str(clip))
             palabras_por_escena.append(palabras)
             duraciones.append(duracion)
