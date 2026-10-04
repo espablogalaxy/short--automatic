@@ -1,0 +1,50 @@
+{
+  "titulo": "¡Una isla a 1.600 km de cualquier humano!",
+  "descripcion": "En mitad del Atlántico sur se halla la Isla Bouvet, el pedazo de tierra más aislado de todo el planeta. Su superficie está casi por completo sepultada bajo glaciares. #shorts #curiosidades #planeta #islabouvet #geografia #naturaleza #tierrasremotas",
+  "tags": [
+    "isla bouvet",
+    "isla mas remota",
+    "lugares extremos",
+    "curiosidades del planeta",
+    "oceano atlantico sur",
+    "islas remotas",
+    "geografia extrema",
+    "planeta tierra",
+    "datos curiosos",
+    "islas desiertas"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Hay tierra a 1.600 kilómetros de todo?",
+      "prompt_imagen": "Fotografía cinematográfica aérea de un océano embravecido y oscuro en el Atlántico sur, olas gigantescas rompiendo en mitad de la nada, niebla espesa y atmósfera gélida, iluminación dramática natural de día tormentoso, hiperrealista."
+    },
+    {
+      "texto": "En mitad del océano más salvaje.",
+      "prompt_imagen": "Fotografía realista a nivel del mar mostrando un mar polar agitado con crestas de espuma blanca, cielo plomizo cubierto de nubes oscuras, olas heladas moviéndose con violencia, profundidad de campo cinematográfica."
+    },
+    {
+      "texto": "Un volcán solitario desafía las tormentas.",
+      "prompt_imagen": "Fotografía de reportaje de los acantilados negros volcánicos de una isla escarpada emergiendo de un mar agitado, cielo tormentoso con bruma marina densa, iluminación tenue y fría, ultra detallado."
+    },
+    {
+      "texto": "El 93 por ciento es puro glaciar.",
+      "prompt_imagen": "Fotografía aérea nítida de la cumbre de una isla volcánica cubierta por un gigantesco casquete de hielo y glaciares agrietados de color azul y blanco, rodeada de precipicios oscuros de roca volcánica."
+    },
+    {
+      "texto": "Nadie ha logrado habitar este lugar.",
+      "prompt_imagen": "Plano general cinematográfico de una costa inhóspita y desierta de arena negra volcánica y hielo, azotada por un viento feroz y ventisca, sin construcciones ni presencia humana, luz grisácea natural."
+    },
+    {
+      "texto": "Descubierta en 1739: la Isla Bouvet.",
+      "prompt_imagen": "Fotografía documental de la Isla Bouvet completa en el horizonte, rodeada por el inmenso océano austral, silueta volcánica blanca y negra bajo un cielo polar dramático con rayos de sol filtrados entre nubes."
+    },
+    {
+      "texto": "Es el punto más aislado del planeta.",
+      "prompt_imagen": "Vista satelital hiperrealista en alta resolución enfocada en la pequeña y solitaria Isla Bouvet cubierta de blanco, rodeada por miles de kilómetros de océano azul profundo sin ninguna otra tierra alrededor."
+    },
+    {
+      "texto": "Perdida a 1.600 kilómetros de todo.",
+      "prompt_imagen": "Fotografía aérea lejana de la Isla Bouvet desvaneciéndose en la inmensidad del océano gélido y la bruma del horizonte polar, atmósfera de absoluto aislamiento, iluminación crepuscular fría."
+    }
+  ]
+}

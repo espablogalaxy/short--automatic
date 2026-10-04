@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Una nube de 1.000 kilómetros de largo?",
+  "descripcion": "En el Golfo de Carpentaria ocurre uno de los espectáculos atmosféricos más extraños del planeta: inmensas nubes cilíndricas que cruzan el cielo. #shorts #curiosidades #planeta #meteorologia #australia #ciencia",
+  "tags": [
+    "morning glory",
+    "nube morning glory",
+    "golfo de carpentaria",
+    "fenomenos meteorologicos",
+    "curiosidades del planeta",
+    "australia naturaleza",
+    "meteorologia extrema",
+    "nubes raras",
+    "ciencia de la tierra",
+    "burketown"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Existe una ola celeste de mil kilómetros?",
+      "prompt_imagen": "Fotografía cinematográfica aérea de una inmensa nube en forma de tubo cilíndrico perfecto que se extiende en línea recta hasta el horizonte sobre una costa al amanecer, iluminación natural suave."
+    },
+    {
+      "texto": "Gigantescos cilindros blancos avanzan devorando el cielo.",
+      "prompt_imagen": "Vista contrapicada desde tierra mostrando un gigantesco rodillo blanco de nube densa y uniforme pasando a baja altura sobre una llanura desértica, con sombras nítidas proyectadas en el suelo."
+    },
+    {
+      "texto": "Ruedan a sesenta kilómetros por hora imparables.",
+      "prompt_imagen": "Fotografía aérea nítida tomada desde un planeador que vuela en paralelo a una descomunal nube tubular en movimiento sobre aguas costeras, mostrando la textura de condensación del aire."
+    },
+    {
+      "texto": "Este coloso atmosférico no descarga ninguna lluvia.",
+      "prompt_imagen": "Plano medio de terreno árido con vegetación seca y suelo agrietado, con la colosal nube cilíndrica pasando justo por encima bajo un ambiente completamente seco y sin precipitación."
+    },
+    {
+      "texto": "Ocurre sobre el remoto Golfo de Carpentaria.",
+      "prompt_imagen": "Vista satelital de alta resolución del Golfo de Carpentaria en el norte de Australia, mostrando líneas paralelas de nubes tubulares blancas extendiéndose a lo largo de cientos de kilómetros sobre el mar."
+    },
+    {
+      "texto": "Brisas marinas opuestas chocan creando ondas solitarias.",
+      "prompt_imagen": "Toma panorámica al amanecer de la península del Cabo York en Australia, donde se aprecian dos frentes de aire condensándose en una ondulación atmosférica lineal y masiva."
+    },
+    {
+      "texto": "Es la legendaria nube Morning Glory australiana.",
+      "prompt_imagen": "Fotografía documental de un planeador ultraligero surfeando la corriente ascendente justo delante del borde de la nube Morning Glory sobre la localidad de Burketown, luz dorada matutina."
+    },
+    {
+      "texto": "Así renace la ola de mil kilómetros.",
+      "prompt_imagen": "Perspectiva infinita desde las alturas hacia el horizonte donde la gigantesca nube cilíndrica de mil kilómetros se pierde en la curvatura de la Tierra sobre el océano iluminado por el sol matinal."
+    }
+  ]
+}

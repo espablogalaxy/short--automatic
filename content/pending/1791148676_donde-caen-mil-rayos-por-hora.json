@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Dónde caen mil rayos por hora?",
+  "descripcion": "El lago de Maracaibo en Venezuela ostenta el Récord Guinness como la capital mundial de los relámpagos. Descubre la ciencia detrás de este fenómeno meteorológico. #shorts #curiosidades #planeta #ciencia #meteorologia #catatumbo",
+  "tags": [
+    "relampago del catatumbo",
+    "lago de maracaibo",
+    "rayos catatumbo",
+    "record guinness tormenta",
+    "tormenta electrica",
+    "fenomenos naturales",
+    "meteorologia extrema",
+    "curiosidades cientificas",
+    "venezuela naturaleza",
+    "ciencia de la tierra"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Un sitio con mil rayos por hora?",
+      "prompt_imagen": "Fotografía nocturna de larga exposición capturando decenas de rayos púrpuras y azulados cayendo sobre aguas tranquilas, cielo oscuro encendido por descargas eléctricas, calidad cinematográfica."
+    },
+    {
+      "texto": "Ocurre casi trescientas noches al año.",
+      "prompt_imagen": "Fotografía realista desde la orilla de un gran lago tropical durante la noche, horizonte iluminado por relámpagos constantes bajo densos cúmulos de nubes, ambiente de tormenta lejana."
+    },
+    {
+      "texto": "Hablamos del lago Maracaibo en Venezuela.",
+      "prompt_imagen": "Vista aérea diurna en plano general del vasto lago de Maracaibo desembocando en el mar, selva tropical en los bordes y luz dorada del atardecer, estilo documental."
+    },
+    {
+      "texto": "En dos mil catorce batió récords mundiales.",
+      "prompt_imagen": "Toma nocturna impresionante de una gigantesca nube cumulonimbo iluminada desde su interior por múltiples destellos de rayos, sobre una masa de agua oscura y plana."
+    },
+    {
+      "texto": "Vientos cálidos chocan contra los Andes.",
+      "prompt_imagen": "Paisaje cinematográfico de las altas montañas de los Andes venezolanos envueltas en corrientes de niebla densa y nubes oscuras al caer la tarde."
+    },
+    {
+      "texto": "La humedad atrapada genera nubes gigantes.",
+      "prompt_imagen": "Fotografía vertical de una colosal nube de tormenta cumulonimbus de más de diez kilómetros de altura elevándose sobre un valle tropical, iluminación dramática."
+    },
+    {
+      "texto": "Descargan una tormenta eléctrica casi perpetua...",
+      "prompt_imagen": "Fotografía de alta velocidad que congela un potente relámpago bifurcado impactando en la superficie del agua en plena noche tropical, detalles hiperrealistas."
+    },
+    {
+      "texto": "...con miles de rayos por hora.",
+      "prompt_imagen": "Fotografía nocturna panorámica de múltiples rayos iluminando el cielo y reflejándose en las olas del lago, atmósfera electrizante, encuadre cinematográfico."
+    }
+  ]
+}

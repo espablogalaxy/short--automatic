@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Cómo puede arder un lago de lava de 600 m?",
+  "descripcion": "Descubre el lago de lava permanente más extenso del mundo y sus datos asombrosos. #shorts #curiosidades #planeta #lava #ErtaAle #Etiopia",
+  "tags": [
+    "lava lake",
+    "Erta Ale",
+    "Etiopia",
+    "volcán",
+    "Rift africano",
+    "lago de lava permanente",
+    "geología extrema",
+    "lago de fuego",
+    "volcán activo",
+    "cuerpo de lava"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Un lago de fuego de 600 metros?",
+      "prompt_imagen": "Vista aérea hiperrealista de un lago de lava brillante, 600 metros de diámetro, rodeado de terreno volcánico negro, iluminación dramática"
+    },
+    {
+      "texto": "Arde sin parar bajo el cielo africano.",
+      "prompt_imagen": "Atardecer sobre un desierto africano con un lago de lava incandescente en el centro, cielo oscuro"
+    },
+    {
+      "texto": "Temperatura media: más de mil grados Celsius.",
+      "prompt_imagen": "Superficie de lava fundida, color naranja intenso, ondas de calor visibles, fotografía hiperrealista"
+    },
+    {
+      "texto": "Se forma en una grieta del Rift.",
+      "prompt_imagen": "Fisura profunda en roca volcánica del Valle del Rift, lava brotando, estilo documental"
+    },
+    {
+      "texto": "Su cráter mide unos tres kilómetros.",
+      "prompt_imagen": "Vista panorámica del cráter volcánico, borde de tres kilómetros, humo y llamas, foto de alta resolución"
+    },
+    {
+      "texto": "Desde 2005 nunca se ha apagado.",
+      "prompt_imagen": "Pluma de humo volcánico elevándose del lago de lava, con una placa de metal que muestra el año 2005"
+    },
+    {
+      "texto": "Es el lago de lava de Erta Ale, Etiopía.",
+      "prompt_imagen": "Mapa de Etiopía resaltando la zona del Danakil y el volcán Erta Ale, con una foto pequeña del lago de lava"
+    },
+    {
+      "texto": "¿Recuerdas esos 600 metros de fuego?",
+      "prompt_imagen": "Repetición de la vista aérea del lago de lava de 600 metros, cerrando el bucle visual"
+    }
+  ]
+}

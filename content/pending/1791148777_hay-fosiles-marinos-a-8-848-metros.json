@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Hay fósiles marinos a 8.848 metros?",
+  "descripcion": "En la cima del Everest existen fósiles marinos atrapados en la roca debido al choque de placas tectónicas. #shorts #curiosidades #planeta #geologia #everest #ciencia",
+  "tags": [
+    "everest",
+    "fosiles marinos",
+    "tectonica de placas",
+    "geologia",
+    "himalaya",
+    "curiosidades tierra",
+    "ciencia",
+    "tierra",
+    "placas tectonicas",
+    "noel odell"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Hay conchas marinas a ocho mil metros?",
+      "prompt_imagen": "Fotografía cinematográfica hiperrealista de la afilada cumbre nevada del monte Everest bajo un cielo azul gélido, roca expuesta al viento extremo."
+    },
+    {
+      "texto": "La cima del Everest guarda este enigma.",
+      "prompt_imagen": "Primer plano fotográfico de estratos de roca caliza grisácea asomando entre la nieve en una cresta montañosa de altísima cota."
+    },
+    {
+      "texto": "El explorador Noel Odell halló fósiles allí.",
+      "prompt_imagen": "Primer plano fotográfico de un fósil marino prehistórico incrustado sólidamente en roca caliza gris oscura de montaña."
+    },
+    {
+      "texto": "Pertenecen a un océano desaparecido.",
+      "prompt_imagen": "Fotografía submarina de un antiguo lecho marino poco profundo con sedimentos de caliza y aguas cristalinas."
+    },
+    {
+      "texto": "Hace cincuenta millones de años comenzó todo.",
+      "prompt_imagen": "Fotografía realista de satélite mostrando la colosal masa continental de la India aproximándose a Eurasia desde el sur."
+    },
+    {
+      "texto": "La placa de la India chocó violentamente.",
+      "prompt_imagen": "Fotografía de estratos geológicos de roca fuertemente plegados y deformados por presión tectónica en un desfiladero del Himalaya."
+    },
+    {
+      "texto": "Aquel antiguo fondo marino fue catapultado arriba.",
+      "prompt_imagen": "Vista panorámica aérea de los colosales picos nevados del Himalaya emergiendo majestuosos sobre un mar de nubes blancas."
+    },
+    {
+      "texto": "Por eso encuentras conchas a tanta altura.",
+      "prompt_imagen": "Macro fotografía hiperrealista de una concha marina fosilizada en la roca caliza de la cresta rocosa del Everest con nieve alrededor."
+    }
+  ]
+}
