@@ -17,9 +17,16 @@ usa la automatización de la Raspberry Pi (canal Soporte IT), para que las
 imágenes de este canal tengan el mismo aspecto realista en vez de parecer una
 ilustración digital."""
 import os
+import re
 import time
+from io import BytesIO
 
 import requests
+
+try:
+    from PIL import Image
+except ImportError:  # sin Pillow solo se comprueba el tamaño
+    Image = None
 
 ESTILO_REALISTA = (
     "fotografia hiperrealista, estilo reportaje cinematografico, iluminacion "
@@ -37,9 +44,34 @@ def _con_estilo(prompt: str) -> str:
     return f"{prompt}. {ESTILO_REALISTA}"
 
 
-def _es_imagen_valida(datos: bytes) -> bool:
-    """Descarta imágenes casi negras o vacías (fallo silencioso de moderación)."""
-    return len(datos) > 5000  # comprobación mínima; se puede afinar con Pillow si hace falta
+def _es_imagen_valida(datos: bytes, umbral_varianza: int = 8) -> bool:
+    """Descarta imágenes vacías o SÓLIDAS (normalmente negras) devueltas con HTTP 200 por
+    el filtro silencioso de moderación de Cloudflare (portado de la Pi): comprueba el
+    rango de cada canal RGB; una foto real nunca tiene un rango tan estrecho."""
+    if len(datos) <= 5000:
+        return False
+    if Image is None:
+        return True
+    try:
+        with Image.open(BytesIO(datos)) as im:
+            extrema = im.convert("RGB").getextrema()
+    except Exception:
+        return False
+    return not all((mx - mn) <= umbral_varianza for mn, mx in extrema)
+
+
+# Palabras que disparan filtros de moderación (p. ej. "glaciar de sangre"). Solo se usan
+# en un segundo intento tras un rechazo, nunca en el primero.
+_PALABRAS_DRAMATICAS = {
+    "sangre": "óxido rojo", "sangriento": "intenso", "infierno": "fuego", "muerte": "final",
+    "muerto": "vacío", "matar": "vencer", "guerra": "conflicto", "arma": "objeto",
+}
+
+
+def _suavizar_prompt(prompt: str) -> str:
+    for palabra, sustituto in _PALABRAS_DRAMATICAS.items():
+        prompt = re.sub(palabra, sustituto, prompt, flags=re.IGNORECASE)
+    return prompt
 
 
 def _cuentas_cloudflare() -> list[tuple[str, str, str]]:
@@ -71,7 +103,7 @@ def _try_cloudflare(prompt: str, account_id: str, token: str) -> bytes:
         url,
         headers={"Authorization": f"Bearer {token}"},
         json={"prompt": prompt},
-        timeout=60,
+        timeout=45,
     )
     if r.status_code in (402, 429):
         raise _CuotaAgotada(f"Cloudflare sin cuota/Neurons: {r.status_code} {r.text[:200]}")
@@ -82,22 +114,24 @@ def _try_cloudflare(prompt: str, account_id: str, token: str) -> bytes:
 
 
 def generar_imagen(prompt: str, destino: str, intentos_por_cuenta: int = 2) -> bool:
-    prompt_final = _con_estilo(prompt)
     cuentas = _cuentas_cloudflare()
-
-    for nombre, account_id, token in cuentas:
-        for intento in range(1, intentos_por_cuenta + 1):
-            try:
-                imagen = _try_cloudflare(prompt_final, account_id, token)
-                with open(destino, "wb") as f:
-                    f.write(imagen)
-                return True
-            except _CuotaAgotada as e:
-                print(f"[image_gen] cuenta Cloudflare '{nombre}' sin cuota, paso a la siguiente: {e}")
-                break  # no malgastar reintentos en una cuenta sin cuota
-            except requests.RequestException as e:
-                print(f"[image_gen] cuenta Cloudflare '{nombre}' intento {intento}/{intentos_por_cuenta} falló: {e}")
-                if intento < intentos_por_cuenta:
-                    time.sleep(3 * intento)
-
+    for suavizado in (False, True):  # 2º pase: prompt suavizado si todo falló (moderación)
+        base = _suavizar_prompt(prompt) if suavizado else prompt
+        prompt_final = _con_estilo(base)
+        for nombre, account_id, token in cuentas:
+            for intento in range(1, intentos_por_cuenta + 1):
+                try:
+                    imagen = _try_cloudflare(prompt_final, account_id, token)
+                    with open(destino, "wb") as f:
+                        f.write(imagen)
+                    return True
+                except _CuotaAgotada as e:
+                    print(f"[image_gen] cuenta '{nombre}' sin cuota o imagen bloqueada, paso a la siguiente: {e}")
+                    break
+                except requests.RequestException as e:
+                    print(f"[image_gen] cuenta '{nombre}' intento {intento}/{intentos_por_cuenta} falló: {e}")
+                    if intento < intentos_por_cuenta:
+                        time.sleep(3 * intento)
+        if not suavizado:
+            print("[image_gen] todas las cuentas fallaron, reintento con prompt suavizado")
     return False
