@@ -1,6 +1,12 @@
 """Genera la narración en audio.
 
-ACTUALIZACIÓN (oct. 2026): el motor principal es ahora MeloTTS (Cloudflare Workers
+ACTUALIZACIÓN 2 (oct. 2026): el motor principal es ahora Gemini TTS (voz mucho más natural
+que MeloTTS; usa la GEMINI_API_KEY existente), con MeloTTS como respaldo. Además: (1) se
+normaliza el texto antes de sintetizar (cm -> centímetros, °C, %, miles...), (2) se recorta
+el silencio inicial/final de cada escena (MeloTTS dejaba ~0,9 s de aire muerto por escena).
+Ver voz_utils.py. Orden actual: Gemini TTS -> MeloTTS -> StreamElements -> gTTS -> edge-tts.
+
+ACTUALIZACIÓN (oct. 2026): el motor principal era MeloTTS (Cloudflare Workers
 AI, voz neural en español, mismas credenciales CF_* que las imágenes).
 StreamElements devuelve 403 desde las IPs de los runners de GitHub, así que toda la
 narración caía a gTTS (síntesis robótica). Orden actual: MeloTTS -> StreamElements
@@ -43,11 +49,14 @@ subtítulos tipo "caption viral".
 import asyncio
 import base64
 import os
+import re
 import subprocess
 import time
 import urllib.parse
 
 import requests
+
+from voz_utils import compactar_pausas, generar_gemini_tts, normalizar_para_voz, recortar_silencios
 
 VOZ_STREAMELEMENTS = "Sergio"  # voz neural masculina es-ES (Amazon Polly), ritmo natural
 VOZ_EDGE = "es-ES-AlvaroNeural"
@@ -212,29 +221,112 @@ def _generar_melotts(texto: str, destino: str) -> None:
     raise ultimo
 
 
-def generar_audio(texto: str, destino: str) -> tuple[float, list[dict]]:
-    """Genera el audio de la escena y devuelve (duracion_s, palabras) para el
-    render con subtítulos. `palabras` es una lista de {"text", "start_ms",
-    "dur_ms"} — ver la cabecera del módulo sobre por qué es un timing estimado
-    y no real."""
+def _sintetizar(texto: str, destino: str) -> None:
+    """Cadena de motores (ya con el texto normalizado). Deja un mp3 en `destino`."""
+    try:
+        generar_gemini_tts(texto, destino)
+        print("[tts_gen] motor usado: gemini-tts (voz neural natural)")
+        return
+    except Exception as eg:
+        print(f"[tts_gen] Gemini TTS falló ({str(eg)[:120]}), probando MeloTTS...")
     try:
         _generar_melotts(texto, destino)
         print("[tts_gen] motor usado: melotts (Cloudflare, voz neural es)")
+        return
     except Exception as e0:
         print(f"[tts_gen] MeloTTS falló ({e0}), probando StreamElements...")
-        try:
-            _generar_streamelements(texto, destino, intentos=1)
-            print("[tts_gen] motor usado: streamelements (voz neural Sergio)")
-        except Exception as e:
-            print(f"[tts_gen] StreamElements falló ({e}), probando gTTS como respaldo...")
-            try:
-                _generar_gtts(texto, destino)
-                print("[tts_gen] motor usado: gtts (respaldo, síntesis no neural)")
-            except Exception as e2:
-                print(f"[tts_gen] gTTS también falló ({e2}), probando edge-tts como último respaldo...")
-                _generar_edge_con_reintentos(texto, destino)
-                print("[tts_gen] motor usado: edge-tts (último respaldo)")
+    try:
+        _generar_streamelements(texto, destino, intentos=1)
+        print("[tts_gen] motor usado: streamelements (voz neural Sergio)")
+        return
+    except Exception as e:
+        print(f"[tts_gen] StreamElements falló ({e}), probando gTTS como respaldo...")
+    try:
+        _generar_gtts(texto, destino)
+        print("[tts_gen] motor usado: gtts (respaldo, síntesis no neural)")
+        return
+    except Exception as e2:
+        print(f"[tts_gen] gTTS también falló ({e2}), probando edge-tts como último respaldo...")
+    _generar_edge_con_reintentos(texto, destino)
+    print("[tts_gen] motor usado: edge-tts (último respaldo)")
 
+
+def generar_audio(texto: str, destino: str) -> tuple[float, list[dict]]:
+    """Audio de UNA escena suelta (se conserva por compatibilidad; el pipeline usa
+    generar_narracion). Devuelve (duracion_s, palabras)."""
+    texto = normalizar_para_voz(texto)
+    _sintetizar(texto, destino)
+    recortar_silencios(destino)
     duracion = _duracion_audio(destino)
-    palabras = _estimar_timing_palabras(texto, duracion)
-    return duracion, palabras
+    return duracion, _estimar_timing_palabras(texto, duracion)
+
+
+def _huecos_silencio(wav: str) -> list[float]:
+    """Puntos medios (s) de los silencios del audio: candidatos naturales para cortar."""
+    r = subprocess.run(
+        ["ffmpeg", "-i", wav, "-af", "silencedetect=noise=-33dB:d=0.05", "-f", "null", "-"],
+        capture_output=True, text=True,
+    ).stderr
+    inicios = [float(x) for x in re.findall(r"silence_start: (-?[\d.]+)", r)]
+    fines = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", r)]
+    return [(a + b) / 2 for a, b in zip(inicios, fines)]
+
+
+def _fronteras(pesos: list[int], total: float, huecos: list[float], ventana: float = 0.4) -> list[float]:
+    """Instantes de corte entre escenas: reparto proporcional al texto, ajustado al silencio
+    más cercano (±ventana) para que el corte caiga entre palabras."""
+    suma = sum(pesos)
+    acumulado = 0
+    out: list[float] = []
+    previo = 0.0
+    for p in pesos[:-1]:
+        acumulado += p
+        t = total * acumulado / suma
+        cerca = [h for h in huecos if abs(h - t) <= ventana and h > previo + 0.3]
+        if cerca:
+            t = min(cerca, key=lambda h: abs(h - t))
+        t = max(t, previo + 0.3)
+        out.append(t)
+        previo = t
+    return out
+
+
+def generar_narracion(textos: list[str], carpeta: str) -> list[tuple[str, float, list[dict]]]:
+    """UNA sola locución continua para todo el vídeo, cortada después en una pista por escena.
+
+    Por qué: (1) sintetizar fragmentos de 4-7 palabras por separado da a cada uno entonación de
+    "fin de frase" y suena entrecortado y robótico; una locución continua suena natural. (2) Es
+    1 petición por vídeo en vez de 8: el tier gratuito de Gemini TTS tiene cupo DIARIO por modelo
+    (con 8 por vídeo no llegaría). Como las pistas se vuelven a concatenar en orden, la narración
+    final es continua; el corte solo decide qué imagen se ve en cada tramo.
+    Devuelve, por escena, (ruta_audio, duracion_s, palabras)."""
+    norm = [normalizar_para_voz(t) for t in textos]
+    # Puntuación suave entre escenas: coma (pausa breve sin entonación de cierre); punto al final.
+    partes = [n if re.search(r"[.!?…:;,]$", n) else n + "," for n in norm]
+    partes[-1] = re.sub(r"[,;:]$", ".", partes[-1])
+    completo = " ".join(partes)
+
+    mp3 = os.path.join(carpeta, "narracion.mp3")
+    _sintetizar(completo, mp3)
+    recortar_silencios(mp3)
+    compactar_pausas(mp3)  # pausas entre frases > 0,3 s -> 0,2 s
+    wav = os.path.join(carpeta, "narracion.wav")
+    subprocess.run(["ffmpeg", "-y", "-i", mp3, "-ar", "44100", "-ac", "1", wav], check=True, capture_output=True)
+    total = _duracion_audio(wav)
+
+    pesos = [sum(len(w) + 1 for w in n.split()) or 1 for n in norm]
+    cortes = [0.0] + _fronteras(pesos, total, _huecos_silencio(wav)) + [total]
+
+    resultado = []
+    for i, texto in enumerate(norm):
+        ini, fin = cortes[i], cortes[i + 1]
+        ruta = os.path.join(carpeta, f"escena_{i}.wav")
+        subprocess.run(
+            ["ffmpeg", "-y", "-i", wav, "-ss", f"{ini:.3f}", "-to", f"{fin:.3f}", "-c:a", "pcm_s16le", ruta],
+            check=True, capture_output=True,
+        )
+        dur = _duracion_audio(ruta)
+        resultado.append((ruta, dur, _estimar_timing_palabras(texto, dur)))
+    print(f"[tts_gen] narración continua de {total:.1f} s cortada en {len(norm)} escenas: "
+          + ", ".join(f"{d:.1f}" for _, d, _ in resultado))
+    return resultado
