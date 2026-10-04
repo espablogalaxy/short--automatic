@@ -1,0 +1,30 @@
+{
+  "titulo": "El Ojo del Sahara: la estructura de Richat vista desde el espacio",
+  "descripcion": "Descubre qué es la estructura de Richat, por qué parece un ojo gigante en el desierto y qué revelan las imágenes satelitales.",
+  "escenas": [
+    {
+      "texto": "En 1977 los astronautas del Apolo 17 fotografiaron la estructura de Richat, conocida como el Ojo del Sahara.",
+      "prompt_imagen": "Fotografía satelital en blanco y negro del desierto de Mauritania mostrando un círculo concéntrico de 40 km de diámetro, con el nombre 'Richat' sobreimpreso."
+    },
+    {
+      "texto": "Es un cráter de 40 km de diámetro formado por rocas sedimentarias.",
+      "prompt_imagen": "Vista aérea desde satélite del desierto, con un anillo concéntrico de tonos marrones y ocres de 40 km de diámetro resaltado."
+    },
+    {
+      "texto": "Los geólogos creen que se originó por el colapso de una cúpula volcánica hace 100 millones de años.",
+      "prompt_imagen": "Ilustración geológica que muestra una cúpula volcánica colapsando y formando anillos concéntricos, con una escala que indica 100 millones de años."
+    },
+    {
+      "texto": "Desde el espacio parece un ojo porque los anillos son de colores más claros y oscuros.",
+      "prompt_imagen": "Imagen de la Tierra vista desde el espacio, enfocando el Sahara y resaltando la estructura de Richat como un ojo de anillos claros y oscuros."
+    },
+    {
+      "texto": "Los viajeros del desierto pueden recorrer el círculo en 2‑3 días a pie.",
+      "prompt_imagen": "Fotografía de un grupo de viajeros caminando sobre arena del Sahara siguiendo el contorno del círculo de Richat."
+    },
+    {
+      "texto": "Satélites como Landsat y Sentinel monitorizan su evolución cada año.",
+      "prompt_imagen": "Pantalla de ordenador mostrando datos de imágenes satelitales de Landsat y Sentinel con la estructura de Richat resaltada en colores de infrarrojo."
+    }
+  ]
+}

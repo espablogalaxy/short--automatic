@@ -1,0 +1,34 @@
+{
+  "titulo": "El abismo Challenger: la fosa más profunda del planeta",
+  "descripcion": "Descubre la profundidad exacta del abismo Challenger y sus datos más sorprendentes.",
+  "escenas": [
+    {
+      "texto": "El Challenger Deep alcanza los 10.929 metros bajo el nivel del mar.",
+      "prompt_imagen": "Vista submarina del fondo del océano con una escala que muestra 10.929 metros de profundidad, luz tenue y sedimentos."
+    },
+    {
+      "texto": "Se localiza en la zona de las Marianas, al este de Filipinas.",
+      "prompt_imagen": "Mapa del océano Pacífico resaltando la zona de las Marianas cerca de Filipinas, con un marcador indicando el Challenger Deep."
+    },
+    {
+      "texto": "Solo el batiscafo Trieste llegó allí en 1960.",
+      "prompt_imagen": "Fotografía histórica del sumergible Trieste emergiendo del agua, con la inscripción '1960' visible."
+    },
+    {
+      "texto": "En 2012, James Cameron descendió en el Deepsea Challenger.",
+      "prompt_imagen": "Imagen del sumergible Deepsea Challenger de James Cameron en el fondo marino, rodeado de rocas y sedimentos."
+    },
+    {
+      "texto": "El fondo está cubierto de fangos y restos de organismos desconocidos.",
+      "prompt_imagen": "Primer plano del lecho marino del Challenger Deep, mostrando lodo oscuro y formas de vida extrañas."
+    },
+    {
+      "texto": "Las presiones superan los 1.100 atmósferas.",
+      "prompt_imagen": "Representación gráfica de una bomba de presión marcando 1.100 atmósferas, con fondo oceánico."
+    },
+    {
+      "texto": "Aún hay misterios por descubrir en ese abismo insondable.",
+      "prompt_imagen": "Ilustración de un buzo futurista mirando hacia la oscuridad profunda del Challenger Deep."
+    }
+  ]
+}

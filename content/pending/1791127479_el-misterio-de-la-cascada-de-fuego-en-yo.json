@@ -1,0 +1,30 @@
+{
+  "titulo": "El misterio de la Cascada de Fuego en Yosemite",
+  "descripcion": "Descubre la ciencia y precisión óptica detrás de Horsetail Fall en el Parque Nacional Yosemite.",
+  "escenas": [
+    {
+      "texto": "En febrero de 1973, el fotógrafo Galen Rowell capturó por primera vez una cascada que parecía arder en fuego real.",
+      "prompt_imagen": "Fotografía estilo vintage de un hombre con una cámara réflex sobre un trípode apuntando hacia una pared de roca de montaña al atardecer."
+    },
+    {
+      "texto": "Ocurre en Horsetail Fall, una caída de agua de 650 metros en la formación El Capitán de Yosemite.",
+      "prompt_imagen": "Vista amplia del acantilado de granito El Capitán en Yosemite con una fina cascada vertical cayendo por la pared de piedra gris."
+    },
+    {
+      "texto": "No hay fuego ni lava; se trata de una ilusión óptica generada por el ángulo exacto de la luz del atardecer.",
+      "prompt_imagen": "Rayo de sol anaranjado incidiendo directamente sobre una columna estrecha de agua, mientras el resto de la montaña rocosa permanece en penumbra."
+    },
+    {
+      "texto": "Solo ocurre durante dos semanas al año y requiere tres factores: nieve derretida, cielo despejado y la inclinación solar precisa.",
+      "prompt_imagen": "Nieve blanca acumulada en la cima de una montaña de roca derritiéndose en pequeños arroyos bajo un cielo despejado sin nubes."
+    },
+    {
+      "texto": "Actualmente, los fotógrafos usan algoritmos de cálculo solar y modelos 3D para predecir la ventana exacta de diez minutos.",
+      "prompt_imagen": "Mano sosteniendo un teléfono móvil que muestra en pantalla un mapa topográfico 3D con la trayectoria calculada del sol en líneas amarillas."
+    },
+    {
+      "texto": "Cuando todo se alinea, el agua dispersa las longitudes de onda rojas y parece un torrente de metal fundido cayendo al vacío.",
+      "prompt_imagen": "Cascada Horsetail Fall brillando con un color naranja y rojo muy brillante e intenso, contrastando fuertemente contra la roca oscura en sombra."
+    }
+  ]
+}
