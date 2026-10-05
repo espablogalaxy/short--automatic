@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué la cueva de hielo más larga mide 42 km?",
+  "descripcion": "Descubre cómo el agua del glaciar y el aire helado forman la cueva de hielo más extensa del planeta, la Eis Riesenwelt de 42 km. #shorts #curiosidades #planeta #cavasyminerales #Eisriesenwelt #glaciar",
+  "tags": [
+    "cueva de hielo",
+    "Eisriesenwelt",
+    "cavernas",
+    "glaciar",
+    "formación de hielo",
+    "cueva más larga",
+    "geología",
+    "Austria",
+    "estalactitas de hielo",
+    "cueva de hielo Austria"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué crea la cueva helada más larga?",
+      "prompt_imagen": "Vista aérea de la entrada de la cueva de hielo Eisriesenwelt en Austria, rodeada de montañas nevadas, día claro, fotografía hiperrealista de reportaje"
+    },
+    {
+      "texto": "Descubierta por un granjero en 1879",
+      "prompt_imagen": "Imagen histórica en blanco y negro de un granjero austriaco señalando la abertura de la cueva de hielo, estilo documental"
+    },
+    {
+      "texto": "Agua del glaciar se filtra bajo tierra",
+      "prompt_imagen": "Agua cristalina fluyendo por grietas en la roca caliza dentro de la cueva, iluminada por luz tenue, fotografía hiperrealista"
+    },
+    {
+      "texto": "El aire helado la congela rápido",
+      "prompt_imagen": "Corriente de aire frío soplando dentro de la cueva, formando vapor congelado en la entrada, foto realista con detalle de escarcha"
+    },
+    {
+      "texto": "Forman estalactitas y columnas de hielo puro",
+      "prompt_imagen": "Estalactitas de hielo colgando del techo de la cueva, brillando bajo luces azules, fotografía de alta definición"
+    },
+    {
+      "texto": "La cueva mide ¡cuarenta y dos kilómetros!",
+      "prompt_imagen": "Mapa topográfico señalando la longitud de 42 km de la cueva Eisriesenwelt, con escala y nombres de rutas, estilo cartográfico realista"
+    },
+    {
+      "texto": "Temperatura constante alrededor de menos dos grados",
+      "prompt_imagen": "Termómetro digital marcando menos dos grados Celsius dentro de la cueva, ambiente oscuro, foto macro detallada"
+    },
+    {
+      "texto": "¿Qué crea la cueva helada más larga?",
+      "prompt_imagen": "Vista aérea de la entrada de la cueva de hielo Eisriesenwelt al atardecer, idéntica a la primera escena, fotografía hiperrealista"
+    }
+  ]
+}

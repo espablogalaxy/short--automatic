@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Cómo puede un árbol alcanzar 115,85 metros?",
+  "descripcion": "El Hyperion, el árbol más alto del planeta, supera los 115,85 metros en el Redwood National Park. #shorts #curiosidades #planeta #hyperion #redwood #árbolmásalto",
+  "tags": [
+    "Hyperion",
+    "árbol más alto",
+    "Redwood",
+    "árbol gigante",
+    "115 metros",
+    "EEUU",
+    "bosque de secuoyas",
+    "árbol extremo",
+    "naturaleza",
+    "altura récord"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Un árbol de ciento quince metros?",
+      "prompt_imagen": "Vista aérea del bosque de Redwood mostrando un gigantesco árbol entre la niebla"
+    },
+    {
+      "texto": "Se llama Hyperion, descubierto en 2006.",
+      "prompt_imagen": "Primer plano del tronco del árbol Hyperion con una placa que indica el año 2006"
+    },
+    {
+      "texto": "Vive en Redwood, California, EE. UU.",
+      "prompt_imagen": "Paisaje del Redwood National Park en California, EE. UU., con el árbol gigante al fondo"
+    },
+    {
+      "texto": "Mide exactos 115,85 metros de altura.",
+      "prompt_imagen": "Medidor digital al lado del árbol mostrando la cifra 115,85 metros de altura"
+    },
+    {
+      "texto": "Su edad supera los doscientos años.",
+      "prompt_imagen": "Sección transversal del tronco mostrando anillos que indican más de doscientos años"
+    },
+    {
+      "texto": "Crece en zona de niebla perpetua.",
+      "prompt_imagen": "Árbol Hyperion envuelto en una densa niebla constante"
+    },
+    {
+      "texto": "Sólo cinco metros de su copa visibles.",
+      "prompt_imagen": "Árbol visto desde abajo, donde solo cinco metros de su copa se distinguen entre los árboles"
+    },
+    {
+      "texto": "¿Un árbol de ciento quince metros?",
+      "prompt_imagen": "Repetición de la vista aérea del gigantesco árbol en Redwood, resaltando su altura"
+    }
+  ]
+}

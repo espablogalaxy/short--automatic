@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué este río amazónico hierve a 100 °C?",
+  "descripcion": "El río Shanay-timpishka en Perú alcanza casi 100 °C sin volcanes cerca. Así funciona este fenómeno geológico único. #shorts #curiosidades #planeta #amazonas #geologia #naturaleza",
+  "tags": [
+    "río hirviente",
+    "shanay timpishka",
+    "amazonas",
+    "geotermia",
+    "andres ruzo",
+    "mayantuyacu",
+    "curiosidades tierra",
+    "ciencia",
+    "rios extremos",
+    "fenomenos naturales"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué hierve este río a cien grados?",
+      "prompt_imagen": "Fotografía cinematográfica de un río caudaloso en una selva tropical densa cubierto por densas columnas de vapor blanco que se elevan sobre el agua agitada, luz matinal filtrada entre árboles."
+    },
+    {
+      "texto": "En 2011, Andrés Ruzo lo confirmó.",
+      "prompt_imagen": "Vista aérea cenital de un río selvático humeante serpenteando entre la densa vegetación verde de la Amazonía peruana, vapor denso sobre el cauce, iluminación natural."
+    },
+    {
+      "texto": "Oculto en Mayantuyacu, mide seis kilómetros.",
+      "prompt_imagen": "Plano medio a nivel del agua de las orillas rocosas de un río humeante en la jungla de Mayantuyacu, rocas mojadas y vegetación tropical espesa bajo la niebla de vapor."
+    },
+    {
+      "texto": "Cualquier animal atrapado muere cocinado vivo.",
+      "prompt_imagen": "Primer plano dramático del agua cristalina de un río hirviendo con burbujas intensas emergiendo en la superficie junto a la orilla rocosa, vapor denso, fotografía de naturaleza realista."
+    },
+    {
+      "texto": "El volcán más cercano dista setecientos kilómetros.",
+      "prompt_imagen": "Vista panorámica de la inmensa llanura amazónica completamente plana y verde que se extiende hasta el horizonte sin volcanes visibles, cielo con nubes dispersas, iluminación diurna."
+    },
+    {
+      "texto": "El agua de lluvia penetra fallas profundas.",
+      "prompt_imagen": "Fotografía geológica de una profunda garganta de roca con fracturas tectónicas estrechas en la selva húmeda por donde se filtra el agua superficial."
+    },
+    {
+      "texto": "La geotermia terrestre la expulsa ardiendo.",
+      "prompt_imagen": "Manantial hidrotermal hirviente brotando de una grieta rocosa profunda en el suelo de la selva, agua caliente vaporosa emergiendo a gran presión entre piedras oscuras."
+    },
+    {
+      "texto": "Creando este río a cien grados.",
+      "prompt_imagen": "Plano general cinematográfico al atardecer de un extenso tramo de río humeante rodeado de bosque lluvioso tropical, reflejos dorados y denso vapor sobre el agua."
+    }
+  ]
+}

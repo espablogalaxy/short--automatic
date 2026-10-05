@@ -1,0 +1,50 @@
+{
+  "titulo": "¡El pueblo a 2.400 km de cualquier vecino!",
+  "descripcion": "Tristán de Acuña es el lugar habitado más aislado del planeta, perdido en mitad del océano Atlántico. #shorts #curiosidades #planeta #tristandeacuña #geografia #islas",
+  "tags": [
+    "tristan de acuña",
+    "isla más aislada",
+    "islas remotas",
+    "record guinness",
+    "geografia extrema",
+    "curiosidades del planeta",
+    "lugares remotos",
+    "oceano atlantico",
+    "planeta tierra",
+    "viajes extremos"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Vivirías a dos mil kilómetros del vecino?",
+      "prompt_imagen": "Fotografía aérea hiperrealista de una pequeña y solitaria isla volcánica rodeada por un océano gigantesco, olas rompiendo contra acantilados oscuros bajo un cielo nublado y dramático."
+    },
+    {
+      "texto": "En mitad del tempestuoso Atlántico Sur existe.",
+      "prompt_imagen": "Plano cinematográfico de un mar embravecido con olas gigantescas en el océano Atlántico Sur, con una silueta montañosa lejana cubierta por densa niebla marina."
+    },
+    {
+      "texto": "No tiene aeropuerto ni puerto marítimo resguardado.",
+      "prompt_imagen": "Vista costera realista de costas rocosas escarpadas sin muelles, olas violentas chocando contra piedras negras volcánicas y laderas verdes empinadas sin pistas de aterrizaje."
+    },
+    {
+      "texto": "Un barco llega pocas veces al año.",
+      "prompt_imagen": "Un barco de carga rústico anclado mar adentro frente a una costa volcánica escarpada, rodeado de aguas oceánicas agitadas bajo un cielo plomizo."
+    },
+    {
+      "texto": "Este lugar poblado es Tristán de Acuña.",
+      "prompt_imagen": "Fotografía documental del pequeño asentamiento de Edimburgo de los Siete Mares, con casas bajas de techos de chapa de colores a los pies de un imponente volcán verde cubierto de nubes."
+    },
+    {
+      "texto": "Su vecino dista dos mil cuatrocientos kilómetros.",
+      "prompt_imagen": "Vista cenital satelital hiperrealista del océano Atlántico Sur mostrando una minúscula mota de tierra en una inmensidad azul profunda infinita y vacía."
+    },
+    {
+      "texto": "Equivale a cruzar España dos veces seguidas.",
+      "prompt_imagen": "Perspectiva realista desde gran altitud del mapa de la península ibérica iluminada por la luz solar diurna, mostrando la escala continental rodeada por el mar."
+    },
+    {
+      "texto": "¿Vivirías a dos mil kilómetros del vecino?",
+      "prompt_imagen": "Retrato realista de un solitario habitante caminando por un sendero de hierba junto a acantilados oceánicos con el horizonte infinito del mar abierto de fondo."
+    }
+  ]
+}

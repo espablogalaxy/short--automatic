@@ -1,0 +1,50 @@
+{
+  "titulo": "¿979 metros de caída? Así es el Salto Ángel",
+  "descripcion": "El Salto Ángel, en Venezuela, es la cascada más alta del planeta con 979 m de caída. Descubre sus datos extremos.",
+  "tags": [
+    "Salto Ángel",
+    "cascada más alta",
+    "Venezuela",
+    "979 metros",
+    "catarata",
+    "selva tropical",
+    "geografía extrema",
+    "Parque Canaima",
+    "altura cascada",
+    "río extremo"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Cuántos metros tiene la caída más alta?",
+      "prompt_imagen": "Fotografía hiperrealista del Salto Ángel visto desde arriba, con la garganta profunda y la caída vertical, cielo claro y nubes bajo la cascada"
+    },
+    {
+      "texto": "Es el Salto Ángel, Venezuela.",
+      "prompt_imagen": "Primer plano del Salto Ángel, Venezuela, rodeado de selva verde, agua cayendo en una caída monumental"
+    },
+    {
+      "texto": "Mide novecientos setenta y nueve metros.",
+      "prompt_imagen": "Cascada del Salto Ángel con una regla de medida gigante al lado de la caída, indicando su altura"
+    },
+    {
+      "texto": "Superó al Nohkalikai en 2015.",
+      "prompt_imagen": "Mapa topográfico del Parque Canaima en Venezuela, resaltando el Salto Ángel con una marca de año 2015"
+    },
+    {
+      "texto": "Su caída libre dura ocho segundos.",
+      "prompt_imagen": "Imagen del Salto Ángel capturada en movimiento, mostrando la corriente de agua durante ocho segundos con desenfoque sutil"
+    },
+    {
+      "texto": "El agua cae sobre selva lluviosa.",
+      "prompt_imagen": "Vista de la selva tropical densa bajo el Salto Ángel, vegetación exuberante y luz filtrada entre los árboles"
+    },
+    {
+      "texto": "Genera vientos de ciento sesenta km/h.",
+      "prompt_imagen": "Cascada del Salto Ángel con hojas y espuma arrastradas por fuertes vientos, indicando velocidad de 160 km/h"
+    },
+    {
+      "texto": "Así es la caída de 979 metros.",
+      "prompt_imagen": "Panorámica al atardecer del Salto Ángel, resaltando su imponente altura y la majestuosidad de la caída"
+    }
+  ]
+}
