@@ -1,0 +1,48 @@
+{
+  "titulo": "¡La placa del Pacífico mide 103 millones km²!",
+  "descripcion": "Descubre el tamaño colosal de la mayor placa tectónica del planeta y sus comparaciones sorprendentes. #shorts #curiosidades #planeta #tectonica #placaPacífico #geología",
+  "tags": [
+    "placa tectónica",
+    "placa del Pacífico",
+    "geología",
+    "tectónica de placas",
+    "tamaño placa",
+    "continente África",
+    "Estados Unidos",
+    "movimiento tectónico"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Una placa tectónica de 103 millones km²?",
+      "prompt_imagen": "Vista aérea del Océano Pacífico, aguas azules extensas, estilo fotográfico hiperrealista"
+    },
+    {
+      "texto": "Es la mayor de todas",
+      "prompt_imagen": "Mapa mundial resaltando la placa del Pacífico como la más grande, colores realistas"
+    },
+    {
+      "texto": "Cubre casi la mitad del fondo oceánico",
+      "prompt_imagen": "Sección transversal del fondo marino del Pacífico mostrando la placa bajo el agua, iluminación dramática"
+    },
+    {
+      "texto": "Su superficie supera a África entera",
+      "prompt_imagen": "Superposición de la silueta de África dentro del contorno de la placa del Pacífico, fotografía de satélite"
+    },
+    {
+      "texto": "Tres veces y medio el tamaño africano",
+      "prompt_imagen": "Tres continentes de África y medio repetidos al lado de la placa del Pacífico, vista satelital"
+    },
+    {
+      "texto": "Y es diez veces mayor que EE UU",
+      "prompt_imagen": "Comparación del contorno de la placa del Pacífico con el de Estados Unidos, escala visible, estilo fotográfico"
+    },
+    {
+      "texto": "Se desplaza apenas diez centímetros al año",
+      "prompt_imagen": "Mapa de la placa del Pacífico con una pequeña flecha de 10 cm indicando movimiento, foto realista"
+    },
+    {
+      "texto": "¿Una placa tectónica de 103 millones km²?",
+      "prompt_imagen": "Vista aérea del Océano Pacífico, aguas azules extensas, estilo fotográfico hiperrealista"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Cómo vive la gente de Oymyakon con –67 °C?",
+  "descripcion": "Descubre por qué Oymyakon, Siberia, alcanza –67 °C y cómo sus habitantes se adaptan al frío más intenso del planeta. #shorts #curiosidades #planeta #Oymyakon #FríoExtremo #Rusia",
+  "tags": [
+    "Oymyakon",
+    "Siberia",
+    "temperatura récord",
+    "frío extremo",
+    "vida ártica",
+    "récord 1933",
+    "adaptación humana",
+    "valle profundo",
+    "radiación nocturna",
+    "calefacción keroseno"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Cómo sobrevive Oymyakon con –67 grados?",
+      "prompt_imagen": "Vista aérea del poblado de Oymyakon, Siberia, en un día helado, con casas cubiertas de nieve y cielo gris, fotografía hiperrealista"
+    },
+    {
+      "texto": "El récord frío se registró en 1933.",
+      "prompt_imagen": "Imagen histórica en blanco y negro del termómetro marcando menos sesenta y siete grados en Oymyakon, 1933, fotografía hiperrealista"
+    },
+    {
+      "texto": "Un valle profundo atrapa el aire caliente.",
+      "prompt_imagen": "Valle rodeado de montañas en Oymyakon, mostrando la depresión que atrapa el aire, fotografía hiperrealista"
+    },
+    {
+      "texto": "El aire se comprime al anochecer.",
+      "prompt_imagen": "Cielo estrellado sobre Oymyakon, mostrando la atmósfera densa al anochecer, fotografía hiperrealista"
+    },
+    {
+      "texto": "Sin nubes, la radiación escapa rápidamente.",
+      "prompt_imagen": "Cielo sin nubes sobre Oymyakon, con sol bajo y terreno helado, resaltando la radiación, fotografía hiperrealista"
+    },
+    {
+      "texto": "La nieve refleja luz, intensificando el frío.",
+      "prompt_imagen": "Campo nevado en Oymyakon reflejando la luz del sol, intensificando el frío, fotografía hiperrealista"
+    },
+    {
+      "texto": "Los residentes usan calefactores de keroseno 24/7.",
+      "prompt_imagen": "Interior de una cabaña de Oymyakon con un calefactor de keroseno encendido y humo, fotografía hiperrealista"
+    },
+    {
+      "texto": "¿Cómo sobrevive Oymyakon con –67 grados?",
+      "prompt_imagen": "Misma vista aérea de Oymyakon al amanecer, reforzando la pregunta inicial, fotografía hiperrealista"
+    }
+  ]
+}
