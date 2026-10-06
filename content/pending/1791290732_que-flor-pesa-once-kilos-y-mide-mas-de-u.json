@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué flor pesa once kilos y mide más de un metro?",
+  "descripcion": "Descubre la Rafflesia arnoldii, la flor más grande y pesada del planeta, que vive en la selva de Sumatra. #shorts #curiosidades #planeta #Rafflesia #Sumatra #floresgigantes",
+  "tags": [
+    "Rafflesia",
+    "flores gigantes",
+    "Sumatra",
+    "Indonesia",
+    "plantas extremas",
+    "flor más grande",
+    "curiosidades",
+    "naturaleza",
+    "botánica",
+    "flores raras"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué flor pesa once kilos?",
+      "prompt_imagen": "Rafflesia arnoldii gigante emergiendo del suelo de la selva, vista cercana, detalle de pétalos gigantes, iluminación dramática, fotografía hiperrealista"
+    },
+    {
+      "texto": "Crece en la exuberante selva de Sumatra.",
+      "prompt_imagen": "Selva tropical densa de Sumatra con árboles altos y vegetación exuberante, luz filtrada, fotografía hiperrealista"
+    },
+    {
+      "texto": "Es la Rafflesia arnoldii, la mayor.",
+      "prompt_imagen": "Rafflesia arnoldii en plena floración, vista frontal, pétalos rojizos, fotografía hiperrealista"
+    },
+    {
+      "texto": "Sus pétalos alcanzan hasta 1,15 metros.",
+      "prompt_imagen": "Rafflesia arnoldii al lado de una cinta métrica extendida a 1,15 metros, foto hiperrealista"
+    },
+    {
+      "texto": "Puede pesar hasta once kilogramos.",
+      "prompt_imagen": "Rafflesia apoyada sobre una balanza que muestra 11 kg, foto hiperrealista"
+    },
+    {
+      "texto": "Florece solo una vez cada diez años.",
+      "prompt_imagen": "Calendario de madera con diez años marcados junto a la Rafflesia, foto hiperrealista"
+    },
+    {
+      "texto": "Su olor huele a carne podrida.",
+      "prompt_imagen": "Rafflesia rodeada de trozos de carne en descomposición, indicando olor, foto hiperrealista"
+    },
+    {
+      "texto": "¿Qué flor pesa once kilos? ¡Rafflesia!",
+      "prompt_imagen": "Rafflesia completa en su esplendor, enfoque en pétalos, fotografía hiperrealista"
+    }
+  ]
+}
