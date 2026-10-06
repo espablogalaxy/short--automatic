@@ -1,0 +1,48 @@
+{
+  "titulo": "¿Cuál es el punto a 6 384 km del centro de la Tierra?",
+  "descripcion": "Descubre cuál es el punto más alejado del centro de la Tierra, medido desde el espacio. #shorts #curiosidades #planeta #Chimborazo #record #espacio",
+  "tags": [
+    "Chimborazo",
+    "punto más lejano",
+    "centro de la Tierra",
+    "récord terrestre",
+    "satélites",
+    "altura del Everest",
+    "Ecuador",
+    "geografía espacial"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué punto está a 6 384 km del centro?",
+      "prompt_imagen": "Fotografía hiperrealista del planeta Tierra vista desde el espacio, enfocando la zona ecuatorial de Ecuador donde se ubica el Chimborazo, con la montaña resaltada."
+    },
+    {
+      "texto": "Un volcán ecuatoriano lo ostenta.",
+      "prompt_imagen": "Vista aérea hiperrealista del volcán Chimborazo en Ecuador, con nieve y rocas al fondo."
+    },
+    {
+      "texto": "Se llama Chimborazo, 6 263 metros.",
+      "prompt_imagen": "Cima del Chimborazo bajo cielo claro, con una señal que indica altitud 6 263 metros."
+    },
+    {
+      "texto": "Su cumbre supera la altura del Everest.",
+      "prompt_imagen": "Fotografía comparativa hiperrealista del Chimborazo y el Monte Everest, mostrando la cumbre del Chimborazo más alta respecto al centro de la Tierra."
+    },
+    {
+      "texto": "Desde el espacio parece una gota azul.",
+      "prompt_imagen": "Imagen satelital hiperrealista del Chimborazo sobre la Amazonía, apareciendo como una pequeña gota azul en el planeta."
+    },
+    {
+      "texto": "Los satélites miden su distancia exacta.",
+      "prompt_imagen": "Satélite en órbita terrestre capturando datos, pantalla holográfica que muestra mediciones de distancia."
+    },
+    {
+      "texto": "6 384 km es la cifra oficial.",
+      "prompt_imagen": "Gráfica digital sobre la foto del Chimborazo que muestra el número 6 384 km en neón."
+    },
+    {
+      "texto": "Así que ese punto es Chimborazo.",
+      "prompt_imagen": "Silhouette hiperrealista del Chimborazo al atardecer, con la pregunta inicial reapareciendo como texto flotante."
+    }
+  ]
+}
