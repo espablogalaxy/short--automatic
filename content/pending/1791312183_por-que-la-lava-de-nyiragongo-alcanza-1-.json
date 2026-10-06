@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué la lava de Nyiragongo alcanza 1.200 °C?",
+  "descripcion": "Descubre la razón del calor extremo de la lava de Nyiragongo, el volcán más caliente del planeta. #shorts #curiosidades #planeta #Nyiragongo #lava #volcanes",
+  "tags": [
+    "Nyiragongo",
+    "lava caliente",
+    "volcanes",
+    "basalto",
+    "1200 grados",
+    "Congo",
+    "magma",
+    "1977",
+    "geología",
+    "temperatura lava"
+  ],
+  "escenas": [
+    {
+      "texto": "1.200 °C: la lava más caliente del planeta",
+      "prompt_imagen": "Close-up hyperrealistic photograph of intensely glowing molten lava, vivid red-orange, extreme brightness, volcanic crater background"
+    },
+    {
+      "texto": "En Nyiragongo, República Democrática del Congo",
+      "prompt_imagen": "Panoramic hyperrealistic photograph of Nyiragongo volcano in the Democratic Republic of Congo, clouded sky, surrounding forest"
+    },
+    {
+      "texto": "Su lago de lava mide 700 metros",
+      "prompt_imagen": "Aerial hyperrealistic view of Nyiragongo's lava lake, approx 700 m diameter, bright orange surface, crater walls"
+    },
+    {
+      "texto": "Temperatura medida en 1977 por científicos franceses",
+      "prompt_imagen": "1977 field scene on Nyiragongo with French volcanologists measuring lava temperature, scientific instruments, hyperrealistic"
+    },
+    {
+      "texto": "Bajo baja viscosidad, fluye como aceite",
+      "prompt_imagen": "Slow-moving stream of molten lava down crater wall, thick like oil, hyperrealistic"
+    },
+    {
+      "texto": "Magma basáltico, casi sin sílice",
+      "prompt_imagen": "Cross-section hyperrealistic image of basaltic magma chamber, low silica content, bright orange magma"
+    },
+    {
+      "texto": "Así mantiene su temperatura extrema constante",
+      "prompt_imagen": "Steady glowing lava lake maintaining uniform high temperature, hyperrealistic"
+    },
+    {
+      "texto": "1.200 °C: la lava más caliente",
+      "prompt_imagen": "Close-up hyperrealistic photograph of intensely glowing molten lava, vivid red-orange, extreme brightness, volcanic crater background"
+    }
+  ]
+}
