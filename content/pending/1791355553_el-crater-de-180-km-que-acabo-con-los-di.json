@@ -1,0 +1,50 @@
+{
+  "titulo": "¿El cráter de 180 km que acabó con los dinosaurios?",
+  "descripcion": "El cráter Chicxulub, de 180 km de diámetro, marcó el fin de los dinosaurios hace 66 millones de años. Descubre sus datos exactos. #shorts #curiosidades #planeta #Chicxulub #impacto #dinosaurios #geología #Yucatán",
+  "tags": [
+    "cráter Chicxulub",
+    "impacto meteórico",
+    "dinosaurios",
+    "Yucatán",
+    "iridio",
+    "cráter submarino",
+    "historia de la Tierra",
+    "geología",
+    "asteroide 10 km",
+    "180 km"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Un cráter de 180 km?",
+      "prompt_imagen": "Satélite muestra el cráter Chicxulub en Yucatán, resaltado con círculo de 180 km de diámetro, fotografía hiperrealista."
+    },
+    {
+      "texto": "Impactó un asteroide de diez kilómetros.",
+      "prompt_imagen": "Asteroide rocoso de 10 km de diámetro acercándose a la Tierra, render realista en el espacio."
+    },
+    {
+      "texto": "Cayó donde hoy está Yucatán, México.",
+      "prompt_imagen": "Vista aérea de la costa de Yucatán, México, zona del impacto del cráter Chicxulub, foto hiperrealista."
+    },
+    {
+      "texto": "Hace sesenta y seis millones de años.",
+      "prompt_imagen": "Ilustración científica de la Tierra hace 66 millones de años, con nube de polvo del impacto, estilo foto realista."
+    },
+    {
+      "texto": "Destruyó los dinosaurios y cambió clima.",
+      "prompt_imagen": "Escena de dinosaurios bajo una nube densa de polvo y ceniza tras el impacto, fotografía dramática."
+    },
+    {
+      "texto": "Iridio y cráter submarino lo prueban.",
+      "prompt_imagen": "Muestra de capa de iridio en una muestra de roca y cráter submarino en el Golfo de México, fotografía macro."
+    },
+    {
+      "texto": "Es el mayor cráter visible desde espacio.",
+      "prompt_imagen": "Imagen satelital del cráter Chicxulub visible desde el espacio, resaltado, estilo hiperrealista."
+    },
+    {
+      "texto": "¿Un cráter de 180 km?",
+      "prompt_imagen": "Satélite muestra el cráter Chicxulub en Yucatán, resaltado con círculo de 180 km de diámetro, fotografía hiperrealista."
+    }
+  ]
+}
