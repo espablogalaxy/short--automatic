@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Cómo se formó el lago anular de 100 km hace 214 millones?",
+  "descripcion": "El cráter de Manicouagan, creado por un asteroide hace 214 millones de años, dio origen al lago anular más grande del planeta. #shorts #curiosidades #planeta #Manicouagan #impacto #geología",
+  "tags": [
+    "Manicouagan",
+    "cráter de impacto",
+    "asteroide",
+    "lago anular",
+    "geología",
+    "Eugene Shoemaker",
+    "214 millones",
+    "ciencia",
+    "curiosidades",
+    "cráter"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Cómo surgió el lago de 100 km?",
+      "prompt_imagen": "Vista aérea hiperrealista del extenso lago Manicouagan en forma de anillo, aguas azules rodeadas de bosque, iluminación dramática."
+    },
+    {
+      "texto": "Shoemaker lo identificó en 1962.",
+      "prompt_imagen": "Fotografía en blanco y negro de Eugene Shoemaker en 1962, revisando mapas geológicos en una oficina, estilo documental."
+    },
+    {
+      "texto": "Hace 214 millones, un asteroide impactó.",
+      "prompt_imagen": "Representación artística hiperrealista del impacto de un asteroide contra la Tierra hace 214 millones de años, explosión y nube de polvo."
+    },
+    {
+      "texto": "El meteorito medía unos cinco kilómetros.",
+      "prompt_imagen": "Ilustración detallada del meteorito de 5 km de diámetro acercándose a la superficie terrestre, vista lateral, realismo."
+    },
+    {
+      "texto": "La explosión creó un cráter de 100 km.",
+      "prompt_imagen": "Mapa topográfico satelital mostrando el cráter circular de 100 km de diámetro, colores de relieve, estilo fotográfico."
+    },
+    {
+      "texto": "Con el tiempo, se llenó de agua.",
+      "prompt_imagen": "Lago Manicouagan lleno de agua, vista panorámica al atardecer con reflejo, estilo fotografía hiperrealista."
+    },
+    {
+      "texto": "El centro colapsó, formando una isla.",
+      "prompt_imagen": "Isla Manicouagan central elevada emergiendo del lago, vegetación densa, vista aérea, detalle realista."
+    },
+    {
+      "texto": "Así nació el lago anular de Manicouagan.",
+      "prompt_imagen": "Plano final del lago anular de Manicouagan visto desde el espacio, cierre circular que retoma la pregunta inicial, estilo foto aérea."
+    }
+  ]
+}
