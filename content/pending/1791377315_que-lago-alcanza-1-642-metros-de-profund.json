@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
+  "descripcion": "El lago Baikal en Siberia es el más profundo del planeta y contiene una enorme cantidad de agua dulce. Descubre sus cifras sorprendentes.",
+  "tags": [
+    "Lago Baikal",
+    "lago más profundo",
+    "profundidad",
+    "agua dulce",
+    "Siberia",
+    "geografía",
+    "registro mundial",
+    "cifras sorprendentes",
+    "naturaleza",
+    "ecosistema"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué lago alcanza más de mil quinientos metros?",
+      "prompt_imagen": "Lago Baikal visto desde el aire, agua cristalina, rodeado de bosques boreales y montañas nevadas, luz de amanecer, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Es el Baikal, en Siberia, Rusia",
+      "prompt_imagen": "Cartel de señalización en la orilla del lago Baikal con el nombre 'Baikal', fondo de bosque y montañas, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Tiene una profundidad máxima de 1 642 metros",
+      "prompt_imagen": "Perfil subacuático del lago Baikal mostrando la zona más profunda, medidor de profundidad marcando 1 642 metros, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Almacena 23 600 km³ de agua fresca",
+      "prompt_imagen": "Vista panorámica del lago Baikal desde la costa, superficie amplia, cielo despejado, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Equivale a diez mil millones de piscinas",
+      "prompt_imagen": "Comparación visual de pequeñas piscinas olímpicas alineadas sobre la superficie del lago Baikal, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Representa veinte por ciento del agua dulce",
+      "prompt_imagen": "Lago Baikal con una gran gota de agua etiquetada '20 % agua dulce mundial' sobre el agua, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Tiene más de veinticinco millones de años",
+      "prompt_imagen": "Roca antigua en la ribera del lago Baikal con fósiles visibles, luz tenue, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "¿Qué lago alcanza más de mil quinientos metros?",
+      "prompt_imagen": "Lago Baikal visto desde el aire, agua cristalina, rodeado de bosques boreales y montañas nevadas, luz de amanecer, estilo fotografía hiperrealista"
+    }
+  ]
+}
