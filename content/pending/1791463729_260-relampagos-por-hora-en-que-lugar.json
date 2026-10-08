@@ -1,0 +1,50 @@
+{
+  "titulo": "¿260 relámpagos por hora? ¿En qué lugar?",
+  "descripcion": "El fenómeno eléctrico más intenso del planeta se concentra sobre un lago venezolano. Descubre por qué la tormenta del Catatumbo brilla sin parar. #shorts #curiosidades #planeta #Catatumbo #relámpagos #Venezuela #tormenta",
+  "tags": [
+    "Catatumbo lightning",
+    "Lake Maracaibo",
+    "Venezuela",
+    "260 lightning per hour",
+    "atmospheric phenomenon",
+    "electric storm",
+    "most lightning",
+    "natural wonder",
+    "weather",
+    "extreme sky"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué lugar genera 260 relámpagos por hora?",
+      "prompt_imagen": "Cielo nocturno con intensos relámpagos sobre nubes, vista panorámica, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Una tormenta que nunca duerme.",
+      "prompt_imagen": "Tormenta eléctrica continua en el horizonte, relámpagos constantes, estilo foto hiperrealista"
+    },
+    {
+      "texto": "Se repite entre ocho y diez noches.",
+      "prompt_imagen": "Noche con relámpagos, números 8 y 10 superpuestos sobre el cielo, estilo foto hiperrealista"
+    },
+    {
+      "texto": "El calor del lago alimenta la chispa.",
+      "prompt_imagen": "Lago tibio bajo una tormenta eléctrica, vapor emergiendo, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Vientos del Caribe chocan con corrientes internas.",
+      "prompt_imagen": "Corrientes de aire visibles sobre el lago, flechas indicando vientos del Caribe y corrientes internas, estilo foto hiperrealista"
+    },
+    {
+      "texto": "Produce más de un millón de descargas.",
+      "prompt_imagen": "Números flotantes mostrando más de un millón, rodeados de relámpagos, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Este espectáculo vibra sobre el lago Maracaibo.",
+      "prompt_imagen": "Lago Maracaibo bajo tormenta eléctrica, relámpagos sobre el agua, vista aérea, estilo foto hiperrealista"
+    },
+    {
+      "texto": "Así es la famosa luz del Catatumbo.",
+      "prompt_imagen": "Delta de Maracaibo con nombre Catatumbo iluminado por relámpagos, estilo fotografía hiperrealista"
+    }
+  ]
+}
