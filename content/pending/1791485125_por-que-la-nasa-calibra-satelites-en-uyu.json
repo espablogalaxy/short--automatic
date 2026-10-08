@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué la NASA calibra satélites en Uyuni?",
+  "descripcion": "El salar de Uyuni abarca 10.582 km² con un desnivel casi nulo, convirtiéndose en el espejo natural perfecto para calibrar sensores orbitales. #shorts #curiosidades #planeta #geologia #nasa #espacio #bolivia",
+  "tags": [
+    "salar de uyuni",
+    "nasa",
+    "satelite icesat",
+    "espacio",
+    "tierra desde el espacio",
+    "bolivia",
+    "ciencia",
+    "curiosidades tierra",
+    "records del planeta",
+    "geologia"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Por qué la NASA calibra satélites en Bolivia?",
+      "prompt_imagen": "Fotografía satelital cenital hiperrealista que muestra el inmenso salar blanco de Uyuni extendiéndose por el altiplano andino, nítido y brillante contra el terreno montañoso circundante."
+    },
+    {
+      "texto": "Allí descansan diez mil quinientos kilómetros cuadrados.",
+      "prompt_imagen": "Fotografía aérea a vista de pájaro de una llanura blanca infinita de sal con patrones poligonales geométricos naturales bajo una intensa luz solar."
+    },
+    {
+      "texto": "Es el salar continuo más grande del planeta.",
+      "prompt_imagen": "Fotografía a ras de suelo en el salar de Uyuni mostrando una corteza blanca y seca de sal que se extiende hacia un horizonte perfectamente plano y despejado."
+    },
+    {
+      "texto": "Su desnivel total no supera un metro.",
+      "prompt_imagen": "Fotografía de paisaje panorámico con horizonte nivelado y completamente recto donde la llanura de sal blanca se funde con un cielo azul cobalto sin relieve."
+    },
+    {
+      "texto": "En dos mil tres usaron el satélite ICESat.",
+      "prompt_imagen": "Fotografía realista desde la órbita terrestre baja donde se aprecia un satélite científico plateado sobrevolando la brillante superficie blanca del continente sudamericano."
+    },
+    {
+      "texto": "Tras la lluvia, crea un espejo cósmico.",
+      "prompt_imagen": "Fotografía de una fina capa transparente de agua sobre el salar que refleja nítidamente las nubes y el cielo como un espejo perfecto sin turbulencias."
+    },
+    {
+      "texto": "Ese reflejo perfecto ajusta sensores orbitales.",
+      "prompt_imagen": "Fotografía cinematográfica al atardecer sobre el salar cubierto de agua reflejando tonos rosados y dorados de manera simétrica, con gran nitidez geométrica."
+    },
+    {
+      "texto": "Por eso la NASA apunta siempre a Bolivia.",
+      "prompt_imagen": "Vista hiperrealista desde la cúpula de la Estación Espacial Internacional con la Tierra en el encuadre, destacando la enorme mancha blanca y reflectante de Uyuni."
+    }
+  ]
+}
