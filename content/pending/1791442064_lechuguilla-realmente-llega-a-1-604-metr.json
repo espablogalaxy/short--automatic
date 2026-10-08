@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Lechuguilla realmente llega a 1 604 metros de profundidad?",
+  "descripcion": "Descubre la cueva de yeso más profunda del planeta, con 1 604 metros bajo la superficie. #shorts #curiosidades #planeta #Lechuguilla #cavernas #geología",
+  "tags": [
+    "Lechuguilla",
+    "cueva",
+    "yeso",
+    "profundidad",
+    "Nuevo México",
+    "geología",
+    "cavernas",
+    "exploración subterránea",
+    "cristales de yeso",
+    "cave diving"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué cueva supera mil metros bajo tierra?",
+      "prompt_imagen": "Entrada oscura de una cueva en la montaña de Nuevo México, entorno desértico, luz tenue que destaca la abertura"
+    },
+    {
+      "texto": "Lechuguilla, en Nuevo México, la rompe.",
+      "prompt_imagen": "Entrada de la cueva Lechuguilla con placa informativa, rocas rojizas alrededor, aspecto imponente"
+    },
+    {
+      "texto": "Profundidad exacta: 1 604 metros bajo superficie.",
+      "prompt_imagen": "Sección vertical de la cueva Lechuguilla mostrando una escala que llega a 1,604 metros de profundidad"
+    },
+    {
+      "texto": "Formada en yeso puro, casi transparente.",
+      "prompt_imagen": "Formaciones de yeso translúcido dentro de Lechuguilla, paredes brillantes como cristal bajo luz natural"
+    },
+    {
+      "texto": "Temperatura constante: trece grados centígrados.",
+      "prompt_imagen": "Termómetro digital dentro de la cueva marcando 13°C, ambiente iluminado con linternas"
+    },
+    {
+      "texto": "Humedad al cien por ciento, nunca seca.",
+      "prompt_imagen": "Gotera de agua condensada en el techo de la cueva, gotas brillantes que indican 100% de humedad"
+    },
+    {
+      "texto": "Algunos pasajes no han sido cartografiados aún.",
+      "prompt_imagen": "Mapa de la cueva con áreas rojas sin explorar, indicando pasajes desconocidos"
+    },
+    {
+      "texto": "Lechuguilla, la que supera mil metros.",
+      "prompt_imagen": "Vista interior de la cueva Lechuguilla con texto superpuesto 'Lechuguilla, la que supera mil metros' sobre formaciones de yeso"
+    }
+  ]
+}
