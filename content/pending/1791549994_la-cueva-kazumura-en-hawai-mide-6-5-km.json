@@ -1,0 +1,50 @@
+{
+  "titulo": "¡La cueva Kazumura en Hawai mide 6,5 km!",
+  "descripcion": "Descubre la cueva de lava más larga del planeta y su sorprendente extensión. #shorts #curiosidades #planeta #volcanes #lava #cavidades",
+  "tags": [
+    "Cueva Kazumura",
+    "lava tube",
+    "longest lava tube",
+    "Hawai",
+    "volcanes",
+    "geología",
+    "túnel de lava",
+    "caverna subterránea",
+    "registro mundial",
+    "ciencia"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué cueva subterránea supera los seis kilómetros?",
+      "prompt_imagen": "Fotografía hiperrealista del interior de una cueva subterránea larga, túnel de lava iluminado por luz tenue, vista en perspectiva continua"
+    },
+    {
+      "texto": "Es la Cueva Kazumura, Hawai, real.",
+      "prompt_imagen": "Entrada de la Cueva Kazumura en Hawai, señal de nombre visible, estilo foto hiperrealista de paisaje volcánico"
+    },
+    {
+      "texto": "Mide 6,5 kilómetros de longitud.",
+      "prompt_imagen": "Imagen hiperrealista de una cinta métrica gigante extendiéndose 6,5 km dentro de la cueva, con marcas de distancia"
+    },
+    {
+      "texto": "El tubo más largo del planeta.",
+      "prompt_imagen": "Interior de la cueva mostrando su gran extensión, señal visual que indica 'tubo más largo del planeta', foto hiperrealista"
+    },
+    {
+      "texto": "Equivale a 65 campos de fútbol.",
+      "prompt_imagen": "Comparación visual de la longitud de la cueva con 65 campos de fútbol alineados, estilo fotografía realista"
+    },
+    {
+      "texto": "Formado hace 500 años por lava.",
+      "prompt_imagen": "Escena volcánica histórica con lava fluyendo y formando un tubo, representación hiperrealista de hace 500 años"
+    },
+    {
+      "texto": "Aún se explora, revela géiseres.",
+      "prompt_imagen": "Investigadores dentro de la cueva observando géiseres de vapor, foto hiperrealista de exploración subterránea"
+    },
+    {
+      "texto": "¿Qué cueva subterránea supera los seis kilómetros?",
+      "prompt_imagen": "Fotografía hiperrealista del interior de una cueva subterránea larga, túnel de lava iluminado por luz tenue, vista en perspectiva continua"
+    }
+  ]
+}
