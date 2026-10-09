@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Un glaciar que corre 46 metros diarios?",
+  "descripcion": "El glaciar Jakobshavn en Groenlandia es el más rápido del planeta y avanza hasta 46 metros al día. Conoce al gigante que originó el iceberg del Titanic. #shorts #curiosidades #planeta #glaciares #groenlandia #ciencia",
+  "tags": [
+    "glaciar jakobshavn",
+    "groenlandia",
+    "iceberg titanic",
+    "curiosidades planeta",
+    "glaciares extremos",
+    "naturaleza extrema",
+    "ciencia de la tierra",
+    "hielo artico",
+    "fiordo ilulissat",
+    "geografia extrema"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué masa helada avanza 46 metros diarios?",
+      "prompt_imagen": "Fotografía aérea cinematográfica de un gigantesco glaciar ártico agrietado avanzando entre fiordos de roca oscura hacia el mar, luz dramática polar, hiperrealista, vista documental."
+    },
+    {
+      "texto": "Los glaciares comunes recorren solo pocos centímetros.",
+      "prompt_imagen": "Plano medio de un glaciar alpino estático cubierto de nieve blanca y morrenas de piedra bajo un cielo nublado invernal, hiperrealista, estilo National Geographic."
+    },
+    {
+      "texto": "Pero esta colosal autopista blanca no frena.",
+      "prompt_imagen": "Primer plano a nivel del suelo de profundas grietas y seracs de hielo azul intenso en un glaciar colosal en movimiento continuo, sombras pronunciadas, fotografía hiperrealista."
+    },
+    {
+      "texto": "Drena el siete por ciento de Groenlandia.",
+      "prompt_imagen": "Vista aérea cenital de gran angular de la costa oeste de Groenlandia mostrando una inmensa corriente de hielo glacial desembocando en un fiordo con témpanos, hiperrealista."
+    },
+    {
+      "texto": "Arroja miles de icebergs gigantes al océano.",
+      "prompt_imagen": "Fotografía de reportaje de enormes bloques de hielo desprendiéndose con violencia de una pared glacial y cayendo al agua polar salpicando espuma, hiperrealista."
+    },
+    {
+      "texto": "Aquí nació el que hundió al Titanic.",
+      "prompt_imagen": "Fotografía nocturna cinematográfica de un colosal iceberg de hielo azul y blanco flotando solitario en un océano oscuro y neblinoso bajo luz de luna, hiperrealista."
+    },
+    {
+      "texto": "Es el rápido glaciar Jakobshavn de Groenlandia.",
+      "prompt_imagen": "Plano general épico del glaciar Jakobshavn con su gigantesco frente helado de cien metros de altura sobre el agua del fiordo de Ilulissat, luz solar rasante, hiperrealista."
+    },
+    {
+      "texto": "Por eso avanza 46 metros cada día.",
+      "prompt_imagen": "Fotografía aérea en picado vertical mostrando el borde roto y dinámico del glaciar Jakobshavn precipitándose velozmente en el fiordo ártico, detalle nítido, hiperrealista."
+    }
+  ]
+}
