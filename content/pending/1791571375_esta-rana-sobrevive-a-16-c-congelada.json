@@ -1,0 +1,50 @@
+{
+  "titulo": "¡Esta rana sobrevive a –16 °C congelada!",
+  "descripcion": "La rana silvática de Alaska puede congelarse viva y detener sus órganos durante el invierno polar gracias a un anticongelante natural. #shorts #curiosidades #planeta #naturaleza #ciencia #animales",
+  "tags": [
+    "rana de bosque",
+    "Lithobates sylvaticus",
+    "congelación biológica",
+    "animales extremos",
+    "Kenneth Storey",
+    "curiosidades naturaleza",
+    "adaptación animal",
+    "invierno en Alaska",
+    "ciencia extrema",
+    "biodiversidad"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Un corazón puede pararse semanas enteras?",
+      "prompt_imagen": "Plano macro cinematográfico del pecho de una pequeña rana posada sobre musgo húmedo en un bosque frío."
+    },
+    {
+      "texto": "Ocurre cada invierno en los bosques boreales.",
+      "prompt_imagen": "Paisaje nevado de un bosque boreal de taiga en Alaska al amanecer con escarcha cubriendo el suelo."
+    },
+    {
+      "texto": "La rana Lithobates se congela completamente viva.",
+      "prompt_imagen": "Plano detalle de una pequeña rana marrón cubierta de cristales de hielo brillante entre hojas congeladas."
+    },
+    {
+      "texto": "Su cuerpo detiene cualquier latido detectable.",
+      "prompt_imagen": "Primer plano macro de los ojos opacos e inmóviles de una rana completamente rígida por la congelación invernal."
+    },
+    {
+      "texto": "En mil novecientos ochenta y dos,",
+      "prompt_imagen": "Interior de un laboratorio de biología clásico con instrumental de microscopía y cuadernos de campo de los años ochenta."
+    },
+    {
+      "texto": "el biólogo Kenneth Storey halló la clave.",
+      "prompt_imagen": "Biólogo examinando con pinzas una pequeña muestra biológica sobre una placa de Petri en un laboratorio iluminado."
+    },
+    {
+      "texto": "Su hígado inunda las células con glucosa.",
+      "prompt_imagen": "Visualización médica fotorrealista del interior translúcido de una rana donde los órganos se saturan de líquido denso protector."
+    },
+    {
+      "texto": "Así evita que este corazón muera congelado.",
+      "prompt_imagen": "Plano macro de la misma rana descongelándose suavemente entre musgo verde mientras el hielo se derrite a su alrededor."
+    }
+  ]
+}
