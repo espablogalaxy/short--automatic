@@ -1,0 +1,50 @@
+{
+  "titulo": "¿50.000 personas viven a 5.100 metros?",
+  "descripcion": "La Rinconada, en Perú, es el asentamiento humano permanente más alto de la Tierra. Descubre cómo sobreviven a condiciones extremas de oxígeno. #shorts #curiosidades #planeta #geografia #ciencia #peru",
+  "tags": [
+    "La Rinconada",
+    "Perú",
+    "ciudad más alta del mundo",
+    "hipoxia",
+    "extremos de la Tierra",
+    "curiosidades geográficas",
+    "ciencia",
+    "planeta Tierra",
+    "adaptación humana",
+    "Andes"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Cincuenta mil personas respirando medio oxígeno?",
+      "prompt_imagen": "Vista cinematográfica de un asentamiento urbano caótico y gélido en la ladera de una montaña nevada andina, cielo nublado dramático, plano general realista."
+    },
+    {
+      "texto": "En los Andes peruanos existe La Rinconada.",
+      "prompt_imagen": "Casas de chapa y piedra apiñadas sobre un terreno rocoso cubierto de nieve sucia en La Rinconada, Perú, fotografía documental hiperrealista."
+    },
+    {
+      "texto": "Se alza a cinco mil cien metros.",
+      "prompt_imagen": "Imponente pico nevado de un glaciar andino sobrevolando un poblado minero a gran altitud, luz diurna fría y cortante, fotografía cinematográfica."
+    },
+    {
+      "texto": "La presión atmosférica cae a la mitad.",
+      "prompt_imagen": "Primer plano de un barómetro analógico antiguo marcando una presión atmosférica muy baja sobre una roca andina congelada."
+    },
+    {
+      "texto": "Un visitante sufriría hipoxia y desmayos graves.",
+      "prompt_imagen": "Un médico midiendo el pulso y oxígeno a una persona sentada sobre una roca en alta montaña, con niebla densa de fondo."
+    },
+    {
+      "texto": "Sus mineros desarrollaron una adaptación biológica extrema.",
+      "prompt_imagen": "Retrato cercano de un minero andino con casco y ropa abrigada, rostro curtido por el frío y el viento extremo, iluminación natural lateral."
+    },
+    {
+      "texto": "En dos mil diecinueve estudiaron su mutación.",
+      "prompt_imagen": "Científicos con batas térmicas analizando muestras de sangre en tubos de ensayo dentro de un laboratorio de campaña en la montaña."
+    },
+    {
+      "texto": "Explicando cómo viven respirando medio oxígeno.",
+      "prompt_imagen": "Panorámica aérea amplia del pueblo de La Rinconada encajado entre glaciares gigantescos bajo un cielo azul gélido."
+    }
+  ]
+}
