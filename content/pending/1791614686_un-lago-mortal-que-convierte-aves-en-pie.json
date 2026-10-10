@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Un lago mortal que convierte aves en piedra?",
+  "descripcion": "El lago Natron en Tanzania alcanza un pH extremo de diez y calcifica a los animales que mueren en sus orillas rojas. #shorts #curiosidades #planeta #lagonatron #tanzania #naturalezaextrema",
+  "tags": [
+    "lago natron",
+    "tanzania",
+    "lagos extremos",
+    "curiosidades planeta",
+    "ciencia",
+    "naturaleza extrema",
+    "lago rojo",
+    "animales petrificados",
+    "geologia",
+    "datos curiosos"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Por qué este lago convierte animales en piedra?",
+      "prompt_imagen": "Plano cinematográfico de una estatua natural de ave calcificada y petrificada en la orilla de un lago salino rojo, detalle realista de textura mineral, luz dramática del amanecer."
+    },
+    {
+      "texto": "Es el misterioso lago Natron, en Tanzania.",
+      "prompt_imagen": "Vista aérea panorámica del lago Natron en Tanzania, mostrando extensas aguas de color rojo escarlata y patrones geométricos de sal blanca brillante bajo el sol africano."
+    },
+    {
+      "texto": "Sus aguas alcalinas alcanzan sesenta grados centígrados.",
+      "prompt_imagen": "Primer plano de vapor caliente emergiendo del agua roja y densa de un lago salino volcánico, burbujas minerales en la superficie rocosa al atardecer."
+    },
+    {
+      "texto": "Además, tienen un pH letal de diez.",
+      "prompt_imagen": "Orilla de lago cáustico con costras gruesas de minerales alcalinos blancos y sales cristalizadas sobre lodo oscuro, fotografía documental nítida."
+    },
+    {
+      "texto": "Bacterias extremas tiñen todo de rojo sangre.",
+      "prompt_imagen": "Macro fotografía del agua viscosa teñida de rojo carmesí intenso por microorganismos halófilos, reflejo nítido del cielo desértico."
+    },
+    {
+      "texto": "El carbonato de sodio disuelto momifica cadáveres.",
+      "prompt_imagen": "Primer plano de cristales de natrón y carbonato de sodio cubriendo restos orgánicos en la orilla salina, iluminación lateral de cine."
+    },
+    {
+      "texto": "Las aves caídas quedan literalmente petrificadas intactas.",
+      "prompt_imagen": "Fotografía hiperrealista de una pequeña ave momificada perfectamente conservada con costra de sal gris sobre una rama seca junto al agua roja."
+    },
+    {
+      "texto": "Ahora entiendes cómo este lago crea piedra.",
+      "prompt_imagen": "Plano general dramático del paisaje alienígena del lago Natron con el volcán Ol Doinyo Lengai al fondo en el horizonte africano."
+    }
+  ]
+}
