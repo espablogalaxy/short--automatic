@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué esconde Kerguelen a 3.300 km de todos?",
+  "descripcion": "El archipiélago de Kerguelen es uno de los territorios más aislados y hostiles del planeta, azotado por vientos incesantes. #shorts #curiosidades #planeta #geografia #islas #kerguelen #naturaleza",
+  "tags": [
+    "islas kerguelen",
+    "archipielago kerguelen",
+    "islas de la desolacion",
+    "islas aisladas",
+    "lugares remotos",
+    "geografia extrema",
+    "curiosidades del planeta",
+    "planeta tierra",
+    "oceano indico",
+    "james cook"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué tierra dista tres mil trescientos kilómetros?",
+      "prompt_imagen": "Fotografía aérea cinematográfica de una isla montañosa y escarpada completamente aislada en mitad de un océano embravecido, olas gigantes, cielo plomizo dramático"
+    },
+    {
+      "texto": "Allí no vive ningún ser humano permanente.",
+      "prompt_imagen": "Costa rocosa salvaje y solitaria con acantilados de basalto negro golpeados por el mar austral, terreno volcánico deshabitado, plano general realista"
+    },
+    {
+      "texto": "Los vendavales alcanzan ciento cincuenta por hora.",
+      "prompt_imagen": "Temporal violento azotando una costa escarpada, espuma marina pulverizada por fuertes ráfagas de viento, nubes oscuras en movimiento rápido"
+    },
+    {
+      "texto": "Por ese viento glacial jamás crecen árboles.",
+      "prompt_imagen": "Planicie de tundra subantártica sin árboles, pastos bajos y musgo verde oscuro aplastados por el viento helado, montañas nevadas al fondo"
+    },
+    {
+      "texto": "Ocupa siete mil doscientos kilómetros cuadrados salvajes.",
+      "prompt_imagen": "Panorámica hiperrealista de fiordos profundos, valles glaciares y cordilleras volcánicas que se extienden hasta el horizonte bajo una luz natural fría"
+    },
+    {
+      "texto": "El capitán Cook la bautizó como Desolación.",
+      "prompt_imagen": "Paisaje sombrío de cabos oscuros y crestas afiladas junto al mar embravecido, atmósfera melancólica con rayos de sol tenues atravesando la niebla"
+    },
+    {
+      "texto": "Hablamos del remoto archipiélago de Kerguelen.",
+      "prompt_imagen": "Vista documental detallada de la costa de las islas Kerguelen con una solitaria y diminuta estación científica de edificios rojos frente a un fiordo tranquilo"
+    },
+    {
+      "texto": "¿Soportarías tres mil trescientos kilómetros de aislamiento?",
+      "prompt_imagen": "Plano general épico alejándose de la solitaria silueta montañosa de la isla, rodeada por la inmensidad interminable del océano bajo un atardecer frío"
+    }
+  ]
+}
