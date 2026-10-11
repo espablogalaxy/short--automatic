@@ -1,0 +1,48 @@
+{
+  "titulo": "¿El desierto de Lut alcanzó 70,7 °C en 2005?",
+  "descripcion": "En 2005 el satélite MODIS registró la temperatura más alta de la Tierra: 70,7 °C en el desierto de Lut, Irán. Descubre este horno natural. #shorts #curiosidades #planeta #DesiertoLut #TemperaturaMáxima #NASA",
+  "tags": [
+    "Desierto de Lut",
+    "Irán",
+    "temperatura récord",
+    "70,7 grados",
+    "MODIS",
+    "NASA",
+    "desierto más caliente",
+    "calor extremo"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué lugar supera los setenta grados?",
+      "prompt_imagen": "Vista aérea del desierto de Lut, Irán, bajo un sol intenso, mostrando extensas dunas y superficies rocosas."
+    },
+    {
+      "texto": "Es el desierto de Lut, Irán, y extremadamente árido",
+      "prompt_imagen": "Panorámica del desierto de Lut con terreno desolado, arena y rocas negras bajo un cielo despejado."
+    },
+    {
+      "texto": "Su suelo es roca negra y brillante",
+      "prompt_imagen": "Primer plano de la superficie del desierto de Lut mostrando rocas negras relucientes bajo la luz solar."
+    },
+    {
+      "texto": "Lo llaman “El Horno” por su calor",
+      "prompt_imagen": "Fotografía del desierto de Lut al atardecer con una atmósfera rojiza que sugiere altas temperaturas."
+    },
+    {
+      "texto": "En 2005 MODIS lo midió",
+      "prompt_imagen": "Imagen satelital del desierto de Lut capturada por el satélite MODIS en 2005, resaltando colores cálidos."
+    },
+    {
+      "texto": "Setenta punto siete grados de superficie",
+      "prompt_imagen": "Gráfico superpuesto sobre la foto del desierto indicando la cifra 70,7 °C en letras destacadas."
+    },
+    {
+      "texto": "Récord mundial de temperatura superficial terrestre",
+      "prompt_imagen": "Mapa mundial resaltando el punto del desierto de Lut como el lugar más caliente del planeta."
+    },
+    {
+      "texto": "¿Qué lugar supera los setenta grados?",
+      "prompt_imagen": "Repetición de la vista aérea del desierto de Lut, enfatizando el contraste entre el suelo y el cielo."
+    }
+  ]
+}
