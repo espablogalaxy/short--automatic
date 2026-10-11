@@ -1,0 +1,50 @@
+{
+  "titulo": "¡El río con 220 metros de profundidad!",
+  "descripcion": "El río Congo esconde el cañón fluvial más profundo del planeta Tierra. Descubre sus cifras extremas. #shorts #curiosidades #planeta #geografia #naturaleza #rio",
+  "tags": [
+    "rio congo",
+    "rio mas profundo del mundo",
+    "curiosidades del planeta",
+    "rios extremos",
+    "geografia extrema",
+    "africa",
+    "datos curiosos tierra",
+    "record de la tierra",
+    "naturaleza extrema",
+    "profundidad rio congo"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué río oculta un abismo de pesadilla?",
+      "prompt_imagen": "Vista aérea cinematográfica de un río caudaloso y oscuro abriéndose paso entre desfiladeros rocosos cubiertos de densa selva tropical, niebla sobre el agua, iluminación dramática."
+    },
+    {
+      "texto": "No es el Amazonas ni el Nilo.",
+      "prompt_imagen": "Plano general de un inmenso río serpenteante en un paisaje natural virgen al atardecer, aguas turbulentas con reflejos dorados y sombras densas."
+    },
+    {
+      "texto": "Ocurre en el corazón de África central.",
+      "prompt_imagen": "Fotografía documental de los rápidos fluviales del río Congo, cañones escarpados de roca negra y selva impenetrable a los lados."
+    },
+    {
+      "texto": "Sus corrientes turbulentas devoran toda la luz.",
+      "prompt_imagen": "Toma subacuática realista en aguas fluviales oscuras y agitadas, remolinos violentos descendiendo hacia una profunda penumbra abisal."
+    },
+    {
+      "texto": "Es el colosal y salvaje río Congo.",
+      "prompt_imagen": "Vista panorámica espectacular del río Congo atravesando una garganta rocosa monumental, agua batiendo contra las orillas con fuerza salvaje."
+    },
+    {
+      "texto": "Mide doscientos veinte metros de profundidad exacta.",
+      "prompt_imagen": "Corte de sección geológica realista de un cañón submarino fluvial extremadamente hondo, mostrando el lecho rocoso sumergido en oscuridad absoluta."
+    },
+    {
+      "texto": "Cabría un rascacielos de setenta plantas.",
+      "prompt_imagen": "Comparación visual a escala hiperrealista: un rascacielos moderno de setenta plantas completamente sumergido en una fosa de agua dulce dentro de un cañón natural."
+    },
+    {
+      "texto": "Por eso ningún río oculta semejante abismo.",
+      "prompt_imagen": "Plano cenital cinematográfico desde dron de un remolino gigantesco en medio de las turbulentas aguas oscuras del río Congo."
+    }
+  ]
+}
