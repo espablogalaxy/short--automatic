@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué este suelo ardió a 70 °C?",
+  "descripcion": "El desierto de Lut registró una de las temperaturas de superficie más extremas jamás detectadas por satélite. #shorts #curiosidades #planeta #desierto #ciencia #geografia",
+  "tags": [
+    "desierto de Lut",
+    "Dasht e Lut",
+    "temperatura extrema",
+    "satélite Aqua",
+    "Gandom Beryan",
+    "lugares más secos",
+    "récord de calor",
+    "ciencia de la Tierra",
+    "geología",
+    "desiertos extremos"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué suelo ardió a setenta grados?",
+      "prompt_imagen": "Fotografía cinematográfica a ras de suelo de un desierto árido e inhóspito con aire ondulante por el calor extremo, luz solar cegadora y terreno resquebrajado."
+    },
+    {
+      "texto": "Ocurrió en el desierto de Lut.",
+      "prompt_imagen": "Vista panorámica aérea del desierto de Lut en Irán, mostrando inmensos yardangs de arena esculpidos por el viento bajo un cielo despejado."
+    },
+    {
+      "texto": "El satélite Aqua lo midió exactamente.",
+      "prompt_imagen": "Fotografía realista del satélite científico Aqua en órbita sobre la Tierra, con la superficie del continente asiático visible abajo iluminada por el sol."
+    },
+    {
+      "texto": "Fue en el año dos mil cinco.",
+      "prompt_imagen": "Plano medio de dunas doradas y formaciones rocosas secas en el desierto iraní, atmósfera árida y sombras alargadas al atardecer."
+    },
+    {
+      "texto": "Una meseta negra cubre esta región.",
+      "prompt_imagen": "Fotografía documental de la meseta de Gandom Beryan, cubierta de piedras y rocas volcánicas oscuras y brillantes bajo un sol abrasador."
+    },
+    {
+      "texto": "La roca volcánica absorbe radiación solar.",
+      "prompt_imagen": "Primer plano detallado de rocas basálticas negras y porosas sobre suelo desértico, calentadas por una intensa luz solar cenital."
+    },
+    {
+      "texto": "Sin agua, el calor queda atrapado.",
+      "prompt_imagen": "Amplio plano cinematográfico de una llanura desértica completamente seca y desprovista de vegetación, con distorsión térmica en el horizonte."
+    },
+    {
+      "texto": "Por eso el suelo supera setenta grados.",
+      "prompt_imagen": "Primer plano a nivel del suelo de la superficie rocosa y agrietada del desierto de Lut, con neblina de calor ascendiendo directamente del suelo."
+    }
+  ]
+}
