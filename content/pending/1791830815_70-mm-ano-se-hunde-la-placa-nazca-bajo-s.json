@@ -1,0 +1,48 @@
+{
+  "titulo": "¿70 mm/año se hunde la placa Nazca bajo Sudamérica?",
+  "descripcion": "Descubre cómo la subducción de la placa Nazca crea la fosa peruana y los grandes sismos. #shorts #curiosidades #planeta #tectonica #Nazca #subducción",
+  "tags": [
+    "Placa Nazca",
+    "subducción",
+    "fosa de Perú",
+    "terremoto 1700",
+    "Harry Hess",
+    "tectónica de placas",
+    "geología",
+    "Andes"
+  ],
+  "escenas": [
+    {
+      "texto": "70 mm/año la placa Nazca se hunde",
+      "prompt_imagen": "Mapa satelital del océano Pacífico mostrando la placa Nazca subduciéndose bajo la placa Sudamericana, con la zona de subducción resaltada"
+    },
+    {
+      "texto": "Subducción forma la fosa de Perú",
+      "prompt_imagen": "Vista aérea del océano Pacífico frente a la costa peruana, resaltando la fosa de Perú creada por la subducción"
+    },
+    {
+      "texto": "Fosa alcanza ocho mil metros de profundidad",
+      "prompt_imagen": "Imagen submarina hiperrealista del fondo de la fosa de Perú, mostrando una profundidad de ocho mil metros, con luces tenues y sedimentos"
+    },
+    {
+      "texto": "Ese hundimiento genera terremotos de magnitud nueve",
+      "prompt_imagen": "Representación gráfica de ondas sísmicas emanando del fondo de la fosa, indicando terremoto de magnitud nueve, con escala de Richter"
+    },
+    {
+      "texto": "El 1700, sismo sacudió la costa norte",
+      "prompt_imagen": "Ilustración histórica del mapa de la costa norte de América del Norte en 1700, con una marca indicando el sismo que sacudió la zona"
+    },
+    {
+      "texto": "Registrado en anillos de pinos de Oregon",
+      "prompt_imagen": "Fotografía macro de anillos de crecimiento de pinos en Oregon, con marcas que evidencian el sismo de 1700"
+    },
+    {
+      "texto": "Harry Hess describió la subducción en 1960",
+      "prompt_imagen": "Retrato en blanco y negro de Harry Hess en 1960, junto a un mapa tectónico, mostrando su teoría de subducción"
+    },
+    {
+      "texto": "70 mm/año la placa Nazca se hunde",
+      "prompt_imagen": "Mapa satelital del océano Pacífico con la placa Nazca subduciéndose bajo Sudamérica, resaltando la velocidad de setenta milímetros al año"
+    }
+  ]
+}
