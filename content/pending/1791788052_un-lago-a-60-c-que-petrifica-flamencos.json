@@ -1,0 +1,48 @@
+{
+  "titulo": "¿Un lago a 60 °C que petrifica flamencos?",
+  "descripcion": "Descubre el Lago Natron, el lago tanzano de 60 °C y pH 10,5 que convierte a los flamencos en piedra. #shorts #curiosidades #planeta #LakeNatron #Tanzania #pH10_5",
+  "tags": [
+    "Lago Natron",
+    "Tanzania",
+    "lago caliente",
+    "pH 10.5",
+    "lago alcalino",
+    "flamencos petrificados",
+    "lago rojo",
+    "curiosidades planeta"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Un lago a sesenta grados?",
+      "prompt_imagen": "Lago Natron en Tanzania, agua rojiza bajo el sol con efecto de distorsión por calor, fotografía hiperrealista"
+    },
+    {
+      "texto": "Se llama Lago Natron, cráter de Tanzania.",
+      "prompt_imagen": "Vista satelital del Lago Natron, resaltado en tonos rojizos, sin texto, estilo foto hiperrealista"
+    },
+    {
+      "texto": "Su agua alcanza pH diez punto cinco.",
+      "prompt_imagen": "Agua del Lago Natron, color rosado intenso con burbujas, reflejo del cielo, fotografía hiperrealista"
+    },
+    {
+      "texto": "Temperatura máxima: sesenta grados Celsius.",
+      "prompt_imagen": "Termómetro digital sumergido en el agua rojiza del Lago Natron, mostrando 60 grados Celsius y vapor ascendente, foto hiperrealista"
+    },
+    {
+      "texto": "Alto contenido de carbonato de sodio.",
+      "prompt_imagen": "Cristales blancos de carbonato de sodio en la orilla del Lago Natron, detalle macro, fotografía hiperrealista"
+    },
+    {
+      "texto": "Animales que se quedan inmóviles se calcifican.",
+      "prompt_imagen": "Flamenco inmóvil parcialmente sumergido en el agua del Lago Natron, empezando a cubrirse de una capa blanca, foto hiperrealista"
+    },
+    {
+      "texto": "Por eso los flamencos mueren cristalizados.",
+      "prompt_imagen": "Varios flamencos petrificados, cubiertos de depósitos blancos, alineados en la orilla del Lago Natron, fotografía hiperrealista"
+    },
+    {
+      "texto": "¿Un lago a sesenta grados?",
+      "prompt_imagen": "Vista aérea del Lago Natron, superficie rojiza con ondas de calor, fotografía hiperrealista"
+    }
+  ]
+}
