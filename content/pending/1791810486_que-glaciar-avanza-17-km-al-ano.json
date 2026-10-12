@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué glaciar avanza 17 km al año?",
+  "descripcion": "Descubre el glaciar Jakobshavn en Groenlandia, el más rápido del planeta con 17 km de avance anual. #shorts #curiosidades #planeta #glaciar #Groenlandia #Jakobshavn",
+  "tags": [
+    "glaciar",
+    "Jakobshavn",
+    "Groenlandia",
+    "hielo",
+    "velocidad",
+    "cambio climático",
+    "nivel del mar",
+    "glaciares rápidos",
+    "ciencia",
+    "naturaleza"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué glaciar avanza 17 km cada año?",
+      "prompt_imagen": "Vista aérea hiperrealista del glaciar Jakobshavn Isbræ en la costa oeste de Groenlandia, mostrando su frente de hielo con marcas de movimiento, cielo dramático."
+    },
+    {
+      "texto": "Ubicado en la costa oeste groenlandesa",
+      "prompt_imagen": "Costa escarpada de Groenlandia con el glaciar Jakobshavn emergiendo del mar, acantilados nevados bajo luz ártica."
+    },
+    {
+      "texto": "Desliza hasta 30 metros diarios",
+      "prompt_imagen": "Detalle de la superficie del glaciar con grietas y líneas que indican el flujo rápido, luz ártica resaltando el movimiento."
+    },
+    {
+      "texto": "Cubre 1 200 km², 1 500 m de espesor",
+      "prompt_imagen": "Mapa topográfico en estilo fotográfico que resalta el área del glaciar Jakobshavn, mostrando su extensión de 1 200 km² y grueso de 1 500 metros."
+    },
+    {
+      "texto": "Fundido rápido eleva el nivel del mar",
+      "prompt_imagen": "Glaciar derritiéndose al contacto con el océano, grandes bloques de hielo flotando, agua cristalina y reflejo del sol, enfatizando la contribución al nivel del mar."
+    },
+    {
+      "texto": "Retrocedió 2 km en 2019",
+      "prompt_imagen": "Fotografía del frente del glaciar en 2019 mostrando la retracción de 2 km respecto a años anteriores, con marcas de posición visibles."
+    },
+    {
+      "texto": "Es el glaciar más veloz del planeta",
+      "prompt_imagen": "Escena épica del glaciar avanzando rápidamente, nubes de nieve levantadas, sensación de velocidad bajo un cielo nublado."
+    },
+    {
+      "texto": "Así responde la pregunta: 17 km anuales, Jakobshavn",
+      "prompt_imagen": "Vista aérea al atardecer del glaciar Jakobshavn Isbræ, resaltando su avance de 17 km al año, con luz dorada que envuelve el hielo."
+    }
+  ]
+}
