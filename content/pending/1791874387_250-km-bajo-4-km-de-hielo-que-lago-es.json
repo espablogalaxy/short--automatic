@@ -1,0 +1,50 @@
+{
+  "titulo": "¡250 km² bajo 4 km de hielo! ¿Qué lago es?",
+  "descripcion": "Descubre el enorme lago subglacial oculto bajo la Antártida, descubierto por satélite. #shorts #curiosidades #planeta #LakeVostok #Antártida #Satélites",
+  "tags": [
+    "Lake Vostok",
+    "lago subglacial",
+    "Antártida",
+    "satélites",
+    "250 km²",
+    "hielo 4 km",
+    "descubrimiento 1998",
+    "ecosistema aislado",
+    "ciencia",
+    "geografía"
+  ],
+  "escenas": [
+    {
+      "texto": "250 km² bajo 4 km de hielo, ¿qué?",
+      "prompt_imagen": "Fotografía hiperrealista aérea del hielo antártico, con un área resaltada de 250 km² marcada en rojo"
+    },
+    {
+      "texto": "Un lago atrapado bajo la Antártida",
+      "prompt_imagen": "Corte transversal hiperrealista que muestra un lago bajo una gruesa capa de hielo antártico"
+    },
+    {
+      "texto": "Descubierto por satélites en 1998",
+      "prompt_imagen": "Imagen satelital de 1998 del interior de la Antártida revelando un lago subglacial"
+    },
+    {
+      "texto": "Supera los 250 km² de superficie",
+      "prompt_imagen": "Mapa topográfico hiperrealista resaltando una zona de 250 km² bajo el hielo"
+    },
+    {
+      "texto": "Alto de mil metros bajo el hielo",
+      "prompt_imagen": "Corte transversal hiperrealista mostrando la profundidad de 1 000 metros del lago bajo el hielo"
+    },
+    {
+      "texto": "Temperaturas bajo cero, pero agua líquida",
+      "prompt_imagen": "Imagen térmica hiperrealista del hielo antártico con zonas frías arriba y agua líquida bajo"
+    },
+    {
+      "texto": "El lago Vostok, un ecosistema aislado",
+      "prompt_imagen": "Vista subacuática hiperrealista del lago Vostok, mostrando agua clara y microorganismos"
+    },
+    {
+      "texto": "250 km² bajo 4 km de hielo, ¿qué?",
+      "prompt_imagen": "Fotografía hiperrealista aérea del hielo antártico, misma área resaltada de 250 km²"
+    }
+  ]
+}
