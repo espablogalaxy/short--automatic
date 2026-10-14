@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué volcán lanza lava a 500 km/h?",
+  "descripcion": "Descubre el volcán que expulsa lava a una velocidad asombrosa. #shorts #curiosidades #planeta #CerroNegro #lava #volcán #Nicaragua",
+  "tags": [
+    "Cerro Negro",
+    "Nicaragua",
+    "volcán",
+    "lava rápida",
+    "velocidad lava",
+    "erupción 1992",
+    "volcanes extremos",
+    "curiosidades tierra",
+    "datos extremos",
+    "geología"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué volcán lanza lava a 500 km/h?",
+      "prompt_imagen": "Fotografía hiperrealista de una erupción volcánica con columna de lava roja brillante, cielo dramático, vista panorámica, sin texto ni logotipos"
+    },
+    {
+      "texto": "En el corazón tropical de Nicaragua",
+      "prompt_imagen": "Fotografía hiperrealista vista aérea del territorio nicaragüense, verdes campos y montañas, con Cerro Negro visible al fondo, sin texto"
+    },
+    {
+      "texto": "Se llama Cerro Negro",
+      "prompt_imagen": "Fotografía hiperrealista del cono negro del Cerro Negro, suelo sin vegetación, cielo claro, sin texto"
+    },
+    {
+      "texto": "Su cumbre mide setecientos veintiocho metros",
+      "prompt_imagen": "Fotografía hiperrealista de la cumbre del Cerro Negro bajo cielo azul, resaltando la altura del cono, sin texto"
+    },
+    {
+      "texto": "Desde 1855 erupcionó veintitrés veces",
+      "prompt_imagen": "Fotografía hiperrealista que muestra varios cráteres y flujos de lava alrededor del Cerro Negro, simbolizando múltiples erupciones, sin texto"
+    },
+    {
+      "texto": "En 1992 la lava alcanzó quinientos km/h",
+      "prompt_imagen": "Fotografía hiperrealista del flujo de lava del Cerro Negro en 1992, lava corriendo rápidamente, efecto de velocidad, sin texto"
+    },
+    {
+      "texto": "Velocidad superior a un avión comercial",
+      "prompt_imagen": "Fotografía hiperrealista de un avión comercial volando bajo sobre el Cerro Negro en erupción, sin texto"
+    },
+    {
+      "texto": "¿Qué volcán lanza lava a 500 km/h?",
+      "prompt_imagen": "Fotografía hiperrealista de la misma erupción del Cerro Negro, lava roja brillante, cielo dramático, sin texto"
+    }
+  ]
+}
