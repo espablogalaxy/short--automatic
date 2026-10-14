@@ -1,0 +1,50 @@
+{
+  "titulo": "¡Un meteorito de 50 m creó un cráter de 1 200 m?",
+  "descripcion": "Descubre cómo un asteroide de 50 metros provocó el impresionante cráter de Barringer en Arizona. #shorts #curiosidades #planeta #cráter #meteorito #Arizona #impacto",
+  "tags": [
+    "cráter Barringer",
+    "meteorito",
+    "Arizona",
+    "impacto meteórico",
+    "cráter de impacto",
+    "50 metros",
+    "1,2 km",
+    "50.000 años",
+    "megaton",
+    "geología"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Un meteorito de 50 m creó este cráter?",
+      "prompt_imagen": "Fotografía hiperrealista del cráter Barringer, Arizona, vista aérea, mostrando su forma circular y borde elevado"
+    },
+    {
+      "texto": "Barringer, Arizona: cráter de 1,200 m de ancho.",
+      "prompt_imagen": "Fotografía hiperrealista del cráter Barringer visto desde el borde, resaltando su diámetro de 1,200 metros"
+    },
+    {
+      "texto": "Se formó hace aproximadamente 50 000 años.",
+      "prompt_imagen": "Imagen hiperrealista del cráter Barringer con cielo al atardecer, indicando su antigüedad milenaria"
+    },
+    {
+      "texto": "Liberó energía equivalente a diez megatones TNT.",
+      "prompt_imagen": "Representación hiperrealista de una explosión de energía comparable a diez megatones, sobre el cráter Barringer"
+    },
+    {
+      "texto": "El asteroide medía cerca de 50 m.",
+      "prompt_imagen": "Fotografía hiperrealista del asteroide de 50 metros de diámetro acercándose a la atmósfera terrestre"
+    },
+    {
+      "texto": "Impactó a más de 12 km por segundo.",
+      "prompt_imagen": "Imagen hiperrealista del meteorito entrando a la atmósfera a velocidad de más de 12 kilómetros por segundo"
+    },
+    {
+      "texto": "Arrojó escombros que hoy siguen volando.",
+      "prompt_imagen": "Fotografía hiperrealista del cráter Barringer rodeado de escombros y fragmentos de roca suspendidos en el aire"
+    },
+    {
+      "texto": "¿Ese meteorito de 50 m creó este cráter?",
+      "prompt_imagen": "Fotografía hiperrealista del cráter Barringer visto desde arriba, idéntica a la primera escena"
+    }
+  ]
+}
