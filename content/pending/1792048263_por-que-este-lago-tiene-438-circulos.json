@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué este lago tiene 438 círculos?",
+  "descripcion": "El lago Kliluk en Canadá se transforma cada verano en un mosaico de cientos de piscinas minerales. Descubre la ciencia detrás de este fenómeno. #shorts #curiosidades #planeta #cienciatierra #geologia #canada",
+  "tags": [
+    "lago manchado",
+    "spotted lake",
+    "kliluk",
+    "curiosidades geológicas",
+    "fenómenos naturales",
+    "lagos extraños",
+    "minerales",
+    "sulfato de magnesio",
+    "ciencia de la tierra",
+    "shorts de ciencia"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Por qué este lago se vuelve lunares?",
+      "prompt_imagen": "Vista aérea cenital del Spotted Lake en Columbia Británica mostrando decenas de círculos amarillos y verdes separados por bordes blancos de sal, fotografía documental hiperrealista, luz solar nítida."
+    },
+    {
+      "texto": "Es Kliluk, ubicado en Canadá.",
+      "prompt_imagen": "Paisaje del valle de Osoyoos en Canadá con colinas semidesérticas rodeando una cuenca lacustre con manchas minerales, plano general cinemático, cielo despejado."
+    },
+    {
+      "texto": "Cada verano su agua se evapora.",
+      "prompt_imagen": "Plano medio del suelo de un lago secándose bajo un sol intenso de verano, vapor sutil sobre la superficie, fotografía realista."
+    },
+    {
+      "texto": "Y emergen cuatrocientos treinta y ocho círculos.",
+      "prompt_imagen": "Vista panorámica detallada de cientos de estanques circulares de distintos colores dentro de la cuenca del lago, bordes de lodo endurecido, toma cinematográfica."
+    },
+    {
+      "texto": "Contienen densas concentraciones de minerales.",
+      "prompt_imagen": "Primer plano de agua espesa y cristalizada de tono verdoso saturado en un estanque circular natural, cristales minerales visibles en las orillas, fotografía macro hiperrealista."
+    },
+    {
+      "texto": "Principalmente sulfato de magnesio puro.",
+      "prompt_imagen": "Plano detalle de formaciones de cristales blancos de sulfato de magnesio secos al borde de una charca mineral, textura rocosa hiperrealista."
+    },
+    {
+      "texto": "Al secarse, dejan costras transitables.",
+      "prompt_imagen": "Vista en ángulo bajo de senderos naturales de costra de sal blanca y endurecida que separan dos charcas amarillas circulares, fotografía realista de paisaje."
+    },
+    {
+      "texto": "Por eso este lago parece lunar.",
+      "prompt_imagen": "Vista aérea dramática al atardecer de todo el lecho del Spotted Lake con sus círculos multicolores brillando como un paisaje alienígena, estilo fotografía National Geographic."
+    }
+  ]
+}
