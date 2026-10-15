@@ -1,0 +1,49 @@
+{
+  "titulo": "¿Qué planta vive dos mil años?",
+  "descripcion": "En el desierto de Namib vive la Welwitschia mirabilis, una planta extrema que sobrevive siglos con solo dos hojas continuas. #shorts #curiosidades #planeta #botanica #desiertodeNamib #naturalezaextrema",
+  "tags": [
+    "Welwitschia mirabilis",
+    "desierto de Namib",
+    "plantas extremas",
+    "botánica",
+    "naturaleza extrema",
+    "curiosidades del planeta",
+    "fósil viviente",
+    "ciencia",
+    "biología"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué planta sobrevive dos mil años?",
+      "prompt_imagen": "Fotografía hiperrealista de una extraña planta desértica con largas hojas rasgadas sobre arena dorada bajo un cielo abrasador, plano cinematográfico, iluminación natural dramática."
+    },
+    {
+      "texto": "Crece en el árido desierto de Namib.",
+      "prompt_imagen": "Fotografía aérea cinematográfica de las enormes dunas rojizas y secas del desierto de Namib extendiéndose hasta el horizonte bajo el sol del mediodía."
+    },
+    {
+      "texto": "Soporta más de cincuenta grados diarios.",
+      "prompt_imagen": "Fotografía a ras de suelo mostrando el calor ondulante sobre la grava y arena del desierto extremo, atmósfera seca y luz solar cegadora."
+    },
+    {
+      "texto": "La lluvia aquí apenas existe jamás.",
+      "prompt_imagen": "Fotografía de paisaje desértico agrietado y reseco en Namibia, con piedras volcánicas y suelo árido sin una gota de agua visible."
+    },
+    {
+      "texto": "Absorbe agua de la niebla marina.",
+      "prompt_imagen": "Fotografía de densos bancos de niebla fría costera entrando desde el océano Atlántico sobre las dunas del desierto al amanecer."
+    },
+    {
+      "texto": "Se llama Welwitschia mirabilis.",
+      "prompt_imagen": "Fotografía documental en primer plano de un ejemplar antiguo de Welwitschia mirabilis con tallo leñoso ancho y texturizado en medio del desierto."
+    },
+    {
+      "texto": "Posee solo dos hojas que jamás mudan.",
+      "prompt_imagen": "Plano detalle fotográfico de las dos hojas masivas, desgarradas en tiras fibrosas por el viento, que crecen continuamente desde la base central de la planta."
+    },
+    {
+      "texto": "Por eso asombra esta planta milenaria...",
+      "prompt_imagen": "Fotografía cinematográfica al atardecer mostrando la solitaria Welwitschia mirabilis proyectando sombras largas sobre la arena del desierto africano."
+    }
+  ]
+}
