@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué 272 personas viven en un edificio?",
+  "descripcion": "En el remoto pueblo de Whittier, Alaska, casi todos sus habitantes viven y trabajan bajo el mismo techo para sobrevivir al clima extremo. #shorts #curiosidades #planeta #alaska #whittier #geografia #lugaresdelmundo",
+  "tags": [
+    "Whittier Alaska",
+    "Begich Towers",
+    "ciudades extremas",
+    "curiosidades del mundo",
+    "lugares extremos",
+    "geografia extrema",
+    "Alaska invierno",
+    "pueblo en un edificio",
+    "datos curiosos tierra",
+    "lugares mas curiosos"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Por qué doscientas setenta personas comparten edificio?",
+      "prompt_imagen": "Fotografía cinematográfica exterior de un enorme y solitario edificio residencial de hormigón en medio de un paisaje ártico nevado, cielo plomizo y dramático, iluminación natural fría."
+    },
+    {
+      "texto": "En este remoto rincón de Alaska.",
+      "prompt_imagen": "Vista aérea documental de montañas escarpadas cubiertas de nieve densa junto a un fiordo gélido en Alaska, bahía congelada, atmósfera fría y majestuosa."
+    },
+    {
+      "texto": "Soplan ráfagas de cien kilómetros por hora.",
+      "prompt_imagen": "Primer plano de una tormenta de nieve brutal con fuertes vientos barriendo ventisqueros blancos a ras de suelo, partículas de nieve helada congeladas en el aire."
+    },
+    {
+      "texto": "Metros de nieve bloquean las entradas.",
+      "prompt_imagen": "Muro gigante de nieve acumulada cubriendo casi por completo la planta baja y las puertas de entrada de una estructura de hormigón, huellas profundas en la nieve."
+    },
+    {
+      "texto": "Dentro hay comisaría, iglesia y escuela.",
+      "prompt_imagen": "Pasillo interior amplio y bien iluminado de un edificio multifuncional, puertas que dan a una pequeña oficina postal y una tienda de ultramarinos, luz cálida interior."
+    },
+    {
+      "texto": "Nadie necesita pisar jamás la calle.",
+      "prompt_imagen": "Túnel subterráneo de hormigón iluminado por lámparas cálidas que conecta el sótano del edificio con un gimnasio y colegio, suelo seco y limpio."
+    },
+    {
+      "texto": "Las torres Begich albergan a Whittier.",
+      "prompt_imagen": "Plano general exterior del icónico complejo Begich Towers de catorce plantas en Whittier Alaska, rodeado de altísimas montañas nevadas y niebla baja."
+    },
+    {
+      "texto": "Donde doscientas setenta personas comparten edificio.",
+      "prompt_imagen": "Vista al atardecer del edificio Begich Towers con decenas de ventanas iluminadas con luz dorada en contraste con la oscuridad del paisaje nevado de Alaska."
+    }
+  ]
+}
