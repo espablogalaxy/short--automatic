@@ -1,0 +1,48 @@
+{
+  "titulo": "¿La Antártida es el desierto más grande con 14,2 millones km²?",
+  "descripcion": "Descubre por qué la Antártida, cubierta de hielo, es el desierto más extenso y seco del planeta. #shorts #curiosidades #planeta #Antártida #desierto #geografía #clima",
+  "tags": [
+    "Antártida",
+    "desierto más grande",
+    "desierto más seco",
+    "geografía",
+    "clima",
+    "precipitación",
+    "record mundial",
+    "planeta Tierra"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué zona es más seca del planeta?",
+      "prompt_imagen": "Globo terráqueo mostrando la Antártida resaltada en azul, fondo oscuro, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "No es el Sahara ni Atacama.",
+      "prompt_imagen": "Dunas extensas del Sahara y del desierto de Atacama bajo sol intenso, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Es un desierto cubierto de hielo.",
+      "prompt_imagen": "Paisaje antártico de hielo y nieve, cielo gris, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Ocupa 14,2 millones de km².",
+      "prompt_imagen": "Vista satelital de la Antártida con cuadrícula de escala que muestra su gran superficie, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Casi 1,4 veces el tamaño de Europa.",
+      "prompt_imagen": "Mapa comparativo superponiendo contorno de Europa y de la Antártida con colores diferentes, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Solo recibe 50 mm de lluvia anual.",
+      "prompt_imagen": "Primer plano de un pluviómetro en la Antártida mostrando apenas una gota de agua, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Por eso la vida allí es escasa.",
+      "prompt_imagen": "Escena de hielo antártico con escasa vegetación y pocos pingüinos en la distancia, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "¿Qué zona es más seca del planeta?",
+      "prompt_imagen": "Globo terráqueo mostrando la Antártida resaltada en azul, fondo oscuro, estilo fotografía hiperrealista"
+    }
+  ]
+}
