@@ -10,6 +10,7 @@ import os
 import re
 import statistics
 import html
+import time
 from datetime import datetime, timezone
 
 import requests
@@ -27,11 +28,25 @@ def cargar():
         return {"actualizado": None, "videos": {}}
 
 
-def _feed():
-    r = requests.get(
-        "https://www.youtube.com/feeds/videos.xml", params={"channel_id": CHANNEL_ID}, timeout=30
-    )
-    r.raise_for_status()
+def _feed(intentos=3):
+    """El feed RSS público de YouTube a veces da un 404/5xx puntual (visto el
+    2026-10-15); reintenta con backoff antes de rendirse, para que un hipo
+    transitorio no tumbe todo el cron de métricas del día."""
+    ultimo_error = None
+    for intento in range(1, intentos + 1):
+        try:
+            r = requests.get(
+                "https://www.youtube.com/feeds/videos.xml", params={"channel_id": CHANNEL_ID}, timeout=30
+            )
+            r.raise_for_status()
+            break
+        except requests.RequestException as e:
+            ultimo_error = e
+            print(f"[metricas] feed intento {intento}/{intentos} falló: {e}")
+            if intento < intentos:
+                time.sleep(5 * intento)
+    else:
+        raise ultimo_error
     out = {}
     for e in re.findall(r"<entry>.*?</entry>", r.text, re.S):
         vid = re.search(r"<yt:videoId>(.*?)</yt:videoId>", e).group(1)
