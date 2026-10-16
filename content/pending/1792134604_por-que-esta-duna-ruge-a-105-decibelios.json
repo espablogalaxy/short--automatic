@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué esta duna ruge a 105 decibelios?",
+  "descripcion": "El misterio de las dunas cantarinas de Badain Jaran explicado por la física acústica. #shorts #curiosidades #planeta #ciencia #desierto #naturaleza",
+  "tags": [
+    "dunas cantarinas",
+    "badain jaran",
+    "desierto",
+    "fenomenos naturales",
+    "curiosidades del planeta",
+    "acustica",
+    "geologia",
+    "ciencia de la tierra",
+    "sonidos extranos",
+    "arena"
+  ],
+  "escenas": [
+    {
+      "texto": "Esta duna ruge a ciento cinco decibelios.",
+      "prompt_imagen": "Fotografía cinematográfica de una duna colosal de arena dorada en un desierto remoto, con un alud de arena deslizándose por la ladera empinada bajo un sol brillante."
+    },
+    {
+      "texto": "Ocurre en Badain Jaran, desierto asiático.",
+      "prompt_imagen": "Vista aérea panorámica y realista del desierto de Badain Jaran, mostrando inmensas dunas onduladas de arena naranja que se extienden hasta el horizonte sin vegetación."
+    },
+    {
+      "texto": "Sus montañas de arena alcanzan cuatrocientos metros.",
+      "prompt_imagen": "Plano contrapicado de una megaduna de cuatrocientos metros de altura con aristas afiladas y sombras pronunciadas esculpidas por el viento, cielo despejado."
+    },
+    {
+      "texto": "Al deslizarse, producen un estruendo continuo.",
+      "prompt_imagen": "Primer plano cinematográfico de una lámina continua de arena fluyendo rápidamente pendiente abajo, levantando una fina estela de polvo dorado."
+    },
+    {
+      "texto": "El físico Stéphane Douady resolvió el enigma.",
+      "prompt_imagen": "Científico con equipo de campo observando las dunas y tomando muestras de arena en un desierto árido, luz de atardecer de estilo documental."
+    },
+    {
+      "texto": "Analizó granos idénticos de doscientos micrómetros.",
+      "prompt_imagen": "Macro extrema de granos de arena redondos, lisos y perfectamente uniformes sobre una superficie plana neutra, con iluminación de laboratorio nítida."
+    },
+    {
+      "texto": "Al colisionar juntos, vibran en sincronía.",
+      "prompt_imagen": "Detalle microscópico y realista de capas de diminutos granos de arena deslizándose en flujo laminar ordenado unos sobre otros con precisión."
+    },
+    {
+      "texto": "Explicando por qué la arena suena así.",
+      "prompt_imagen": "Vista majestuosa al atardecer de la cresta de una gran duna de arena donde el viento sopla partículas doradas en el aire, ambiente cinematográfico y misterioso."
+    }
+  ]
+}
