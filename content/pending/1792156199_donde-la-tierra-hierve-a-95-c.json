@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Dónde la tierra hierve a 95 °C?",
+  "descripcion": "Descubre el cráter de Dallol, el punto más caliente de la Tierra con 95 °C constantes. #shorts #curiosidades #planeta #Dallol #Danakil #temperaturaextrema",
+  "tags": [
+    "Dallol",
+    "Danakil",
+    "cráter caliente",
+    "95°C",
+    "temperatura extrema",
+    "microbios hipertermófilos",
+    "Valle de Danakil",
+    "Etiopía",
+    "geología",
+    "fenómeno natural"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Dónde la tierra realmente hierve a 95 °C?",
+      "prompt_imagen": "Cráter Dallol en la Depresión de Danakil, Etiopía, vapor denso ascendiendo, suelo rojizo brillante, fotografía hiperrealista de estilo reportaje"
+    },
+    {
+      "texto": "En el extremo Valle de Danakil, Etiopía",
+      "prompt_imagen": "Panorama del Valle de Danakil, Etiopía, terreno desértico con salinas y montañas multicolores, fotografía hiperrealista"
+    },
+    {
+      "texto": "Temperaturas locales superan los noventa grados",
+      "prompt_imagen": "Termómetro digital marcando 95 °C colocado al borde del cráter de Dallol, vapor alrededor, fotografía hiperrealista"
+    },
+    {
+      "texto": "El cráter de Dallol alcanza 95 °C constantes",
+      "prompt_imagen": "Superficie del cráter Dallol con vapor espeso y suelo rojo brillante, señal de temperatura 95 °C, fotografía hiperrealista"
+    },
+    {
+      "texto": "Aguas ácidas, colores brillantes, vapor constante",
+      "prompt_imagen": "Charcos ácidos en Dallol con colores verde-amarillo y vapor constante, detalle cercano, fotografía hiperrealista"
+    },
+    {
+      "texto": "Más de mil microbios hipertermófilos prosperan allí",
+      "prompt_imagen": "Microbios hipertermófilos bajo microscopio, fondo rojo, detalle científico, fotografía hiperrealista"
+    },
+    {
+      "texto": "Es el punto más caliente permanente planeta",
+      "prompt_imagen": "Mapa mundial resaltando Dallol con marcador rojo brillante, vista satelital, fotografía hiperrealista"
+    },
+    {
+      "texto": "¿Dónde la tierra realmente hierve a 95 °C?",
+      "prompt_imagen": "Cráter Dallol al atardecer, vapor ascendente, suelo rojo intenso, fotografía hiperrealista idéntica a la primera escena"
+    }
+  ]
+}
