@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué desierto alcanza 63 °C?",
+  "descripcion": "Descubre el Danakil, el desierto más caliente y bajo del planeta, donde la tierra supera los 63 °C. #shorts #curiosidades #planeta #Danakil #Desierto #TemperaturaExtrema #Geología",
+  "tags": [
+    "Desierto Danakil",
+    "Etiopía",
+    "temperatura extrema",
+    "desierto más caliente",
+    "bajo nivel del mar",
+    "lagos ácidos",
+    "volcán activo",
+    "microbios extremófilos",
+    "curiosidades tierra",
+    "geografía extrema"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Dónde la tierra llega a 63 °C?",
+      "prompt_imagen": "Desierto Danakil, Etiopía, suelo agrietado bajo un cielo ardiente, sensación de calor extremo, fotografía hiperrealista"
+    },
+    {
+      "texto": "En el Danakil, Etiopía, bajo el sol.",
+      "prompt_imagen": "Amplio panorama del Desierto de Danakil con luz solar intensa, arena rojiza y cielo despejado, estilo foto realista"
+    },
+    {
+      "texto": "A 125 metros bajo el nivel del mar.",
+      "prompt_imagen": "Mapa topográfico resaltando una zona marcada -125 m, indicando el valle del Danakil bajo el nivel del mar, vista aérea realista"
+    },
+    {
+      "texto": "Las rocas pueden llegar a 63 °C.",
+      "prompt_imagen": "Primer plano de rocas calientes en Danakil con distorsión de calor visible, fotografía hiperrealista"
+    },
+    {
+      "texto": "Alto contenido de ácido sulfúrico crea lagos brillantes.",
+      "prompt_imagen": "Lagos de agua turquesa brillante en el Desierto de Danakil, rodeados de sal y formaciones minerales, foto realista"
+    },
+    {
+      "texto": "Microbios hipertermófilos prosperan allí.",
+      "prompt_imagen": "Microbios en una fuente termal ácida, vista microscópica con colores vivos, estilo foto científica realista"
+    },
+    {
+      "texto": "Es el único desierto con actividad volcánica visible.",
+      "prompt_imagen": "Erupción volcánica en medio del desierto de Danakil, lava fluyendo entre arena, fotografía dramática"
+    },
+    {
+      "texto": "Así, la tierra llega a 63 °C aquí.",
+      "prompt_imagen": "Desierto Danakil al atardecer con halo de calor sobre la superficie, sensación de temperatura extrema, foto hiperrealista"
+    }
+  ]
+}
