@@ -4,13 +4,20 @@ Antes también se probaba Pollinations.ai como primer proveedor, pero se ha
 quitado: metía una marca de agua/logo en las imágenes (el parámetro "nologo"
 de su API no la elimina de forma fiable).
 
-Ahora hay dos cuentas de Cloudflare configuradas como cadena de respaldo
+Hay dos cuentas de Cloudflare configuradas como cadena de respaldo
 (CF_ACCOUNT_ID/CF_API_TOKEN como principal, CF_ACCOUNT_ID_2/CF_API_TOKEN_2
 como segunda cuenta por si la principal se queda sin cuota o cae): si la
 principal falla por límite de cuota o Neurons agotados (402/429), se salta
 directamente a la segunda sin gastar reintentos en la primera; para otros
 errores puntuales (red, 5xx) se reintenta la misma cuenta antes de pasar a la
 siguiente.
+
+Para cada cuenta se prueba primero un modelo "lightning" (rápido, ~5s,
+timeout corto) y solo si falla se cae al modelo SDXL base (más lento, mejor
+calidad). Esto evita que un timeout largo en el modelo lento bloquee el
+pipeline entero antes de pasar a la siguiente cuenta (portado del fix de la
+Raspberry Pi del 2026-10-14, adaptado a que aquí no hay persistencia de
+estado entre ejecuciones porque GitHub Actions usa runners efímeros).
 
 Todas las imágenes llevan añadido el mismo sufijo de estilo fotorrealista que
 usa la automatización de la Raspberry Pi (canal Soporte IT), para que las
@@ -33,6 +40,13 @@ ESTILO_REALISTA = (
     "natural dramatica, texturas realistas, sin aspecto de ilustracion ni de "
     "render 3D, sin texto en la imagen, composicion vertical, sujeto centrado "
     "en el encuadre, formato retrato"
+)
+
+# (nombre, endpoint del modelo, timeout en segundos). Se prueban en orden por
+# cada cuenta: primero el rápido, y solo si falla el lento.
+MODELOS = (
+    ("lightning", "@cf/bytedance/stable-diffusion-xl-lightning", 20),
+    ("base", "@cf/stabilityai/stable-diffusion-xl-base-1.0", 30),
 )
 
 
@@ -97,13 +111,13 @@ def _cuentas_cloudflare() -> list[tuple[str, str, str]]:
     return cuentas
 
 
-def _try_cloudflare(prompt: str, account_id: str, token: str) -> bytes:
-    url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/@cf/stabilityai/stable-diffusion-xl-base-1.0"
+def _try_cloudflare(prompt: str, account_id: str, token: str, modelo: str, timeout: int) -> bytes:
+    url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/{modelo}"
     r = requests.post(
         url,
         headers={"Authorization": f"Bearer {token}"},
         json={"prompt": prompt},
-        timeout=45,
+        timeout=timeout,
     )
     if r.status_code in (402, 429):
         raise _CuotaAgotada(f"Cloudflare sin cuota/Neurons: {r.status_code} {r.text[:200]}")
@@ -113,25 +127,30 @@ def _try_cloudflare(prompt: str, account_id: str, token: str) -> bytes:
     return r.content
 
 
-def generar_imagen(prompt: str, destino: str, intentos_por_cuenta: int = 2) -> bool:
+def generar_imagen(prompt: str, destino: str, intentos_por_modelo: int = 1) -> bool:
     cuentas = _cuentas_cloudflare()
     for suavizado in (False, True):  # 2º pase: prompt suavizado si todo falló (moderación)
         base = _suavizar_prompt(prompt) if suavizado else prompt
         prompt_final = _con_estilo(base)
-        for nombre, account_id, token in cuentas:
-            for intento in range(1, intentos_por_cuenta + 1):
-                try:
-                    imagen = _try_cloudflare(prompt_final, account_id, token)
-                    with open(destino, "wb") as f:
-                        f.write(imagen)
-                    return True
-                except _CuotaAgotada as e:
-                    print(f"[image_gen] cuenta '{nombre}' sin cuota o imagen bloqueada, paso a la siguiente: {e}")
+        for nombre_cuenta, account_id, token in cuentas:
+            cuota_agotada_en_cuenta = False
+            for nombre_modelo, modelo, timeout in MODELOS:
+                if cuota_agotada_en_cuenta:
                     break
-                except requests.RequestException as e:
-                    print(f"[image_gen] cuenta '{nombre}' intento {intento}/{intentos_por_cuenta} falló: {e}")
-                    if intento < intentos_por_cuenta:
-                        time.sleep(3 * intento)
+                for intento in range(1, intentos_por_modelo + 1):
+                    try:
+                        imagen = _try_cloudflare(prompt_final, account_id, token, modelo, timeout)
+                        with open(destino, "wb") as f:
+                            f.write(imagen)
+                        return True
+                    except _CuotaAgotada as e:
+                        print(f"[image_gen] cuenta '{nombre_cuenta}' sin cuota o imagen bloqueada, paso a la siguiente cuenta: {e}")
+                        cuota_agotada_en_cuenta = True
+                        break
+                    except requests.RequestException as e:
+                        print(f"[image_gen] cuenta '{nombre_cuenta}' modelo '{nombre_modelo}' intento {intento}/{intentos_por_modelo} falló: {e}")
+                        if intento < intentos_por_modelo:
+                            time.sleep(2 * intento)
         if not suavizado:
-            print("[image_gen] todas las cuentas fallaron, reintento con prompt suavizado")
+            print("[image_gen] todas las cuentas y modelos fallaron, reintento con prompt suavizado")
     return False
