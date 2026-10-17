@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué 1.500 personas viven bajo tierra?",
+  "descripcion": "En el corazón del desierto australiano, una ciudad entera sobrevive excavada en la roca. Descubre Coober Pedy. #shorts #curiosidades #planeta #cooberpedy #australia #geografia",
+  "tags": [
+    "Coober Pedy",
+    "ciudades extremas",
+    "desierto de Australia",
+    "vida subterránea",
+    "curiosidades del planeta",
+    "lugares extremos",
+    "minería de ópalo",
+    "geografía curiosa",
+    "supervivencia extrema",
+    "planeta tierra"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Por qué mil quinientos vecinos viven bajo tierra?",
+      "prompt_imagen": "Apertura vertical en el suelo del desierto rojo que revela una moderna sala de estar iluminada bajo la superficie, fotografía cinematográfica hiperrealista."
+    },
+    {
+      "texto": "En Coober Pedy el calor nunca da tregua.",
+      "prompt_imagen": "Paisaje árido del desierto de Coober Pedy bajo un sol cegador, suelo agrietado y chimeneas de ventilación blancas saliendo de la tierra, fotografía hiperrealista."
+    },
+    {
+      "texto": "Fuera el termómetro supera cuarenta y cinco grados.",
+      "prompt_imagen": "Termómetro exterior marcando 45 grados centígrados en un poste oxidado en medio del desierto árido australiano, calima visible en el aire, plano detalle cinematográfico."
+    },
+    {
+      "texto": "Por eso excavaron sus hogares en la roca.",
+      "prompt_imagen": "Interior de un dormitorio acogedor con paredes de roca arenisca tallada en tonos ocres y techo abovedado natural, luz cálida de lámparas, fotografía documental."
+    },
+    {
+      "texto": "Bajo tierra siempre están a veinticuatro grados.",
+      "prompt_imagen": "Termostato digital en una pared de roca subterránea mostrando exactamente 24 grados, iluminación suave y ambiente fresco y protegido, fotografía hiperrealista."
+    },
+    {
+      "texto": "Tienen iglesias, bares y tiendas subterráneas.",
+      "prompt_imagen": "Amplia iglesia subterránea tallada en arenisca con altar, bancos de madera y una cruz de piedra iluminada suavemente en el interior de una cueva, plano general cinematográfico."
+    },
+    {
+      "texto": "Es la capital mundial del valioso ópalo.",
+      "prompt_imagen": "Mano de minero sosteniendo un brillante ópalo multicolor recién extraído de una veta en la pared rocosa de una mina, macrofotografía hiperrealista."
+    },
+    {
+      "texto": "Por eso tantos vecinos eligen vivir bajo tierra.",
+      "prompt_imagen": "Vista aérea al atardecer del desierto de Coober Pedy salpicado de pozos mineros y chimeneas que conectan con las viviendas subterráneas, iluminación dramática."
+    }
+  ]
+}
