@@ -1,11 +1,13 @@
 """Monta el short final: cada imagen con su audio de narración (con efecto Ken
-Burns alternando zoom in/out por escena para más dinamismo), concatenadas, y
-con subtítulos animados palabra a palabra quemados encima, más una CTA de
-suscripción quemada SOLO en el último tramo de la última escena (texto en
-pantalla, no hablado: así no gasta presupuesto de palabras del guion ni rompe
-el cierre en bucle). Usa solo FFmpeg (ya viene instalado en los runners de
-GitHub Actions; el workflow instala además fonts-dejavu-core, la fuente que
-usan los subtítulos .ass y la CTA)."""
+Burns alternando zoom in/out por escena para más dinamismo), un SFX sintético
+("clic" generado con FFmpeg, sin samples externos ni líos de copyright) en el
+corte de cada escena salvo la primera, concatenadas, y con subtítulos
+animados palabra a palabra quemados encima, más una CTA de suscripción
+quemada SOLO en el último tramo de la última escena (texto en pantalla, no
+hablado: así no gasta presupuesto de palabras del guion ni rompe el cierre en
+bucle). Usa solo FFmpeg (ya viene instalado en los runners de GitHub Actions;
+el workflow instala además fonts-dejavu-core, la fuente que usan los
+subtítulos .ass y la CTA)."""
 import subprocess
 from pathlib import Path
 
@@ -19,13 +21,16 @@ def _escapar_drawtext(texto: str) -> str:
 def renderizar_escena(imagen: str, audio: str, salida: str, duracion: float,
                        width: int = 1080, height: int = 1920, fps: int = 30,
                        zoom_out: bool = False, texto_cta: str | None = None,
-                       cta_duracion: float = 1.3) -> None:
+                       cta_duracion: float = 1.3, sfx_corte: bool = False) -> None:
     """Imagen fija con efecto Ken Burns + audio de esa escena. zoom_out=True
     invierte la dirección (empieza en 1.25x y se aleja) para que no todas las
     escenas hagan el mismo movimiento, como en la automatización de la
     Raspberry Pi pero alternando. texto_cta, si se pasa (solo en la última
     escena), quema un aviso de suscripción en los últimos cta_duracion
-    segundos, arriba de la imagen (lejos de los subtítulos, que van abajo)."""
+    segundos, arriba de la imagen (lejos de los subtítulos, que van abajo).
+    sfx_corte=True añade un "clic" sintético de ~70ms al inicio de la escena
+    (pásalo para todas menos la primera: resetea la atención en cada cambio
+    de plano, como pide la guía de retención, sin depender de audio externo)."""
     zoom_frames = max(int(duracion * fps), 1)
     if zoom_out:
         zoom_expr = f"if(eq(on,0),1.25,max(zoom-0.0006,1.0))"
@@ -45,20 +50,30 @@ def renderizar_escena(imagen: str, audio: str, salida: str, duracion: float,
             f"box=1:boxcolor=black@0.55:boxborderw=20:x=(w-text_w)/2:y=h*0.12:"
             f"enable='between(t,{inicio_cta},{duracion})'"
         )
-    subprocess.run(
-        [
-            "ffmpeg", "-y",
-            "-loop", "1", "-i", imagen,
-            "-i", audio,
-            "-vf", vf,
-            "-t", str(duracion),
-            "-c:v", "libx264", "-preset", "veryfast", "-crf", "23",
-            "-c:a", "aac", "-b:a", "192k",
-            "-shortest",
-            salida,
-        ],
-        check=True,
-    )
+
+    cmd = ["ffmpeg", "-y", "-loop", "1", "-i", imagen, "-i", audio]
+
+    if sfx_corte:
+        # Clic sintético: barrido de tono descendente de 1600 a 400 Hz en 60ms,
+        # con fade-out para que no suene a "pop" seco. 100% generado por FFmpeg.
+        cmd += ["-f", "lavfi", "-i", "sine=frequency=1600:duration=0.06"]
+        filtro_audio = (
+            "[2:a]afade=t=out:st=0.03:d=0.03,volume=0.5[sfx];"
+            "[1:a][sfx]amix=inputs=2:duration=first:dropout_transition=0:normalize=0[aout]"
+        )
+        cmd += ["-filter_complex", filtro_audio, "-map", "0:v", "-map", "[aout]"]
+    else:
+        cmd += ["-map", "0:v", "-map", "1:a"]
+
+    cmd += [
+        "-vf", vf,
+        "-t", str(duracion),
+        "-c:v", "libx264", "-preset", "veryfast", "-crf", "23",
+        "-c:a", "aac", "-b:a", "192k",
+        "-shortest",
+        salida,
+    ]
+    subprocess.run(cmd, check=True)
 
 
 def concatenar_escenas(rutas_escenas: list[str], salida_final: str) -> None:
