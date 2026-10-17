@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué Son Doong crea nubes a 200 metros?",
+  "descripcion": "La gigantesca cueva Son Doong en Vietnam posee su propio microclima capaz de condensar vapor en su interior. Descubre la ciencia detrás de este fenómeno subterráneo. #shorts #curiosidades #planeta #sondoong #cuevas #geologia",
+  "tags": [
+    "son doong vietnam",
+    "cueva son doong",
+    "cueva mas grande del mundo",
+    "cuevas extremas",
+    "fenomenos naturales",
+    "geologia curiosidades",
+    "microclima cueva",
+    "ciencia de la tierra",
+    "curiosidades del planeta",
+    "planeta tierra"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Hay nubes a doscientos metros bajo tierra?",
+      "prompt_imagen": "Fotografía cinematográfica del interior de una cueva colosal con estratos de nubes y niebla suspendidos bajo una inmensa bóveda de roca caliza, iluminación natural difusa."
+    },
+    {
+      "texto": "Ocurre en la colosal cueva Son Doong.",
+      "prompt_imagen": "Fotografía de ángulo muy abierto mostrando la inmensa galería subterránea de Son Doong con gigantescas estalagmitas y formaciones minerales milenarias."
+    },
+    {
+      "texto": "Ho Khanh la descubrió en 1991.",
+      "prompt_imagen": "Fotografía documental realista de la entrada selvática de una profunda caverna en Vietnam rodeada de densa vegetación tropical y bruma."
+    },
+    {
+      "texto": "Dentro cabe un rascacielos de cuarenta plantas.",
+      "prompt_imagen": "Vista vertical monumental dentro de una caverna kárstica de doscientos metros de altura con paredes rocosas masivas y escala colosal."
+    },
+    {
+      "texto": "Dos enormes techos colapsaron hace milenios.",
+      "prompt_imagen": "Fotografía desde el fondo de una cueva mirando hacia una colosal dolina natural abierta en el techo por donde entra luz solar directa a la jungla interior."
+    },
+    {
+      "texto": "El sol calienta su río interior.",
+      "prompt_imagen": "Fotografía realista de un río subterráneo de aguas cristalinas iluminado dramáticamente por un haz de luz solar que penetra desde la superficie."
+    },
+    {
+      "texto": "El vapor choca contra aire frío.",
+      "prompt_imagen": "Fotografía macro y detallada de condensación de vapor de agua elevándose sobre el agua subterránea y mezclándose con corrientes de aire frío en la caverna."
+    },
+    {
+      "texto": "Así se forman nubes bajo tierra.",
+      "prompt_imagen": "Fotografía hiperrealista de densas nubes blancas flotando en suspensión dentro de una gigantesca cámara subterránea de roca caliza."
+    }
+  ]
+}
