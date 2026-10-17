@@ -1,0 +1,49 @@
+{
+  "titulo": "¿Un bloque flotante de 487.000 km²?",
+  "descripcion": "La plataforma de hielo de Ross es la mayor masa de hielo flotante del planeta Tierra y se aprecia a simple vista desde la órbita. #shorts #curiosidades #planeta #tierra #antartida #ciencia #geografia",
+  "tags": [
+    "plataforma de ross",
+    "antartida",
+    "tierra desde el espacio",
+    "curiosidades del planeta",
+    "records de la tierra",
+    "glaciares",
+    "geografia extrema",
+    "polo sur",
+    "ciencia"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué mole colosal brilla desde el espacio?",
+      "prompt_imagen": "Fotografía hiperrealista tomada desde la órbita baja terrestre, mostrando una inmensa masa blanca y brillante de hielo sobre el océano azul oscuro, curvatura de la Tierra visible con atmósfera azul tenue."
+    },
+    {
+      "texto": "Cubre un mar helado y profundo.",
+      "prompt_imagen": "Vista aérea cinematográfica de un océano polar gélido cubierto parcialmente por aguas oscuras y gigantescas placas de hielo flotante con reflejos solares nítidos."
+    },
+    {
+      "texto": "Ningún barco humano puede navegarla jamás.",
+      "prompt_imagen": "Fotografía documental de un acantilado vertical de hielo puro de decenas de metros de altura sobre aguas polares turbulentas, bloqueando totalmente el paso marítimo."
+    },
+    {
+      "texto": "Oculta seiscientos metros de puro espesor.",
+      "prompt_imagen": "Corte transversal realista de un glaciar colosal sobre el mar austral, mostrando una masa de hielo profundo de color azul turquesa sumergida en agua oceánica cristalina."
+    },
+    {
+      "texto": "Abarca cuatrocientos ochenta y siete mil kilómetros.",
+      "prompt_imagen": "Fotografía satelital cenital hiperrealista que muestra la inmensidad desértica y blanca de una plataforma de hielo antártica extendiéndose hasta el horizonte marino."
+    },
+    {
+      "texto": "¡Superficie casi idéntica a toda España!",
+      "prompt_imagen": "Vista orbital de alta definición que muestra la gigantesca plataforma plana de hielo polar contrastando con el mar abierto, transmitiendo una escala territorial inmensa."
+    },
+    {
+      "texto": "Hablamos de la gigantesca plataforma Ross.",
+      "prompt_imagen": "Primer plano cinematográfico de la pared frontal de la barrera de hielo de Ross en la Antártida, con grietas milenarias iluminadas por la luz dorada del sol de medianoche."
+    },
+    {
+      "texto": "¿Qué mole colosal brilla desde el espacio?",
+      "prompt_imagen": "Fotografía hiperrealista desde la cúpula de la Estación Espacial Internacional enfocando la colosal masa de hielo blanco de la Antártida brillando bajo la luz solar directa."
+    }
+  ]
+}
