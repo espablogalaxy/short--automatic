@@ -1,24 +1,50 @@
 """Monta el short final: cada imagen con su audio de narración (con efecto Ken
-Burns como en el canal de la Raspberry Pi), concatenadas, y con subtítulos
-animados palabra a palabra quemados encima. Usa solo FFmpeg (ya viene
-instalado en los runners de GitHub Actions; el workflow instala además
-fonts-dejavu-core, la fuente que usan los subtítulos .ass)."""
+Burns alternando zoom in/out por escena para más dinamismo), concatenadas, y
+con subtítulos animados palabra a palabra quemados encima, más una CTA de
+suscripción quemada SOLO en el último tramo de la última escena (texto en
+pantalla, no hablado: así no gasta presupuesto de palabras del guion ni rompe
+el cierre en bucle). Usa solo FFmpeg (ya viene instalado en los runners de
+GitHub Actions; el workflow instala además fonts-dejavu-core, la fuente que
+usan los subtítulos .ass y la CTA)."""
 import subprocess
 from pathlib import Path
 
+FUENTE_CTA = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+
+
+def _escapar_drawtext(texto: str) -> str:
+    return texto.replace("\\", "\\\\").replace(":", "\\:").replace("'", "\u2019")
+
 
 def renderizar_escena(imagen: str, audio: str, salida: str, duracion: float,
-                       width: int = 1080, height: int = 1920, fps: int = 30) -> None:
-    """Imagen fija con efecto Ken Burns (zoom lento) + audio de esa escena,
-    igual que en la automatización de la Raspberry Pi (antes era una imagen
-    totalmente estática, sin zoom)."""
+                       width: int = 1080, height: int = 1920, fps: int = 30,
+                       zoom_out: bool = False, texto_cta: str | None = None,
+                       cta_duracion: float = 1.3) -> None:
+    """Imagen fija con efecto Ken Burns + audio de esa escena. zoom_out=True
+    invierte la dirección (empieza en 1.25x y se aleja) para que no todas las
+    escenas hagan el mismo movimiento, como en la automatización de la
+    Raspberry Pi pero alternando. texto_cta, si se pasa (solo en la última
+    escena), quema un aviso de suscripción en los últimos cta_duracion
+    segundos, arriba de la imagen (lejos de los subtítulos, que van abajo)."""
     zoom_frames = max(int(duracion * fps), 1)
+    if zoom_out:
+        zoom_expr = f"if(eq(on,0),1.25,max(zoom-0.0006,1.0))"
+    else:
+        zoom_expr = "min(zoom+0.0006,1.25)"
     vf = (
         f"scale={width * 2}:{height * 2}:force_original_aspect_ratio=increase,"
         f"crop={width * 2}:{height * 2},"
-        f"zoompan=z='min(zoom+0.0006,1.25)':d={zoom_frames}:s={width}x{height}:fps={fps},"
+        f"zoompan=z='{zoom_expr}':d={zoom_frames}:s={width}x{height}:fps={fps},"
         f"format=yuv420p"
     )
+    if texto_cta:
+        inicio_cta = max(duracion - cta_duracion, 0)
+        texto = _escapar_drawtext(texto_cta)
+        vf += (
+            f",drawtext=fontfile={FUENTE_CTA}:text='{texto}':fontcolor=white:fontsize=58:"
+            f"box=1:boxcolor=black@0.55:boxborderw=20:x=(w-text_w)/2:y=h*0.12:"
+            f"enable='between(t,{inicio_cta},{duracion})'"
+        )
     subprocess.run(
         [
             "ffmpeg", "-y",
