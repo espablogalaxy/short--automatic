@@ -1,6 +1,6 @@
 """Orquesta el pipeline completo: guion (de la cola, o generado al vuelo si
-está vacía) -> imágenes -> audio -> vídeo (Ken Burns + subtítulos animados)
--> subida.
+está vacía) -> imágenes -> audio -> vídeo (Ken Burns + subtítulos animados +
+CTA quemada en la última escena) -> subida.
 Uso:
   python src/main.py [--no-upload]              # coge de la cola; si está
                                                   # vacía, genera uno nuevo
@@ -24,6 +24,9 @@ from render import (
     construir_subtitulos_ass,
     quemar_subtitulos,
 )
+
+CTA_FINAL = "SUSCRÍBETE PARA MÁS"
+
 
 def _conseguir_guion(tema: str | None) -> tuple[Path, dict]:
     """--tema fuerza un guion nuevo sobre ese tema. Si no, coge el siguiente de la cola
@@ -56,6 +59,7 @@ def ejecutar(tema: str | None, subir: bool) -> None:
 
         # Una sola locución continua para todo el vídeo (más natural y 1 petición de TTS en vez de 8)
         pistas = generar_narracion([e["texto"] for e in guion["escenas"]], str(tmp))
+        n_escenas = len(guion["escenas"])
 
         for i, escena in enumerate(guion["escenas"]):
             imagen = tmp / f"img_{i}.png"
@@ -73,7 +77,12 @@ def ejecutar(tema: str | None, subir: bool) -> None:
                     sys.exit(1)
 
             audio, duracion, palabras = pistas[i]
-            renderizar_escena(str(imagen), audio, str(clip), duracion)
+            es_ultima = i == n_escenas - 1
+            renderizar_escena(
+                str(imagen), audio, str(clip), duracion,
+                zoom_out=(i % 2 == 1),
+                texto_cta=CTA_FINAL if es_ultima else None,
+            )
             rutas_escenas.append(str(clip))
             palabras_por_escena.append(palabras)
             duraciones.append(duracion)
