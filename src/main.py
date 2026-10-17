@@ -1,6 +1,6 @@
 """Orquesta el pipeline completo: guion (de la cola, o generado al vuelo si
-está vacía) -> imágenes -> audio -> vídeo (Ken Burns + subtítulos animados +
-CTA quemada en la última escena) -> subida.
+está vacía) -> imágenes -> audio -> vídeo (Ken Burns + SFX de corte + subtítulos
+animados + CTA quemada en la última escena) -> subida.
 Uso:
   python src/main.py [--no-upload]              # coge de la cola; si está
                                                   # vacía, genera uno nuevo
@@ -82,6 +82,9 @@ def ejecutar(tema: str | None, subir: bool) -> None:
                 str(imagen), audio, str(clip), duracion,
                 zoom_out=(i % 2 == 1),
                 texto_cta=CTA_FINAL if es_ultima else None,
+                # SFX de corte en todas las escenas menos la primera (el gancho
+                # inicial no necesita "clic": arranca con la voz en off directa).
+                sfx_corte=(i > 0),
             )
             rutas_escenas.append(str(clip))
             palabras_por_escena.append(palabras)
