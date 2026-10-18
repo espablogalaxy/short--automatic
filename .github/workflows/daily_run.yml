@@ -7,7 +7,12 @@ on:
     - cron: "0 18 * * *"  # 18:00 UTC
     # Se retiró 12:00 UTC: en este canal es la franja más floja (mediana ~200 vistas vs ~1000-1100
     # a las 09 y 18 UTC, datos del 03/10/2026). Revisar con: python src/metricas.py --informe
-  workflow_dispatch: {}    # permite lanzarlo a mano desde la pestaña Actions
+  workflow_dispatch:       # permite lanzarlo a mano desde la pestaña Actions
+    inputs:
+      privado:
+        description: "Subir el short como privado (para probar cambios de pipeline sin publicar)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write   # necesario para poder commitear los guiones ya usados
@@ -48,7 +53,7 @@ jobs:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CF_ACCOUNT_ID_2: ${{ secrets.CF_ACCOUNT_ID_2 }}
           CF_API_TOKEN_2: ${{ secrets.CF_API_TOKEN_2 }}
-        run: python src/main.py
+        run: python src/main.py ${{ github.event.inputs.privado == 'true' && '--privado' || '' }}
 
       - name: Guardar cambios (guion usado, logs)
         run: |
