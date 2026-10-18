@@ -7,6 +7,10 @@ Uso:
   python src/main.py [--no-upload] --tema "..."  # se salta la cola y genera
                                                   # un guion nuevo sobre ese
                                                   # tema concreto
+  python src/main.py --privado                   # sube el vídeo pero en
+                                                  # privado (para probar
+                                                  # cambios de pipeline sin
+                                                  # publicarlo de verdad)
 """
 import argparse
 import sys
@@ -48,7 +52,7 @@ def _conseguir_guion(tema: str | None) -> tuple[Path, dict]:
     return guardar_pendiente(guion), guion
 
 
-def ejecutar(tema: str | None, subir: bool) -> None:
+def ejecutar(tema: str | None, subir: bool, privado: bool = False) -> None:
     ruta_guion, guion = _conseguir_guion(tema)
 
     with tempfile.TemporaryDirectory() as tmp:
@@ -102,9 +106,17 @@ def ejecutar(tema: str | None, subir: bool) -> None:
 
         if subir:
             from upload_youtube import subir_short
-            url = subir_short(str(salida_final), guion["titulo"], guion["descripcion"], guion.get("tags"))
-            print(f"Publicado: {url}")
-            marcar_hecho(ruta_guion, guion, url)
+            url = subir_short(str(salida_final), guion["titulo"], guion["descripcion"], guion.get("tags"),
+                               privado=privado)
+            print(f"Publicado{' (PRIVADO)' if privado else ''}: {url}")
+            if privado:
+                # No se marca como "hecho" ni se consume de la cola: es una prueba.
+                # Si el resultado convence, se vuelve a lanzar sin --privado (o se
+                # cambia a público a mano en YouTube Studio) para que cuente en la
+                # cola/métricas reales.
+                print("Modo prueba (--privado): el guion sigue en la cola, no se marca como hecho.")
+            else:
+                marcar_hecho(ruta_guion, guion, url)
         else:
             destino_local = Path("preview.mp4")
             destino_local.write_bytes(salida_final.read_bytes())
@@ -116,6 +128,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--tema", default=None)
     parser.add_argument("--no-upload", action="store_true")
+    parser.add_argument("--privado", action="store_true",
+                         help="Sube el short como privado en vez de público (para probar cambios de pipeline)")
     args = parser.parse_args()
 
-    ejecutar(args.tema, subir=not args.no_upload)
+    ejecutar(args.tema, subir=not args.no_upload, privado=args.privado)
