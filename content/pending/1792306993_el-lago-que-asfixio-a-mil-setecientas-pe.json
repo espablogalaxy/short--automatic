@@ -1,0 +1,50 @@
+{
+  "titulo": "¿El lago que asfixió a mil setecientas personas?",
+  "descripcion": "En 1986, el lago Nyos liberó una nube invisible que asfixió a pueblos enteros en minutos. ¿Conocías este letal fenómeno de la naturaleza? #shorts #curiosidades #planeta #ciencia #volcanes #misterios",
+  "tags": [
+    "lago nyos",
+    "erupcion limnica",
+    "camerun 1986",
+    "fenomenos naturales",
+    "geologia",
+    "desastres naturales",
+    "curiosidades tierra",
+    "planeta tierra",
+    "gas toxico",
+    "volcanes"
+  ],
+  "escenas": [
+    {
+      "texto": "Un lago tranquilo puede asfixiarte en minutos.",
+      "prompt_imagen": "A cinematic shot of Lake Nyos in Cameroon, deep blue calm water surrounded by green cliffs, eerie silence, hyperrealistic photography."
+    },
+    {
+      "texto": "Ocurrió en Camerún en el año 1986.",
+      "prompt_imagen": "A quiet rural African village near green hills under a dim sky, 1980s atmosphere, documentary style photography."
+    },
+    {
+      "texto": "Bajo el lecho volcánico del lago Nyos...",
+      "prompt_imagen": "Cross section underwater view of a dark volcanic lake bed with volcanic rock formations, hyperrealistic documentary style."
+    },
+    {
+      "texto": "se acumularon cientos de miles de toneladas...",
+      "prompt_imagen": "Underwater camera showing tiny gas bubbles trapped in deep, dark murky lake sediment, dramatic lighting."
+    },
+    {
+      "texto": "de dióxido de carbono puro disuelto.",
+      "prompt_imagen": "High pressure deep water layers in a volcanic crater lake, cinematic hyperrealistic shot."
+    },
+    {
+      "texto": "Un derrumbe desestabilizó de golpe las aguas.",
+      "prompt_imagen": "Massive rockfall crashing into the surface of a misty mountain lake, creating a large white wave."
+    },
+    {
+      "texto": "La nube silenciosa mató a 1.746 personas.",
+      "prompt_imagen": "A dense invisible low fog rolling quietly through an empty village valley at night, cinematic dark lighting."
+    },
+    {
+      "texto": "Por eso, este lago tranquilo puede asfixiarte.",
+      "prompt_imagen": "Wide aerial shot of Lake Nyos looking deceptively peaceful under morning mist, hyperrealistic 8k documentary style."
+    }
+  ]
+}
