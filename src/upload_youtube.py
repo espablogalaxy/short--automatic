@@ -18,7 +18,11 @@ def _credenciales() -> Credentials:
     )
 
 
-def subir_short(ruta_video: str, titulo: str, descripcion: str, tags: list[str] | None = None) -> str:
+def subir_short(ruta_video: str, titulo: str, descripcion: str, tags: list[str] | None = None,
+                 privado: bool = False) -> str:
+    """privado=True sube el short como privado (para probar cambios de pipeline sin
+    publicarlos): solo lo ve la cuenta dueña del canal hasta que se cambie a mano en
+    YouTube Studio."""
     youtube = build("youtube", "v3", credentials=_credenciales())
 
     cuerpo = {
@@ -31,7 +35,7 @@ def subir_short(ruta_video: str, titulo: str, descripcion: str, tags: list[str] 
             "defaultAudioLanguage": "es",
         },
         "status": {
-            "privacyStatus": "public",
+            "privacyStatus": "private" if privado else "public",
             "selfDeclaredMadeForKids": False,
             # Imágenes fotorrealistas generadas con IA: la política de YouTube obliga a
             # declarar contenido sintético realista (evita riesgo de monetización/sanción).
