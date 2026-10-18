@@ -1,0 +1,50 @@
+{
+  "titulo": "¿El lago con ácido que funde metal?",
+  "descripcion": "El cráter del volcán Kawah Ijen alberga el lago más ácido del planeta, con un pH cercano a cero capaz de disolver metal. ¿Te atreverías a caminar por su orilla? #shorts #curiosidades #planeta #kawahijen #volcanes #geologia",
+  "tags": [
+    "Kawah Ijen",
+    "lago ácido",
+    "volcán Kawah Ijen",
+    "lago turquesa ácido",
+    "Indonesia cráter",
+    "curiosidades del planeta",
+    "lugares extremos",
+    "pH cero lago",
+    "fenómenos geológicos",
+    "volcanes extremos"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Bañarse en este lago turquesa te desintegraría?",
+      "prompt_imagen": "Turquoise volcanic crater lake with rising acidic steam vents, dramatic landscape photography, cinematic lighting, 8k resolution, National Geographic style."
+    },
+    {
+      "texto": "Es el cráter del volcán Kawah Ijen.",
+      "prompt_imagen": "Wide-angle aerial shot of Kawah Ijen volcano caldera in Indonesia, turquoise water, rugged rocky cliffs, hyperrealistic."
+    },
+    {
+      "texto": "Contiene treinta millones de metros cúbicos.",
+      "prompt_imagen": "Massive turquoise lake inside a volcanic caldera, mineral crust along the shore, photorealistic landscape, dramatic depth."
+    },
+    {
+      "texto": "Su agua tiene un pH casi cero.",
+      "prompt_imagen": "Close-up of bubbling yellowish sulfuric water at the edge of a volcanic lake, crystal clear details, documentary realism."
+    },
+    {
+      "texto": "Es puro ácido sulfúrico concentrado.",
+      "prompt_imagen": "Fuming yellow sulfur deposits and dense white volcanic vapors escaping along the volcanic lake shore, high detail photo."
+    },
+    {
+      "texto": "Capaz de disolver láminas de metal.",
+      "prompt_imagen": "Scientific experiment showing a corroded steel bar partially submerged in bubbling acidic lake water, documentary photography."
+    },
+    {
+      "texto": "Por eso ningún ser vivo sobrevive.",
+      "prompt_imagen": "Desolate barren volcanic landscape surrounding the toxic turquoise lake, eerie silence, hyperrealistic cinematic shot."
+    },
+    {
+      "texto": "Y entrar en su agua te desintegraría.",
+      "prompt_imagen": "Steaming surreal turquoise waters of Kawah Ijen crater lake under moody overcast sky, ultra realistic reportage style."
+    }
+  ]
+}
