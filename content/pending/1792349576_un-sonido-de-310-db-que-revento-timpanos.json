@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Un sonido de 310 dB que reventó tímpanos a 64 km?",
+  "descripcion": "En 1883 el volcán Krakatoa desató la onda sonora más potente jamás registrada por la ciencia moderna. ¿Conocías la brutal fuerza que alcanzó esta erupción? #shorts #curiosidades #planeta #ciencia #volcanes #krakatoa #historia",
+  "tags": [
+    "krakatoa",
+    "volcan krakatoa",
+    "sonido mas fuerte de la historia",
+    "curiosidades del planeta",
+    "volcanes extremos",
+    "erupcion de 1883",
+    "ciencia de la tierra",
+    "datos cientificos",
+    "fenomenos extremos",
+    "historia de la tierra"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Un sonido puede reventarte los tímpanos?",
+      "prompt_imagen": "Cubierta de un velero de madera del siglo diecinueve navegando en mar picado bajo un cielo tormentoso, marineros con ropa de época tapándose los oídos con dolor, fotografía cinematográfica histórica realista."
+    },
+    {
+      "texto": "Ocurrió a sesenta y cuatro kilómetros.",
+      "prompt_imagen": "Vista lejana desde alta mar en el estrecho de Sunda, con una gigantesca columna oscura de ceniza volcánica elevándose en el horizonte a decenas de kilómetros de distancia, fotografía de reportaje marítimo."
+    },
+    {
+      "texto": "En mil ochocientos ochenta y tres,",
+      "prompt_imagen": "Fotografía estilo archivo de finales del siglo diecinueve de islas volcánicas tropicales rodeadas de mar embravecido bajo densas nubes grises, iluminación natural dramática."
+    },
+    {
+      "texto": "el volcán Krakatoa colapsó en Indonesia.",
+      "prompt_imagen": "Cataclísmica erupción volcánica de una isla explotando en el mar, columna de humo y piroclastos alcanzando la estratosfera, relámpagos volcánicos, fotografía hiperrealista de catástrofe natural."
+    },
+    {
+      "texto": "Alcanzó trescientos diez decibelios de potencia.",
+      "prompt_imagen": "Onda de choque masiva barriendo la superficie del océano creando espuma blanca violenta y olas agitadas, rocas costeras vibrando bajo un cielo cubierto de ceniza ardiente."
+    },
+    {
+      "texto": "Se escuchó a cinco mil kilómetros.",
+      "prompt_imagen": "Costa lejana de Australia occidental en el siglo diecinueve, personas victorianas en un muelle de madera mirando con asombro hacia el mar abierto mientras perciben un ruido atronador lejano."
+    },
+    {
+      "texto": "Su presión cruzó la Tierra cuatro veces,",
+      "prompt_imagen": "Primer plano de un barógrafo científico antiguo de latón en mil ochocientos ochenta y tres registrando oscilaciones violentas de aguja sobre un tambor de papel cuadriculado, iluminación tenue de época."
+    },
+    {
+      "texto": "demostrando si un sonido puede reventarte tímpanos.",
+      "prompt_imagen": "Vista aérea cinematográfica de la caldera humeante dejada por el volcán en el mar tras la detonación, aguas turbias cubiertas de piedra pómez flotante bajo la luz del amanecer."
+    }
+  ]
+}
