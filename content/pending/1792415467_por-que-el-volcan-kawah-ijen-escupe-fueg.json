@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué el volcán Kawah Ijen escupe fuego azul?",
+  "descripcion": "En la isla de Java, el volcán Kawah Ijen arde a 600 grados con llamas azules y gases tóxicos letales. ¿Te atreverías a visitarlo de noche? #shorts #curiosidades #planeta #volcanes #geologia #indonesia",
+  "tags": [
+    "Kawah Ijen",
+    "volcan Kawah Ijen",
+    "fuego azul",
+    "lava azul",
+    "volcanes extremos",
+    "geologia extrema",
+    "curiosidades planeta",
+    "datos cientificos",
+    "azufre volcánico",
+    "isla de Java"
+  ],
+  "escenas": [
+    {
+      "texto": "Este volcán escupe fuego azul letal.",
+      "prompt_imagen": "Dramatic night view of Kawah Ijen volcano crater emitting vivid electric blue flames in total darkness, documentary style photography."
+    },
+    {
+      "texto": "Ocurre en Kawah Ijen, en Java.",
+      "prompt_imagen": "Wide landscape photography of Mount Kawah Ijen crater in Java at twilight, jagged volcanic ridges and rising smoke."
+    },
+    {
+      "texto": "No es lava de otro color.",
+      "prompt_imagen": "Close-up cinematic shot of dark basaltic rock surfaces inside a volcanic crater, natural geological textures."
+    },
+    {
+      "texto": "Son gases de azufre ardiendo.",
+      "prompt_imagen": "Intense plumes of yellow sulfur gas venting vigorously from cracks inside a rocky volcanic crater."
+    },
+    {
+      "texto": "Emergen a seiscientos grados centígrados.",
+      "prompt_imagen": "Glowing volcanic fumarole radiating heat and bright electric blue fire at night, extreme temperature heat haze."
+    },
+    {
+      "texto": "Condensan un líquido azul brillante.",
+      "prompt_imagen": "Glowing liquid sulfur burning with intense cobalt blue fire, dripping down dark volcanic rock faces at night."
+    },
+    {
+      "texto": "Sus vapores asfixian en minutos.",
+      "prompt_imagen": "Dense toxic acidic sulfur clouds swirling ominously over the rugged rim of an active volcanic crater."
+    },
+    {
+      "texto": "Por eso pocos soportan ver...",
+      "prompt_imagen": "Low angle night photography of glowing blue volcanic flames illuminating the steep walls of Kawah Ijen caldera."
+    }
+  ]
+}
