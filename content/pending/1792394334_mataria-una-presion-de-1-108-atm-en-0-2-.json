@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Mataría una presión de 1 108 atm en 0,2 s?",
+  "descripcion": "En el Challenger Deep, la zona más profunda del planeta, la presión supera los mil atm, capaz de aplastar metal en una fracción de segundo. ¿Te atreverías a descender allí? #shorts #curiosidades #planeta #marianas #presión #océano #fosa",
+  "tags": [
+    "Challenger Deep",
+    "Fosa de las Marianas",
+    "presión submarina",
+    "Trieste 1960",
+    "profundidad oceánica",
+    "mil atmósferas",
+    "buceo extremo",
+    "océano Pacífico",
+    "ciencia del mar",
+    "hazard ocean"
+  ],
+  "escenas": [
+    {
+      "texto": "Una presión que aplasta en 0,2 s",
+      "prompt_imagen": "Imagen hiperrealista del fondo del Challenger Deep, con agua oscura y una silueta de un submarino pequeño, resaltando la inmensidad del abismo."
+    },
+    {
+      "texto": "Fondo de la Fosa de las Marianas",
+      "prompt_imagen": "Mapa oceánico en estilo fotográfico que muestra la ubicación de la Fosa de las Marianas en el Pacífico, con relieve en relieve."
+    },
+    {
+      "texto": "Profundidad exacta: diez mil novecientos veinticinco metros",
+      "prompt_imagen": "Pantalla de medidor digital de profundidad marcando 10 925 metros bajo el nivel del mar, sobre fondo azul profundo."
+    },
+    {
+      "texto": "Descubierta por el Trieste en 1960",
+      "prompt_imagen": "Fotografía histórica en blanco y negro del sumergible Trieste emergiendo del fondo marino, con la tripulación a bordo."
+    },
+    {
+      "texto": "Presión allí: mil ciento ocho atmósferas",
+      "prompt_imagen": "Gráfico comparativo que muestra 1 atmósfera a nivel del mar vs 1 108 atmósferas, con indicadores de presión."
+    },
+    {
+      "texto": "15 000 kg por cada metro cuadrado",
+      "prompt_imagen": "Ilustración realista de una balanza con 15 000 kilogramos sobre una placa de un metro cuadrado, sobre fondo marino."
+    },
+    {
+      "texto": "El acero colapsa al instante",
+      "prompt_imagen": "Imagen de una estructura metálica de acero deformándose y colapsando bajo una presión invisible, con burbujas de aire."
+    },
+    {
+      "texto": "¿Una presión que aplasta en 0,2 s?",
+      "prompt_imagen": "Repetición del abismo del Challenger Deep con un contador digital marcando 0,2 s, invitando al espectador a volver a pensar."
+    }
+  ]
+}
