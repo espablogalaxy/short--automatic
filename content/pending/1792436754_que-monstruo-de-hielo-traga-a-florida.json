@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué monstruo de hielo traga a Florida?",
+  "descripcion": "El glaciar Lambert en la Antártida Oriental es la corriente de hielo más colosal del planeta y contiene agua suficiente para alterar los mapas costeros. ¿Te imaginas sobrevolar una masa de hielo más grande que un estado entero? #shorts #curiosidades #planeta #glaciar #antartida #geografia #ciencia",
+  "tags": [
+    "glaciar Lambert",
+    "Antartida",
+    "record del mundo",
+    "hielo antartico",
+    "corriente de hielo",
+    "curiosidades del planeta",
+    "geografia extrema",
+    "ciencia polar",
+    "glaciologia",
+    "planeta Tierra"
+  ],
+  "escenas": [
+    {
+      "texto": "Un solo glaciar tragaría a Florida.",
+      "prompt_imagen": "Vista de satélite hiperrealista de una gigantesca masa de hielo blanco y azulado abriéndose paso hacia el océano antártico, con grietas profundas y escala colosal."
+    },
+    {
+      "texto": "Es el monstruo polar de Lambert.",
+      "prompt_imagen": "Fotografía aérea dramática de la inmensa llanura de hielo del glaciar Lambert en la Antártida, con crestas heladas bajo la luz rasante del sol polar."
+    },
+    {
+      "texto": "Tiene cuatrocientos kilómetros de longitud.",
+      "prompt_imagen": "Fotografía cinematográfica desde un helicóptero que muestra un cañón infinito de hielo puro que se pierde en el horizonte cubierto de nieve."
+    },
+    {
+      "texto": "Y alcanza cien kilómetros de ancho.",
+      "prompt_imagen": "Vista panorámica gran angular de una fractura glacial de hielo azul que abarca un valle gigantesco entre montañas antárticas desnudas de roca oscura."
+    },
+    {
+      "texto": "Su superficie supera ciento cincuenta mil.",
+      "prompt_imagen": "Toma aérea hiperrealista a gran altitud mostrando una inmensa placa de hielo que empequeñece montañas nunatak emergiendo de la superficie helada."
+    },
+    {
+      "texto": "Caben diez millones de rascacielos dentro.",
+      "prompt_imagen": "Fotografía realista de una pared vertical colosal de hielo azul estratificado de miles de metros de profundidad con sombras dramáticas de atardecer polar."
+    },
+    {
+      "texto": "Drena el ocho por ciento polar.",
+      "prompt_imagen": "Impresionante fotografía donde el glaciar Lambert entra en contacto con la plataforma de hielo Amery en el océano abierto con icebergs gigantes flotando."
+    },
+    {
+      "texto": "Por eso este glaciar tragaría Florida.",
+      "prompt_imagen": "Vista aérea cenital del frente helado del glaciar Lambert desprendiéndose en el mar antártico azul oscuro con patrones de hielo espectaculares."
+    }
+  ]
+}
