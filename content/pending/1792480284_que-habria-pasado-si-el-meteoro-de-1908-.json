@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué habría pasado si el meteoro de 1908 (15 Mt) impactara?",
+  "descripcion": "En 1908 un meteoro explotó sobre Siberia liberando 15 megatoneladas de energía y arrasando más de 2 000 km² de bosque. ¿Te atreverías a estar a 30 km del punto de impacto? #shorts #curiosidades #planeta #Tunguska #meteorito #impacto #siberia",
+  "tags": [
+    "Tunguska",
+    "meteorito",
+    "1908",
+    "Siberia",
+    "cráter",
+    "explosión",
+    "megaton",
+    "impacto",
+    "energía",
+    "extinción",
+    "zona de destrucción",
+    "historia natural"
+  ],
+  "escenas": [
+    {
+      "texto": "Un meteoro silencioso arrasó Siberia en 1908",
+      "prompt_imagen": "Fotografía hiperrealista del cielo sobre la taiga siberiana en junio de 1908, nube de polvo brillante, paisaje nevado, estilo reportaje"
+    },
+    {
+      "texto": "Explosión liberó 15 megatones de TNT",
+      "prompt_imagen": "Imagen de explosión luminosa en la noche siberiana, onda de choque visible, colores intensos, foto cinematográfica"
+    },
+    {
+      "texto": "Aplastó 2 150 km² de bosque",
+      "prompt_imagen": "Vista aérea del bosque de Tunguska, zona quemada de 2 150 km², árboles carbonizados, fotografía satelital"
+    },
+    {
+      "texto": "Onda derribó árboles a 50 km",
+      "prompt_imagen": "Árboles derribados en círculo alrededor del punto de explosión, distancia 50 km, bosque desordenado, toma panorámica"
+    },
+    {
+      "texto": "Si hubiera impactado, haría vaporizar todo",
+      "prompt_imagen": "Ilustración de meteoro impactando tierra, cráter gigantesco, vapor y fuego, estilo foto realista"
+    },
+    {
+      "texto": "Temperatura alcanzaría 10 000 °C al instante",
+      "prompt_imagen": "Primer plano del punto de impacto, plasma rojo intenso, temperatura 10 000 grados, brillo cegador, fotografía de alta resolución"
+    },
+    {
+      "texto": "Causa extinciones masivas en millones de años",
+      "prompt_imagen": "Representación artística de extinciones masivas, dinosaurios y flora desapareciendo bajo una nube nuclear, estilo documental"
+    },
+    {
+      "texto": "¿Qué habría pasado si el meteoro impactó?",
+      "prompt_imagen": "Imagen del mismo cielo siberiano antes de la explosión, silencio, nieve, invitando a imaginar, fotografía hiperrealista"
+    }
+  ]
+}
