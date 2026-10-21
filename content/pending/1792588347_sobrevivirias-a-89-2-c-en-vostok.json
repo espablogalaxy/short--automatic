@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Sobrevivirías a –89,2 °C en Vostok?",
+  "descripcion": "En la base antártica Vostok se registró en 1983 la temperatura más baja de la historia terrestre: –89,2 °C. ¿Soportarías un minuto en un frío tan extremo? #shorts #curiosidades #planeta #antartida #vostok #ciencia #clima",
+  "tags": [
+    "base vostok",
+    "frio extremo",
+    "temperatura record",
+    "antartida clima",
+    "record bajo cero",
+    "lugares extremos",
+    "curiosidades tierra",
+    "geografia extrema",
+    "ciencia antartica",
+    "shorts"
+  ],
+  "escenas": [
+    {
+      "texto": "Tus pulmones colapsarían en dos minutos.",
+      "prompt_imagen": "A human silhouette coughing in a whiteout blizzard with thick ice forming around the mouth and eyes, extreme survival conditions, cinematic photorealistic documentary photography."
+    },
+    {
+      "texto": "Ocurre en la estación antártica Vostok.",
+      "prompt_imagen": "Aerial exterior view of the isolated Soviet research station Vostok in Antarctica surrounded by a vast flat plateau of pure white ice and snow under a dim polar sky."
+    },
+    {
+      "texto": "Aquí midieron ochenta y nueve bajo cero.",
+      "prompt_imagen": "Close-up of a vintage analog meteorological thermometer half-buried in blue-tinted polar ice, needle pointing below minus eighty degrees Celsius, frosty texture."
+    },
+    {
+      "texto": "El récord absoluto del planeta Tierra.",
+      "prompt_imagen": "Panoramic satellite-style perspective over the massive polar ice plateau of East Antarctica, barren, blinding white surface extending to the curved horizon."
+    },
+    {
+      "texto": "El acero se quiebra como cristal.",
+      "prompt_imagen": "Macro shot of a thick industrial steel beam snapping and shattering like brittle glass on packed polar snow, metal shards frozen in the air."
+    },
+    {
+      "texto": "Tu propia saliva se congela cayendo.",
+      "prompt_imagen": "High-speed macro photograph of water droplets turning into solid white ice beads mid-air against a freezing arctic background."
+    },
+    {
+      "texto": "Incluso el combustible se vuelve gelatina.",
+      "prompt_imagen": "Close-up of diesel fuel flowing out of a metal nozzle like thick translucent jelly into a frozen metal drum under harsh polar daylight."
+    },
+    {
+      "texto": "Por eso nadie respira sin máscara.",
+      "prompt_imagen": "Intense close-up of a polar scientist wearing an insulated neoprene survival mask fully encrusted with frost, looking into the howling freezing wind."
+    }
+  ]
+}
