@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué volcán cubrió 5 000 km² de lava en 1783?",
+  "descripcion": "En 1783, la erupción del volcán Laki en Islandia cubrió 5 000 km² de lava, alteró el clima y mató a miles. ¿Te atreverías a pasar una noche cerca de su cráter? #shorts #curiosidades #planeta #Laki #volcán #Islandia #lava #historia",
+  "tags": [
+    "Laki",
+    "erupción 1783",
+    "lava Islandia",
+    "volcán Laki",
+    "historia geológica",
+    "cambio climático",
+    "gases tóxicos",
+    "erupción más grande",
+    "lava continua",
+    "catástrofe islandesa"
+  ],
+  "escenas": [
+    {
+      "texto": "Una erupción volcánica cubrió 5 000 km²",
+      "prompt_imagen": "Vista aérea de una vasta llanura islandesa cubierta de lava negra, contraste con la escasa vegetación, luz del amanecer, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "En 1783, Islandia se estremeció violentamente",
+      "prompt_imagen": "Paisaje islandés en 1783 bajo cielo gris, columnas de humo y fuego emergiendo del suelo, estilo foto histórica realista"
+    },
+    {
+      "texto": "El volcán Laki liberó 15 km³ magma",
+      "prompt_imagen": "Primer plano del cráter del volcán Laki con magma incandescente fluyendo, rocas fundidas, tonos rojos y naranjas, fotografía hiperrealista"
+    },
+    {
+      "texto": "Lava fluyó sin parar durante ocho años",
+      "prompt_imagen": "Secuencia de lava fluyendo lentamente por laderas, formando ríos de fuego, sombras alargadas, estilo foto documental"
+    },
+    {
+      "texto": "Cubrió 5 000 km², una inmensa manta incandescente",
+      "prompt_imagen": "Extenso campo de lava solidificada cubriendo 5 000 km², superficie rugosa y brillante bajo el sol, fotografía hiperrealista"
+    },
+    {
+      "texto": "Gases tóxicos mataron a un cuarto",
+      "prompt_imagen": "Población islandesa del siglo XVIII enferma, niebla tóxica sobre los campos, atmósfera densa, estilo foto de época"
+    },
+    {
+      "texto": "El clima global se enfrió varios grados",
+      "prompt_imagen": "Globo terráqueo mostrando descenso de temperatura, con líneas climáticas, Europa cubierta de nieve, foto ilustrativa realista"
+    },
+    {
+      "texto": "¿Qué erupción cubrió 5 000 km² realmente?",
+      "prompt_imagen": "Vista aérea idéntica del campo de lava al atardecer, inmensidad de lava extendida, fotografía hiperrealista"
+    }
+  ]
+}

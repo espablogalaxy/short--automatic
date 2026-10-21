@@ -1,0 +1,48 @@
+{
+  "titulo": "¿Podrías bucear 220 m bajo el Río Congo?",
+  "descripcion": "El punto más profundo del Río Congo alcanza 220 metros, una presión de 22 atmósferas que supera los límites de buceo recreativo. ¿Te atreverías a sumergirte allí? #shorts #curiosidades #planeta #RíoCongo #profundidad #buceo #exploración",
+  "tags": [
+    "Río Congo",
+    "profundidad",
+    "buceo extremo",
+    "220 metros",
+    "presión",
+    "exploración submarina",
+    "África",
+    "río más profundo"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Bucear 220 m bajo el Congo?",
+      "prompt_imagen": "hiperrealistic photograph of the Congo River deep gorge, dark water fading into depth, steep cliffs, misty atmosphere, dramatic lighting"
+    },
+    {
+      "texto": "El Río Congo es el más profundo.",
+      "prompt_imagen": "photorealistic map of Africa highlighting the Congo River, depth shading, high detail, dramatic lighting"
+    },
+    {
+      "texto": "Su punto más profundo llega a 220 metros.",
+      "prompt_imagen": "underwater hyperrealistic shot of the Congo River showing a depth gauge reading 220 meters, murky water, low light"
+    },
+    {
+      "texto": "Presión supera 22 atmósferas allí.",
+      "prompt_imagen": "close-up hyperrealistic image of an industrial pressure gauge displaying 22 atmospheres, dark background"
+    },
+    {
+      "texto": "Los buceadores habituales sólo llegan a 40 m.",
+      "prompt_imagen": "photo of a recreational scuba diver at 40 meters depth in clear water, bright colors, contrast with darker deeper water"
+    },
+    {
+      "texto": "Oxígeno escaso, agua totalmente oscura.",
+      "prompt_imagen": "deep underwater scene of the Congo River, pitch‑black water, faint bioluminescent specks, eerie atmosphere"
+    },
+    {
+      "texto": "Solo submarinos especiales pueden explorar ese abismo.",
+      "prompt_imagen": "hyperrealistic photograph of a small orange research submersible navigating the dark abyss of the Congo River, lights cutting through water"
+    },
+    {
+      "texto": "¿Bucear 220 m bajo el Congo?",
+      "prompt_imagen": "hiperrealistic photograph of the Congo River deep gorge, dark water fading into depth, steep cliffs, misty atmosphere, dramatic lighting"
+    }
+  ]
+}
