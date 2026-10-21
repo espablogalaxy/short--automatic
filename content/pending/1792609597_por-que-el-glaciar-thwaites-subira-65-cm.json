@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué el glaciar Thwaites subirá 65 cm el mar?",
+  "descripcion": "El glaciar Thwaites en la Antártida contiene suficiente hielo para transformar todas las costas del planeta si termina de colapsar. ¿Crees que las ciudades costeras están preparadas para esta subida? #shorts #curiosidades #planeta #glaciares #antartida #ciencia #geografia",
+  "tags": [
+    "glaciar thwaites",
+    "antartida",
+    "nivel del mar",
+    "glaciares del mundo",
+    "cambio climatico",
+    "curiosidades del planeta",
+    "ciencia de la tierra",
+    "hielo antartico",
+    "record geografico",
+    "geografia extrema"
+  ],
+  "escenas": [
+    {
+      "texto": "Un coloso de hielo amenaza nuestras costas.",
+      "prompt_imagen": "Fotografía cinematográfica desde dron de un gigantesco acantilado de hielo azul en la Antártida enfrentándose al oleaje oscuro del océano polar, iluminación dramática y realista."
+    },
+    {
+      "texto": "Es Thwaites, situado en la Antártida.",
+      "prompt_imagen": "Fotografía aérea documental del vasto glaciar Thwaites en la Antártida Occidental, extensiones infinitas de hielo blanco agrietado bajo un cielo polar frío y despejado."
+    },
+    {
+      "texto": "Mide 192.000 kilómetros cuadrados de superficie.",
+      "prompt_imagen": "Fotografía cenital de gran altitud que muestra la descomunal extensión helada del glaciar extendiéndose por el continente blanco, textura nítida de grietas y hielo comprimido."
+    },
+    {
+      "texto": "¡Ahí cabe toda Gran Bretaña entera!",
+      "prompt_imagen": "Fotografía panorámica desde helicóptero de la interminable plataforma de hielo polar que se pierde en la curvatura del horizonte, escala monumental sin fin visible."
+    },
+    {
+      "texto": "Su frente helado mide 120 kilómetros.",
+      "prompt_imagen": "Fotografía al nivel del agua desde un rompehielos frente a una imponente muralla vertical de hielo glaciar de decenas de metros de altura sobre aguas gélidas y oscuras."
+    },
+    {
+      "texto": "Corrientes cálidas socavan su base submarina.",
+      "prompt_imagen": "Fotografía submarina documental de agua azul oscura erosionando la base sumergida de un inmenso bloque de hielo glaciar, iluminada por tenues rayos de luz polar."
+    },
+    {
+      "texto": "Su deshielo subiría 65 centímetros los mares.",
+      "prompt_imagen": "Fotografía realista del paseo marítimo de una gran ciudad costera donde el agua del mar desborda peligrosamente los muros de contención durante la marea alta."
+    },
+    {
+      "texto": "Por eso vigilan cada segundo cómo...",
+      "prompt_imagen": "Fotografía de científicos polares con trajes de expedición naranja inspeccionando con sensores e instrumental tecnológico una profunda fisura sobre el hielo del glaciar."
+    }
+  ]
+}
