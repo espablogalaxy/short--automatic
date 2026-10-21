@@ -1,0 +1,49 @@
+{
+  "titulo": "¿Por qué 2.000 personas viven bajo tierra a 50 °C?",
+  "descripcion": "En mitad del desierto australiano, los habitantes de Coober Pedy construyeron su vida bajo tierra para escapar de temperaturas mortales. ¿Serías capaz de vivir en una casa sin ventanas?",
+  "tags": [
+    "coober pedy",
+    "ciudades extremas",
+    "lugares extremos",
+    "curiosidades",
+    "desierto australiano",
+    "planeta tierra",
+    "geografia",
+    "vida subterranea",
+    "shorts"
+  ],
+  "escenas": [
+    {
+      "texto": "A cincuenta grados, caminar aquí te abrasa.",
+      "prompt_imagen": "Fotografía cinematográfica a ras de suelo de un desierto árido y agrietado en el interior de Australia, aire distorsionado por una intensa ola de calor, sol abrasador en el horizonte."
+    },
+    {
+      "texto": "Las calles desiertas parecen completamente abandonadas.",
+      "prompt_imagen": "Fotografía hiperrealista de una calle de tierra roja en un pueblo desértico remoto, con chimeneas metálicas que asoman del suelo pedregoso y ningún peatón a la vista."
+    },
+    {
+      "texto": "Pero bajo el polvo hay vida oculta.",
+      "prompt_imagen": "Plano medio realista de una puerta de madera encastrada en una ladera rocosa de arenisca roja, con una tenue luz cálida saliendo del interior subterráneo."
+    },
+    {
+      "texto": "Es Coober Pedy, en el desierto australiano.",
+      "prompt_imagen": "Vista aérea documental de Coober Pedy, mostrando el paisaje desértico lleno de montículos de excavación blanca y roja, bajo un cielo azul despejado."
+    },
+    {
+      "texto": "Dos mil vecinos habitan túneles de arenisca.",
+      "prompt_imagen": "Interior hiperrealista de un hogar excavado en roca de arenisca rojiza con paredes talladas, muebles cotidianos y lámparas cálidas, atmósfera acogedora."
+    },
+    {
+      "texto": "Tienen casas, iglesias y comercios subterráneos.",
+      "prompt_imagen": "Fotografía documental del interior de una iglesia subterránea con paredes de roca natural esculpida, bancos de madera y un altar iluminado suavemente."
+    },
+    {
+      "texto": "A diez metros, reinan veintitrés grados estables.",
+      "prompt_imagen": "Primer plano de un termómetro clásico colgado en una pared de roca arenisca en una habitación subterránea, marcando exactamente veintitrés grados."
+    },
+    {
+      "texto": "Así logran refugiarse de este calor abrasador.",
+      "prompt_imagen": "Plano cinematográfico desde el umbral oscuro de una cueva habitada mirando hacia la salida cegadora por la intensa luz solar del desierto australiano."
+    }
+  ]
+}
