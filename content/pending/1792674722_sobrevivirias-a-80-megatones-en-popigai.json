@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Sobrevivirías a 80 megatones en Popigai?",
+  "descripcion": "El impacto de Popigai en Siberia fundió el terreno y creó miles de millones de quilates de diamantes de impacto ultraresistentes. ¿Te atreverías a pisar este remoto cráter siberiano? #shorts #curiosidades #planeta #meteoritos #geologia #siberia",
+  "tags": [
+    "crater popigai",
+    "impacto meteorito",
+    "diamantes popigai",
+    "siberia extremos",
+    "geologia extrema",
+    "curiosidades tierra",
+    "shorts ciencia",
+    "ciencia planeta",
+    "impactos cosmicos",
+    "crateres gigantes"
+  ],
+  "escenas": [
+    {
+      "texto": "Un impacto borraría tu ciudad entera.",
+      "prompt_imagen": "Vista cinematográfica de un enorme meteorito incandescente atravesando la atmósfera terrestre a gran velocidad sobre un bosque boreal."
+    },
+    {
+      "texto": "Ocurrió en Siberia hace millones de años.",
+      "prompt_imagen": "Fotografía aérea hiperrealista del remoto e inhóspito paisaje de tundra y taiga en el norte de Siberia, con luz fría y dramática."
+    },
+    {
+      "texto": "Un asteroide golpeó la cuenca de Popigai.",
+      "prompt_imagen": "Perspectiva satelital y panorámica de la gigantesca estructura circular del cráter de Popigai cubierta de nieve y vegetación ártica."
+    },
+    {
+      "texto": "La explosión liberó ochenta megatones nucleares.",
+      "prompt_imagen": "Representación hiperrealista de una cataclísmica explosión de impacto cósmico levantando una colosal columna de polvo y roca fundida."
+    },
+    {
+      "texto": "El choque vaporizó kilómetros de roca sólida.",
+      "prompt_imagen": "Terreno rocoso fracturado con vetas de piedra fundida y basalto negro enfriado tras un impacto extremo."
+    },
+    {
+      "texto": "La presión extrema transformó el grafito terrestre.",
+      "prompt_imagen": "Macro detalle fotográfico de formaciones rocosas oscuras de impacto ricas en carbono sometidas a presiones extremas geológicas."
+    },
+    {
+      "texto": "Creó billones de quilates de diamantes.",
+      "prompt_imagen": "Mano de geólogo con guante de expedición sosteniendo un fragmento de roca de impacto incrustado de diminutos diamantes industriales amarillentos."
+    },
+    {
+      "texto": "Por eso, un impacto borraría todo.",
+      "prompt_imagen": "Enorme cráter de impacto de cien kilómetros visto desde el espacio, mostrando el contorno de la Tierra curva y la atmósfera azul."
+    }
+  ]
+}
