@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué esta lava negra arde a 510 °C?",
+  "descripcion": "El volcán Ol Doinyo Lengai en Tanzania expulsa la única lava de natrocarbonatita activa de la Tierra. ¿Te acercarías a ver este volcán en persona? #shorts #curiosidades #planeta #volcanes #tanzania #geologia #ciencia",
+  "tags": [
+    "Ol Doinyo Lengai",
+    "lava negra",
+    "volcanes activos",
+    "natrocarbonatita",
+    "geologia extrema",
+    "curiosidades del planeta",
+    "Tanzania",
+    "lava volcanica",
+    "fenomenos naturales",
+    "ciencia de la Tierra"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Morirías tocando esta extraña lava negra?",
+      "prompt_imagen": "Fotografía cinematográfica en plano detalle de un flujo de lava viscosa de color negro carbón avanzando sobre roca volcánica oscura a la luz del atardecer."
+    },
+    {
+      "texto": "Emerge en Tanzania, en Ol Doinyo Lengai.",
+      "prompt_imagen": "Fotografía panorámica del imponente cráter del estratovolcán Ol Doinyo Lengai en el paisaje árido del Gran Valle del Rift en Tanzania bajo cielo despejado."
+    },
+    {
+      "texto": "Brota a solo quinientos diez grados.",
+      "prompt_imagen": "Fotografía hiperrealista de una fisura volcánica donde mana líquido negro burbujeante a quinientos diez grados con vapor tenue elevándose en el aire."
+    },
+    {
+      "texto": "Es la lava más fría del planeta.",
+      "prompt_imagen": "Fotografía documental de una corriente densa y oscura de lava carbonatítica descendiendo por la ladera de un volcán a plena luz del día."
+    },
+    {
+      "texto": "Fluye líquida y rápida como agua.",
+      "prompt_imagen": "Fotografía de alta velocidad congelando el movimiento rápido y fluido de una corriente de lava negra muy líquida cayendo sobre una repisa de roca."
+    },
+    {
+      "texto": "Carece de sílice y contiene carbonatos.",
+      "prompt_imagen": "Primer plano macro de una muestra de roca volcánica oscura y porosa rica en minerales de natrocarbonatita recién solidificada sobre el terreno."
+    },
+    {
+      "texto": "Al enfriarse, se vuelve blanca inmediatamente.",
+      "prompt_imagen": "Fotografía de la superficie del cráter donde la lava negra recién endurecida se ha vuelto completamente blanca como tiza por reacción con la humedad."
+    },
+    {
+      "texto": "Aún así, quemaría tus huesos al instante.",
+      "prompt_imagen": "Fotografía cinematográfica con iluminación dramática mostrando un lecho de lava oscura humeante con destellos térmicos anaranjados en el fondo."
+    }
+  ]
+}
