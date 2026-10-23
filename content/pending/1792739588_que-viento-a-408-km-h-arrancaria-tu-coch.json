@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué viento a 408 km/h arrancaría tu coche?",
+  "descripcion": "En la remota isla Barrow se registró la ráfaga de viento no ciclónica más potente jamás medida por el ser humano. ¿Aguantarías en pie con semejante fuerza del aire? #shorts #curiosidades #planeta #meteorologia #viento #extremo",
+  "tags": [
+    "viento extremo",
+    "isla Barrow",
+    "record de viento",
+    "meteorologia extrema",
+    "vientos huracanados",
+    "curiosidades del planeta",
+    "clima extremo",
+    "fenomenos de la atmosfera",
+    "ciclón Olivia",
+    "tierra extrema"
+  ],
+  "escenas": [
+    {
+      "texto": "Un vendaval así destrozaría cualquier casa.",
+      "prompt_imagen": "A cinematic shot of a modern coastal house being torn apart by violent extreme hurricane-force winds, flying debris, dramatic cloudy gray sky, photojournalism style, realistic."
+    },
+    {
+      "texto": "Hablamos del récord de la Tierra.",
+      "prompt_imagen": "High altitude dramatic view of the Earth's atmosphere during a massive atmospheric storm, dark swirling storm front over the ocean, hyperrealistic documentary style."
+    },
+    {
+      "texto": "Ocurrió en la remota isla Barrow.",
+      "prompt_imagen": "Aerial wide landscape photo of Barrow Island, arid flat terrain surrounded by violently churning turquoise and navy ocean waters, harsh sunlight breaking through heavy storm clouds."
+    },
+    {
+      "texto": "Una estación meteorológica midió el límite.",
+      "prompt_imagen": "A sturdy metallic anemometer weather station vibrating intensely under severe tempest winds on a rocky island cliff, cinematic focus, ultra detailed."
+    },
+    {
+      "texto": "No fue dentro de un tornado.",
+      "prompt_imagen": "A clear, flat coastal horizon swept by ferocious air currents without a funnel cloud, ocean spray whipped horizontally across the ground, cinematic realism."
+    },
+    {
+      "texto": "Fue el ciclón Olivia en mil novecientos noventa y seis.",
+      "prompt_imagen": "Satellite style weather capture showing the massive spiraling eye of Cyclone Olivia over the western Australian coastline, vivid weather radar colors, hyperrealistic."
+    },
+    {
+      "texto": "La ráfaga alcanzó cuatrocientos ocho kilómetros por hora.",
+      "prompt_imagen": "A heavy pickup truck getting pushed and overturned on a desert road by sheer invisible wind velocity, dirt and stones violently flying sideways, photorealistic."
+    },
+    {
+      "texto": "Por eso este lugar ostenta tal furia.",
+      "prompt_imagen": "Extreme wide cinematic shot of Barrow Island coastline battered by immense foaming waves under terrifying stormy dark skies, establishing the desolate hostile environment."
+    }
+  ]
+}
