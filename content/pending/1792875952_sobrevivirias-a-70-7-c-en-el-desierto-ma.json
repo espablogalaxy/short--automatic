@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Sobrevivirías a 70,7 °C en el desierto más caliente?",
+  "descripcion": "El Dasht‑e Lut en Irán registra la temperatura de superficie más alta jamás medida: 70,7 °C. Ese calor convierte la arena en vidrio negro y mata en minutos. ¿Te atreverías a pisar 70 °C? #shorts #curiosidades #planeta #desierto #Irán #calorExtremo",
+  "tags": [
+    "Dasht-e Lut",
+    "desierto más caliente",
+    "70 grados Celsius",
+    "Irán",
+    "NASA",
+    "calor extremo",
+    "superficie de vidrio",
+    "desierto de fuego",
+    "récord mundial",
+    "geografía extrema"
+  ],
+  "escenas": [
+    {
+      "texto": "Una zona del desierto supera 70 °C, letal",
+      "prompt_imagen": "Vista aérea del desierto iraní con tonalidad rojiza bajo sol abrasador, resaltando una zona de calor extremo, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Es el Dasht‑e Lut, el desierto iraní",
+      "prompt_imagen": "Panorama amplio del Dasht‑e Lut, extensas dunas y llanuras rojas bajo cielo azul claro, fotografía hiperrealista"
+    },
+    {
+      "texto": "NASA midió 70,7 °C en 2005",
+      "prompt_imagen": "Imagen satelital de la NASA mostrando la zona del Dasht‑e Lut con un marcador de temperatura 70,7 °C, estilo hiperrealista"
+    },
+    {
+      "texto": "Ese calor derrite la arena rojiza rápidamente",
+      "prompt_imagen": "Primer plano de arena del desierto derritiéndose, con brillo de vidrio y vapor bajo un sol intenso, fotografía hiperrealista"
+    },
+    {
+      "texto": "Formando cristales de vidrio negro",
+      "prompt_imagen": "Superficie del desierto cubierta de vidrio negro brillante, parecido a un espejo oscuro, fotografía hiperrealista"
+    },
+    {
+      "texto": "Los humanos se deshidratan en segundos",
+      "prompt_imagen": "Silueta de una figura humana difuminándose en el aire caliente del desierto, enfatizando deshidratación, fotografía hiperrealista"
+    },
+    {
+      "texto": "Por eso lo llaman 'desierto de fuego'",
+      "prompt_imagen": "Cartel de madera clavado en arena del desierto con la inscripción 'Desierto de fuego', fotografía hiperrealista"
+    },
+    {
+      "texto": "¿Te atreverías a pisar 70 °C?",
+      "prompt_imagen": "Primer plano del suelo del desierto con grietas ardientes bajo una luz intensa, invitando a pisar, fotografía hiperrealista"
+    }
+  ]
+}
