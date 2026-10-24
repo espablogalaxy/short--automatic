@@ -1,0 +1,50 @@
+{
+  "titulo": "¿El lago de lava que arde 110 °C desde 1906?",
+  "descripcion": "Erta Ale, en el desierto del Danakil, lleva más de un siglo con un lago de lava incandescente que supera los 110 °C y emite gases mortales. ¿Te atreverías a acercarte? #shorts #curiosidades #planeta #volcán #lava #Ethiopia #ErtaAle",
+  "tags": [
+    "Erta Ale",
+    "lava lake",
+    "volcán activo",
+    "Danakil",
+    "Ethiopia",
+    "lava temperature",
+    "volcano danger",
+    "geología",
+    "lagos de lava",
+    "volcanic gases"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Un lago de lava eterno?",
+      "prompt_imagen": "Vista aérea del lago de lava brillante en la cima del volcán Erta Ale, colores rojos y naranja, cielo árido, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Erta Ale, Etiopía, activo desde 1906",
+      "prompt_imagen": "Fotografía del volcán Erta Ale emergiendo del desierto del Danakil, Etiopía, con señal que indica el año 1906, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Su superficie supera los ciento diez grados",
+      "prompt_imagen": "Lago de lava incandescente en Erta Ale, tonos rojizos intensos que transmiten más de ciento diez grados, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Toca el suelo: quemaduras mortales al instante",
+      "prompt_imagen": "Roca negra quemada alrededor del lago de lava, marcas de quemaduras y escarcha, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Cubre 250 m² y 30 m de profundidad",
+      "prompt_imagen": "Vista cenital del lago de lava en Erta Ale, área visible de unos 250 metros cuadrados y borde que sugiere 30 metros de profundidad, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Emite dióxido de azufre, asfixia en minutos",
+      "prompt_imagen": "Nubes grisáceas de gas sulfuroso elevándose del cráter de Erta Ale, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Solo tres volcanes del mundo lo mantienen",
+      "prompt_imagen": "Mapa mundial resaltando Erta Ale, Kilauea y Nyiragongo con íconos de lago de lava, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Así que, ¿un lago de lava eterno?",
+      "prompt_imagen": "Repetición de la vista aérea del lago de lava brillante en Erta Ale, enfoque en la superficie incandescente, estilo fotografía hiperrealista"
+    }
+  ]
+}

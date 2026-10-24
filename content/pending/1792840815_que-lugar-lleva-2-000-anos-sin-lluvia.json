@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué lugar lleva 2 000 años sin lluvia?",
+  "descripcion": "El Valle Seco de McMurdo, en la Antártida, no ha recibido precipitación en al menos dos millones de años, convirtiéndose en el lugar más seco del planeta. ¿Te atreverías a pasar una noche allí? #shorts #curiosidades #planeta #Antártida #desierto #sequía #valleseco",
+  "tags": [
+    "Valle Seco McMurdo",
+    "Antártida",
+    "desierto más seco",
+    "sequía extrema",
+    "dos millones de años",
+    "precipitación",
+    "vida microbiana",
+    "desierto antártico",
+    "sequía récord",
+    "geografía extrema"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué lugar lleva 2 000 años sin lluvia?",
+      "prompt_imagen": "Vista aérea del desierto helado del Valle Seco de McMurdo, Antártida, con terreno rocoso y sin vegetación bajo un cielo gris"
+    },
+    {
+      "texto": "Es el Valle Seco de McMurdo, Antártida.",
+      "prompt_imagen": "Primer plano del paisaje árido del Valle Seco de McMurdo, con montañas de hielo y suelo cubierto de guijarros"
+    },
+    {
+      "texto": "Allí no cayó ni una gota",
+      "prompt_imagen": "Superficie del Valle Seco sin rastro de agua, tierra agrietada bajo un sol tenue"
+    },
+    {
+      "texto": "desde hace dos millones de años",
+      "prompt_imagen": "Panorama del Valle Seco con una placa científica que indica '2 millones de años sin precipitación'"
+    },
+    {
+      "texto": "Eso supera la sequía del Atacama",
+      "prompt_imagen": "Mapa comparativo mostrando el Valle Seco de McMurdo y el Desierto de Atacama, resaltando la diferencia de sequía"
+    },
+    {
+      "texto": "Allí la vida microbiana apenas sobrevive",
+      "prompt_imagen": "Microscopio mostrando colonias microbianas en una muestra de suelo del Valle Seco"
+    },
+    {
+      "texto": "Si bebieras aquí, morirías en minutos",
+      "prompt_imagen": "Silhouette de una persona sosteniendo una botella vacía en el desierto helado, con expresión de urgencia"
+    },
+    {
+      "texto": "¿Qué lugar lleva 2 000 años sin lluvia?",
+      "prompt_imagen": "Repetición de la primera toma aérea del Valle Seco, con la misma atmósfera desoladora"
+    }
+  ]
+}
