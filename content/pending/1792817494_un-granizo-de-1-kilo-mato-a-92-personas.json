@@ -1,0 +1,49 @@
+{
+  "titulo": "¿Un granizo de 1 kilo mató a 92 personas?",
+  "descripcion": "El 14 de abril de 1986, la tormenta de Gopalganj en Bangladesh batió el récord mundial del pedrisco más pesado registrado por la OMM, con proyectiles de hielo de 1,02 kg. ¿Conocías este récord letal de la naturaleza? #shorts #curiosidades #planeta #meteorologia #tormenta #climaextremo",
+  "tags": [
+    "granizo record",
+    "gopalganj 1986",
+    "meteorologia extrema",
+    "tormentas letales",
+    "fenomenos atmosfericos",
+    "curiosidades del planeta",
+    "granizo gigante",
+    "record meteorologico",
+    "ciencia de la tierra"
+  ],
+  "escenas": [
+    {
+      "texto": "Este cielo descargó proyectiles de un kilo.",
+      "prompt_imagen": "Fotografía cinematográfica de un cielo negro y amenazante cubierto de nubes de tormenta supercelda gigantescas sobre campos rurales, relámpagos lejanos e iluminación dramática y oscura."
+    },
+    {
+      "texto": "Sucedió en mil novecientos ochenta y seis.",
+      "prompt_imagen": "Fotografía histórica de época realista que muestra un pueblo rural asiático azotado por vientos violentos bajo una intensa penumbra tormentosa."
+    },
+    {
+      "texto": "Ocurrió en la región de Gopalganj.",
+      "prompt_imagen": "Vista panorámica realista del paisaje rural de Gopalganj en Bangladesh con palmeras dobladas por un vendaval feroz bajo densos nubarrones plomizos."
+    },
+    {
+      "texto": "Nubes de tormenta alcanzaron alturas extremas.",
+      "prompt_imagen": "Fotografía hiperrealista de una inmensa columna de cumulonimbo que asciende vertiginosamente hacia la estratosfera, con bordes definidos y relámpagos internos."
+    },
+    {
+      "texto": "El hielo creció hasta tamaños descomunales.",
+      "prompt_imagen": "Primer plano hiperrealista de capas concéntricas de hielo congelándose y acumulándose rápidamente en una esfera masiva y rugosa suspendida entre corrientes de aire turbulentas."
+    },
+    {
+      "texto": "Cayeron bloques de mil veinte gramos.",
+      "prompt_imagen": "Fotografía macro de una enorme bola de granizo irregular del tamaño de un melón, de un kilogramo de peso, incrustada en la tierra rota tras el impacto."
+    },
+    {
+      "texto": "Noventa y dos personas murieron aplastadas.",
+      "prompt_imagen": "Fotografía dramática de reportaje que muestra techos de chapa destrozados y campos cubiertos por enormes fragmentos de hielo tras una devastadora granizada."
+    },
+    {
+      "texto": "Por eso temen este cielo mortal.",
+      "prompt_imagen": "Plano contrapicado hiperrealista mirando hacia el cielo nublado y oscuro con densas masas de nubes cargadas de tormenta extrema."
+    }
+  ]
+}

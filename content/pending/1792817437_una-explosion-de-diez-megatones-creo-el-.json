@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Una explosión de diez megatones creó el cráter de Arizona?",
+  "descripcion": "El Cráter Meteor en Arizona nació de una explosión de diez megatones hace 50 000 años. ¿Te atreverías a pisar ese sitio? #shorts #curiosidades #planeta #CráterMeteor #Arizona #ImpactoMeteorítico",
+  "tags": [
+    "Cráter Meteor",
+    "Arizona",
+    "impacto meteórico",
+    "megaton",
+    "Daniel Barringer",
+    "50 mil años",
+    "geología",
+    "desierto",
+    "explosión",
+    "ciencia"
+  ],
+  "escenas": [
+    {
+      "texto": "Una explosión de diez megatones te pulveriza",
+      "prompt_imagen": "Mushroom cloud gigantesca sobre el desierto de Arizona, fotografía hiperrealista, iluminación dramática, sin texto"
+    },
+    {
+      "texto": "Ese poder creó el Cráter de Arizona",
+      "prompt_imagen": "Vista aérea del Cráter Meteor en Arizona, EE. UU., forma circular rodeada de desierto, fotografía hiperrealista, sin texto"
+    },
+    {
+      "texto": "Mide 1,200 metros de diámetro",
+      "prompt_imagen": "Cráter visto desde arriba con una cinta métrica virtual que indica 1,200 metros de diámetro, fotografía hiperrealista, sin texto"
+    },
+    {
+      "texto": "y 170 metros de profundidad",
+      "prompt_imagen": "Sección transversal del cráter mostrando 170 metros de profundidad, vista interior realista, sin texto"
+    },
+    {
+      "texto": "Un meteorito de 50 metros chocó allí",
+      "prompt_imagen": "Meteorito rocoso de 50 metros de diámetro entrando al cielo del desierto de Arizona, con fuego y polvo, fotografía hiperrealista, sin texto"
+    },
+    {
+      "texto": "Hace 50,000 años, según estudios",
+      "prompt_imagen": "Cronología visual con una marca de 50,000 años atrás sobre el paisaje del cráter, estilo fotográfico realista, sin texto"
+    },
+    {
+      "texto": "Daniel Barringer lo demostró en 1903",
+      "prompt_imagen": "Retrato de Daniel Barringer en 1903, con cuaderno de notas y el cráter al fondo, fotografía estilo reportaje, sin texto"
+    },
+    {
+      "texto": "¿Te atreverías a pisar esa explosión?",
+      "prompt_imagen": "Turista de pie al borde del cráter mirando hacia abajo, expresión de asombro, fotografía hiperrealista, sin texto"
+    }
+  ]
+}
