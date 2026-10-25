@@ -1,0 +1,48 @@
+{
+  "titulo": "¿Qué haría que la isla de Surtsey te matara al instante?",
+  "descripcion": "Surtsey, la isla volcánica que surgió en 1963, sigue emitiendo gases mortales y su lava aún está a más de 150 °C. ¿Te atreverías a pisarla? #shorts #curiosidades #planeta #Surtsey #volcán #islasaisladas #Iceland",
+  "tags": [
+    "Surtsey",
+    "isla volcánica",
+    "Iceland",
+    "gases tóxicos",
+    "lava caliente",
+    "islas aisladas",
+    "fenómeno natural",
+    "ciencia"
+  ],
+  "escenas": [
+    {
+      "texto": "Una isla surgió de la nada en 1963.",
+      "prompt_imagen": "Fotografía aérea hiperrealista de la isla volcánica Surtsey emergiendo del océano, con humo y ceniza, luz del amanecer"
+    },
+    {
+      "texto": "Surtsey alcanzó 150 °C en su lava.",
+      "prompt_imagen": "Primer plano hiperrealista de flujo de lava brillante sobre rocas negras, temperatura visible en termómetro digital, cielo gris"
+    },
+    {
+      "texto": "Aún emite 200 toneladas de SO₂ al día.",
+      "prompt_imagen": "Imagen detallada de fumarola expulsando gases amarillentos sobre la superficie de Surtsey, con medidor de emisiones en pantalla"
+    },
+    {
+      "texto": "El SO₂ irrita los pulmones al instante.",
+      "prompt_imagen": "Close‑up de una máscara de gas sobre la costa rocosa de Surtsey, con partículas de gas visibles alrededor"
+    },
+    {
+      "texto": "Caminar sobre la lava quemaría la piel.",
+      "prompt_imagen": "Huella humana sobre roca incandescente, con vapor y chispas, fondo de paisaje volcánico desolado"
+    },
+    {
+      "texto": "Solo científicos autorizados pueden pisarla.",
+      "prompt_imagen": "Equipo de investigadores con trajes completos de protección entrando a Surtsey, barco en el horizonte"
+    },
+    {
+      "texto": "El peligro real: inhalar gas o tocar lava.",
+      "prompt_imagen": "Escena dramática de una señal de advertencia roja sobre la zona de fumarolas, con viento levantando polvo"
+    },
+    {
+      "texto": "Así que, ¿qué haría que Surtsey te matara al instante?",
+      "prompt_imagen": "Vista panorámica de Surtsey al atardecer, con nubes de gas y lava brillante, resaltando la soledad del islote"
+    }
+  ]
+}
