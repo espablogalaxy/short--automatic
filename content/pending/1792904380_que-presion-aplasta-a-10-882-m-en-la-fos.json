@@ -1,0 +1,49 @@
+{
+  "titulo": "¿Qué presión aplasta a 10 882 m en la Fosa de Tonga?",
+  "descripcion": "La Fosa de Tonga alcanza 10 882 m y una presión de más de mil bares, capaz de aplastar cualquier submarino. ¿Te atreverías a descender allí? #shorts #curiosidades #planeta #fosaDeTonga #presiónMarina #profundidad #submarinos",
+  "tags": [
+    "fosa de tonga",
+    "horizon deep",
+    "presión oceánica",
+    "submarinos",
+    "profundidad marina",
+    "océanos",
+    "curiosidades",
+    "geología",
+    "exploración submarina"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué ocurre a 10 882 m bajo el mar?",
+      "prompt_imagen": "Submarino mirando hacia abajo, oscuridad total del océano a más de diez mil metros, luz tenue de faros, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Allí yace la Fosa de Tonga.",
+      "prompt_imagen": "Mapa digital del océano Pacífico resaltando la Fosa de Tonga en rojo, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Su punto más profundo, Horizon Deep, mide 10 882 m.",
+      "prompt_imagen": "Fotografía del lecho marino de la Fosa de Tonga, señalando el Horizon Deep con una etiqueta que indica 10 882 m, estilo hiperrealista"
+    },
+    {
+      "texto": "Presión supera los mil bares allí.",
+      "prompt_imagen": "Panel de control de un sumergible mostrando presión de 1 088 atm (más de mil bares), fondo azul profundo, estilo foto realista"
+    },
+    {
+      "texto": "Un bar es la presión atmosférica estándar.",
+      "prompt_imagen": "Barómetro de mercurio en la superficie, aguja apuntando a 1 bar, cielo claro, fotografía hiperrealista"
+    },
+    {
+      "texto": "Mil veces la presión del aire.",
+      "prompt_imagen": "Panel de un submarino de investigación a 100 m mostrando 10 bares, contraste visual con la enorme presión de la fosa, estilo foto realista"
+    },
+    {
+      "texto": "Eso aplastaría cualquier submarino convencional en segundos.",
+      "prompt_imagen": "Submarino convencional colapsado bajo presión, con deformación dramática y burbujas de agua, fondo oscuro, estilo foto hiperrealista"
+    },
+    {
+      "texto": "¿Qué ocurre a 10 882 m bajo el mar?",
+      "prompt_imagen": "Submarino mirando hacia abajo, oscuridad total del océano a más de diez mil metros, luz tenue de faros, estilo fotografía hiperrealista"
+    }
+  ]
+}
