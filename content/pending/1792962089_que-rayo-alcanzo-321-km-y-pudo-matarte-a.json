@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué rayo alcanzó 321 km y pudo matarte al instante?",
+  "descripcion": "En 2018, Brasil vio la descarga eléctrica más larga jamás medida: 321 km. Un fenómeno que puede acabar con la vida en un instante. ¿Te atreverías a observarla desde el suelo? #shorts #curiosidades #planeta #rayos #tormentas #registro #Brasil",
+  "tags": [
+    "rayo más largo",
+    "descarga eléctrica",
+    "Brasil 2018",
+    "tormenta eléctrica",
+    "321 km",
+    "peligro relámpago",
+    "aviones",
+    "Madrid Valencia distancia",
+    "Burj Khalifa altura",
+    "registro mundial"
+  ],
+  "escenas": [
+    {
+      "texto": "Una descarga que cruza 321 km",
+      "prompt_imagen": "Rayo gigantesco cruzando el cielo sobre la selva brasileña, vista panorámica, luz azulada intensa, fotografía hiperrealista, estilo documental"
+    },
+    {
+      "texto": "Más larga jamás registrada en la Tierra",
+      "prompt_imagen": "Detalle del rayo extendiéndose cientos de kilómetros sobre nubes, vista satelital, colores brillantes, fotografía hiperrealista"
+    },
+    {
+      "texto": "Brasil, 2018: cruzó 30 mil metros",
+      "prompt_imagen": "Mapa de Brasil con zona de tormenta marcada, icono de rayo y fecha 2018, estilo gráfico realista"
+    },
+    {
+      "texto": "Equivale a la distancia Madrid‑Valencia",
+      "prompt_imagen": "Mapa comparativo mostrando la distancia entre Madrid y Valencia superpuesta a la longitud del rayo, estilo fotográfico"
+    },
+    {
+      "texto": "Imagina tres veces la altura del Burj",
+      "prompt_imagen": "Ilustración del rayo comparado con la altura del Burj Khalifa, barra de medida al lado, fotografía realista"
+    },
+    {
+      "texto": "Una descarga así puede matar en milisegundos",
+      "prompt_imagen": "Primer plano de una persona bajo tormenta, expresión de miedo, rayo cercano, efecto de chispa, estilo foto documental"
+    },
+    {
+      "texto": "Por eso los aviones evitan esas nubes",
+      "prompt_imagen": "Avión comercial volando bajo nubes de tormenta, piloto mirando instrumentos, señal de alerta de rayo, fotografía realista"
+    },
+    {
+      "texto": "¿Te atreverías a verla en tierra?",
+      "prompt_imagen": "Persona en campo abierto mirando al horizonte donde se ve el rayo, expresión intrigada, fotografía hiperrealista"
+    }
+  ]
+}

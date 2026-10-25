@@ -1,0 +1,50 @@
+{
+  "titulo": "¿El desierto de Lut llegó a 70,7 °C?",
+  "descripcion": "El desierto de Dasht‑e Lut en Irán es el punto más caliente registrado por satélite, con 70,7 °C en 2005. ¿Te atreverías a cruzarlo? #shorts #curiosidades #planeta #DesiertoLut #TemperaturaExtrema #Satélite",
+  "tags": [
+    "Desierto Lut",
+    "Dasht-e Lut",
+    "temperatura récord",
+    "satélite MODIS",
+    "Irán",
+    "desierto más caliente",
+    "70 grados Celsius",
+    "arena vitrificada",
+    "geografía extrema",
+    "registro satelital"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Podrías caminar sobre el desierto más caliente?",
+      "prompt_imagen": "Aerial view of Dasht-e Lut desert in Iran, bright orange dunes, intense heat haze, dramatic lighting, hyperrealistic photography"
+    },
+    {
+      "texto": "Dasht‑e Lut, Irán, rompe récord.",
+      "prompt_imagen": "Close-up satellite image of Dasht-e Lut highlighting extreme temperature area, vivid colors, hyperrealistic"
+    },
+    {
+      "texto": "Temperatura de superficie: setenta coma siete grados.",
+      "prompt_imagen": "Thermal infrared image showing 70.7 °C skin temperature over Dasht-e Lut, color scale, hyperrealistic"
+    },
+    {
+      "texto": "Dato satelital 2005, medido por MODIS.",
+      "prompt_imagen": "NASA MODIS satellite sensor graphic over Iran with data timestamp 2005, hyperrealistic"
+    },
+    {
+      "texto": "Ese calor funde la arena en vidrio.",
+      "prompt_imagen": "Macro shot of sand turned into glassy crust in Dasht-e Lut, sparkling surface, hyperrealistic"
+    },
+    {
+      "texto": "Caminata de diez minutos causa quemaduras graves.",
+      "prompt_imagen": "Footprints in hot desert sand with red burn marks indicating severe burns, hyperrealistic"
+    },
+    {
+      "texto": "Solo los vehículos especiales pueden cruzarlo.",
+      "prompt_imagen": "Armored all‑terrain vehicle crossing the glowing desert, leaving tracks, hyperrealistic"
+    },
+    {
+      "texto": "¿Podrías caminar sobre el desierto más caliente?",
+      "prompt_imagen": "Aerial view of Dasht-e Lut desert in Iran, bright orange dunes, intense heat haze, dramatic lighting, hyperrealistic photography"
+    }
+  ]
+}
