@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué impacto enterró 3 000 millones de toneladas de níquel?",
+  "descripcion": "El cráter Sudbury, formado hace 1.85 mil millones de años, cubre 62 000 km² y alberga la mayor reserva de níquel del planeta. ¿Te atreverías a vivir bajo ese gigante de impacto? #shorts #curiosidades #planeta #cráter #Sudbury #meteorito #níquel",
+  "tags": [
+    "Cráter Sudbury",
+    "impacto meteórico",
+    "níquel",
+    "minería",
+    "meteorito",
+    "geología",
+    "Canadá",
+    "formación de cráter",
+    "edad del cráter",
+    "recursos naturales"
+  ],
+  "escenas": [
+    {
+      "texto": "Un meteorito enterró una mina mortal",
+      "prompt_imagen": "Vista aérea del cráter Sudbury recién formado, rodeado de bosque boreal, con una zona de impacto visible y luz tenue al atardecer, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Cayó hace 1,850 millones de años",
+      "prompt_imagen": "Ilustración hiperrealista del momento del impacto meteórico en la era Precámbrica, con una bola de fuego chocando contra la tierra, nubes de polvo y llamas"
+    },
+    {
+      "texto": "Creó el cráter Sudbury, 250 km",
+      "prompt_imagen": "Cráter Sudbury visto desde el espacio, claramente marcado con un diámetro de 250 km, colores terrosos y vegetación circundante, fotografía satelital de alta resolución"
+    },
+    {
+      "texto": "Hoy cubre 62,000 km² de superficie",
+      "prompt_imagen": "Mapa topográfico del cráter Sudbury resaltando su área de 62,000 km², con contornos verdes y azules sobre un fondo terrestre realista"
+    },
+    {
+      "texto": "Almacena 3000 millones de toneladas de níquel",
+      "prompt_imagen": "Mina subterránea dentro del cráter Sudbury, túneles iluminados, pilas de mineral de níquel brillante, trabajadores con cascos de seguridad, fotografía de interior de mina"
+    },
+    {
+      "texto": "Ese metal alimentó la Revolución Industrial",
+      "prompt_imagen": "Fábricas inglesas del siglo XIX con chimeneas humeantes, maquinaria de hierro y níquel, escena histórica en tonos sepia, estilo fotografía documental"
+    },
+    {
+      "texto": "Si explotara, liberaría toxinas mortales",
+      "prompt_imagen": "Representación dramática de una explosión subterránea hipotética en el cráter, nube de gases tóxicos y señal de peligro amarilla, iluminación intensa"
+    },
+    {
+      "texto": "¿Te imaginas vivir bajo ese cráter?",
+      "prompt_imagen": "Persona de pie en la llanura del cráter Sudbury al atardecer, mirando el horizonte amplio y vacío, sensación de inmensidad, fotografía hiperrealista"
+    }
+  ]
+}
