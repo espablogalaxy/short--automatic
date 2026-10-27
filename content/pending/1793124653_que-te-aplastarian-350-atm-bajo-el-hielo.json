@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué te aplastarían 350 atm bajo el hielo?",
+  "descripcion": "El lago subglacial Vostok, bajo 4 km de hielo, está a 1 000 m de profundidad y soporta 350 atm de presión. ¿Te atreverías a explorar ese mundo aislado? #shorts #curiosidades #planeta #LakeVostok #Antártida #glaciares",
+  "tags": [
+    "Lake Vostok",
+    "Antártida",
+    "lago subglacial",
+    "presión extrema",
+    "glaciar",
+    "ciencia polar",
+    "exploración",
+    "350 atm",
+    "hielo",
+    "líquido bajo hielo"
+  ],
+  "escenas": [
+    {
+      "texto": "350 atm te aplastarían bajo hielo",
+      "prompt_imagen": "Aerial view of the endless Antarctic ice sheet, a faint crack revealing the hidden subglacial Lake Vostok beneath four kilometres of ice, hyperrealistic, dramatic lighting"
+    },
+    {
+      "texto": "Lake Vostok yace 4 km bajo",
+      "prompt_imagen": "Cross-section illustration of the Antarctic ice cap showing a thick 4 km layer of ice overlaying a deep lake, hyperrealistic scientific cutaway"
+    },
+    {
+      "texto": "Un lago de 12 000 km² aislado",
+      "prompt_imagen": "Top-down satellite‑style map highlighting Lake Vostok's surface area of 12 000 square kilometres, comparable to the size of Belgium, realistic rendering"
+    },
+    {
+      "texto": "Hace 15 millones de años, quedó sellado",
+      "prompt_imagen": "Artistic rendering of ancient glaciation sealing Lake Vostok 15 million years ago, with ice encasing the water, hyperrealistic"
+    },
+    {
+      "texto": "Presión bajo el agua supera 350 atm",
+      "prompt_imagen": "Graphical representation of pressure increasing with depth, marking 350 atmospheres at the lake floor, realistic style"
+    },
+    {
+      "texto": "Cualquier submarino se desintegraría allí",
+      "prompt_imagen": "A hypothetical research submarine being crushed by extreme pressure under the ice, realistic underwater scene"
+    },
+    {
+      "texto": "Solo científicos pueden perforar con robots",
+      "prompt_imagen": "Scientists operating a deep‑ice drilling rig on the Antarctic surface, realistic photo‑like scene"
+    },
+    {
+      "texto": "Recuerda: 350 atm te aplastarían bajo hielo",
+      "prompt_imagen": "Close view of the Antarctic ice sheet surface, emphasizing the hidden danger of 350 atmospheres pressure beneath, hyperrealistic"
+    }
+  ]
+}
