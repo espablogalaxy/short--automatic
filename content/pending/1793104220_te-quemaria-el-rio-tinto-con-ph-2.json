@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Te quemaría el Río Tinto con pH 2?",
+  "descripcion": "El Río Tinto, en Huelva, tiene un pH de 2 y su agua ácida corroe metal. ¿Te atreverías a tocar sus aguas rojas? #shorts #curiosidades #planeta #RíoTinto #ácido #España #geología",
+  "tags": [
+    "Río Tinto",
+    "agua ácida",
+    "pH 2",
+    "España",
+    "geología",
+    "río rojo",
+    "microbios extremófilos",
+    "corrosión",
+    "hidroquímica",
+    "naturaleza extrema"
+  ],
+  "escenas": [
+    {
+      "texto": "Este río rojo podría quemarte instantáneamente.",
+      "prompt_imagen": "Vista hiperrealista del Río Tinto con aguas rojas brillantes fluyendo entre rocas bajo luz intensa, estilo fotografía de reportaje, sin personas"
+    },
+    {
+      "texto": "Fluye en Huelva, costa sur de España.",
+      "prompt_imagen": "Imagen aérea hiperrealista de la costa sur de Huelva mostrando el cauce del Río Tinto serpenteando entre la tierra, colores vivos y detalle del paisaje"
+    },
+    {
+      "texto": "Agua con pH dos, extremadamente ácida.",
+      "prompt_imagen": "Primer plano del agua del Río Tinto, tono rojo intenso, superficie brillante, gotas resaltando la acidez, fotografía macro hiperrealista"
+    },
+    {
+      "texto": "Temperatura alcanza treinta y dos grados.",
+      "prompt_imagen": "Río Tinto con ligera vapor sobre la superficie, luz cálida que sugiere 32 °C, entorno rocoso, estilo foto documental"
+    },
+    {
+      "texto": "Hierro disuelto tiñe el agua rojo.",
+      "prompt_imagen": "Agua del Río Tinto con partículas brillantes de hierro flotando, color rojo profundo, enfoque en la turbidez, fotografía de alta definición"
+    },
+    {
+      "texto": "Este ácido corroe metal en segundos.",
+      "prompt_imagen": "Objeto metálico sumergido en el agua roja del Río Tinto, burbujas y corrosión visible, fondo rocoso, estilo foto científica"
+    },
+    {
+      "texto": "Solo microbios especializados sobreviven aquí.",
+      "prompt_imagen": "Macro fotografía de biofilm rojo en el lecho del Río Tinto, mostrando microbios adaptados al ambiente ácido, detalle texturizado"
+    },
+    {
+      "texto": "¿Te atreverías a tocar ese rojo?",
+      "prompt_imagen": "Mano extendida sobre el agua roja del Río Tinto, como a punto de tocar, vapor sutil y luz dramática, foto hiperrealista"
+    }
+  ]
+}
