@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Un meteorito de 10 km aniquiló al 75 % de la vida?",
+  "descripcion": "El cráter Chicxulub, de 150 km, se formó hace 66 M años tras un impacto de 10 km que borró a los dinosaurios. ¿Te atreverías a vivir bajo su sombra? #shorts #curiosidades #planeta #Chicxulub #impacto #dinosaurios #geología",
+  "tags": [
+    "Chicxulub",
+    "cráter de impacto",
+    "meteorito",
+    "extinción de dinosaurios",
+    "66 millones de años",
+    "ciencia",
+    "geología",
+    "planeta Tierra",
+    "historia natural",
+    "cambio climático"
+  ],
+  "escenas": [
+    {
+      "texto": "Un impacto de diez km destruyó 75 %",
+      "prompt_imagen": "Meteorito de diez kilómetros chocando contra el océano, explosión luminosa, humo y vapor, fotografía hiperrealista, vista aérea dramática"
+    },
+    {
+      "texto": "El cráter Chicxulub, Yucatán, México",
+      "prompt_imagen": "Mapa satelital del Yucatán resaltando el cráter Chicxulub, vista aérea clara, estilo fotográfico hiperrealista"
+    },
+    {
+      "texto": "Mide unos ciento cinco kilómetros",
+      "prompt_imagen": "Vista aérea del cráter Chicxulub mostrando su diámetro de 150 km, terreno plano con vegetación, foto realista"
+    },
+    {
+      "texto": "Se formó hace 66 millones de años",
+      "prompt_imagen": "Línea de tiempo geológica marcada en 66 millones de años, fondo de tierra y fósiles de dinosaurios, estilo realista"
+    },
+    {
+      "texto": "Liberó energía equivalente a 100 mil gigatones",
+      "prompt_imagen": "Explosión masiva comparada con energía de 100 mil gigatones de TNT, nubes de polvo, fotografía hiperrealista"
+    },
+    {
+      "texto": "Provocó incendios globales y oscuridad",
+      "prompt_imagen": "Escena global de incendios forestales y cielo oscuro por ceniza, vista desde el espacio, foto realista"
+    },
+    {
+      "texto": "Aniquiló a los dinosaurios y al 75 %",
+      "prompt_imagen": "Fósiles de dinosaurios enterrados bajo capas de sedimento en el cráter, ambiente sombrío, fotografía hiperrealista"
+    },
+    {
+      "texto": "¿Un impacto de diez km destruyó 75 %?",
+      "prompt_imagen": "Impacto de meteorito de diez kilómetros con explosión, similar a la primera escena, estilo foto realista, enfoque dramático"
+    }
+  ]
+}

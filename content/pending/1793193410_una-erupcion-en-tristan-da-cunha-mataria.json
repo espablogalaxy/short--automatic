@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Una erupción en Tristan da Cunha mataría a 264 habitantes?",
+  "descripcion": "En 1961 el volcán Eó cubrió Tristan da Cunha de ceniza, obligando a evacuar a sus 264 residentes. ¿Te atreverías a vivir en la isla más aislada del planeta? #shorts #curiosidades #planeta #Tristandacunha #volcánEó #islasaisladas",
+  "tags": [
+    "Tristan da Cunha",
+    "volcán Eó",
+    "erupción 1961",
+    "isla aislada",
+    "evacuación",
+    "ceniza volcánica",
+    "geología",
+    "habitantes",
+    "volcán",
+    "Atlántico Sur"
+  ],
+  "escenas": [
+    {
+      "texto": "Una erupción allí te aniquilaría al instante",
+      "prompt_imagen": "Vulcán eruptando violentamente con lava y nube de ceniza, vista aérea, fotografía hiperrealista"
+    },
+    {
+      "texto": "Tristan da Cunha, la isla más aislada",
+      "prompt_imagen": "Isla Tristan da Cunha vista desde el espacio, rodeada de océano, foto satélite hiperrealista"
+    },
+    {
+      "texto": "A 2 400 km del continente más cercano",
+      "prompt_imagen": "Mapa mostrando distancia de 2400 km entre Tristan da Cunha y la costa sudafricana, estilo ilustración realista"
+    },
+    {
+      "texto": "En 1961 el volcán Eó explotó",
+      "prompt_imagen": "Fotografía histórica del Monte Eó en erupción en 1961, columna de humo y lava, estilo documental"
+    },
+    {
+      "texto": "Ceniza cubrió la isla con veinte centímetros",
+      "prompt_imagen": "Ceniza cubriendo la vegetación de Tristan da Cunha, 20 cm de espesor, vista aérea, foto hiperrealista"
+    },
+    {
+      "texto": "Se evacuaron a 264 residentes rápidamente",
+      "prompt_imagen": "Barco evacuando a 264 habitantes desde la costa de Tristan da Cunha, foto realista"
+    },
+    {
+      "texto": "Hoy la isla sigue sin población permanente",
+      "prompt_imagen": "Isla desierta de Tristan da Cunha sin edificios, solo naturaleza salvaje, foto panorámica"
+    },
+    {
+      "texto": "¿Podrías sobrevivir a una erupción allí?",
+      "prompt_imagen": "Cima del Monte Eó bajo cielo amenazante, invitando al espectador, foto dramática"
+    }
+  ]
+}
