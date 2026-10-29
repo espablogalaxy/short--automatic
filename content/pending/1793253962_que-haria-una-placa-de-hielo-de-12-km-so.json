@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué haría una placa de hielo de 12 km² sobre tu barco?",
+  "descripcion": "En 2017 una placa de hielo de 12 km² se desprendió del glaciar Larsen C, creando una ola de diez metros que arrasó la costa. ¿Te atreverías a cruzar esas aguas? #shorts #curiosidades #planeta #glaciar #Antártida #LarsenC #iceberg",
+  "tags": [
+    "Larsen C",
+    "iceberg",
+    "glaciar",
+    "Antártida",
+    "ola de hielo",
+    "desprendimiento de hielo",
+    "12 km²",
+    "2017",
+    "satélite",
+    "peligro marítimo"
+  ],
+  "escenas": [
+    {
+      "texto": "Una placa de hielo del tamaño Manhattan",
+      "prompt_imagen": "Massive iceberg comparable to Manhattan size, floating in Antarctic waters, hyperrealistic photography"
+    },
+    {
+      "texto": "Era del glaciar Larsen C, Antártida",
+      "prompt_imagen": "Aerial view of Larsen C glacier in Antarctica, showing the section where the iceberg broke off, hyperrealistic"
+    },
+    {
+      "texto": "12 km², mil metros de grosor, 2017",
+      "prompt_imagen": "Satellite image highlighting a 12 square kilometre ice shelf, thickness indicated by scale bar of 1000 meters, realistic colors"
+    },
+    {
+      "texto": "Generó una ola de diez metros",
+      "prompt_imagen": "Huge ten‑meter‑high wave of icy water crashing against a coastline, hyperrealistic"
+    },
+    {
+      "texto": "Arrasó la costa sur de la isla",
+      "prompt_imagen": "Southern Antarctic island coast devastated by the wave, ice fragments scattered, dramatic lighting"
+    },
+    {
+      "texto": "Satélites midieron tres mil millones de toneladas",
+      "prompt_imagen": "Satellite orbiting over Antarctica capturing the iceberg break‑off area, realistic space view"
+    },
+    {
+      "texto": "Un barco habría hundido en minutos",
+      "prompt_imagen": "Small vessel in open sea surrounded by massive ice chunks, turbulent water, sense of danger"
+    },
+    {
+      "texto": "¿Te imaginas una placa bajo tu nave?",
+      "prompt_imagen": "Gigantic iceberg looming towards a ship on the horizon, cinematic perspective"
+    }
+  ]
+}

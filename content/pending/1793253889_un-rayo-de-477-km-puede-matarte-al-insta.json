@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Un rayo de 477 km puede matarte al instante?",
+  "descripcion": "En 2020 se registró el rayo más largo de la historia: 477 km de descarga eléctrica. Descubre cuántas maratones cubre y por qué sería fatal estar bajo él. ¿Te atreverías a observarlo desde la distancia? #shorts #curiosidades #planeta #rayos #tormenta #registro #cielos",
+  "tags": [
+    "rayo más largo",
+    "tormenta eléctrica",
+    "registro de rayos",
+    "fenómeno atmosférico",
+    "longitud rayo",
+    "EEUU 2020",
+    "maratón",
+    "peligro rayo",
+    "ciencia",
+    "curiosidades"
+  ],
+  "escenas": [
+    {
+      "texto": "Un rayo de 477 km te fulmina",
+      "prompt_imagen": "Rayo gigante iluminando cielo nocturno sobre campo abierto, vista amplia, fotografía hiperrealista, luz intensa, sin personas"
+    },
+    {
+      "texto": "Se registró en EE. UU., 2020",
+      "prompt_imagen": "Tormenta eléctrica sobre territorio estadounidense, cielo oscuro, fotografía hiperrealista, relámpagos visibles, sin personas"
+    },
+    {
+      "texto": "Superó la distancia entre Madrid y Valencia",
+      "prompt_imagen": "Mapa de España con línea roja entre Madrid y Valencia, vista satelital, estilo fotográfico, sin etiquetas"
+    },
+    {
+      "texto": "Equivale a más de once maratones",
+      "prompt_imagen": "Once corredores de maratón alineados en ruta larga, fondo de carretera, fotografía hiperrealista, sin texto"
+    },
+    {
+      "texto": "Se extiende 100 km bajo nubes",
+      "prompt_imagen": "Rayo horizontal de cientos de kilómetros sobre nubes de tormenta, vista aérea, fotografía hiperrealista, sin personas"
+    },
+    {
+      "texto": "Te mataría al instante",
+      "prompt_imagen": "Silhouette humana bajo un rayo, chispa eléctrica, foto dramática, sin sangre ni violencia explícita"
+    },
+    {
+      "texto": "Supera el récord anterior de 200 km",
+      "prompt_imagen": "Gráfica comparativa con dos rayos, uno de 200 km y otro de 477 km, fondo de cielo, estilo fotográfico"
+    },
+    {
+      "texto": "¿Un rayo de 477 km te fulmina?",
+      "prompt_imagen": "Rayo gigante iluminando cielo nocturno sobre campo abierto, vista amplia, fotografía hiperrealista, luz intensa, sin personas"
+    }
+  ]
+}
