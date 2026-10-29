@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T11:30:35.354486+00:00",
+ "actualizado": "2026-10-29T11:40:20.644487+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -186,6 +186,10 @@
     [
      "2026-10-28",
      48
+    ],
+    [
+     "2026-10-29",
+     48
     ]
    ]
   },
@@ -208,6 +212,10 @@
     ],
     [
      "2026-10-28",
+     53
+    ],
+    [
+     "2026-10-29",
      53
     ]
    ]
@@ -232,6 +240,10 @@
     [
      "2026-10-28",
      9
+    ],
+    [
+     "2026-10-29",
+     9
     ]
    ]
   },
@@ -255,6 +267,10 @@
     [
      "2026-10-28",
      20
+    ],
+    [
+     "2026-10-29",
+     20
     ]
    ]
   },
@@ -277,6 +293,10 @@
     ],
     [
      "2026-10-28",
+     7
+    ],
+    [
+     "2026-10-29",
      7
     ]
    ]
@@ -471,13 +491,17 @@
     [
      "2026-10-28",
      45
+    ],
+    [
+     "2026-10-29",
+     45
     ]
    ]
   },
   "Hzx1DNEjGfg": {
    "titulo": "¿Un sonido de 310 dB que reventó tímpanos a 64 km?",
    "subida": "2026-10-25T13:39:52+00:00",
-   "vistas": 633,
+   "vistas": 636,
    "historial": [
     [
      "2026-10-26",
@@ -490,6 +514,10 @@
     [
      "2026-10-28",
      633
+    ],
+    [
+     "2026-10-29",
+     636
     ]
    ]
   },
@@ -509,13 +537,17 @@
     [
      "2026-10-28",
      458
+    ],
+    [
+     "2026-10-29",
+     458
     ]
    ]
   },
   "3HVhfcw2YvU": {
    "titulo": "¿Podrías bucear 220 m bajo el Río Congo?",
    "subida": "2026-10-26T12:00:42+00:00",
-   "vistas": 43,
+   "vistas": 54,
    "historial": [
     [
      "2026-10-27",
@@ -524,39 +556,88 @@
     [
      "2026-10-28",
      43
+    ],
+    [
+     "2026-10-29",
+     54
     ]
    ]
   },
   "WeGdnHwg7dk": {
    "titulo": "¿Qué habría pasado si el meteoro de 1908 (15 Mt) impactara?",
    "subida": "2026-10-27T21:43:31+00:00",
-   "vistas": 9,
+   "vistas": 15,
    "historial": [
     [
      "2026-10-28",
      9
+    ],
+    [
+     "2026-10-29",
+     15
     ]
    ]
   },
   "FYVLmZ-pJrE": {
    "titulo": "¿Por qué 2.000 personas viven bajo tierra a 50 °C?",
    "subida": "2026-10-27T15:15:08+00:00",
-   "vistas": 38,
+   "vistas": 53,
    "historial": [
     [
      "2026-10-28",
      38
+    ],
+    [
+     "2026-10-29",
+     53
     ]
    ]
   },
   "Pv8ifg0onQM": {
    "titulo": "¿Por qué 1.500 personas viven bajo tierra?",
    "subida": "2026-10-27T11:22:20+00:00",
-   "vistas": 23,
+   "vistas": 39,
    "historial": [
     [
      "2026-10-28",
      23
+    ],
+    [
+     "2026-10-29",
+     39
+    ]
+   ]
+  },
+  "PYCNWUoVBvU": {
+   "titulo": "¿Por qué el glaciar Thwaites subirá 65 cm el mar?",
+   "subida": "2026-10-28T22:06:57+00:00",
+   "vistas": 4,
+   "historial": [
+    [
+     "2026-10-29",
+     4
+    ]
+   ]
+  },
+  "gZJnivVUV7k": {
+   "titulo": "¿Sobrevivirías a –89,2 °C en Vostok?",
+   "subida": "2026-10-28T15:50:48+00:00",
+   "vistas": 18,
+   "historial": [
+    [
+     "2026-10-29",
+     18
+    ]
+   ]
+  },
+  "-1D5_5BdnGA": {
+   "titulo": "¿Qué volcán cubrió 5 000 km² de lava en 1783?",
+   "subida": "2026-10-28T11:56:06+00:00",
+   "vistas": 12,
+   "historial": [
+    [
+     "2026-10-29",
+     12
     ]
    ]
   }
