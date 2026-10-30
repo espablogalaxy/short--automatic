@@ -1,0 +1,50 @@
+{
+  "titulo": "¿5 metros de deslizamiento arrasaron San Francisco?",
+  "descripcion": "El 18 abril 1906, la falla de San Andrés se movió 5 metros, provocando un terremoto de magnitud 7,9 que dejó miles de muertos y sin hogar. ¿Te atreverías a vivir cerca de una falla? #shorts #curiosidades #planeta #geología #tectónica #sismo",
+  "tags": [
+    "San Andrés",
+    "terremoto 1906",
+    "falla de San Andrés",
+    "5 metros deslizamiento",
+    "magnitud 7,9",
+    "geología",
+    "placas tectónicas",
+    "historia de San Francisco",
+    "sismo mortal",
+    "tectónica de placas"
+  ],
+  "escenas": [
+    {
+      "texto": "5 metros de deslizamiento destruyeron una ciudad",
+      "prompt_imagen": "San Francisco en 1906, vista aérea, edificios colapsados, polvo y humo, cinta roja de 5 metros marcada en el suelo, fotografía hiperrealista"
+    },
+    {
+      "texto": "Fue la falla de San Andrés",
+      "prompt_imagen": "Roca de la falla de San Andrés en California, marcada con una línea roja, fotografía de día, estilo documental"
+    },
+    {
+      "texto": "El 18 de abril de 1906",
+      "prompt_imagen": "Calendario abierto mostrando la fecha 18 de abril de 1906, fondo de periódico antiguo con titular de terremoto, foto realista"
+    },
+    {
+      "texto": "Causó un terremoto de magnitud 7,9",
+      "prompt_imagen": "Gráfica de sismógrafo con onda de magnitud 7,9, fondo de San Francisco en llamas, fotografía hiperrealista"
+    },
+    {
+      "texto": "Más de tres mil muertos",
+      "prompt_imagen": "Cifras en neón 'Más de 3,000 muertos' sobre ruinas de la ciudad, estilo foto nocturna y realista"
+    },
+    {
+      "texto": "Miles de personas quedaron sin techo",
+      "prompt_imagen": "Personas sin techo caminando entre escombros, mirando al horizonte, foto realista con luz tenue"
+    },
+    {
+      "texto": "Todo por mover solo cinco metros",
+      "prompt_imagen": "Animación hiperrealista de una falla desplazándose 5 metros, flechas de movimiento sobre terreno rocoso"
+    },
+    {
+      "texto": "¿5 metros que arrasaron San Francisco?",
+      "prompt_imagen": "Cierre con vista aérea de San Francisco devastada, superposición del texto de la pregunta, fotografía hiperrealista"
+    }
+  ]
+}

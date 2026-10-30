@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Por qué la tormenta solar de 1859 iluminó La Habana?",
+  "descripcion": "En 1859 la mayor tormenta solar de la historia provocó auroras visibles en La Habana (22°N) y apagó los telégrafos. ¿Te imaginas este espectáculo hoy? #shorts #curiosidades #planeta #tormentasolar #auroras #Carrington #historia",
+  "tags": [
+    "tormenta solar",
+    "evento Carrington",
+    "auroras boreales",
+    "La Habana 1859",
+    "CME",
+    "índice K 9",
+    "magnetosfera",
+    "telégrafo",
+    "historia natural",
+    "ciencia atmosférica"
+  ],
+  "escenas": [
+    {
+      "texto": "Una tormenta solar quemó el cielo",
+      "prompt_imagen": "Cielo nocturno con intensas luces rojizas como fuego, vista desde tierra, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "En 1859 Carrington observó la erupción",
+      "prompt_imagen": "Retrato histórico del astrónomo Richard Carrington observando una erupción solar con telescopio en 1859"
+    },
+    {
+      "texto": "El CME viajó 150 millones de km",
+      "prompt_imagen": "Representación del plasma solar (CME) viajando a través del espacio, distancia marcada 150 millones de km, estilo hiperrealista"
+    },
+    {
+      "texto": "Impactó la magnetosfera en ocho minutos",
+      "prompt_imagen": "Ilustración de la magnetosfera terrestre siendo golpeada por una nube de plasma, cronómetro mostrando ocho minutos"
+    },
+    {
+      "texto": "El índice K alcanzó 9, máximo histórico",
+      "prompt_imagen": "Gráfico de índice K mostrando valor 9 en barra roja, fondo de auroras"
+    },
+    {
+      "texto": "Auroras se vieron en La Habana, 22°N",
+      "prompt_imagen": "Cielo sobre La Habana con auroras verdes y rojas, latitud 22°N señalada en mapa"
+    },
+    {
+      "texto": "Cortaron telegráfos y provocaron incendios",
+      "prompt_imagen": "Antiguas estaciones de telégrafo en llamas, cables chispeando, humo, estilo foto histórica"
+    },
+    {
+      "texto": "¿Una tormenta solar quemó el cielo?",
+      "prompt_imagen": "Repetición del cielo nocturno con fuego, como al inicio, creando bucle visual"
+    }
+  ]
+}
