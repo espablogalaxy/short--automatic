@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T11:40:20.644487+00:00",
+ "actualizado": "2026-10-30T11:31:49.288912+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -190,6 +190,10 @@
     [
      "2026-10-29",
      48
+    ],
+    [
+     "2026-10-30",
+     48
     ]
    ]
   },
@@ -216,6 +220,10 @@
     ],
     [
      "2026-10-29",
+     53
+    ],
+    [
+     "2026-10-30",
      53
     ]
    ]
@@ -495,6 +503,10 @@
     [
      "2026-10-29",
      45
+    ],
+    [
+     "2026-10-30",
+     45
     ]
    ]
   },
@@ -517,6 +529,10 @@
     ],
     [
      "2026-10-29",
+     636
+    ],
+    [
+     "2026-10-30",
      636
     ]
    ]
@@ -541,13 +557,17 @@
     [
      "2026-10-29",
      458
+    ],
+    [
+     "2026-10-30",
+     458
     ]
    ]
   },
   "3HVhfcw2YvU": {
    "titulo": "¿Podrías bucear 220 m bajo el Río Congo?",
    "subida": "2026-10-26T12:00:42+00:00",
-   "vistas": 54,
+   "vistas": 55,
    "historial": [
     [
      "2026-10-27",
@@ -560,6 +580,10 @@
     [
      "2026-10-29",
      54
+    ],
+    [
+     "2026-10-30",
+     55
     ]
    ]
   },
@@ -575,13 +599,17 @@
     [
      "2026-10-29",
      15
+    ],
+    [
+     "2026-10-30",
+     15
     ]
    ]
   },
   "FYVLmZ-pJrE": {
    "titulo": "¿Por qué 2.000 personas viven bajo tierra a 50 °C?",
    "subida": "2026-10-27T15:15:08+00:00",
-   "vistas": 53,
+   "vistas": 61,
    "historial": [
     [
      "2026-10-28",
@@ -590,6 +618,10 @@
     [
      "2026-10-29",
      53
+    ],
+    [
+     "2026-10-30",
+     61
     ]
    ]
   },
@@ -605,39 +637,88 @@
     [
      "2026-10-29",
      39
+    ],
+    [
+     "2026-10-30",
+     39
     ]
    ]
   },
   "PYCNWUoVBvU": {
    "titulo": "¿Por qué el glaciar Thwaites subirá 65 cm el mar?",
    "subida": "2026-10-28T22:06:57+00:00",
-   "vistas": 4,
+   "vistas": 27,
    "historial": [
     [
      "2026-10-29",
      4
+    ],
+    [
+     "2026-10-30",
+     27
     ]
    ]
   },
   "gZJnivVUV7k": {
    "titulo": "¿Sobrevivirías a –89,2 °C en Vostok?",
    "subida": "2026-10-28T15:50:48+00:00",
-   "vistas": 18,
+   "vistas": 31,
    "historial": [
     [
      "2026-10-29",
      18
+    ],
+    [
+     "2026-10-30",
+     31
     ]
    ]
   },
   "-1D5_5BdnGA": {
    "titulo": "¿Qué volcán cubrió 5 000 km² de lava en 1783?",
    "subida": "2026-10-28T11:56:06+00:00",
-   "vistas": 12,
+   "vistas": 13,
    "historial": [
     [
      "2026-10-29",
      12
+    ],
+    [
+     "2026-10-30",
+     13
+    ]
+   ]
+  },
+  "V5Spzaw9IaY": {
+   "titulo": "¿Por qué esta lava negra arde a 510 °C?",
+   "subida": "2026-10-29T22:20:26+00:00",
+   "vistas": 30,
+   "historial": [
+    [
+     "2026-10-30",
+     30
+    ]
+   ]
+  },
+  "yDljrNzWq4k": {
+   "titulo": "¿Sobrevivirías a 80 megatones en Popigai?",
+   "subida": "2026-10-29T15:59:42+00:00",
+   "vistas": 74,
+   "historial": [
+    [
+     "2026-10-30",
+     74
+    ]
+   ]
+  },
+  "xB4uphxalyk": {
+   "titulo": "¿Qué viento a 408 km/h arrancaría tu coche?",
+   "subida": "2026-10-29T12:04:07+00:00",
+   "vistas": 39,
+   "historial": [
+    [
+     "2026-10-30",
+     39
     ]
    ]
   }
