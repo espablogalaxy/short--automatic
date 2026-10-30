@@ -1,0 +1,48 @@
+{
+  "titulo": "¿5 500 metros bajo el agua? El cañón más profundo del planeta",
+  "descripcion": "El Yarlung Tsangpo en el Tíbet forma el cañón más profundo del mundo: 5 500 m bajo la superficie, con una presión 550 veces mayor que la atmosférica. ¿Te atreverías a descender allí? #shorts #curiosidades #planeta #YarlungTsangpo #GranCañón #exploración",
+  "tags": [
+    "Yarlung Tsangpo",
+    "Gran Cañón",
+    "río más profundo",
+    "5500 metros",
+    "presión extrema",
+    "exploración submarina",
+    "canyon depth",
+    "datos curiosos"
+  ],
+  "escenas": [
+    {
+      "texto": "¿5 500 metros bajo el agua?",
+      "prompt_imagen": "Cañón del Yarlung Tsangpo visto desde el aire, mostrando la enorme profundidad del río bajo los acantilados, fotografía hiperrealista, luz dramática"
+    },
+    {
+      "texto": "El cañón del Yarlung Tsangpo",
+      "prompt_imagen": "Río Yarlung Tsangpo serpenteando entre paredes rocosas del Gran Cañón, fotografía hiperrealista, detalle de agua turbulenta"
+    },
+    {
+      "texto": "Más profundo que el Everest sumergido",
+      "prompt_imagen": "Comparación visual del cañón bajo el agua con la altura del Monte Everest, fotografía hiperrealista, escala superpuesta"
+    },
+    {
+      "texto": "Presión de agua: 550 veces atmosférica",
+      "prompt_imagen": "Ilustración de una esfera de presión bajo el agua con número 550, estilo foto realista, fondo del cañón"
+    },
+    {
+      "texto": "Solo 30 minutos sin traje",
+      "prompt_imagen": "Cronómetro marcando 30 minutos sobre una zona de agua profunda del cañón, fotografía hiperrealista"
+    },
+    {
+      "texto": "Exploradores usan submarinos de acero",
+      "prompt_imagen": "Submarino de acero operando en aguas oscuras del cañón, luz tenue, fotografía hiperrealista"
+    },
+    {
+      "texto": "El abismo guarda misterios nunca vistos",
+      "prompt_imagen": "Oscura profundidad del cañón con sombras que insinúan lo desconocido, fotografía hiperrealista"
+    },
+    {
+      "texto": "¿Sobrevivirías a 5 500 metros bajo?",
+      "prompt_imagen": "Vista cerrada del fondo del cañón con agua a gran profundidad, sensación de inmensidad, fotografía hiperrealista"
+    }
+  ]
+}
