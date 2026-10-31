@@ -1,6 +1,7 @@
 """Orquesta el pipeline completo: guion (de la cola, o generado al vuelo si
-está vacía) -> imágenes -> audio -> vídeo (Ken Burns + SFX de corte + subtítulos
-animados + CTA quemada en la última escena) -> subida.
+está vacía) -> imágenes (foto real de Wikimedia Commons si hay un lugar
+identificable, si no generación por IA) -> audio -> vídeo (Ken Burns + SFX de
+corte + subtítulos animados + CTA quemada en la última escena) -> subida.
 Uso:
   python src/main.py [--no-upload]              # coge de la cola; si está
                                                   # vacía, genera uno nuevo
@@ -20,6 +21,7 @@ from pathlib import Path
 from cola_guiones import guardar_pendiente, sacar_pendiente, marcar_hecho
 from guion_gen import generar_guion
 from image_gen import generar_imagen
+from real_photo import buscar_foto_real
 from tts_gen import generar_narracion
 from render import (
     renderizar_escena,
@@ -29,7 +31,10 @@ from render import (
     quemar_subtitulos,
 )
 
-CTA_FINAL = "SUSCRÍBETE PARA MÁS"
+# Portado del canal de la Raspberry Pi (hallazgo del 2026-10-09): un aviso abajo a la
+# izquierda, donde el feed de Shorts pinta el avatar/botón nativo "Suscribirse" en móvil,
+# funciona mejor que una caja estática arriba. Ver render.py para el pulso de opacidad.
+CTA_FINAL = "↑ Sígueme aquí"
 
 
 def _conseguir_guion(tema: str | None) -> tuple[Path, dict]:
@@ -69,7 +74,16 @@ def ejecutar(tema: str | None, subir: bool, privado: bool = False) -> None:
             imagen = tmp / f"img_{i}.png"
             clip = tmp / f"clip_{i}.mp4"
 
-            if not generar_imagen(escena["prompt_imagen"], str(imagen)):
+            # Si la escena representa el lugar real principal del short, se intenta primero
+            # una foto real de Wikimedia Commons (más autenticidad que una imagen generada
+            # por IA en un canal que presume de datos verificables); si no hay nada
+            # adecuado, se cae a la generación por IA de siempre.
+            lugar_real = escena.get("lugar_real")
+            conseguida = bool(lugar_real) and buscar_foto_real(lugar_real, str(imagen))
+            if conseguida:
+                print(f"Escena {i}: foto real de Wikimedia Commons para '{lugar_real}'")
+
+            if not conseguida and not generar_imagen(escena["prompt_imagen"], str(imagen)):
                 anterior = tmp / f"img_{i - 1}.png"
                 if i > 0 and anterior.exists():
                     # Antes se abortaba TODO el vídeo (y se perdía el hueco del día) si una
