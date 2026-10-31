@@ -7,7 +7,16 @@ quemada SOLO en el último tramo de la última escena (texto en pantalla, no
 hablado: así no gasta presupuesto de palabras del guion ni rompe el cierre en
 bucle). Usa solo FFmpeg (ya viene instalado en los runners de GitHub Actions;
 el workflow instala además fonts-dejavu-core, la fuente que usan los
-subtítulos .ass y la CTA)."""
+subtítulos .ass y la CTA).
+
+CTA (actualizado, portado del canal de la Raspberry Pi, hallazgo del
+2026-10-09): esa automatización comprobó con datos reales de YouTube Analytics
+que el 97% del tráfico viene del feed de Shorts y que una caja estática
+arriba apenas generaba suscripciones. Cambiaron a un aviso abajo a la
+izquierda (donde el feed de Shorts pinta el avatar del canal y el botón
+nativo "Suscribirse" en móvil) con un pulso de opacidad en vez de texto
+estático, y mostrado más tiempo (~2.2s en vez de ~1.3s). Se porta aquí el
+mismo cambio."""
 import subprocess
 from pathlib import Path
 
@@ -21,13 +30,14 @@ def _escapar_drawtext(texto: str) -> str:
 def renderizar_escena(imagen: str, audio: str, salida: str, duracion: float,
                        width: int = 1080, height: int = 1920, fps: int = 30,
                        zoom_out: bool = False, texto_cta: str | None = None,
-                       cta_duracion: float = 1.3, sfx_corte: bool = False) -> None:
+                       cta_duracion: float = 2.2, sfx_corte: bool = False) -> None:
     """Imagen fija con efecto Ken Burns + audio de esa escena. zoom_out=True
     invierte la dirección (empieza en 1.25x y se aleja) para que no todas las
     escenas hagan el mismo movimiento, como en la automatización de la
     Raspberry Pi pero alternando. texto_cta, si se pasa (solo en la última
-    escena), quema un aviso de suscripción en los últimos cta_duracion
-    segundos, arriba de la imagen (lejos de los subtítulos, que van abajo).
+    escena), quema un aviso de suscripción abajo a la izquierda (donde el
+    feed de Shorts pinta el avatar/botón nativo "Suscribirse" en móvil) con
+    un pulso de opacidad, en los últimos cta_duracion segundos.
     sfx_corte=True añade un "clic" sintético de ~70ms al inicio de la escena
     (pásalo para todas menos la primera: resetea la atención en cada cambio
     de plano, como pide la guía de retención, sin depender de audio externo)."""
@@ -45,9 +55,13 @@ def renderizar_escena(imagen: str, audio: str, salida: str, duracion: float,
     if texto_cta:
         inicio_cta = max(duracion - cta_duracion, 0)
         texto = _escapar_drawtext(texto_cta)
+        # Abajo a la izquierda (no arriba): ahí es donde el feed de Shorts pinta el avatar del
+        # canal y el botón nativo "Suscribirse" en móvil. Pulso de opacidad en vez de texto
+        # estático para llamar más la atención (mejora portada del canal de la Raspberry Pi).
         vf += (
-            f",drawtext=fontfile={FUENTE_CTA}:text='{texto}':fontcolor=white:fontsize=58:"
-            f"box=1:boxcolor=black@0.55:boxborderw=20:x=(w-text_w)/2:y=h*0.12:"
+            f",drawtext=fontfile={FUENTE_CTA}:text='{texto}':fontcolor=white:fontsize=46:"
+            f"box=1:boxcolor=black@0.5:boxborderw=14:x=40:y=h*0.72:"
+            f"alpha='0.65+0.35*sin(2*PI*3*(t-{inicio_cta}))':"
             f"enable='between(t,{inicio_cta},{duracion})'"
         )
 
