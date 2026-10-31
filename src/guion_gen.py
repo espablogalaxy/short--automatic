@@ -10,6 +10,14 @@ Mejoras portadas del canal de la Raspberry Pi (medidas con datos reales de ese c
     reales del canal (src/metricas.py).
   - Red de seguridad de tildes/ñ y validación estricta con reintentos.
   - Cadena de proveedores: Gemini -> Groq -> Groq (2ª cuenta, opcional).
+
+Mejoras propias de este canal (no están en la Pi):
+  - "lugar_real": cuando una escena representa el lugar real que da título al short, el
+    modelo puede añadir el nombre propio (en inglés, como en Wikipedia) para que main.py
+    intente una foto REAL de Wikimedia Commons antes de generar por IA (src/real_photo.py).
+  - "modo": se guarda qué tipo de ángulo (lugar/fenómeno/récord) se usó en cada guion, y
+    la elección del siguiente modo se pondera por rendimiento real una vez hay datos
+    suficientes (src/metricas.pesos_modo), en vez de una rotación fija 50/33/17%.
 """
 import json
 import os
@@ -46,7 +54,12 @@ MODO_RECORD = """Genera un guion de un Short de 20-25 segundos sobre UN récord 
 1. El récord tiene que ser VERIFICABLE y estar vigente según fuentes fiables (nada dudoso).
 1b. Incluye la CIFRA exacta y una comparación cotidiana (por ejemplo, cuántas veces cabría algo conocido dentro)."""
 
-_MODOS = [MODO_LUGAR, MODO_FENOMENO, MODO_LUGAR, MODO_RECORD, MODO_FENOMENO, MODO_LUGAR]
+# Claves cortas para guardar qué modo se usó en cada guion (src/metricas.pesos_modo las
+# cruza con las vistas reales para ponderar la siguiente elección).
+MODOS_MAP = {"lugar": MODO_LUGAR, "fenomeno": MODO_FENOMENO, "record": MODO_RECORD}
+# Rotación de arranque (sin datos suficientes todavía): 50% lugar / 33% fenómeno / 17% récord,
+# la misma proporción que tenía la rotación fija original.
+_ROTACION_FRIA = ["lugar", "fenomeno", "lugar", "record", "fenomeno", "lugar"]
 
 # Categorías solo como pista de variedad (NO son temas cerrados: el modelo elige el tema).
 CATEGORIAS = [
@@ -73,6 +86,7 @@ PROMPT_SISTEMA = """Eres un guionista experto en curiosidades del planeta Tierra
 5. Cada escena: "texto" (voz en off, entre 4 y 7 palabras: frases CORTAS y directas) y "prompt_imagen". LONGITUD TOTAL OBLIGATORIA: entre 48 y 64 palabras sumando las 8 escenas (unos 20-25 segundos). Los datos reales de nuestros canales muestran que la duración es el factor más fuerte: los shorts de 20-24 s rinden varias veces más que los de 40+ s. Elimina todo relleno: cada frase aporta un dato.
    El "prompt_imagen" debe representar LITERALMENTE lo que dice el "texto" de esa escena (si habla del lago Hillier, el prompt describe un lago de agua rosa visto desde el aire). PROHIBIDO metáforas visuales abstractas (orbes de luz, ondas de energía, partículas, hologramas, engranajes...). Estilo: FOTOGRAFÍA HIPERREALISTA de reportaje/cine con lugares, paisajes y objetos reconocibles, iluminación dramática, profundidad de campo realista, sin texto ni logotipos, sin personas famosas.
 5b. En el "texto" hablado NUNCA pongas códigos, URLs ni símbolos raros: la voz sintética los deletrea y descuadra la duración. Escribe los números de forma natural.
+5c. "lugar_real" (CAMPO OPCIONAL, solo en la escena que muestra el lugar/objeto PRINCIPAL que da título al short, si es un sitio o elemento real e identificable con nombre propio): el nombre propio del lugar en inglés, tal y como aparecería como título en Wikipedia/Wikimedia Commons (p. ej. "Lake Hillier", "Danakil Depression", "Vostok Station"), para poder buscar una foto REAL del lugar en vez de generarla por IA. Omite el campo (o déjalo vacío) en el resto de escenas y siempre que el lugar no tenga nombre propio reconocible o sea un fenómeno sin localización concreta.
 6. El "titulo" (máximo 60 caracteres) en formato de PREGUNTA DIRECTA o EXCLAMACIÓN de impacto con el dato concreto, no descriptivo ni neutro, sin clickbait falso ni exagerar el dato.
 7. La "descripcion" lleva 1-2 frases de contexto, la pregunta de cierre del punto 4g, y entre 5 y 8 hashtags: los fijos #shorts #curiosidades #planeta más 2-5 específicos de ESTE tema.
 8. "tags": entre 8 y 12 palabras clave de SEO relevantes para ESTE short (mezcla genéricas y específicas).
@@ -84,7 +98,7 @@ PROMPT_SISTEMA = """Eres un guionista experto en curiosidades del planeta Tierra
   "descripcion": "Descripción corta con la pregunta de cierre y hashtags.",
   "tags": ["...", "..."],
   "escenas": [
-    {{"texto": "...", "prompt_imagen": "..."}}
+    {{"texto": "...", "prompt_imagen": "...", "lugar_real": "..."}}
   ]
 }}
 """
@@ -197,6 +211,8 @@ def _validar_guion(guion):
             raise GuionGenError(f"Escena {i} incompleta")
         if re.search(r"https?://|www\.|[{}_<>]", e["texto"]):
             raise GuionGenError(f"Escena {i}: el texto hablado contiene código/URL")
+        if not isinstance(e.get("lugar_real", ""), str):
+            e["lugar_real"] = ""
     n = palabras_totales(guion)
     # segundos ~ 4.5 + 0.31 * palabras (medido en la Pi): >70 palabras supera ~26 s.
     if n > 70 or n < 38:
@@ -212,13 +228,32 @@ def _temas_usados(corpus, limite=120):
     return titulos[-limite:]
 
 
+def _elegir_modo(corpus):
+    """Elige el tipo de ángulo (lugar/fenómeno/récord) para el siguiente guion.
+    Si hay datos suficientes de rendimiento real (src/metricas.pesos_modo), pondera
+    por ellos; si no (arranque en frío o sin acceso a métricas), usa la rotación fija
+    original 50/33/17%."""
+    try:
+        import metricas
+        pesos = metricas.pesos_modo()
+    except Exception as e:
+        pesos = {}
+        print(f"[guion_gen] sin pesos por modo ({e})", file=sys.stderr)
+    if pesos:
+        claves = list(pesos.keys())
+        clave = random.choices(claves, weights=[pesos[c] for c in claves], k=1)[0]
+        return clave, MODOS_MAP[clave]
+    clave = _ROTACION_FRIA[len(corpus) % len(_ROTACION_FRIA)]
+    return clave, MODOS_MAP[clave]
+
+
 def generar_guion(tema=None, max_intentos=3, corpus=None):
     """Genera un guion válido y NO duplicado. `tema` es opcional (si se omite, el modelo
     elige un tema nuevo de una categoría aleatoria). Lanza GuionGenError si no lo logra."""
     if corpus is None:
         corpus = dedup.construir_corpus()
     usados = _temas_usados(corpus)
-    modo = _MODOS[len(corpus) % len(_MODOS)]
+    modo_clave, modo = _elegir_modo(corpus)
     try:
         import metricas
         modo += metricas.bloque_prompt()
@@ -263,6 +298,7 @@ def generar_guion(tema=None, max_intentos=3, corpus=None):
             raise GuionGenError(f"Ningún proveedor generó un guion válido: {ultimo_error}")
         dup = dedup.buscar_duplicado(guion, corpus)
         if not dup:
+            guion["modo"] = modo_clave
             return guion
         print(f"[guion_gen] ronda {ronda}: repite tema ({dup[1]}), regenerando", file=sys.stderr)
         extra_prohibidos.append(guion["titulo"])
