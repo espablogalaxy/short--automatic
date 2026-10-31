@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T11:31:49.288912+00:00",
+ "actualizado": "2026-10-31T11:04:56.034765+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -507,6 +507,10 @@
     [
      "2026-10-30",
      45
+    ],
+    [
+     "2026-10-31",
+     45
     ]
    ]
   },
@@ -533,6 +537,10 @@
     ],
     [
      "2026-10-30",
+     636
+    ],
+    [
+     "2026-10-31",
      636
     ]
    ]
@@ -567,7 +575,7 @@
   "3HVhfcw2YvU": {
    "titulo": "¿Podrías bucear 220 m bajo el Río Congo?",
    "subida": "2026-10-26T12:00:42+00:00",
-   "vistas": 55,
+   "vistas": 57,
    "historial": [
     [
      "2026-10-27",
@@ -584,6 +592,10 @@
     [
      "2026-10-30",
      55
+    ],
+    [
+     "2026-10-31",
+     57
     ]
    ]
   },
@@ -602,6 +614,10 @@
     ],
     [
      "2026-10-30",
+     15
+    ],
+    [
+     "2026-10-31",
      15
     ]
    ]
@@ -622,6 +638,10 @@
     [
      "2026-10-30",
      61
+    ],
+    [
+     "2026-10-31",
+     61
     ]
    ]
   },
@@ -641,13 +661,17 @@
     [
      "2026-10-30",
      39
+    ],
+    [
+     "2026-10-31",
+     39
     ]
    ]
   },
   "PYCNWUoVBvU": {
    "titulo": "¿Por qué el glaciar Thwaites subirá 65 cm el mar?",
    "subida": "2026-10-28T22:06:57+00:00",
-   "vistas": 27,
+   "vistas": 33,
    "historial": [
     [
      "2026-10-29",
@@ -656,6 +680,10 @@
     [
      "2026-10-30",
      27
+    ],
+    [
+     "2026-10-31",
+     33
     ]
    ]
   },
@@ -671,13 +699,17 @@
     [
      "2026-10-30",
      31
+    ],
+    [
+     "2026-10-31",
+     31
     ]
    ]
   },
   "-1D5_5BdnGA": {
    "titulo": "¿Qué volcán cubrió 5 000 km² de lava en 1783?",
    "subida": "2026-10-28T11:56:06+00:00",
-   "vistas": 13,
+   "vistas": 16,
    "historial": [
     [
      "2026-10-29",
@@ -686,39 +718,88 @@
     [
      "2026-10-30",
      13
+    ],
+    [
+     "2026-10-31",
+     16
     ]
    ]
   },
   "V5Spzaw9IaY": {
    "titulo": "¿Por qué esta lava negra arde a 510 °C?",
    "subida": "2026-10-29T22:20:26+00:00",
-   "vistas": 30,
+   "vistas": 128,
    "historial": [
     [
      "2026-10-30",
      30
+    ],
+    [
+     "2026-10-31",
+     128
     ]
    ]
   },
   "yDljrNzWq4k": {
    "titulo": "¿Sobrevivirías a 80 megatones en Popigai?",
    "subida": "2026-10-29T15:59:42+00:00",
-   "vistas": 74,
+   "vistas": 136,
    "historial": [
     [
      "2026-10-30",
      74
+    ],
+    [
+     "2026-10-31",
+     136
     ]
    ]
   },
   "xB4uphxalyk": {
    "titulo": "¿Qué viento a 408 km/h arrancaría tu coche?",
    "subida": "2026-10-29T12:04:07+00:00",
-   "vistas": 39,
+   "vistas": 62,
    "historial": [
     [
      "2026-10-30",
      39
+    ],
+    [
+     "2026-10-31",
+     62
+    ]
+   ]
+  },
+  "YZJTkVmgdj0": {
+   "titulo": "¿Qué lugar lleva 2 000 años sin lluvia?",
+   "subida": "2026-10-30T21:53:35+00:00",
+   "vistas": 996,
+   "historial": [
+    [
+     "2026-10-31",
+     996
+    ]
+   ]
+  },
+  "dOsJz_fXafg": {
+   "titulo": "¿Un granizo de 1 kilo mató a 92 personas?",
+   "subida": "2026-10-30T15:45:22+00:00",
+   "vistas": 20,
+   "historial": [
+    [
+     "2026-10-31",
+     20
+    ]
+   ]
+  },
+  "G06EYOlIyeI": {
+   "titulo": "¿Una explosión de diez megatones creó el cráter de Arizona?",
+   "subida": "2026-10-30T11:57:43+00:00",
+   "vistas": 97,
+   "historial": [
+    [
+     "2026-10-31",
+     97
     ]
    ]
   }
