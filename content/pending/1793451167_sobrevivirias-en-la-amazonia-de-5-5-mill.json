@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Sobrevivirías en la Amazonía de 5,5 millones km²?",
+  "descripcion": "La Amazonía cubre 5,5 millones km², igual a once Españas, y su río lleva 209 000 m³/s, ¡una fuerza imparable! ¿Te atreverías a entrar? #shorts #curiosidades #planeta #Amazonía #selva #ríoAmazonas",
+  "tags": [
+    "Amazonía",
+    "selva más grande",
+    "río Amazonas",
+    "cifras Amazonía",
+    "biodiversidad",
+    "geografía",
+    "comparación tamaño",
+    "España",
+    "registros naturales",
+    "ecosistema"
+  ],
+  "escenas": [
+    {
+      "texto": "Un bosque tan denso que asfixia al paso",
+      "prompt_imagen": "A dense tropical rainforest with thick canopy, low visibility, mist, dramatic lighting, hyperrealistic photography"
+    },
+    {
+      "texto": "Es la Amazonía, cubriendo 5,5 millones km²",
+      "prompt_imagen": "Aerial view of the Amazon rainforest spanning vast area, showing endless green canopy, satellite perspective, hyperrealistic"
+    },
+    {
+      "texto": "Cae sobre once Españas completas, sin pausa",
+      "prompt_imagen": "Map overlay showing Amazon rainforest area equivalent to eleven outlines of Spain, bright colors, realistic map style"
+    },
+    {
+      "texto": "Alberga 10 % de especies y 30 % insectos",
+      "prompt_imagen": "Close-up of diverse wildlife in Amazon: colorful birds, mammals, many insects on foliage, vibrant, hyperrealistic"
+    },
+    {
+      "texto": "Su río descarga 209 000 m³/s constantemente",
+      "prompt_imagen": "Aerial view of the Amazon River with massive water flow, swirling currents, bright blue water, hyperrealistic"
+    },
+    {
+      "texto": "Eso equivale a 800 000 piscinas olímpicas",
+      "prompt_imagen": "Graphic comparison visualizing Amazon River flow as 800,000 filled Olympic swimming pools, realistic water textures"
+    },
+    {
+      "texto": "Un kilómetro arrastra cualquier barco sin piedad",
+      "prompt_imagen": "Powerful river current dragging a small boat, high-speed water splash, dramatic atmosphere, hyperrealistic"
+    },
+    {
+      "texto": "¿Sobrevivirías en ese bosque asfixiante y mortal?",
+      "prompt_imagen": "Dense rainforest with foreboding atmosphere, sunlight barely piercing, inviting viewer to imagine survival, hyperrealistic"
+    }
+  ]
+}
