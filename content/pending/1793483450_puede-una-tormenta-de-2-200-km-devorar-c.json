@@ -1,0 +1,48 @@
+{
+  "titulo": "¿Puede una tormenta de 2 200 km devorar continentes?",
+  "descripcion": "El Typhoon Tip de 1979, la tormenta más grande jamás registrada, alcanzó 2 200 km de diámetro y 870 hPa de presión mínima. ¿Te atreverías a vivir bajo su sombra? #shorts #curiosidades #planeta #typhoon #ciclón #satélite",
+  "tags": [
+    "Typhoon Tip",
+    "ciclón más grande",
+    "presión mínima",
+    "vientos 306 km/h",
+    "satélites",
+    "tormenta",
+    "historia meteorología",
+    "1979"
+  ],
+  "escenas": [
+    {
+      "texto": "Una tormenta capaz de devorar continentes",
+      "prompt_imagen": "Vista satelital de una gigantesca tormenta tropical sobre el océano Pacífico, nubes densas en forma de espiral, colores oscuros y claros, estilo foto hiperrealista"
+    },
+    {
+      "texto": "Typhoon Tip, 1979, presión 870 hPa",
+      "prompt_imagen": "Imagen satelital del Typhoon Tip en 1979, con etiqueta que muestra presión 870 hPa, vista de nubes del ojo"
+    },
+    {
+      "texto": "Su diámetro llegó a 2 200 km",
+      "prompt_imagen": "Mapa satelital resaltando el diámetro de 2 200 km del Typhoon Tip, con escala visual"
+    },
+    {
+      "texto": "Más grande que Europa occidental",
+      "prompt_imagen": "Comparación visual satelital mostrando la tormenta Typhoon Tip superponiendo contorno de Europa occidental"
+    },
+    {
+      "texto": "Vientos 306 km/h, devastación total",
+      "prompt_imagen": "Fotografía satelital del Typhoon Tip con flechas indicando vientos de 306 km/h, colores intensos"
+    },
+    {
+      "texto": "Si tocara tierra, arrasaría ciudades",
+      "prompt_imagen": "Ilustración satelital de la trayectoria del Typhoon Tip acercándose a costa, con silueta de ciudades bajo amenaza"
+    },
+    {
+      "texto": "Los satélites vigilan realmente cada ciclón",
+      "prompt_imagen": "Satélite en órbita observando la Tierra, resaltando monitorización de ciclones, pantalla de datos"
+    },
+    {
+      "texto": "¿Una tormenta capaz de devorar continentes?",
+      "prompt_imagen": "Repetir vista inicial de la gigantesca tormenta, enfoque en nubes, cerrando círculo"
+    }
+  ]
+}

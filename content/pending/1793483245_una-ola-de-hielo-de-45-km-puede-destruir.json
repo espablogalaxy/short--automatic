@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Una ola de hielo de 45 km³ puede destruir pueblos?",
+  "descripcion": "En 2010, la erupción del volcán Grímsvötn fundió 2,5 km³ de hielo, provocando una inundación de 45 km³ que arrasó 10 km de costa en minutos. ¿Te atreverías a vivir cerca? #shorts #curiosidades #planeta #glaciares #iceflood #Islandia #jökulhlaup",
+  "tags": [
+    "Grímsvötn",
+    "jökulhlaup",
+    "glacial outburst flood",
+    "Iceland",
+    "2010 eruption",
+    "subglacial lake",
+    "ice melt",
+    "flood speed",
+    "coastal destruction",
+    "volcanic eruption"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Una ola de hielo puede destruir pueblos?",
+      "prompt_imagen": "Coastal village in Iceland, massive icy wave approaching, dark stormy sky, dramatic lighting, hyperrealistic photography"
+    },
+    {
+      "texto": "El lago subglacial Grímsvötn, Islandia gigante",
+      "prompt_imagen": "Aerial view of the Grímsvötn subglacial lake beneath the Vatnajökull ice cap, Iceland, blue water under thick ice, hyperrealistic photography"
+    },
+    {
+      "texto": "2010 fundió 2,5 km³ de hielo",
+      "prompt_imagen": "Eruption of Grímsvötn volcano in 2010, lava melting massive ice, ash plume, bright orange lava against white glacier, hyperrealistic photography"
+    },
+    {
+      "texto": "Generó una inundación de 45 km³",
+      "prompt_imagen": "Huge flood of meltwater spilling from the glacier into a river valley, turquoise surge covering landscape, hyperrealistic photography"
+    },
+    {
+      "texto": "El agua corrió a 50 km/h",
+      "prompt_imagen": "Fast‑flowing glacial meltwater rushing down a steep valley, blurred water motion, dramatic clouds, hyperrealistic photography"
+    },
+    {
+      "texto": "Arrasó 10 km de costa",
+      "prompt_imagen": "Coastal stretch of Iceland devastated by flood, water covering ten kilometres of shoreline, wrecked boats and debris, hyperrealistic photography"
+    },
+    {
+      "texto": "Este jökulhlaup mata a cientos",
+      "prompt_imagen": "Destroyed houses and scattered debris after a glacial outburst flood, somber scene with broken trees, hyperrealistic photography"
+    },
+    {
+      "texto": "¿Una ola de hielo puede destruir pueblos?",
+      "prompt_imagen": "Coastal village in Iceland, massive icy wave about to hit, dark sky, dramatic lighting, hyperrealistic photography"
+    }
+  ]
+}

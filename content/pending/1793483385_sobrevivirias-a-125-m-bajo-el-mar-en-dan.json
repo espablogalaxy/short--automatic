@@ -1,0 +1,51 @@
+{
+  "titulo": "¿Sobrevivirías a 125 m bajo el mar en Danakil?",
+  "descripcion": "La Depresión de Danakil, en la zona de rift entre África y Arabia, está 125 m bajo el nivel del mar y sus lagos de ácido con pH 0,5 pueden quemar la piel en segundos. ¿Te atreverías a visitarla? #shorts #curiosidades #planeta #Danakil #geología #placastectónicas #desierto",
+  "tags": [
+    "Danakil",
+    "Depresión de Danakil",
+    "Ethiopia",
+    "placas tectónicas",
+    "rift africano",
+    "pH ácido",
+    "temperatura extrema",
+    "desierto más caliente",
+    "geología",
+    "lugares extremos",
+    "viajes peligrosos"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Te atreverías a pisar 125 m bajo?",
+      "prompt_imagen": "Vista aérea del paisaje desértico del Danakil, Etiopía, con colores rojizos y grietas, indicando una zona 125 metros bajo el nivel del mar, fotografía hiperrealista estilo reportaje"
+    },
+    {
+      "texto": "Es la Depresión de Danakil, Etiopía.",
+      "prompt_imagen": "Primer plano del lecho del desierto de Danakil, suelo de sal y azufre bajo un cielo claro, fotografía hiperrealista estilo reportaje"
+    },
+    {
+      "texto": "Un cruce de placas: África y Arabia.",
+      "prompt_imagen": "Mapa tectónico ilustrado mostrando la falla entre la placa africana y la placa arábiga bajo la Depresión de Danakil, estilo fotográfico realista"
+    },
+    {
+      "texto": "Temperaturas superan los cuarenta y ocho grados.",
+      "prompt_imagen": "Termómetro digital marcando 48 °C sobre arena rojiza del desierto, con sol intenso, fotografía hiperrealista"
+    },
+    {
+      "texto": "Los lagos de ácido alcanzan pH 0,5.",
+      "prompt_imagen": "Piscina de agua ácida verde brillante en Danakil, con vapor humeante y señal que indica pH 0,5, fotografía hiperrealista"
+    },
+    {
+      "texto": "Un solo suspiro puede quemar la piel.",
+      "prompt_imagen": "Primer plano de piel humana enrojecida y quemada tras inhalar vapor ácido, fotografía hiperrealista"
+    },
+    {
+      "texto": "Los exploradores usan trajes resistentes, no ropa.",
+      "prompt_imagen": "Explorador con traje de protección completo caminando entre cráteres de azufre en Danakil, fotografía hiperrealista"
+    },
+    {
+      "texto": "¿Te atreverías a pisar 125 m bajo?",
+      "prompt_imagen": "Misma vista aérea del Danakil al atardecer, resaltando la profundidad bajo el nivel del mar, fotografía hiperrealista estilo reportaje"
+    }
+  ]
+}

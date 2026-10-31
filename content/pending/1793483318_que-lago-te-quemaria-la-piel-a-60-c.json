@@ -1,0 +1,48 @@
+{
+  "titulo": "¿Qué lago te quemaría la piel a 60 °C?",
+  "descripcion": "El lago Natron, en Tanzania, tiene agua que supera los 60 °C y un pH de 10,5, suficiente para quemar la piel y calcificar animales. ¿Te atreverías a acercarte? #shorts #curiosidades #planeta #LakeNatron #Tanzania #peligro",
+  "tags": [
+    "Lake Natron",
+    "Tanzania",
+    "lago alcalino",
+    "pH 10.5",
+    "60 grados",
+    "lago que quema",
+    "flamencos calcificados",
+    "geología extrema"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué lago te quemaría la piel?",
+      "prompt_imagen": "Vista aérea del lago Natron en Tanzania, aguas rojizas con vapor, entorno desértico bajo sol intenso, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Es el lago Natron, en Tanzania.",
+      "prompt_imagen": "Lago Natron, Tanzania, panorámica del lago rodeado de sabana seca, cielo azul brillante, estilo foto realista"
+    },
+    {
+      "texto": "Su agua caliente alcanza sesenta grados.",
+      "prompt_imagen": "Superficie del lago Natron con vapor visible, indicando agua caliente, tonos rojizos y anaranjados, fotografía hiperrealista"
+    },
+    {
+      "texto": "pH diez punto cinco, extremadamente alcalino.",
+      "prompt_imagen": "Primer plano del agua del lago Natron, color turquesa rojizo, sin vida visible, estilo foto documental"
+    },
+    {
+      "texto": "El calor intenso derrite la carne humana.",
+      "prompt_imagen": "Manos acercándose al agua humeante del lago Natron, con efecto visual de quemadura simulada en la piel, foto realista"
+    },
+    {
+      "texto": "Los flamencos quedan calcificados allí.",
+      "prompt_imagen": "Flamencos muertos y calcificados en la orilla del lago Natron, cuerpos blancos como piedra, paisaje árido, foto hiperrealista"
+    },
+    {
+      "texto": "Solo los más resistentes logran sobrevivir.",
+      "prompt_imagen": "Camello caminando alrededor del lago Natron, simbolizando resistencia en entorno hostil, fondo de aguas rojizas, foto realista"
+    },
+    {
+      "texto": "¿Qué lago te quemaría la piel?",
+      "prompt_imagen": "Vista aérea del lago Natron al atardecer, aguas rojizas con vapor, paisaje desértico, estilo fotografía hiperrealista"
+    }
+  ]
+}
