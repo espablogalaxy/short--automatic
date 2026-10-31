@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Te asfixiaría vivir a 5 100 m en La Rinconada?",
+  "descripcion": "La Rinconada, Perú, es el asentamiento permanente más alto del planeta, a 5 100 m sobre el nivel del mar. Sus habitantes luchan contra la escasez de oxígeno y temperaturas bajo cero. ¿Te atreverías a vivir allí? #shorts #curiosidades #planeta #LaRinconada #altitud #Perú",
+  "tags": [
+    "La Rinconada",
+    "altitud extrema",
+    "ciudad más alta",
+    "Perú",
+    "oxígeno",
+    "minería",
+    "habitantes",
+    "5 100 metros",
+    "geografía",
+    "extremo"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Te asfixiaría vivir a 5 100 m?",
+      "prompt_imagen": "Fotografía hiperrealista de la cordillera de los Andes peruanos vista desde el aire, con nubes bajas y atmósfera tenue que sugiere gran altitud"
+    },
+    {
+      "texto": "En Perú está La Rinconada.",
+      "prompt_imagen": "Vista panorámica del pueblo de La Rinconada, con casas de adobe y minas al fondo, bajo un cielo claro"
+    },
+    {
+      "texto": "Su altitud oficial: cinco mil cien metros.",
+      "prompt_imagen": "Panorama al amanecer de La Rinconada, mostrando la ciudad rodeada de montañas nevadas y la inmensidad del cielo"
+    },
+    {
+      "texto": "Allí el oxígeno es un 50 % menos.",
+      "prompt_imagen": "Minero con mascarilla respiratoria trabajando en una mina, con cielo azul pálido y aire tenue"
+    },
+    {
+      "texto": "Los mineros pierden el conocimiento rápido.",
+      "prompt_imagen": "Minero dentro de una galería subterránea, con expresión de cansancio y luz tenue que resalta la dificultad del entorno"
+    },
+    {
+      "texto": "Aún así, viven más de 30 000 personas.",
+      "prompt_imagen": "Multitud de personas caminando por una calle empedrada de La Rinconada, mostrando la densidad de población"
+    },
+    {
+      "texto": "El clima rara vez supera diez grados.",
+      "prompt_imagen": "Calle de La Rinconada cubierta de nieve ligera, con habitantes abrigados bajo un cielo gris"
+    },
+    {
+      "texto": "¿Te asfixiaría vivir a 5 100 m?",
+      "prompt_imagen": "Fotografía hiperrealista de la cordillera de los Andes peruanos vista desde el aire, repitiendo la sensación de gran altura"
+    }
+  ]
+}
