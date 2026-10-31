@@ -4,6 +4,11 @@ Lee las vistas de los últimos vídeos desde el feed RSS público del canal (sin
 autenticación, funciona desde GitHub Actions; devuelve los 15 más recientes, así
 que se ejecuta a diario y acumula el histórico en content/metricas.json).
 guion_gen.py inyecta en cada prompt los títulos que MEJOR y PEOR rinden.
+
+Además, pesos_modo() cruza las vistas reales con el "modo" (lugar/fenómeno/récord)
+que guardó cada guion en content/done/*.json, para que guion_gen.py elija el
+siguiente ángulo ponderado por lo que de verdad funciona en este canal, en vez
+de una rotación fija.
 """
 import json
 import os
@@ -12,12 +17,15 @@ import statistics
 import html
 import time
 from datetime import datetime, timezone
+from pathlib import Path
 
 import requests
 
 RUTA = os.path.join("content", "metricas.json")
+DIR_DONE = Path("content/done")
 CHANNEL_ID = os.environ.get("YT_CHANNEL_ID", "UCep5zLNn_tccIjquFD4aeCQ")
 UMBRAL_EXITO = 500
+MODOS = ("lugar", "fenomeno", "record")
 
 
 def cargar():
@@ -104,8 +112,51 @@ def bloque_prompt(n_ganadores=6, n_perdedores=5, minimo=10):
     return "\n".join(lin)
 
 
-def informe():
+def _modo_por_titulo():
+    """Mapa titulo->modo a partir de los guiones ya publicados en content/done/
+    (cada guion guarda su "modo" desde que guion_gen.py lo añadió). Los
+    publicados antes de ese cambio simplemente no aparecen en el mapa."""
+    mapa = {}
+    if not DIR_DONE.exists():
+        return mapa
+    for ruta in DIR_DONE.glob("*.json"):
+        try:
+            g = json.loads(ruta.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        modo = g.get("modo")
+        titulo = g.get("titulo")
+        if modo and titulo:
+            mapa[titulo] = modo
+    return mapa
+
+
+def pesos_modo(minimo_por_modo=5, piso=0.12):
+    """Pondera cada modo (lugar/fenómeno/récord) por su mediana de vistas reales,
+    para que guion_gen.py elija el siguiente ángulo con más probabilidad cuanto
+    mejor rinda, en vez de una rotación fija. Devuelve {} (sin cambios, se usa la
+    rotación fría) mientras no haya al menos `minimo_por_modo` shorts maduros de
+    CADA modo con el campo "modo" ya guardado. `piso` evita que un modo se quede
+    a 0% de probabilidad (mantiene algo de exploración)."""
+    mapa_modos = _modo_por_titulo()
+    if not mapa_modos:
+        return {}
     maduros = [v for v in cargar().get("videos", {}).values() if _edad_dias(v) >= 2]
+    agrupado = {m: [] for m in MODOS}
+    for v in maduros:
+        modo = mapa_modos.get(v["titulo"])
+        if modo in agrupado:
+            agrupado[modo].append(v["vistas"])
+    if any(len(agrupado[m]) < minimo_por_modo for m in MODOS):
+        return {}
+    medianas = {m: statistics.median(agrupado[m]) for m in MODOS}
+    total = sum(medianas.values()) or 1
+    return {m: max(medianas[m] / total, piso) for m in MODOS}
+
+
+def informe():
+    datos_cargados = cargar()
+    maduros = [v for v in datos_cargados.get("videos", {}).values() if _edad_dias(v) >= 2]
     if not maduros:
         print("Sin datos todavía")
         return
@@ -117,6 +168,13 @@ def informe():
         por_hora.setdefault(h, []).append(v["vistas"])
     for h, l in sorted(por_hora.items()):
         print(f"  hora {h} UTC: n={len(l)} mediana={statistics.median(l):.0f}")
+    mapa_modos = _modo_por_titulo()
+    if mapa_modos:
+        print("Por modo (lugar/fenomeno/record):")
+        for m in MODOS:
+            vs_modo = [v["vistas"] for v in maduros if mapa_modos.get(v["titulo"]) == m]
+            if vs_modo:
+                print(f"  {m}: n={len(vs_modo)} mediana={statistics.median(vs_modo):.0f}")
 
 
 if __name__ == "__main__":
