@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Cómo desaparece una pared de hielo a 3,5 m al día?",
+  "descripcion": "El glaciar Jakobshavn en Groenlandia está perdiendo 3,5 m de hielo cada día, acelerando la subida del nivel del mar. ¿Te atreverías a observarlo desaparecer? #shorts #curiosidades #planeta #glaciar #greenland #seaLevelRise",
+  "tags": [
+    "Jakobshavn Glacier",
+    "Greenland",
+    "glacier melting",
+    "sea level rise",
+    "ice loss",
+    "climate change",
+    "fastest glacier",
+    "3.5 meters per day",
+    "ice cliff",
+    "global warming"
+  ],
+  "escenas": [
+    {
+      "texto": "Una pared de hielo pierde 3,5 m diarios",
+      "prompt_imagen": "massive vertical ice cliff in Greenland, bright blue ice, close-up, dramatic lighting, hyperrealistic photography"
+    },
+    {
+      "texto": "Es el glaciar Jakobshavn, en Groenlandia",
+      "prompt_imagen": "aerial view of Jakobshavn Glacier, West Greenland, icy blue surface, rugged terrain, hyperrealistic photography",
+      "lugar_real": "Jakobshavn Glacier"
+    },
+    {
+      "texto": "Fluye 17 km al año, ¡rápido!",
+      "prompt_imagen": "glacier surface with motion blur indicating fast flow, arrows showing direction, icy landscape, hyperrealistic photography"
+    },
+    {
+      "texto": "En 2019 perdió 3,5 m diarios",
+      "prompt_imagen": "summer melt on glacier, close-up of ice surface with water runoff and melt ponds, hyperrealistic photography"
+    },
+    {
+      "texto": "Ese derretimiento eleva el nivel del mar",
+      "prompt_imagen": "global sea level rising illustration, world map with water level overlay highlighting coastlines, hyperrealistic photography"
+    },
+    {
+      "texto": "Aproximadamente 0,5 mm al día a nivel global",
+      "prompt_imagen": "digital meter showing 0.5 mm per day sea level rise, graphical overlay, hyperrealistic photography"
+    },
+    {
+      "texto": "Si continúa, en una década sumará 5 cm",
+      "prompt_imagen": "timeline of ten years, sea level bar increasing 5 cm, shrinking iceberg silhouette, hyperrealistic photography"
+    },
+    {
+      "texto": "¿Podrías ver desaparecer esa pared de hielo?",
+      "prompt_imagen": "same massive ice cliff fading gradually, dramatic lighting, hyperrealistic photography"
+    }
+  ],
+  "modo": "lugar"
+}
