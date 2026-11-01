@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T11:04:56.034765+00:00",
+ "actualizado": "2026-11-01T11:58:01.346602+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -619,6 +619,10 @@
     [
      "2026-10-31",
      15
+    ],
+    [
+     "2026-11-01",
+     15
     ]
    ]
   },
@@ -642,13 +646,17 @@
     [
      "2026-10-31",
      61
+    ],
+    [
+     "2026-11-01",
+     61
     ]
    ]
   },
   "Pv8ifg0onQM": {
    "titulo": "¿Por qué 1.500 personas viven bajo tierra?",
    "subida": "2026-10-27T11:22:20+00:00",
-   "vistas": 39,
+   "vistas": 40,
    "historial": [
     [
      "2026-10-28",
@@ -665,6 +673,10 @@
     [
      "2026-10-31",
      39
+    ],
+    [
+     "2026-11-01",
+     40
     ]
    ]
   },
@@ -683,6 +695,10 @@
     ],
     [
      "2026-10-31",
+     33
+    ],
+    [
+     "2026-11-01",
      33
     ]
    ]
@@ -703,6 +719,10 @@
     [
      "2026-10-31",
      31
+    ],
+    [
+     "2026-11-01",
+     31
     ]
    ]
   },
@@ -722,13 +742,17 @@
     [
      "2026-10-31",
      16
+    ],
+    [
+     "2026-11-01",
+     16
     ]
    ]
   },
   "V5Spzaw9IaY": {
    "titulo": "¿Por qué esta lava negra arde a 510 °C?",
    "subida": "2026-10-29T22:20:26+00:00",
-   "vistas": 128,
+   "vistas": 172,
    "historial": [
     [
      "2026-10-30",
@@ -737,13 +761,17 @@
     [
      "2026-10-31",
      128
+    ],
+    [
+     "2026-11-01",
+     172
     ]
    ]
   },
   "yDljrNzWq4k": {
    "titulo": "¿Sobrevivirías a 80 megatones en Popigai?",
    "subida": "2026-10-29T15:59:42+00:00",
-   "vistas": 136,
+   "vistas": 146,
    "historial": [
     [
      "2026-10-30",
@@ -752,13 +780,17 @@
     [
      "2026-10-31",
      136
+    ],
+    [
+     "2026-11-01",
+     146
     ]
    ]
   },
   "xB4uphxalyk": {
    "titulo": "¿Qué viento a 408 km/h arrancaría tu coche?",
    "subida": "2026-10-29T12:04:07+00:00",
-   "vistas": 62,
+   "vistas": 67,
    "historial": [
     [
      "2026-10-30",
@@ -767,39 +799,88 @@
     [
      "2026-10-31",
      62
+    ],
+    [
+     "2026-11-01",
+     67
     ]
    ]
   },
   "YZJTkVmgdj0": {
    "titulo": "¿Qué lugar lleva 2 000 años sin lluvia?",
    "subida": "2026-10-30T21:53:35+00:00",
-   "vistas": 996,
+   "vistas": 1005,
    "historial": [
     [
      "2026-10-31",
      996
+    ],
+    [
+     "2026-11-01",
+     1005
     ]
    ]
   },
   "dOsJz_fXafg": {
    "titulo": "¿Un granizo de 1 kilo mató a 92 personas?",
    "subida": "2026-10-30T15:45:22+00:00",
-   "vistas": 20,
+   "vistas": 30,
    "historial": [
     [
      "2026-10-31",
      20
+    ],
+    [
+     "2026-11-01",
+     30
     ]
    ]
   },
   "G06EYOlIyeI": {
    "titulo": "¿Una explosión de diez megatones creó el cráter de Arizona?",
    "subida": "2026-10-30T11:57:43+00:00",
-   "vistas": 97,
+   "vistas": 162,
    "historial": [
     [
      "2026-10-31",
      97
+    ],
+    [
+     "2026-11-01",
+     162
+    ]
+   ]
+  },
+  "S3A9iYFzQJk": {
+   "titulo": "¿Qué impacto enterró 3 000 millones de toneladas de níquel?",
+   "subida": "2026-10-31T20:54:07+00:00",
+   "vistas": 0,
+   "historial": [
+    [
+     "2026-11-01",
+     0
+    ]
+   ]
+  },
+  "Z5lv1D1MFm8": {
+   "titulo": "¿5 500 metros bajo el agua? El cañón más profundo del planeta",
+   "subida": "2026-10-31T15:13:34+00:00",
+   "vistas": 57,
+   "historial": [
+    [
+     "2026-11-01",
+     57
+    ]
+   ]
+  },
+  "v0pxf0AmGM0": {
+   "titulo": "¿El lago de lava que arde 110 °C desde 1906?",
+   "subida": "2026-10-31T11:30:43+00:00",
+   "vistas": 26,
+   "historial": [
+    [
+     "2026-11-01",
+     26
     ]
    ]
   }
