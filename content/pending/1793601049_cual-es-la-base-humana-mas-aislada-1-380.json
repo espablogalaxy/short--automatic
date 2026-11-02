@@ -1,0 +1,58 @@
+{
+  "titulo": "¿Cuál es la base humana más aislada (1 380 km)?",
+  "descripcion": "La Base Amundsen‑Scott en el Polo Sur está a 1 380 km del asentamiento humano más cercano. Descubre por qué vivir allí es un reto extremo. ¿Te atreverías a pasar meses sin señal? #shorts #curiosidades #planeta #Antártida #Aislamiento #Ciencia",
+  "tags": [
+    "Amundsen-Scott",
+    "Polo Sur",
+    "base aislada",
+    "Antártida",
+    "1 380 km",
+    "aislamiento extremo",
+    "estación de investigación",
+    "condiciones extremas",
+    "ciencia polar"
+  ],
+  "escenas": [
+    {
+      "texto": "Sin internet ni ayuda: ¿dónde?",
+      "prompt_imagen": "Vasto paisaje helado del Polo Sur, nieve infinita bajo un cielo gris, sin estructuras visibles, estilo fotografía hiperrealista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Una comunidad de científicos vive allí",
+      "prompt_imagen": "Científicos con trajes de invierno trabajando dentro de la Base Amundsen‑Scott South Pole Station, interior iluminado, estilo fotografía hiperrealista",
+      "lugar_real": "Amundsen-Scott South Pole Station"
+    },
+    {
+      "texto": "A 1 380 km del vecino más cercano",
+      "prompt_imagen": "Mapa estilizado que muestra una línea de 1 380 km entre la Base del Polo Sur y la Estación McMurdo, estilo fotografía hiperrealista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "El punto habitado más aislado del planeta",
+      "prompt_imagen": "Placa de señal de la Base Amundsen‑Scott bajo una aurora nocturna, nieve brillante, estilo fotografía hiperrealista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Eso es más del doble de Madrid‑Barcelona",
+      "prompt_imagen": "Comparación visual con dos líneas: una de 1 380 km y otra de 620 km (Madrid‑Barcelona), superpuestas sobre un mapa de Europa, estilo fotografía hiperrealista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Los inviernos duran cuatro meses sin luz",
+      "prompt_imagen": "Oscuridad total sobre la Base del Polo Sur durante el invierno polar, cielo estrellado, estilo fotografía hiperrealista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Solo aviones y satélites rompen el silencio",
+      "prompt_imagen": "Avión de carga y satélite en órbita sobre la Antártida, con la Base visible en el fondo, estilo fotografía hiperrealista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "¿Sin señal por meses? Aquí está la respuesta",
+      "prompt_imagen": "Vista panorámica al amanecer de la Base Amundsen‑Scott, señal de radio parpadeando, estilo fotografía hiperrealista",
+      "lugar_real": ""
+    }
+  ],
+  "modo": "record"
+}

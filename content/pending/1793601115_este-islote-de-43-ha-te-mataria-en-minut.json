@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Este islote de 43 ha te mataría en minutos?",
+  "descripcion": "La Ilha da Queimada Grande, a solo 200 m de la costa brasileña, alberga miles de víboras lancehead con un veneno 50 veces más letal que el de una cobra. ¿Te atreverías a pisar ese islote? #shorts #curiosidades #planeta #IslaQueimada #veneno #serpientes",
+  "tags": [
+    "Queimada Grande",
+    "isla aislada",
+    "lancehead",
+    "veneno mortal",
+    "Brasil",
+    "serpientes peligrosas",
+    "prohibido",
+    "200 metros",
+    "43 hectáreas",
+    "isla serpiente"
+  ],
+  "escenas": [
+    {
+      "texto": "Este islote realmente te mataría en minutos",
+      "prompt_imagen": "Aerial view of a small barren island with steep cliffs, dramatic lighting, showing its isolation, hyperrealistic photograph"
+    },
+    {
+      "texto": "A solo 200 metros de la costa",
+      "prompt_imagen": "Brazilian coastline with a tiny island 200 meters offshore, clear turquoise water, hyperrealistic photograph"
+    },
+    {
+      "texto": "Se llama Ilha da Queimada Grande",
+      "prompt_imagen": "Ilha da Queimada Grande, Brazil, dense vegetation and rocky shoreline, hyperrealistic photograph",
+      "lugar_real": "Ilha da Queimada Grande"
+    },
+    {
+      "texto": "Solo vive la víbora lancehead, mil serpientes",
+      "prompt_imagen": "Close-up of golden lancehead vipers crawling over rocky ground on Queimada Grande, hyperrealistic photograph"
+    },
+    {
+      "texto": "Veneno 50 veces más mortal que cobra",
+      "prompt_imagen": "Laboratory vial labeled 'Lancehead venom' with a warning sign showing 50x potency, hyperrealistic photograph"
+    },
+    {
+      "texto": "Una mordedura mortal mata en quince minutos",
+      "prompt_imagen": "Timer counting down fifteen minutes over a bitten hand, dramatic lighting, hyperrealistic photograph"
+    },
+    {
+      "texto": "Prohibida al público desde 1978",
+      "prompt_imagen": "Sign in Portuguese 'Proibido acesso ao público desde 1978' on a fence surrounding the island, hyperrealistic photograph"
+    },
+    {
+      "texto": "¿Te atreverías a pisar ese islote?",
+      "prompt_imagen": "A single human footprint on the sandy shore of Queimada Grande, dramatic perspective, hyperrealistic photograph"
+    }
+  ],
+  "modo": "fenomeno"
+}
