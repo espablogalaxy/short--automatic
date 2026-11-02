@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Sobrevivirías a –89,2 °C, el frío más mortal?",
+  "descripcion": "La Estación Vostok registró -89,2 °C, la temperatura más baja jamás medida en la Tierra. Ese frío congelaría tu sangre en segundos. ¿Te atreverías a pasar una hora allí? #shorts #curiosidades #planeta #Vostok #temperatura #Antártida",
+  "tags": [
+    "Vostok Station",
+    "Antarctica",
+    "lowest temperature",
+    "-89.2°C",
+    "extreme cold",
+    "atmospheric phenomenon",
+    "record temperature",
+    "survival",
+    "polar research",
+    "coldest place Earth"
+  ],
+  "escenas": [
+    {
+      "texto": "Este sitio mata en segundos a –89 °C",
+      "prompt_imagen": "Desolado paisaje antártico bajo una tormenta de nieve, termómetro gigante marcando -89 °C, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Es la Estación Vostok, Antártida",
+      "prompt_imagen": "Estación Vostok, base de investigación en la Antártida, edificios cubiertos de nieve, cielo gris, estilo fotografía hiperrealista",
+      "lugar_real": "Vostok Station"
+    },
+    {
+      "texto": "Temperatura mínima registrada: –89,2 °C",
+      "prompt_imagen": "Primer plano de un termómetro científico mostrando -89.2 °C, cristales de escarcha en el vidrio, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Registrada el 21 de julio del 1983",
+      "prompt_imagen": "Gráfico histórico del clima con la fecha 21 de julio del 1983 y la marca -89.2 °C, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "A esa cifra, la sangre se congela",
+      "prompt_imagen": "Tubos de laboratorio con sangre solidificándose en cristales de hielo, vapor frío alrededor, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "El aliento se vuelve hielo al instante",
+      "prompt_imagen": "Aliento humano convirtiéndose en cristales de hielo en el aire frío de la Antártida, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Nadie sobrevive más de un minuto",
+      "prompt_imagen": "Silueta humana desvaneciéndose mientras un cronómetro marca 60 segundos, fondo de nieve y hielo, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "¿Te atreverías a pisar –89 °C?",
+      "prompt_imagen": "Huella en la nieve antártica con un medidor marcando -89 °C, luz tenue, estilo fotografía hiperrealista"
+    }
+  ],
+  "modo": "lugar"
+}
