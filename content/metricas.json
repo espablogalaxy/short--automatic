@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T11:58:01.346602+00:00",
+ "actualizado": "2026-11-02T13:45:17.787817+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -700,6 +700,10 @@
     [
      "2026-11-01",
      33
+    ],
+    [
+     "2026-11-02",
+     33
     ]
    ]
   },
@@ -722,6 +726,10 @@
     ],
     [
      "2026-11-01",
+     31
+    ],
+    [
+     "2026-11-02",
      31
     ]
    ]
@@ -746,6 +754,10 @@
     [
      "2026-11-01",
      16
+    ],
+    [
+     "2026-11-02",
+     16
     ]
    ]
   },
@@ -764,6 +776,10 @@
     ],
     [
      "2026-11-01",
+     172
+    ],
+    [
+     "2026-11-02",
      172
     ]
    ]
@@ -784,13 +800,17 @@
     [
      "2026-11-01",
      146
+    ],
+    [
+     "2026-11-02",
+     146
     ]
    ]
   },
   "xB4uphxalyk": {
    "titulo": "¿Qué viento a 408 km/h arrancaría tu coche?",
    "subida": "2026-10-29T12:04:07+00:00",
-   "vistas": 67,
+   "vistas": 68,
    "historial": [
     [
      "2026-10-30",
@@ -803,13 +823,17 @@
     [
      "2026-11-01",
      67
+    ],
+    [
+     "2026-11-02",
+     68
     ]
    ]
   },
   "YZJTkVmgdj0": {
    "titulo": "¿Qué lugar lleva 2 000 años sin lluvia?",
    "subida": "2026-10-30T21:53:35+00:00",
-   "vistas": 1005,
+   "vistas": 1008,
    "historial": [
     [
      "2026-10-31",
@@ -818,13 +842,17 @@
     [
      "2026-11-01",
      1005
+    ],
+    [
+     "2026-11-02",
+     1008
     ]
    ]
   },
   "dOsJz_fXafg": {
    "titulo": "¿Un granizo de 1 kilo mató a 92 personas?",
    "subida": "2026-10-30T15:45:22+00:00",
-   "vistas": 30,
+   "vistas": 32,
    "historial": [
     [
      "2026-10-31",
@@ -833,13 +861,17 @@
     [
      "2026-11-01",
      30
+    ],
+    [
+     "2026-11-02",
+     32
     ]
    ]
   },
   "G06EYOlIyeI": {
    "titulo": "¿Una explosión de diez megatones creó el cráter de Arizona?",
    "subida": "2026-10-30T11:57:43+00:00",
-   "vistas": 162,
+   "vistas": 163,
    "historial": [
     [
      "2026-10-31",
@@ -848,6 +880,10 @@
     [
      "2026-11-01",
      162
+    ],
+    [
+     "2026-11-02",
+     163
     ]
    ]
   },
@@ -859,28 +895,73 @@
     [
      "2026-11-01",
      0
+    ],
+    [
+     "2026-11-02",
+     0
     ]
    ]
   },
   "Z5lv1D1MFm8": {
    "titulo": "¿5 500 metros bajo el agua? El cañón más profundo del planeta",
    "subida": "2026-10-31T15:13:34+00:00",
-   "vistas": 57,
+   "vistas": 70,
    "historial": [
     [
      "2026-11-01",
      57
+    ],
+    [
+     "2026-11-02",
+     70
     ]
    ]
   },
   "v0pxf0AmGM0": {
    "titulo": "¿El lago de lava que arde 110 °C desde 1906?",
    "subida": "2026-10-31T11:30:43+00:00",
-   "vistas": 26,
+   "vistas": 39,
    "historial": [
     [
      "2026-11-01",
      26
+    ],
+    [
+     "2026-11-02",
+     39
+    ]
+   ]
+  },
+  "gpJ4sF0sb2A": {
+   "titulo": "¿Te quemaría el Río Tinto con pH 2?",
+   "subida": "2026-11-01T21:37:25+00:00",
+   "vistas": 11,
+   "historial": [
+    [
+     "2026-11-02",
+     11
+    ]
+   ]
+  },
+  "57qXj0eIs40": {
+   "titulo": "¿El desierto de Lut llegó a 70,7 °C?",
+   "subida": "2026-11-01T15:55:31+00:00",
+   "vistas": 22,
+   "historial": [
+    [
+     "2026-11-02",
+     22
+    ]
+   ]
+  },
+  "JAn9ZRT60tY": {
+   "titulo": "¿Sobrevivirías a 70,7 °C en el desierto más caliente?",
+   "subida": "2026-11-01T12:28:27+00:00",
+   "vistas": 67,
+   "historial": [
+    [
+     "2026-11-02",
+     67
     ]
    ]
   }
