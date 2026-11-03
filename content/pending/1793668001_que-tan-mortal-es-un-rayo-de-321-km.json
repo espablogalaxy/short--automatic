@@ -1,0 +1,54 @@
+{
+  "titulo": "¿Qué tan mortal es un rayo de 321 km?",
+  "descripcion": "En 2018, Brasil capturó la descarga eléctrica más larga jamás registrada: 321 km en medio de la selva amazónica. ¿Te atreverías a observar un relámpago de esa magnitud? #shorts #curiosidades #planeta #relámpago #Brasil #fenómenos #cielo",
+  "tags": [
+    "rayo",
+    "relámpago",
+    "descarga eléctrica",
+    "Brasil",
+    "Amazonas",
+    "fenómenos atmosféricos",
+    "cielo",
+    "tormenta",
+    "321 km",
+    "registro mundial",
+    "ciencia",
+    "clima"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Una descarga de 321 km te destruiría?",
+      "prompt_imagen": "Fotografía hiperrealista de un rayo gigantesco cruzando un cielo tormentoso, iluminando nubes oscuras, vista desde tierra, atmósfera dramática"
+    },
+    {
+      "texto": "En 2018, Brasil registró el récord.",
+      "prompt_imagen": "Mapa detallado de Brasil con marcador rojo señalando zona de registro de rayo 2018, estilo reportaje, colores vivos"
+    },
+    {
+      "texto": "Un rayo viajó 321 km en el cielo.",
+      "prompt_imagen": "Vista satelital hiperrealista mostrando un rayo de 321 km trazado sobre la selva amazónica, línea brillante sobre tierra verde",
+      "lugar_real": "Amazon Rainforest, Brazil"
+    },
+    {
+      "texto": "Duró apenas medio segundo, ¡casi instantáneo!",
+      "prompt_imagen": "Primer plano de un cronómetro digital marcando 0.48 segundos, con fondo de relámpago en el cielo"
+    },
+    {
+      "texto": "Recorrió la distancia entre dos ciudades.",
+      "prompt_imagen": "Mapa topográfico con dos ciudades brasileñas resaltadas, línea de 321 km entre ellas, estilo informe"
+    },
+    {
+      "texto": "Pudo haber atravesar una zona habitada.",
+      "prompt_imagen": "Pueblo pequeño bajo cielo tormentoso, relámpago acercándose, casas de madera, atmósfera tensa"
+    },
+    {
+      "texto": "Afortunadamente, cayó sobre campo vacío.",
+      "prompt_imagen": "Campo abierto de hierba alta bajo tormenta, rayo impactando el suelo, sin edificaciones a la vista"
+    },
+    {
+      "texto": "¿Te atreverías a observar 321 km de relámpago?",
+      "prompt_imagen": "Persona de espaldas en una colina observando un enorme rayo de 321 km en el horizonte, cielo nocturno"
+    }
+  ],
+  "modo": "lugar"
+}
