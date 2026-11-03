@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué presión aplasta al fondo del lago más profundo?",
+  "descripcion": "Descubre la fuerza que ejerce el lago Baikal a sus 1 642 m de profundidad. ¿Te atreverías a sumergirte allí? #shorts #curiosidades #planeta #LakeBaikal #presión #profundidad",
+  "tags": [
+    "Lake Baikal",
+    "deepest lake",
+    "pressure",
+    "163 atm",
+    "Siberia",
+    "underwater",
+    "extreme depth",
+    "record",
+    "Earth from space",
+    "natural wonder"
+  ],
+  "escenas": [
+    {
+      "texto": "Una inmersión que te aplastaría en segundos",
+      "prompt_imagen": "Vista submarina hiperrealista descendiendo en agua oscura, con medidor de profundidad que muestra 0 a 200 metros"
+    },
+    {
+      "texto": "¿Dónde se oculta ese abismo mortal?",
+      "prompt_imagen": "Imagen satelital de Siberia mostrando la forma alargada del lago Baikal rodeado de montañas nevadas"
+    },
+    {
+      "texto": "En Siberia, el lago Baikal",
+      "prompt_imagen": "Fotografía aérea del lago Baikal, aguas cristalinas azul profundo rodeado de bosques y montañas",
+      "lugar_real": "Lake Baikal"
+    },
+    {
+      "texto": "Mide 1.642 metros, la mayor profundidad",
+      "prompt_imagen": "Sección transversal del lago con línea de profundidad marcada hasta 1.642 metros y escala"
+    },
+    {
+      "texto": "Genera 163 atm, presión aplastante",
+      "prompt_imagen": "Gauge de presión bajo agua marcando 163 atm, fondo rocoso"
+    },
+    {
+      "texto": "Una simple botella explotaría al instante",
+      "prompt_imagen": "Botella de vidrio bajo agua explotando, burbujas y fragmentos"
+    },
+    {
+      "texto": "Nadie ha tocado su fondo con buque",
+      "prompt_imagen": "Submarino de investigación detenido cerca de la superficie, sin alcanzar el fondo"
+    },
+    {
+      "texto": "Esa inmersión te aplastaría, ¿lo harías?",
+      "prompt_imagen": "Silueta de buceador mirando la profundidad del lago, con texto de pregunta flotando"
+    }
+  ],
+  "modo": "lugar"
+}
