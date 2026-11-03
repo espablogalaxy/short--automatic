@@ -1,0 +1,52 @@
+{
+  "titulo": "¡Un temblor bajo el hielo de magnitud 5,5 te enterraría!",
+  "descripcion": "Los icequakes son temblores que ocurren bajo los glaciares y pueden crear grietas mortales. ¿Te atreverías a cruzar un glaciar tras un temblor? #shorts #curiosidades #planeta #icequake #Antarctica #glaciar",
+  "tags": [
+    "icequake",
+    "Antarctica",
+    "glacier",
+    "seismic",
+    "crevasse",
+    "2013",
+    "magnitude 5.5",
+    "glacial hazard",
+    "seismometer",
+    "radar"
+  ],
+  "escenas": [
+    {
+      "texto": "Un temblor bajo el hielo te enterrará",
+      "prompt_imagen": "Antarctic ice field with a visible crack opening, dark clouds, high contrast, hyperrealistic photography",
+      "lugar_real": "Antarctica"
+    },
+    {
+      "texto": "Los icequakes liberan energía como terremotos",
+      "prompt_imagen": "Glacier surface showing stress lines and cracks, snow, hyperrealistic photography"
+    },
+    {
+      "texto": "En 2013, Antarctica registró magnitud 5,5",
+      "prompt_imagen": "Scientific monitoring station in Antarctica with a seismometer display reading magnitude 5.5, snowy background, hyperrealistic photography"
+    },
+    {
+      "texto": "Ocurren cuando glaciar desliza sobre la cama",
+      "prompt_imagen": "Glacier sliding over visible bedrock, layered ice, subglacial terrain, hyperrealistic photography"
+    },
+    {
+      "texto": "Causan grietas de hasta treinta metros",
+      "prompt_imagen": "Deep crevasse in glacier walls with depth markers up to thirty meters, icy walls, hyperrealistic photography"
+    },
+    {
+      "texto": "Una grieta oculta puede hundirte al instante",
+      "prompt_imagen": "Person falling into a hidden crevasse on a glacier, dramatic perspective, hyperrealistic photography"
+    },
+    {
+      "texto": "Sismómetros y radar detectan vibraciones mortales",
+      "prompt_imagen": "Researchers operating ground-penetrating radar on glacier surface, equipment, snowy landscape, hyperrealistic photography"
+    },
+    {
+      "texto": "Ese temblor bajo el hielo sí mataría",
+      "prompt_imagen": "Antarctic ice field with subtle seismic ripple overlay, dramatic lighting, hyperrealistic photography"
+    }
+  ],
+  "modo": "fenomeno"
+}
