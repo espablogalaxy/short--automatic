@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T12:56:56.894325+00:00",
+ "actualizado": "2026-11-04T13:12:32.820338+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -845,7 +845,7 @@
   "YZJTkVmgdj0": {
    "titulo": "¿Qué lugar lleva 2 000 años sin lluvia?",
    "subida": "2026-10-30T21:53:35+00:00",
-   "vistas": 1012,
+   "vistas": 1011,
    "historial": [
     [
      "2026-10-31",
@@ -862,6 +862,10 @@
     [
      "2026-11-03",
      1012
+    ],
+    [
+     "2026-11-04",
+     1011
     ]
    ]
   },
@@ -884,6 +888,10 @@
     ],
     [
      "2026-11-03",
+     32
+    ],
+    [
+     "2026-11-04",
      32
     ]
    ]
@@ -908,6 +916,10 @@
     [
      "2026-11-03",
      163
+    ],
+    [
+     "2026-11-04",
+     163
     ]
    ]
   },
@@ -927,13 +939,17 @@
     [
      "2026-11-03",
      0
+    ],
+    [
+     "2026-11-04",
+     0
     ]
    ]
   },
   "Z5lv1D1MFm8": {
    "titulo": "¿5 500 metros bajo el agua? El cañón más profundo del planeta",
    "subida": "2026-10-31T15:13:34+00:00",
-   "vistas": 70,
+   "vistas": 71,
    "historial": [
     [
      "2026-11-01",
@@ -946,6 +962,10 @@
     [
      "2026-11-03",
      70
+    ],
+    [
+     "2026-11-04",
+     71
     ]
    ]
   },
@@ -965,13 +985,17 @@
     [
      "2026-11-03",
      39
+    ],
+    [
+     "2026-11-04",
+     39
     ]
    ]
   },
   "gpJ4sF0sb2A": {
    "titulo": "¿Te quemaría el Río Tinto con pH 2?",
    "subida": "2026-11-01T21:37:25+00:00",
-   "vistas": 19,
+   "vistas": 37,
    "historial": [
     [
      "2026-11-02",
@@ -980,13 +1004,17 @@
     [
      "2026-11-03",
      19
+    ],
+    [
+     "2026-11-04",
+     37
     ]
    ]
   },
   "57qXj0eIs40": {
    "titulo": "¿El desierto de Lut llegó a 70,7 °C?",
    "subida": "2026-11-01T15:55:31+00:00",
-   "vistas": 28,
+   "vistas": 30,
    "historial": [
     [
      "2026-11-02",
@@ -995,13 +1023,17 @@
     [
      "2026-11-03",
      28
+    ],
+    [
+     "2026-11-04",
+     30
     ]
    ]
   },
   "JAn9ZRT60tY": {
    "titulo": "¿Sobrevivirías a 70,7 °C en el desierto más caliente?",
    "subida": "2026-11-01T12:28:27+00:00",
-   "vistas": 80,
+   "vistas": 82,
    "historial": [
     [
      "2026-11-02",
@@ -1010,6 +1042,10 @@
     [
      "2026-11-03",
      80
+    ],
+    [
+     "2026-11-04",
+     82
     ]
    ]
   },
@@ -1021,28 +1057,73 @@
     [
      "2026-11-03",
      2
+    ],
+    [
+     "2026-11-04",
+     2
     ]
    ]
   },
   "3bGL01W5i6c": {
    "titulo": "¿Qué haría que la isla de Surtsey te matara al instante?",
    "subida": "2026-11-02T19:22:37+00:00",
-   "vistas": 35,
+   "vistas": 46,
    "historial": [
     [
      "2026-11-03",
      35
+    ],
+    [
+     "2026-11-04",
+     46
     ]
    ]
   },
   "3LQEvQO170s": {
    "titulo": "¿Qué presión aplasta a 10 882 m en la Fosa de Tonga?",
    "subida": "2026-11-02T14:24:53+00:00",
-   "vistas": 53,
+   "vistas": 67,
    "historial": [
     [
      "2026-11-03",
      53
+    ],
+    [
+     "2026-11-04",
+     67
+    ]
+   ]
+  },
+  "7RVffsa2-iU": {
+   "titulo": "¿Un meteorito de 10 km aniquiló al 75 % de la vida?",
+   "subida": "2026-11-03T22:47:59+00:00",
+   "vistas": 117,
+   "historial": [
+    [
+     "2026-11-04",
+     117
+    ]
+   ]
+  },
+  "hWflmDpWVIo": {
+   "titulo": "¿Una erupción en Tristan da Cunha mataría a 264 habitantes?",
+   "subida": "2026-11-03T16:55:55+00:00",
+   "vistas": 25,
+   "historial": [
+    [
+     "2026-11-04",
+     25
+    ]
+   ]
+  },
+  "DXwAp9FpGPU": {
+   "titulo": "¿Qué te aplastarían 350 atm bajo el hielo?",
+   "subida": "2026-11-03T13:25:30+00:00",
+   "vistas": 21,
+   "historial": [
+    [
+     "2026-11-04",
+     21
     ]
    ]
   }
