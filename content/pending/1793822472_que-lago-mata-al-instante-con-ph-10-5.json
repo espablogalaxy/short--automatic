@@ -1,0 +1,51 @@
+{
+  "titulo": "¿Qué lago mata al instante con pH 10,5?",
+  "descripcion": "El lago Natron en Tanzania tiene un pH de diez punto cinco y temperaturas de hasta cuarenta grados, convirtiendo a cualquier animal que muere allí en una estatua de piedra. ¿Te atreverías a tocar este lago? #shorts #curiosidades #planeta #LakeNatron #pH10_5 #AlkalineLake",
+  "tags": [
+    "Lake Natron",
+    "pH 10.5",
+    "alkaline lake",
+    "Tanzania",
+    "extremophile microbes",
+    "petrified flamingo",
+    "dangerous lakes",
+    "geography",
+    "natural wonders"
+  ],
+  "escenas": [
+    {
+      "texto": "Este lago te convertiría en estatua.",
+      "prompt_imagen": "Hyperrealistic photograph of a cracked stone statue emerging from the pinkish surface of a shallow alkaline lake, early morning light, dramatic sky, no people"
+    },
+    {
+      "texto": "Su agua alcanza pH diez punto cinco.",
+      "prompt_imagen": "Close-up hyperrealistic image of a digital pH meter display reading 10.5 above the turquoise surface of an alkaline lake, bright sunlight",
+      "lugar_real": "Lake Natron"
+    },
+    {
+      "texto": "Y temperaturas de hasta cuarenta grados.",
+      "prompt_imagen": "Close-up hyperrealistic photo of a red mercury thermometer showing 40°C placed beside the lake shore, sun glare on water"
+    },
+    {
+      "texto": "Así, la sangre se coagula al instante.",
+      "prompt_imagen": "Macro hyperrealistic shot of a bright red blood droplet solidifying instantly in alkaline lake water, detailed texture"
+    },
+    {
+      "texto": "Los flamingos que mueren quedan petrificados.",
+      "prompt_imagen": "Hyperrealistic photograph of a white petrified flamingo skeleton standing on the pinkish shore of a lake at sunrise"
+    },
+    {
+      "texto": "Natron cubre dos mil trescientos km².",
+      "prompt_imagen": "Aerial hyperrealistic satellite view highlighting Lake Natron area covering 2,300 square kilometers, with scale bar and surrounding desert"
+    },
+    {
+      "texto": "Solo los microbios resisten esa alcalinidad.",
+      "prompt_imagen": "Hyperrealistic microscope image of extremophile microbes thriving in high‑pH alkaline water, vivid colors, detailed cells"
+    },
+    {
+      "texto": "¿Te atreverías a tocarlo?",
+      "prompt_imagen": "Wide hyperrealistic shot of Lake Natron at sunset, pink water reflecting orange sky, inviting yet eerie atmosphere"
+    }
+  ],
+  "modo": "lugar"
+}

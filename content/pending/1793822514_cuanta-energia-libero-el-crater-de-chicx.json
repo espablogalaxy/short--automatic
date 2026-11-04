@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Cuánta energía liberó el cráter de Chicxulub?",
+  "descripcion": "El impacto de 10 km que acabó con los dinosaurios liberó una energía de 100 teratones TNT, creando un cráter de 180 km de diámetro. ¿Te atreverías a pisar Chicxulub? #shorts #curiosidades #planeta #Chicxulub #impacto #meteorito",
+  "tags": [
+    "Chicxulub",
+    "cráter de impacto",
+    "meteorito",
+    "extinción de dinosaurios",
+    "energia teraton",
+    "geología",
+    "ciencia",
+    "cráter gigante"
+  ],
+  "escenas": [
+    {
+      "texto": "Un meteoro de diez kilómetros impactó",
+      "prompt_imagen": "A massive asteroid, ten kilometers across, colliding with the Yucatán Peninsula, bright fireball, hyperreal cinematic photograph"
+    },
+    {
+      "texto": "Liberó energía de cien teratones TNT",
+      "prompt_imagen": "Visualization of an explosion releasing 100 teratons of TNT, massive fireball engulfing the sky, hyperreal"
+    },
+    {
+      "texto": "Igual a dos mil bombas de Hiroshima",
+      "prompt_imagen": "Comparison showing two thousand mushroom clouds over a landscape, hyperreal"
+    },
+    {
+      "texto": "Cráter de ciento ochenta km de diámetro",
+      "prompt_imagen": "Aerial view of the Chicxulub crater, 180 km wide circular depression in Yucatán, hyperreal",
+      "lugar_real": "Chicxulub crater"
+    },
+    {
+      "texto": "Temperaturas alcanzaron diez mil grados al instante",
+      "prompt_imagen": "Close‑up of molten rock and air at ten thousand degrees Celsius, intense heat wave, hyperreal"
+    },
+    {
+      "texto": "Causó incendios forestales durante meses",
+      "prompt_imagen": "Burning forest surrounding the crater, thick smoke plumes, hyperreal"
+    },
+    {
+      "texto": "Los sobrevivientes fueron aniquilados en segundos",
+      "prompt_imagen": "Silhouetted extinct prehistoric life forms erased, dramatic scene, hyperreal"
+    },
+    {
+      "texto": "¿Te atreves a pisar Chicxulub?",
+      "prompt_imagen": "Present‑day dry basin of the Chicxulub crater, arid terrain, hyperreal"
+    }
+  ],
+  "modo": "lugar"
+}

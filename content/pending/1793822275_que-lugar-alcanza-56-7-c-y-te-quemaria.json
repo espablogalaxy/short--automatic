@@ -1,0 +1,59 @@
+{
+  "titulo": "¿Qué lugar alcanza 56,7 °C y te quemaría?",
+  "descripcion": "El Valle de la Muerte registró 56,7 °C en 1913, la temperatura más alta jamás medida en la superficie terrestre. ¿Te atreverías a caminar por este horno natural? #shorts #curiosidades #planeta #ValleDeLaMuerte #TemperaturaExtrema #Desierto",
+  "tags": [
+    "Valle de la Muerte",
+    "Furnace Creek",
+    "temperatura récord",
+    "56,7°C",
+    "desierto más caliente",
+    "récord de calor",
+    "calor extremo",
+    "historia meteorológica",
+    "desierto",
+    "temperatura terrestre"
+  ],
+  "escenas": [
+    {
+      "texto": "Este lugar te quemaría al instante",
+      "prompt_imagen": "Desierto del Valle de la Muerte, California, con ondulaciones de calor y cielo despejado, foto hiperrealista",
+      "lugar_real": "Furnace Creek"
+    },
+    {
+      "texto": "Es el sitio más caliente jamás medido",
+      "prompt_imagen": "Termómetro digital marcando temperatura máxima en desierto del Valle de la Muerte, estilo foto realista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "56,7 °C, medidos precisamente en 1913",
+      "prompt_imagen": "Placa histórica de la estación meteorológica de Furnace Creek mostrando 56,7 °C, foto detalle",
+      "lugar_real": "Furnace Creek"
+    },
+    {
+      "texto": "Casi la mitad del punto de ebullición",
+      "prompt_imagen": "Olla de agua hirviendo en cocina, vapor visible, foto realista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "A 45 °C ya falleces sin sombra",
+      "prompt_imagen": "Silhouette de una persona colapsando bajo sol abrasador en el desierto, foto hiperrealista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Igual a cinco tazas de café calientes",
+      "prompt_imagen": "Cinco tazas de café humeante sobre una mesa, foto detalle hiperrealista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "¿Sobrevivirías a este horno?",
+      "prompt_imagen": "Superficie del desierto del Valle de la Muerte, grietas y arena rojiza bajo sol intenso, foto hiperrealista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Este lugar te quemaría al instante",
+      "prompt_imagen": "Vista aérea del desierto del Valle de la Muerte al atardecer, calor visible en el aire, foto hiperrealista",
+      "lugar_real": "Furnace Creek"
+    }
+  ],
+  "modo": "record"
+}

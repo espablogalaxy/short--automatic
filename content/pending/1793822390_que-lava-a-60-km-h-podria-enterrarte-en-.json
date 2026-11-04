@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué lava a 60 km/h podría enterrarte en minutos?",
+  "descripcion": "En 2018, la erupción del Kilauea lanzó una corriente de lava que alcanzó 60 km/h, 15 m de espesor y cubrió 13 km², destruyendo cientos de casas en solo dos días. ¿Te atreverías a cruzar esa ola? #shorts #curiosidades #planeta #Kilauea #lava #volcán #Hawái",
+  "tags": [
+    "Kilauea",
+    "lava",
+    "volcán",
+    "Hawái",
+    "erupción 2018",
+    "flujo de lava",
+    "velocidad lava",
+    "destrucción casas",
+    "geología",
+    "ciencia"
+  ],
+  "escenas": [
+    {
+      "texto": "Una ola de lava viaja a 60 km/h",
+      "prompt_imagen": "Lava flow moving rapidly across a volcanic slope, bright orange-red, captured from a side angle, hyperrealistic photograph"
+    },
+    {
+      "texto": "Devasta hogares en menos de 48 horas rápidas",
+      "prompt_imagen": "Lava engulfing residential houses, roofs collapsing, thick smoke, dramatic lighting, hyperrealistic photograph"
+    },
+    {
+      "texto": "Kilauea, Hawái, erupción comenzó el 3 de mayo",
+      "prompt_imagen": "View of Kilauea volcano in Hawaii with its crater, clear sky, hyperrealistic photograph",
+      "lugar_real": "Kilauea"
+    },
+    {
+      "texto": "Flujo alcanzó quince metros de espesor máximo",
+      "prompt_imagen": "Cross‑section of a lava flow showing a fifteen‑meter thick layer, human figure for scale, hyperrealistic photograph"
+    },
+    {
+      "texto": "Cubrió trece kilómetros cuadrados en tres semanas",
+      "prompt_imagen": "Satellite view of a red lava‑covered area of 13 km² over green vegetation, hyperrealistic photograph"
+    },
+    {
+      "texto": "Volcán expulsó ocho décimas de kilómetro cúbico",
+      "prompt_imagen": "Kilauea volcano erupting with massive lava plume, visual scale indicating 0.8 cubic kilometers of lava, hyperrealistic photograph"
+    },
+    {
+      "texto": "Velocidad supera a los coches en autopista",
+      "prompt_imagen": "Highway scene with a car beside a fast‑moving lava front, lava clearly outpacing the vehicle, hyperrealistic photograph"
+    },
+    {
+      "texto": "¿Te atreverías a cruzar esa ola letal?",
+      "prompt_imagen": "Thick lava flow approaching a narrow path, ominous atmosphere, hyperrealistic photograph"
+    }
+  ],
+  "modo": "fenomeno"
+}
