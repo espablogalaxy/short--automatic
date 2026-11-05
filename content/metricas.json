@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T13:12:32.820338+00:00",
+ "actualizado": "2026-11-05T13:26:12.069321+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -943,6 +943,10 @@
     [
      "2026-11-04",
      0
+    ],
+    [
+     "2026-11-05",
+     0
     ]
    ]
   },
@@ -965,6 +969,10 @@
     ],
     [
      "2026-11-04",
+     71
+    ],
+    [
+     "2026-11-05",
      71
     ]
    ]
@@ -989,6 +997,10 @@
     [
      "2026-11-04",
      39
+    ],
+    [
+     "2026-11-05",
+     39
     ]
    ]
   },
@@ -1008,13 +1020,17 @@
     [
      "2026-11-04",
      37
+    ],
+    [
+     "2026-11-05",
+     37
     ]
    ]
   },
   "57qXj0eIs40": {
    "titulo": "¿El desierto de Lut llegó a 70,7 °C?",
    "subida": "2026-11-01T15:55:31+00:00",
-   "vistas": 30,
+   "vistas": 31,
    "historial": [
     [
      "2026-11-02",
@@ -1027,13 +1043,17 @@
     [
      "2026-11-04",
      30
+    ],
+    [
+     "2026-11-05",
+     31
     ]
    ]
   },
   "JAn9ZRT60tY": {
    "titulo": "¿Sobrevivirías a 70,7 °C en el desierto más caliente?",
    "subida": "2026-11-01T12:28:27+00:00",
-   "vistas": 82,
+   "vistas": 84,
    "historial": [
     [
      "2026-11-02",
@@ -1046,6 +1066,10 @@
     [
      "2026-11-04",
      82
+    ],
+    [
+     "2026-11-05",
+     84
     ]
    ]
   },
@@ -1060,6 +1084,10 @@
     ],
     [
      "2026-11-04",
+     2
+    ],
+    [
+     "2026-11-05",
      2
     ]
    ]
@@ -1076,6 +1104,10 @@
     [
      "2026-11-04",
      46
+    ],
+    [
+     "2026-11-05",
+     46
     ]
    ]
   },
@@ -1091,39 +1123,88 @@
     [
      "2026-11-04",
      67
+    ],
+    [
+     "2026-11-05",
+     67
     ]
    ]
   },
   "7RVffsa2-iU": {
    "titulo": "¿Un meteorito de 10 km aniquiló al 75 % de la vida?",
    "subida": "2026-11-03T22:47:59+00:00",
-   "vistas": 117,
+   "vistas": 137,
    "historial": [
     [
      "2026-11-04",
      117
+    ],
+    [
+     "2026-11-05",
+     137
     ]
    ]
   },
   "hWflmDpWVIo": {
    "titulo": "¿Una erupción en Tristan da Cunha mataría a 264 habitantes?",
    "subida": "2026-11-03T16:55:55+00:00",
-   "vistas": 25,
+   "vistas": 32,
    "historial": [
     [
      "2026-11-04",
      25
+    ],
+    [
+     "2026-11-05",
+     32
     ]
    ]
   },
   "DXwAp9FpGPU": {
    "titulo": "¿Qué te aplastarían 350 atm bajo el hielo?",
    "subida": "2026-11-03T13:25:30+00:00",
-   "vistas": 21,
+   "vistas": 33,
    "historial": [
     [
      "2026-11-04",
      21
+    ],
+    [
+     "2026-11-05",
+     33
+    ]
+   ]
+  },
+  "6r56nAWoXv8": {
+   "titulo": "¿Por qué la tormenta solar de 1859 iluminó La Habana?",
+   "subida": "2026-11-04T23:05:58+00:00",
+   "vistas": 60,
+   "historial": [
+    [
+     "2026-11-05",
+     60
+    ]
+   ]
+  },
+  "c30T7rtgOt0": {
+   "titulo": "¿Un rayo de 477 km puede matarte al instante?",
+   "subida": "2026-11-04T17:00:28+00:00",
+   "vistas": 22,
+   "historial": [
+    [
+     "2026-11-05",
+     22
+    ]
+   ]
+  },
+  "-l61IBvT2oc": {
+   "titulo": "¿Qué haría una placa de hielo de 12 km² sobre tu barco?",
+   "subida": "2026-11-04T13:35:37+00:00",
+   "vistas": 32,
+   "historial": [
+    [
+     "2026-11-05",
+     32
     ]
    ]
   }
