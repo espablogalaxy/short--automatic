@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Por qué la Isla Queimada Grande, de 43 ha, mata con una sola mordida?",
+  "descripcion": "La Isla Queimada Grande, de solo 43 ha frente a Brasil, está cubierta por más de dos mil serpientes Bothrops insularis, cuya mordedura es casi siempre fatal sin antiveneno. ¿Te atreverías a pisar una isla mortal? #shorts #curiosidades #planeta #QueimadaGrande #serpientes #Brasil",
+  "tags": [
+    "Ilha da Queimada Grande",
+    "Bothrops insularis",
+    "serpientes venenosas",
+    "isla mortal",
+    "43 hectáreas",
+    "Brasil",
+    "veneno sin antiveneno",
+    "prohibición naval",
+    "especies endémicas",
+    "peligro natural"
+  ],
+  "escenas": [
+    {
+      "texto": "Una isla de 43 ha te mata",
+      "prompt_imagen": "Aerial hyperrealistic photograph of Ilha da Queimada Grande, a tiny green island of about 43 hectares, surrounded by turquoise ocean, dramatic lighting",
+      "lugar_real": "Ilha da Queimada Grande"
+    },
+    {
+      "texto": "Solo serpientes venenosas viven allí",
+      "prompt_imagen": "Close-up hyperrealistic photo of several brown Bothrops insularis snakes coiled on forest floor, dense tropical vegetation, natural lighting"
+    },
+    {
+      "texto": "Bothrops insularis, descubierta en 1891",
+      "prompt_imagen": "Historical scientific illustration of Bothrops insularis snake, labeled 1891, on parchment background"
+    },
+    {
+      "texto": "Más de 2 000 víboras dominan la zona",
+      "prompt_imagen": "Hyperrealistic wide shot of a forest path on Queimada Grande densely covered with dozens of brown vipers, sense of abundance"
+    },
+    {
+      "texto": "Su veneno mata al 90 % sin antiveneno",
+      "prompt_imagen": "Close-up hyperrealistic photo of a venom vial labeled \"Bothrops insularis\" next to a red cross, empty antivenom bottle"
+    },
+    {
+      "texto": "La Marina prohíbe el acceso a visitantes",
+      "prompt_imagen": "Photograph of a Brazilian Navy patrol boat anchored near a small island, with a large \"No Access\" sign on the shore"
+    },
+    {
+      "texto": "Solo científicos con permiso pueden pisarla",
+      "prompt_imagen": "Hyperrealistic photo of a scientist in full protective gear, holding a research permit, stepping onto a restricted tropical island"
+    },
+    {
+      "texto": "Una isla de 43 ha que mata",
+      "prompt_imagen": "Aerial hyperrealistic photograph of Ilha da Queimada Grande, small green island, sea surrounding, ominous clouds, emphasizing danger"
+    }
+  ],
+  "modo": "fenomeno"
+}

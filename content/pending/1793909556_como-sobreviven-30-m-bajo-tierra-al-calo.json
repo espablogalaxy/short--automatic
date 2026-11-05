@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Cómo sobreviven 30 m bajo tierra al calor de 45 °C?",
+  "descripcion": "En Coober Pedy, Australia, los habitantes se refugian 30 m bajo tierra para escapar de más de 45 °C en la superficie. La temperatura constante de 23 °C les permite vivir. ¿Te atreverías a vivir bajo tierra? #shorts #curiosidades #planeta #CooberPedy #Australia #casasSubterráneas #calorExtremo",
+  "tags": [
+    "Coober Pedy",
+    "Australia",
+    "desierto",
+    "casas subterráneas",
+    "temperatura extrema",
+    "vida bajo tierra",
+    "30 metros",
+    "45 grados",
+    "calor",
+    "habitantes"
+  ],
+  "escenas": [
+    {
+      "texto": "30 metros bajo tierra, ¿salvaría tu vida?",
+      "prompt_imagen": "Cross‑section view of a deep underground tunnel, 30 meters down, dim lighting, earthy walls, dramatic shadows"
+    },
+    {
+      "texto": "Coober Pedy, Australia, desierto implacable.",
+      "prompt_imagen": "Aerial photograph of Coober Pedy, Australia, arid desert with scattered small houses and mining equipment",
+      "lugar_real": "Coober Pedy"
+    },
+    {
+      "texto": "Temperaturas superan los cuarenta y cinco grados.",
+      "prompt_imagen": "Blazing desert landscape with a bright sun and a digital thermometer showing 45 °C"
+    },
+    {
+      "texto": "Los residentes construyen casas subterráneas.",
+      "prompt_imagen": "Underground homes carved into sandstone, doors and windows illuminated, interior lights glowing warmly"
+    },
+    {
+      "texto": "Los hogares alcanzan hasta treinta metros de profundidad.",
+      "prompt_imagen": "Depth gauge inside a subterranean dwelling indicating 30 m depth"
+    },
+    {
+      "texto": "Allí la temperatura se mantiene a 23 °C.",
+      "prompt_imagen": "Thermostat on a wall of an underground home displaying 23 °C, cozy interior lighting"
+    },
+    {
+      "texto": "Esto protege a mil habitantes del horno.",
+      "prompt_imagen": "Underground street scene with about a thousand people walking, lit corridors, safe from heat"
+    },
+    {
+      "texto": "¿Te atreverías a vivir bajo tierra?",
+      "prompt_imagen": "Long underground hallway with soft lighting, question text overlay inviting viewer"
+    }
+  ],
+  "modo": "lugar"
+}
