@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T13:26:12.069321+00:00",
+ "actualizado": "2026-11-06T13:09:15.822738+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -947,6 +947,10 @@
     [
      "2026-11-05",
      0
+    ],
+    [
+     "2026-11-06",
+     0
     ]
    ]
   },
@@ -1024,6 +1028,10 @@
     [
      "2026-11-05",
      37
+    ],
+    [
+     "2026-11-06",
+     37
     ]
    ]
   },
@@ -1046,6 +1054,10 @@
     ],
     [
      "2026-11-05",
+     31
+    ],
+    [
+     "2026-11-06",
      31
     ]
    ]
@@ -1070,6 +1082,10 @@
     [
      "2026-11-05",
      84
+    ],
+    [
+     "2026-11-06",
+     84
     ]
    ]
   },
@@ -1088,6 +1104,10 @@
     ],
     [
      "2026-11-05",
+     2
+    ],
+    [
+     "2026-11-06",
      2
     ]
    ]
@@ -1108,6 +1128,10 @@
     [
      "2026-11-05",
      46
+    ],
+    [
+     "2026-11-06",
+     46
     ]
    ]
   },
@@ -1127,13 +1151,17 @@
     [
      "2026-11-05",
      67
+    ],
+    [
+     "2026-11-06",
+     67
     ]
    ]
   },
   "7RVffsa2-iU": {
    "titulo": "¿Un meteorito de 10 km aniquiló al 75 % de la vida?",
    "subida": "2026-11-03T22:47:59+00:00",
-   "vistas": 137,
+   "vistas": 152,
    "historial": [
     [
      "2026-11-04",
@@ -1142,13 +1170,17 @@
     [
      "2026-11-05",
      137
+    ],
+    [
+     "2026-11-06",
+     152
     ]
    ]
   },
   "hWflmDpWVIo": {
    "titulo": "¿Una erupción en Tristan da Cunha mataría a 264 habitantes?",
    "subida": "2026-11-03T16:55:55+00:00",
-   "vistas": 32,
+   "vistas": 33,
    "historial": [
     [
      "2026-11-04",
@@ -1157,6 +1189,10 @@
     [
      "2026-11-05",
      32
+    ],
+    [
+     "2026-11-06",
+     33
     ]
    ]
   },
@@ -1172,39 +1208,77 @@
     [
      "2026-11-05",
      33
+    ],
+    [
+     "2026-11-06",
+     33
     ]
    ]
   },
   "6r56nAWoXv8": {
    "titulo": "¿Por qué la tormenta solar de 1859 iluminó La Habana?",
    "subida": "2026-11-04T23:05:58+00:00",
-   "vistas": 60,
+   "vistas": 86,
    "historial": [
     [
      "2026-11-05",
      60
+    ],
+    [
+     "2026-11-06",
+     86
     ]
    ]
   },
   "c30T7rtgOt0": {
    "titulo": "¿Un rayo de 477 km puede matarte al instante?",
    "subida": "2026-11-04T17:00:28+00:00",
-   "vistas": 22,
+   "vistas": 54,
    "historial": [
     [
      "2026-11-05",
      22
+    ],
+    [
+     "2026-11-06",
+     54
     ]
    ]
   },
   "-l61IBvT2oc": {
    "titulo": "¿Qué haría una placa de hielo de 12 km² sobre tu barco?",
    "subida": "2026-11-04T13:35:37+00:00",
-   "vistas": 32,
+   "vistas": 67,
    "historial": [
     [
      "2026-11-05",
      32
+    ],
+    [
+     "2026-11-06",
+     67
+    ]
+   ]
+  },
+  "o6_FKs4AOqA": {
+   "titulo": "¿5 metros de deslizamiento arrasaron San Francisco?",
+   "subida": "2026-11-05T17:16:06+00:00",
+   "vistas": 58,
+   "historial": [
+    [
+     "2026-11-06",
+     58
+    ]
+   ]
+  },
+  "RuEsf-uydZ4": {
+   "titulo": "¿Te asfixiaría vivir a 5 100 m en La Rinconada?",
+   "subida": "2026-11-05T13:49:05+00:00",
+   "vistas": 11,
+   "historial": [
+    [
+     "2026-11-06",
+     11
     ]
    ]
   }
