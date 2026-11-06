@@ -1,0 +1,50 @@
+{
+  "titulo": "¡El abismo de 10 984 m que te aplastaría!",
+  "descripcion": "El Challenger Deep, a 10 984 metros bajo la superficie, genera una presión de más de mil atm, capaz de aplastar cualquier nave. ¿Te atreverías a sumergirte hasta allí? #shorts #curiosidades #planeta #MarianaTrench #profundidad #presión",
+  "tags": [
+    "Mariana Trench",
+    "Challenger Deep",
+    "depth record",
+    "ocean pressure",
+    "submarine",
+    "Burj Khalifa",
+    "Everest",
+    "extreme environment"
+  ],
+  "escenas": [
+    {
+      "texto": "Este abismo te mataría al instante",
+      "prompt_imagen": "Vista submarina oscura del fondo del océano, iluminado con luz tenue, mostrando la fosa de las Marianas",
+      "lugar_real": "Mariana Trench"
+    },
+    {
+      "texto": "Está a once mil metros bajo",
+      "prompt_imagen": "Escala de profundidad marcada hasta 11,000 metros bajo el nivel del mar, con fondo marino"
+    },
+    {
+      "texto": "Más profundo que el Everest al revés",
+      "prompt_imagen": "Montaña Everest invertida sumergida bajo agua, comparando su altura con la profundidad del océano"
+    },
+    {
+      "texto": "Allí la presión alcanza mil atm",
+      "prompt_imagen": "Manómetro digital marcando 1,100 atm, rodeado de fondo marino con burbujas comprimidas"
+    },
+    {
+      "texto": "Eso aplasta un submarino en segundos",
+      "prompt_imagen": "Submarino clásico bajo alta presión, su casco deformándose y colapsando"
+    },
+    {
+      "texto": "Imagina 13 Burj Khalifa apilados",
+      "prompt_imagen": "Torre Burj Khalifa repetida 13 veces, sumando altura de aproximadamente 10,764 metros, bajo el agua"
+    },
+    {
+      "texto": "Y aún quedarías bajo agua",
+      "prompt_imagen": "Cima de la torre más alta rodeada por agua, mostrando que aún falta profundidad"
+    },
+    {
+      "texto": "Este abismo te mataría al instante",
+      "prompt_imagen": "Mismo ángulo del fondo marino del primer plano, enfatizando la peligrosidad del Challenger Deep"
+    }
+  ],
+  "modo": "record"
+}
