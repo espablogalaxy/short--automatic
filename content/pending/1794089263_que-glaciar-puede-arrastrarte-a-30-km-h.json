@@ -1,0 +1,59 @@
+{
+  "titulo": "¿Qué glaciar puede arrastrarte a 30 km/h?",
+  "descripcion": "El glaciar Jakobshavn Isbræ en Groenlandia avanza 7 m al día y sus desprendimientos generan olas que pueden hundir puertos. ¿Te atreverías a acercarte? #shorts #curiosidades #planeta #glaciar #Groenlandia #Jakobshavn",
+  "tags": [
+    "Jakobshavn",
+    "glaciar",
+    "Groenlandia",
+    "glaciar más rápido",
+    "calving",
+    "iceberg",
+    "Ilulissat",
+    "olas de hielo",
+    "cambio climático",
+    "glaciar velocidad"
+  ],
+  "escenas": [
+    {
+      "texto": "Este glaciar te arrastraría a 30 km/h.",
+      "prompt_imagen": "Massive glacier surface with deep crevasses, dark sky, dramatic lighting, hyperrealistic photograph",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Se llama Jakobshavn Isbræ, Groenlandia.",
+      "prompt_imagen": "Aerial view of Jakobshavn Glacier in West Greenland, icy blue tones, rugged coastline, hyperrealistic photograph",
+      "lugar_real": "Jakobshavn Glacier"
+    },
+    {
+      "texto": "Avanza siete metros cada día.",
+      "prompt_imagen": "Glacier surface with markers showing seven meters forward movement, realistic snow texture, hyperrealistic photograph",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Su frente se rompe cada cinco minutos.",
+      "prompt_imagen": "Glacier front cracking, ice breaking and falling into water, captured mid-fracture, hyperrealistic photograph",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Lanza bloques de hielo de 300 toneladas.",
+      "prompt_imagen": "Huge iceberg chunk towering above water, realistic shading, indicating 300‑ton mass, hyperrealistic photograph",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Generan olas de cuatro metros.",
+      "prompt_imagen": "Four‑meter high wave in a fjord, water crashing against icy walls, dramatic lighting, hyperrealistic photograph",
+      "lugar_real": ""
+    },
+    {
+      "texto": "En 2016, una ola hundió Ilulissat.",
+      "prompt_imagen": "Port of Ilulissat flooded by a large wave, debris in water, 2016 aftermath, hyperrealistic photograph",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Así, el glaciar te arrastraría a 30 km/h.",
+      "prompt_imagen": "Close‑up of Jakobshavn Glacier with overlay arrow indicating 30 km/h speed, dramatic lighting, hyperrealistic photograph",
+      "lugar_real": ""
+    }
+  ],
+  "modo": "fenomeno"
+}

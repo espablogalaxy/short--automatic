@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué presión de 720 atm mata al instante en la Fosa de Java?",
+  "descripcion": "La Fosa de Java alcanza 7 200 m de profundidad, generando una presión de 720 atm que acabaría con un ser humano en segundos. ¿Te atreverías a sentir esa presión? #shorts #curiosidades #planeta #JavaTrench #presión #océano #abismo",
+  "tags": [
+    "Fosa de Java",
+    "Java Trench",
+    "presión submarina",
+    "720 atm",
+    "profundidad oceánica",
+    "abismo marino",
+    "sumergibles",
+    "exploración oceánica",
+    "ciencia",
+    "curiosidades"
+  ],
+  "escenas": [
+    {
+      "texto": "Esta fosa aplasta a humanos al instante.",
+      "prompt_imagen": "Vista submarina del abismo de la Fosa de Java, agua negra y paredes rocosas, luz tenue, fotografía hiperrealista estilo reportaje."
+    },
+    {
+      "texto": "Se llama la Fosa de Java.",
+      "prompt_imagen": "Mapa topográfico del océano Índico con la Fosa de Java resaltada en rojo, estilo fotográfico de alta resolución.",
+      "lugar_real": "Java Trench"
+    },
+    {
+      "texto": "Mide siete mil doscientos metros de profundidad.",
+      "prompt_imagen": "Corte transversal del fondo marino mostrando la profundidad de siete mil doscientos metros, escala de profundidad marcada, foto realista."
+    },
+    {
+      "texto": "Presión supera los setecientos veinte atmósferas.",
+      "prompt_imagen": "Manómetro sumergible marcando 720 atmósferas, fondo marino difuso, iluminación dramática, fotografía hiperrealista."
+    },
+    {
+      "texto": "Eso equivale a diez mil psi.",
+      "prompt_imagen": "Comparación visual: pistola de aire mostrando 10,000 psi junto a medidor de presión bajo el agua, estilo foto documental."
+    },
+    {
+      "texto": "Un cuerpo humano se desintegraría en segundos.",
+      "prompt_imagen": "Ilustración realista de un cuerpo humano siendo aplastado por la presión en la Fosa de Java, detalle dramático, foto estilo reportaje."
+    },
+    {
+      "texto": "Solo los sumergibles especiales pueden resistirlo.",
+      "prompt_imagen": "Sumergible de investigación modelo DSV Limiting Factor iluminado bajo la luz tenue de la Fosa de Java, fotografía cinematográfica."
+    },
+    {
+      "texto": "¿Te atreverías a sentir esa aplastación?",
+      "prompt_imagen": "Entrada del abismo con señal de advertencia 'Peligro: 720 atmósferas', vista profunda y amenazante, foto hiperrealista."
+    }
+  ],
+  "modo": "lugar"
+}

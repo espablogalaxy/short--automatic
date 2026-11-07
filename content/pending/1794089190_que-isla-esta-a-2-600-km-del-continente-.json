@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué isla está a 2 600 km del continente más cercano?",
+  "descripcion": "Bouvet Island es la isla más remota del planeta, a 2 600 km del continente más cercano y rodeada de peligrosas paredes de hielo. ¿Te atreverías a intentar un rescate allí? #shorts #curiosidades #planeta #BouvetIsland #islas #aislación",
+  "tags": [
+    "Bouvet Island",
+    "isla más aislada",
+    "islas remotas",
+    "acantilados de hielo",
+    "rescate marítimo",
+    "temperaturas bajo cero",
+    "distancia a continente",
+    "geografía extrema"
+  ],
+  "escenas": [
+    {
+      "texto": "Un naufragio aquí te condenaría a muerte.",
+      "prompt_imagen": "Barco naufragado en aguas agitadas frente a acantilados helados, cielo tormentoso, estilo fotografía hiperrealista"
+    },
+    {
+      "texto": "Bouvet Island, la isla más aislada.",
+      "prompt_imagen": "Isla Bouvet cubierta de nieve vista desde el espacio, rodeada de océano, fotografía hiperrealista",
+      "lugar_real": "Bouvet Island"
+    },
+    {
+      "texto": "A 2 600 km del continente más cercano.",
+      "prompt_imagen": "Mapa mundial con línea roja desde Bouvet Island hasta la costa de Sudáfrica, distancia marcada 2 600 km, estilo foto realista"
+    },
+    {
+      "texto": "Con acantilados de hielo de 300 m.",
+      "prompt_imagen": "Acantilados de hielo de 300 metros de altura rodeando la costa de Bouvet Island, fotografía hiperrealista"
+    },
+    {
+      "texto": "Sólo aterriza un helicóptero, nunca barcos.",
+      "prompt_imagen": "Helicóptero aterrizando en una zona de nieve de Bouvet Island, sin barcos a la vista, estilo foto realista"
+    },
+    {
+      "texto": "Temperaturas bajo cero todo el año.",
+      "prompt_imagen": "Paisaje helado de Bouvet Island bajo un cielo gris, termómetro marcando -20°C, fotografía hiperrealista"
+    },
+    {
+      "texto": "Un rescate tardaría más de dos días.",
+      "prompt_imagen": "Barco de rescate a lo lejos en el océano, reloj marcando 48 horas, vista aérea de Bouvet Island, foto realista"
+    },
+    {
+      "texto": "Así que, ¿ sobrevivirías a un naufragio aquí?",
+      "prompt_imagen": "Isla Bouvet aislada en el océano, vista panorámica, estilo fotografía hiperrealista"
+    }
+  ],
+  "modo": "lugar"
+}
