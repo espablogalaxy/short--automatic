@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Sobrevivirías a 1 100 atm en la Fosa de las Marianas?",
+  "descripcion": "En 2019 Victor Vescovo alcanzó el punto más profundo del planeta, 10 928 m, donde la presión supera los 1 100 atm y el agua hierve a 400 °C. ¿Te atreverías a descender allí? #shorts #curiosidades #planeta #MarianaTrench #profundidad #presión",
+  "tags": [
+    "Mariana Trench",
+    "deepest ocean",
+    "1100 atm pressure",
+    "Victor Vescovo",
+    "2019 expedition",
+    "10,928 meters",
+    "subduction zone",
+    "hydrothermal vents",
+    "deep sea",
+    "abyssal trench"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Te aplastarían 1 100 atm al instante?",
+      "prompt_imagen": "Hyperrealistic photo of a deep ocean trench with a pressure gauge reading 1100 atm, dark water, dramatic lighting, no people"
+    },
+    {
+      "texto": "Allí la presión supera los mil atmósferas",
+      "prompt_imagen": "Hyperrealistic view of the Mariana Trench showing a vertical scale of pressure, dark abyss, light shafts"
+    },
+    {
+      "texto": "Eso ocurre a 10 928 metros de profundidad",
+      "prompt_imagen": "Hyperrealistic depth marker at 10 928 meters deep in the ocean, surrounding darkness, faint bioluminescent creatures"
+    },
+    {
+      "texto": "La subducción creó este abismo milenario",
+      "prompt_imagen": "Hyperrealistic illustration of tectonic plates, Pacific plate sliding under Mariana plate, forming a trench, geological colors"
+    },
+    {
+      "texto": "Vescovo lo midió en 2019, 10 928 m",
+      "prompt_imagen": "Hyperrealistic photo of Victor Vescovo inside the DSV Limiting Factor submersible at the trench bottom, instrument panel showing 10 928 m, 2019 date overlay",
+      "lugar_real": "Mariana Trench"
+    },
+    {
+      "texto": "El agua hierve a 400 °C bajo presión",
+      "prompt_imagen": "Hyperrealistic close-up of seawater near the trench floor with temperature gauge at 400 °C, bubbles, still liquid appearance"
+    },
+    {
+      "texto": "Nadie sobrevive; cualquier nave se aplasta",
+      "prompt_imagen": "Hyperrealistic image of a crushed submarine hull, twisted metal, darkness, pressure distortion effect"
+    },
+    {
+      "texto": "¿Te aplastarían 1 100 atm al instante?",
+      "prompt_imagen": "Hyperrealistic photo returning to the pressure gauge reading 1100 atm, dark ocean background, looping visual cue"
+    }
+  ],
+  "modo": "fenomeno"
+}
