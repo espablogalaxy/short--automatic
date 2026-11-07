@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué te mataría a 8 376 m bajo el Atlántico?",
+  "descripcion": "En la Fosa de Puerto Rico se halla el Milwaukee Deep, 8 376 m bajo la superficie. La presión allí supera los 830 atm, suficiente para aplastar a un ser humano. ¿Te atreverías a descender allí? #shorts #curiosidades #planeta #AtlanticTrench #MilwaukeeDeep #OceanDepth",
+  "tags": [
+    "Milwaukee Deep",
+    "Puerto Rico Trench",
+    "deep ocean",
+    "ocean pressure",
+    "830 atmospheres",
+    "deep sea",
+    "Atlantic deepest point",
+    "submarine Trieste",
+    "human body pressure",
+    "underwater depth"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué pasa a 8 376 m bajo el mar?",
+      "prompt_imagen": "Vista submarina profunda con medidor de profundidad marcando 8,376 metros, agua negra y poca luz, estilo fotográfico hiperrealista"
+    },
+    {
+      "texto": "Es la zona más profunda del Atlántico.",
+      "prompt_imagen": "Mapa oceánico del Atlántico resaltando la Fosa de Puerto Rico, estilo fotográfico realista"
+    },
+    {
+      "texto": "Se llama Milwaukee Deep.",
+      "prompt_imagen": "Placa submarina bajo el agua con la inscripción \"Milwaukee Deep\", fondo marino, estilo hiperrealista",
+      "lugar_real": "Milwaukee Deep"
+    },
+    {
+      "texto": "La presión supera los 830 atm.",
+      "prompt_imagen": "Medidor digital de presión indicando 830 atmósferas, fondo oceánico oscuro, estilo realista"
+    },
+    {
+      "texto": "Eso aplasta cualquier cuerpo humano al instante.",
+      "prompt_imagen": "Silueta de buzo bajo agua rodeada de ondas de compresión, efecto dramático, estilo foto realista"
+    },
+    {
+      "texto": "Ni el Trieste llegó a esa zona.",
+      "prompt_imagen": "Sumergible Trieste en el océano, vista lateral, estilo foto histórica realista"
+    },
+    {
+      "texto": "Más profundo que el Everest.",
+      "prompt_imagen": "División de pantalla: cima del Monte Everest al lado de la Fosa de Puerto Rico, escala visual, estilo fotográfico"
+    },
+    {
+      "texto": "Entonces, ¿qué pasa a 8 376 m?",
+      "prompt_imagen": "Medidor de profundidad marcando 8,376 metros, luz tenue, ambiente abisal, estilo hiperrealista"
+    }
+  ],
+  "modo": "lugar"
+}
