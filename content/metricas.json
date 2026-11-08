@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T11:53:04.460277+00:00",
+ "actualizado": "2026-11-08T12:06:13.861945+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -1117,6 +1117,10 @@
     [
      "2026-11-07",
      2
+    ],
+    [
+     "2026-11-08",
+     2
     ]
    ]
   },
@@ -1194,6 +1198,10 @@
     [
      "2026-11-07",
      152
+    ],
+    [
+     "2026-11-08",
+     152
     ]
    ]
   },
@@ -1216,6 +1224,10 @@
     ],
     [
      "2026-11-07",
+     33
+    ],
+    [
+     "2026-11-08",
      33
     ]
    ]
@@ -1240,6 +1252,10 @@
     [
      "2026-11-07",
      33
+    ],
+    [
+     "2026-11-08",
+     33
     ]
    ]
   },
@@ -1258,6 +1274,10 @@
     ],
     [
      "2026-11-07",
+     89
+    ],
+    [
+     "2026-11-08",
      89
     ]
    ]
@@ -1278,13 +1298,17 @@
     [
      "2026-11-07",
      58
+    ],
+    [
+     "2026-11-08",
+     58
     ]
    ]
   },
   "-l61IBvT2oc": {
    "titulo": "¿Qué haría una placa de hielo de 12 km² sobre tu barco?",
    "subida": "2026-11-04T13:35:37+00:00",
-   "vistas": 70,
+   "vistas": 71,
    "historial": [
     [
      "2026-11-05",
@@ -1297,13 +1321,17 @@
     [
      "2026-11-07",
      70
+    ],
+    [
+     "2026-11-08",
+     71
     ]
    ]
   },
   "o6_FKs4AOqA": {
    "titulo": "¿5 metros de deslizamiento arrasaron San Francisco?",
    "subida": "2026-11-05T17:16:06+00:00",
-   "vistas": 73,
+   "vistas": 78,
    "historial": [
     [
      "2026-11-06",
@@ -1312,6 +1340,10 @@
     [
      "2026-11-07",
      73
+    ],
+    [
+     "2026-11-08",
+     78
     ]
    ]
   },
@@ -1327,39 +1359,88 @@
     [
      "2026-11-07",
      19
+    ],
+    [
+     "2026-11-08",
+     19
     ]
    ]
   },
   "WEIl-lrZBPY": {
    "titulo": "¿Qué lago te quemaría la piel a 60 °C?",
    "subida": "2026-11-06T22:38:50+00:00",
-   "vistas": 313,
+   "vistas": 829,
    "historial": [
     [
      "2026-11-07",
      313
+    ],
+    [
+     "2026-11-08",
+     829
     ]
    ]
   },
   "aQaCLxW6AjY": {
    "titulo": "¿Una ola de hielo de 45 km³ puede destruir pueblos?",
    "subida": "2026-11-06T16:40:51+00:00",
-   "vistas": 32,
+   "vistas": 59,
    "historial": [
     [
      "2026-11-07",
      32
+    ],
+    [
+     "2026-11-08",
+     59
     ]
    ]
   },
   "EfXv8Yea5M0": {
    "titulo": "¿Sobrevivirías en la Amazonía de 5,5 millones km²?",
    "subida": "2026-11-06T13:34:05+00:00",
-   "vistas": 52,
+   "vistas": 130,
    "historial": [
     [
      "2026-11-07",
      52
+    ],
+    [
+     "2026-11-08",
+     130
+    ]
+   ]
+  },
+  "SEqIeuAaFwk": {
+   "titulo": "¿Cómo desaparece una pared de hielo a 3,5 m al día?",
+   "subida": "2026-11-07T21:20:11+00:00",
+   "vistas": 151,
+   "historial": [
+    [
+     "2026-11-08",
+     151
+    ]
+   ]
+  },
+  "QbCGwvW-ODU": {
+   "titulo": "¿Puede una tormenta de 2 200 km devorar continentes?",
+   "subida": "2026-11-07T15:33:37+00:00",
+   "vistas": 72,
+   "historial": [
+    [
+     "2026-11-08",
+     72
+    ]
+   ]
+  },
+  "LjkPogYva58": {
+   "titulo": "¿Sobrevivirías a 125 m bajo el mar en Danakil?",
+   "subida": "2026-11-07T12:14:10+00:00",
+   "vistas": 62,
+   "historial": [
+    [
+     "2026-11-08",
+     62
     ]
    ]
   }
