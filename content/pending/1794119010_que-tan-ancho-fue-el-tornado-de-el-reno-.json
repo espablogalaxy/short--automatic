@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué tan ancho fue el tornado de El Reno, 4,2 km?",
+  "descripcion": "El tornado de El Reno, Oklahoma, alcanzó 4,2 km de ancho, más que ocho campos de fútbol. ¿Te atreverías a estar bajo su sombra? #shorts #curiosidades #planeta #tornado #ElReno #clima",
+  "tags": [
+    "tornado",
+    "El Reno",
+    "widest tornado",
+    "4.2 km",
+    "Oklahoma",
+    "extreme weather",
+    "atmospheric phenomenon",
+    "tornado record",
+    "wind speed",
+    "disaster"
+  ],
+  "escenas": [
+    {
+      "texto": "Un tornado tan ancho, destruiría una ciudad",
+      "prompt_imagen": "Hyperrealistic photograph of a massive funnel-shaped tornado approaching a modern city skyline at dusk, dramatic clouds, high contrast, realistic lighting"
+    },
+    {
+      "texto": "El tornado de El Reno, 2013",
+      "prompt_imagen": "Hyperrealistic photograph of the El Reno tornado on May 31 2013, captured from the ground in Oklahoma, massive funnel, dust swirling, clear sky",
+      "lugar_real": "El Reno, Oklahoma"
+    },
+    {
+      "texto": "Alcanzó 4,2 kilómetros de ancho",
+      "prompt_imagen": "Hyperrealistic aerial view of an exceptionally wide tornado stretching over a flat plain, illustrating immense width"
+    },
+    {
+      "texto": "Ocho campos de fútbol juntos",
+      "prompt_imagen": "Hyperrealistic top-down view of eight standard football fields placed side by side, with a tornado funnel covering them all"
+    },
+    {
+      "texto": "Su velocidad superó los 300 km/h",
+      "prompt_imagen": "Hyperrealistic close-up of a high-speed anemometer reading 300 km/h, with a blurred tornado in the background"
+    },
+    {
+      "texto": "Podría arrancar techos en segundos",
+      "prompt_imagen": "Hyperrealistic shot of a residential house roof being torn off by strong tornado winds, debris flying"
+    },
+    {
+      "texto": "Solo 31 personas sobrevivieron cerca",
+      "prompt_imagen": "Hyperrealistic photo of a small group of exhausted survivors amid tornado debris, with rescue workers in the background"
+    },
+    {
+      "texto": "¿Podrías sobrevivir a ese ancho?",
+      "prompt_imagen": "Hyperrealistic night view of a city skyline with a looming tornado silhouette, matching the opening scene for a visual loop"
+    }
+  ],
+  "modo": "record"
+}
