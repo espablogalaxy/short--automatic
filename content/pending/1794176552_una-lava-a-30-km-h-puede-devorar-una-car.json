@@ -1,0 +1,53 @@
+{
+  "titulo": "¿Una lava a 30 km/h puede devorar una carretera?",
+  "descripcion": "En 2018 la erupción de Kilauea arrasó la carretera estatal 130 con lava a 30 km/h. ¿Te atreverías a pasar por ella? #shorts #curiosidades #planeta #Kilauea #lava #volcanes #Hawaii",
+  "tags": [
+    "Kilauea",
+    "lava speed",
+    "2018 eruption",
+    "Hawaii volcano",
+    "lava temperature",
+    "State Highway 130",
+    "volcanic hazard",
+    "lava flow",
+    "volcanic eruption",
+    "lava danger"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Una lava a 30 km/h te mataría?",
+      "prompt_imagen": "close-up of scorching lava flow moving rapidly over black volcanic rock, bright orange-red glow, dramatic lighting, hyperrealistic photograph"
+    },
+    {
+      "texto": "En 2018, Kilauea lanzó fuego imparable",
+      "prompt_imagen": "Kilauea volcano, Hawaii, 2018 eruption, lava fountain spewing bright orange magma against night sky, hyperrealistic photograph",
+      "lugar_real": "Kilauea"
+    },
+    {
+      "texto": "Temperatura alcanzó 1 150 °C, casi fundiendo rocas",
+      "prompt_imagen": "thermographic view of lava surface showing 1150°C temperature, bright glowing molten rock, hyperrealistic photograph"
+    },
+    {
+      "texto": "Flujo recorrió 12 km de terreno en 24 h",
+      "prompt_imagen": "aerial view of Hawaiian landscape, red lava ribbon extending 12 km across forest and fields, hyperrealistic photograph"
+    },
+    {
+      "texto": "Velocidad media mantuvo 30 km/h constante",
+      "prompt_imagen": "lava flow moving fast, motion blur emphasizing 30 km/h speed, bright orange stream across dark terrain, hyperrealistic photograph"
+    },
+    {
+      "texto": "Arrasó la carretera estatal 130, bloqueando tráfico",
+      "prompt_imagen": "Hawaiian State Highway 130 engulfed by lava, road cracked, abandoned cars partially buried, hyperrealistic photograph",
+      "lugar_real": "Hawaii State Route 130"
+    },
+    {
+      "texto": "En minutos, vehículos se fundieron en magma",
+      "prompt_imagen": "vehicles being consumed by molten lava, metal twisting, intense heat, hyperrealistic photograph"
+    },
+    {
+      "texto": "¿Una lava a 30 km/h te mataría?",
+      "prompt_imagen": "close-up of scorching lava flow moving rapidly over black volcanic rock, bright orange-red glow, dramatic lighting, hyperrealistic photograph"
+    }
+  ],
+  "modo": "fenomeno"
+}
