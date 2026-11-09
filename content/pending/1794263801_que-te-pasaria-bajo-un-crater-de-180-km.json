@@ -1,0 +1,59 @@
+{
+  "titulo": "¿Qué te pasaría bajo un cráter de 180 km?",
+  "descripcion": "El cráter Chicxulub, de 180 km de diámetro, provocó la extinción de los dinosaurios. ¿Te atreverías a pisar ese agujero? #shorts #curiosidades #planeta #Chicxulub #impacto #extinción",
+  "tags": [
+    "Chicxulub",
+    "cráter de impacto",
+    "extinción de dinosaurios",
+    "cráter de 180 km",
+    "meteorito",
+    "Yucatán",
+    "impacto meteórico",
+    "geología",
+    "ciencia",
+    "historia natural"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Un agujero de 180 km bajo ti?",
+      "prompt_imagen": "Aerial view of a massive circular crater on the Yucatán Peninsula, bright desert, showing its full diameter",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Ese es el cráter Chicxulub.",
+      "prompt_imagen": "Satellite image of Chicxulub crater, clear outline against the Yucatán terrain",
+      "lugar_real": "Chicxulub crater"
+    },
+    {
+      "texto": "Formado hace 66 millones de años.",
+      "prompt_imagen": "Illustration of Earth 66 million years ago with dinosaurs roaming a lush landscape",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Liberó energía de 100 millones de megatones.",
+      "prompt_imagen": "Dramatic explosion graphic over the crater, showing an immense fireball and shockwave",
+      "lugar_real": ""
+    },
+    {
+      "texto": "La onda de choque arrasó 500 km alrededor.",
+      "prompt_imagen": "Map highlighting a 500 km radius around the crater, shaded to indicate devastation area",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Todo ser vivo desaparecía al instante.",
+      "prompt_imagen": "Silhouettes of dinosaurs and prehistoric fauna fading away in a burst of light",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Hoy solo queda un anillo de cinco.",
+      "prompt_imagen": "Aerial view of the subtle inner ring of Chicxulub crater, a faint circular ridge in the landscape",
+      "lugar_real": ""
+    },
+    {
+      "texto": "¿Te atreverías a pisarlo?",
+      "prompt_imagen": "Close-up of a person standing at the edge of the crater's inner ring, looking down",
+      "lugar_real": ""
+    }
+  ],
+  "modo": "lugar"
+}

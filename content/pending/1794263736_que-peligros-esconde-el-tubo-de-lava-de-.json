@@ -1,0 +1,54 @@
+{
+  "titulo": "¿Qué peligros esconde el tubo de lava de 65 km?",
+  "descripcion": "El tubo de lava Kazumura en Hawai, con 65 km de longitud, se formó por décadas de erupciones de Kilauea y mantiene una temperatura constante de 30 °C, convirtiéndolo en un laberinto mortal. ¿Te atreverías a entrar? #shorts #curiosidades #planeta #lava #Kazumura #volcanes",
+  "tags": [
+    "Kazumura",
+    "lava tube",
+    "Hawaii",
+    "Kilauea",
+    "volcano",
+    "lava",
+    "geology",
+    "longest lava tube",
+    "volcanic tunnel",
+    "30°C",
+    "65 km",
+    "danger"
+  ],
+  "escenas": [
+    {
+      "texto": "Un tubo de lava de 65 km, mortal",
+      "prompt_imagen": "Entrada oscura de un tubo de lava gigante en Hawaii, rocas volcánicas y luz tenue, fotografía hiperrealista"
+    },
+    {
+      "texto": "Kazumura, Hawai, la más larga",
+      "prompt_imagen": "Vista panorámica del tubo de lava Kazumura en Hawaii, mostrando su larga abertura bajo la selva, fotografía hiperrealista",
+      "lugar_real": "Kazumura Lava Tube"
+    },
+    {
+      "texto": "Formado por erupciones continuas de Kilauea",
+      "prompt_imagen": "Erupción de Kilauea con lava fluyendo y formando túneles, estilo foto documental"
+    },
+    {
+      "texto": "Flujo constante entre 1950 y 1990",
+      "prompt_imagen": "Mapa histórico de la zona de Kilauea con marcas de erupciones entre 1950 y 1990, fotografía realista"
+    },
+    {
+      "texto": "Su interior mantiene 30 °C todo el año",
+      "prompt_imagen": "Interior del tubo de lava con termómetro marcando 30 °C, paredes de roca cálida, fotografía hiperrealista"
+    },
+    {
+      "texto": "Si entras, el laberinto es interminable",
+      "prompt_imagen": "Silhouette de una persona dentro de un extenso tubo de lava, pasillos que desaparecen en la oscuridad, foto dramática"
+    },
+    {
+      "texto": "Medido en 1976, alcanzó 65 km",
+      "prompt_imagen": "Geólogo de los años 70 midiendo la longitud del tubo de lava con cinta métrica, estilo foto retro"
+    },
+    {
+      "texto": "Un tubo de lava de 65 km, mortal",
+      "prompt_imagen": "Entrada oscura del mismo tubo de lava, énfasis en la amenaza, fotografía hiperrealista"
+    }
+  ],
+  "modo": "fenomeno"
+}

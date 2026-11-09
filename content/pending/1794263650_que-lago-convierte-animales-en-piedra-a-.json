@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué lago convierte animales en piedra a 60 °C?",
+  "descripcion": "El lago Natron en Tanzania alcanza los sesenta grados y un pH de diez punto cinco, convirtiendo en piedra a los animales que mueren en sus aguas. ¿Te atreverías a sumergirte allí? #shorts #curiosidades #planeta #LakeNatron #Álcalico #Flamencos",
+  "tags": [
+    "Lake Natron",
+    "Tanzania",
+    "lago alcalino",
+    "pH 10.5",
+    "60 grados",
+    "flamencos",
+    "pájaros de piedra",
+    "lago rojo",
+    "geología extrema",
+    "naturaleza"
+  ],
+  "escenas": [
+    {
+      "texto": "Este lago te convertiría en estatua",
+      "prompt_imagen": "Lake Natron, Tanzania, bright red alkaline water, volcanic basalt rocks, a stone statue on the shore, hyperrealistic photograph",
+      "lugar_real": "Lake Natron"
+    },
+    {
+      "texto": "Sus aguas alcanzan sesenta grados",
+      "prompt_imagen": "Close-up of Lake Natron surface with steam rising, indicating 60°C water temperature, hyperrealistic photograph"
+    },
+    {
+      "texto": "Y un pH de diez punto cinco",
+      "prompt_imagen": "Floating pH meter in Lake Natron water showing reading 10.5, hyperrealistic photograph"
+    },
+    {
+      "texto": "El calor y la alcalinidad calcifican",
+      "prompt_imagen": "Calcified bird carcass on the red shore of Lake Natron, white stone-like feathers, hyperrealistic photograph"
+    },
+    {
+      "texto": "Cuerpos de aves quedan petrificados",
+      "prompt_imagen": "Multiple petrified bird skeletons scattered on Lake Natron's shoreline, stark contrast, hyperrealistic photograph"
+    },
+    {
+      "texto": "Así nacen los famosos 'pájaros de piedra'",
+      "prompt_imagen": "Single calcified flamingo standing like a statue on the shore of Lake Natron, hyperrealistic photograph"
+    },
+    {
+      "texto": "Aún así, los flamencos anidan allí",
+      "prompt_imagen": "Flamencos rosados alimentándose en the saline waters of Lake Natron, bright pink birds, hyperrealistic photograph"
+    },
+    {
+      "texto": "¿Te atreverías a nadar en él?",
+      "prompt_imagen": "Person standing at the edge of Lake Natron, looking at the red water, hyperrealistic photograph"
+    }
+  ],
+  "modo": "lugar"
+}
