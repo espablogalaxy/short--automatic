@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T12:06:13.861945+00:00",
+ "actualizado": "2026-11-09T14:13:15.211510+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -1202,6 +1202,10 @@
     [
      "2026-11-08",
      152
+    ],
+    [
+     "2026-11-09",
+     152
     ]
    ]
   },
@@ -1279,6 +1283,10 @@
     [
      "2026-11-08",
      89
+    ],
+    [
+     "2026-11-09",
+     89
     ]
    ]
   },
@@ -1301,6 +1309,10 @@
     ],
     [
      "2026-11-08",
+     58
+    ],
+    [
+     "2026-11-09",
      58
     ]
    ]
@@ -1325,6 +1337,10 @@
     [
      "2026-11-08",
      71
+    ],
+    [
+     "2026-11-09",
+     71
     ]
    ]
   },
@@ -1343,6 +1359,10 @@
     ],
     [
      "2026-11-08",
+     78
+    ],
+    [
+     "2026-11-09",
      78
     ]
    ]
@@ -1363,13 +1383,17 @@
     [
      "2026-11-08",
      19
+    ],
+    [
+     "2026-11-09",
+     19
     ]
    ]
   },
   "WEIl-lrZBPY": {
    "titulo": "¿Qué lago te quemaría la piel a 60 °C?",
    "subida": "2026-11-06T22:38:50+00:00",
-   "vistas": 829,
+   "vistas": 951,
    "historial": [
     [
      "2026-11-07",
@@ -1378,13 +1402,17 @@
     [
      "2026-11-08",
      829
+    ],
+    [
+     "2026-11-09",
+     951
     ]
    ]
   },
   "aQaCLxW6AjY": {
    "titulo": "¿Una ola de hielo de 45 km³ puede destruir pueblos?",
    "subida": "2026-11-06T16:40:51+00:00",
-   "vistas": 59,
+   "vistas": 64,
    "historial": [
     [
      "2026-11-07",
@@ -1393,13 +1421,17 @@
     [
      "2026-11-08",
      59
+    ],
+    [
+     "2026-11-09",
+     64
     ]
    ]
   },
   "EfXv8Yea5M0": {
    "titulo": "¿Sobrevivirías en la Amazonía de 5,5 millones km²?",
    "subida": "2026-11-06T13:34:05+00:00",
-   "vistas": 130,
+   "vistas": 133,
    "historial": [
     [
      "2026-11-07",
@@ -1408,39 +1440,88 @@
     [
      "2026-11-08",
      130
+    ],
+    [
+     "2026-11-09",
+     133
     ]
    ]
   },
   "SEqIeuAaFwk": {
    "titulo": "¿Cómo desaparece una pared de hielo a 3,5 m al día?",
    "subida": "2026-11-07T21:20:11+00:00",
-   "vistas": 151,
+   "vistas": 973,
    "historial": [
     [
      "2026-11-08",
      151
+    ],
+    [
+     "2026-11-09",
+     973
     ]
    ]
   },
   "QbCGwvW-ODU": {
    "titulo": "¿Puede una tormenta de 2 200 km devorar continentes?",
    "subida": "2026-11-07T15:33:37+00:00",
-   "vistas": 72,
+   "vistas": 99,
    "historial": [
     [
      "2026-11-08",
      72
+    ],
+    [
+     "2026-11-09",
+     99
     ]
    ]
   },
   "LjkPogYva58": {
    "titulo": "¿Sobrevivirías a 125 m bajo el mar en Danakil?",
    "subida": "2026-11-07T12:14:10+00:00",
-   "vistas": 62,
+   "vistas": 89,
    "historial": [
     [
      "2026-11-08",
      62
+    ],
+    [
+     "2026-11-09",
+     89
+    ]
+   ]
+  },
+  "njhLf3V9-Ck": {
+   "titulo": "¿Sobrevivirías a –89,2 °C, el frío más mortal?",
+   "subida": "2026-11-08T21:34:50+00:00",
+   "vistas": 61,
+   "historial": [
+    [
+     "2026-11-09",
+     61
+    ]
+   ]
+  },
+  "-MX4OX8xhsw": {
+   "titulo": "¿Este islote de 43 ha te mataría en minutos?",
+   "subida": "2026-11-08T15:53:32+00:00",
+   "vistas": 89,
+   "historial": [
+    [
+     "2026-11-09",
+     89
+    ]
+   ]
+  },
+  "wo5WHP-6NeI": {
+   "titulo": "¿Cuál es la base humana más aislada (1 380 km)?",
+   "subida": "2026-11-08T12:34:06+00:00",
+   "vistas": 36,
+   "historial": [
+    [
+     "2026-11-09",
+     36
     ]
    ]
   }
