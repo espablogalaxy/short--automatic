@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué te mataría al caer 979 metros?",
+  "descripcion": "El Salto Ángel es la cascada más alta del planeta, con una caída de 979 m y agua que impacta a 150 km/h. ¿Te atreverías a lanzarte? #shorts #curiosidades #planeta #SaltoÁngel #cascada #Venezuela",
+  "tags": [
+    "Salto Ángel",
+    "cascada más alta",
+    "altura 979 metros",
+    "agua 150 km/h",
+    "Venezuela",
+    "cascada peligrosa",
+    "río",
+    "selva tropical"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué te mataría al caer 979 metros?",
+      "prompt_imagen": "Fotografía hiperrealista del Salto Ángel visto desde arriba, mostrando la enorme caída vertical del agua contra el cielo dramático"
+    },
+    {
+      "texto": "Es la cascada más alta del planeta",
+      "prompt_imagen": "Imagen panorámica del Salto Ángel resaltando su altura imponente, rodeada de densa selva tropical"
+    },
+    {
+      "texto": "Se llama Salto Ángel, Venezuela",
+      "prompt_imagen": "Mapa detallado señalando la ubicación del Salto Ángel en el Parque Nacional Canaima, Venezuela, con relieve montañoso",
+      "lugar_real": "Salto Ángel"
+    },
+    {
+      "texto": "El agua alcanza 150 km/h al impactar",
+      "prompt_imagen": "Primer plano del chorro de agua del Salto Ángel en caída, mostrando espuma y la velocidad del flujo"
+    },
+    {
+      "texto": "Ese golpe pulveriza cualquier objeto",
+      "prompt_imagen": "Vista del cráter al pie del Salto Ángel, rocas rotas y vapor, demostrando la fuerza del impacto"
+    },
+    {
+      "texto": "A casi 3 000 m, el oxígeno escasea",
+      "prompt_imagen": "Perspectiva aérea de la cima del cañón del Salto Ángel, aire delgado y vegetación escasa en la altitud"
+    },
+    {
+      "texto": "Solo los más valientes sobreviven al salto",
+      "prompt_imagen": "Escaladores con cuerda observando la base del Salto Ángel, expresión de valentía bajo la niebla"
+    },
+    {
+      "texto": "¿Te atreverías a caer esos 979 metros?",
+      "prompt_imagen": "Cámara vuelve a enfocar la caída del Salto Ángel, recreando la pregunta inicial con efecto de bucle"
+    }
+  ],
+  "modo": "lugar"
+}
