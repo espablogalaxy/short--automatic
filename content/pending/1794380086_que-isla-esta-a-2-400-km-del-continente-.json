@@ -1,0 +1,59 @@
+{
+  "titulo": "¿Qué isla está a 2 400 km del continente más cercano?",
+  "descripcion": "Tristan da Cunha es la comunidad más aislada del planeta, a 2 400 km del continente africano y 3 000 km del aeropuerto más cercano. ¿Te atreverías a vivir allí sin acceso aéreo? #shorts #curiosidades #planeta #TristanDaCunha #islaaislada #extremes",
+  "tags": [
+    "Tristan da Cunha",
+    "isla más aislada",
+    "población remota",
+    "distancia 2400 km",
+    "acceso por barco",
+    "Atlántico Sur",
+    "lugares extremos",
+    "geografía",
+    "habitantes",
+    "aislamiento"
+  ],
+  "escenas": [
+    {
+      "texto": "Aislada tanto que nadie llega en avión",
+      "prompt_imagen": "Isla remota sin pista de aterrizaje, vista aérea con nubes oscuras y océano alrededor",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Tristan da Cunha está a 2 400 km",
+      "prompt_imagen": "Vista satelital de Tristan da Cunha, isla aislada en el Atlántico Sur",
+      "lugar_real": "Tristan da Cunha"
+    },
+    {
+      "texto": "Del continente africano, la distancia es",
+      "prompt_imagen": "Mapa que muestra la línea de 2 400 km desde Tristan da Cunha hasta la costa de Sudáfrica",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Más que el trayecto Madrid‑Roma",
+      "prompt_imagen": "Mapa con línea de distancia entre Madrid y Roma, resaltada para comparación",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Y a 3 000 km del aeropuerto",
+      "prompt_imagen": "Mapa que indica la distancia de 3 000 km desde Tristan da Cunha al aeropuerto más cercano (Isla de Santa Helena)",
+      "lugar_real": ""
+    },
+    {
+      "texto": "El único acceso es por barco",
+      "prompt_imagen": "Barco acercándose al puerto de Tristan da Cunha bajo cielo gris, sin infraestructura aérea",
+      "lugar_real": ""
+    },
+    {
+      "texto": "250 habitantes viven allí, sin carreteras",
+      "prompt_imagen": "Pequeño pueblo en Tristan da Cunha con casas dispersas y caminos de tierra, sin carreteras pavimentadas",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Aislada tanto que nadie llega en avión",
+      "prompt_imagen": "Isla remota sin pista de aterrizaje, vista aérea con nubes oscuras y océano alrededor",
+      "lugar_real": ""
+    }
+  ],
+  "modo": "record"
+}

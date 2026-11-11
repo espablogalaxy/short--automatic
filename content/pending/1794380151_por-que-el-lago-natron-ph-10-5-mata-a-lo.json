@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Por qué el Lago Natron (pH 10.5) mata a los animales?",
+  "descripcion": "El Lago Natron en Tanzania tiene agua tan alcalina (pH 10.5) y caliente (60 °C) que calcifica cualquier ser vivo al tocarla. ¿Te atreverías a probarlo? #shorts #curiosidades #planeta #LagoNatron #Alcalinidad #Tanzania",
+  "tags": [
+    "Lago Natron",
+    "Tanzania",
+    "pH 10.5",
+    "agua alcalina",
+    "muerte animal",
+    "calcificación",
+    "lagos raros",
+    "geología",
+    "Rift Valley",
+    "temperatura 60°C"
+  ],
+  "escenas": [
+    {
+      "texto": "Este lago mataría a cualquier animal",
+      "prompt_imagen": "Lake with thick white crust on the shore, steam rising, barren landscape, dramatic sky, hyperrealistic photography, cinematic lighting, no people"
+    },
+    {
+      "texto": "Se llama Lago Natron, Tanzania",
+      "prompt_imagen": "Aerial view of Lake Natron, Tanzania, turquoise water with pink crusted edges, surrounding volcanic landscape, hyperrealistic photograph, clear sky",
+      "lugar_real": "Lake Natron"
+    },
+    {
+      "texto": "Su agua alcanza pH diez punto cinco",
+      "prompt_imagen": "Close-up of water surface with a pH test strip turning deep blue, indicating pH 10.5, scientific equipment, hyperrealistic macro photography"
+    },
+    {
+      "texto": "Y temperaturas de hasta sesenta grados",
+      "prompt_imagen": "Steam rising from hot lake water, thermometer display showing 60 °C, close-up, hyperrealistic detail, early morning light"
+    },
+    {
+      "texto": "Esto provoca una lluvia de carbonato blanca",
+      "prompt_imagen": "White calcium carbonate precipitates falling like rain over the lake surface, bright contrast, hyperrealistic close-up"
+    },
+    {
+      "texto": "Los cuerpos se calcifican en minutos",
+      "prompt_imagen": "Partial animal skeleton on the lake shore, white calcified coating, hyperrealistic detail, desolate background"
+    },
+    {
+      "texto": "Por eso las aves quedan como estatuas",
+      "prompt_imagen": "Flamingo standing in lake, fully calcified white skin, statue-like appearance, hyperrealistic photography, muted colors"
+    },
+    {
+      "texto": "¿Te atreverías a tocarlo?",
+      "prompt_imagen": "Hand hovering above shimmering lake surface, water reflecting sky, hyperrealistic close-up, tension in the scene"
+    }
+  ],
+  "modo": "fenomeno"
+}
