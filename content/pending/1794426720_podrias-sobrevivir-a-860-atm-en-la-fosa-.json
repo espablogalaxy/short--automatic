@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Podrías sobrevivir a 860 atm en la Fosa de Puerto Rico?",
+  "descripcion": "La Fosa de Puerto Rico es el punto más profundo del Atlántico, con 8 376 m y una presión de 860 atm que aplasta cualquier casco. ¿Te atreverías a descender allí? #shorts #curiosidades #planeta #PuertoRicoTrench #océano #presiónextrema",
+  "tags": [
+    "Puerto Rico Trench",
+    "fosa oceánica",
+    "presión",
+    "860 atm",
+    "8,376 metros",
+    "terremoto 1918",
+    "tsunami",
+    "microbios extremófilos",
+    "profundidad oceánica",
+    "abismo atlántico"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Sobrevivirías a 860 atm bajo el Atlántico?",
+      "prompt_imagen": "Oscura profundidad del océano Atlántico, vista del fondo de la Fosa de Puerto Rico, agua negra, sin luz, estilo fotográfico hiperrealista"
+    },
+    {
+      "texto": "La Fosa de Puerto Rico alcanza 8 376 metros.",
+      "prompt_imagen": "Mapa topográfico del Atlántico resaltando la Fosa de Puerto Rico, con etiqueta '8 376 m', estilo fotográfico realista",
+      "lugar_real": "Puerto Rico Trench"
+    },
+    {
+      "texto": "A esa profundidad la presión supera los 860 atm.",
+      "prompt_imagen": "Primer plano de un medidor de presión sumergido a 8 376 m, indicadores marcando 860 atm, iluminación tenue, foto hiperrealista"
+    },
+    {
+      "texto": "Ese nivel aplastarían cualquier casco de submarino convencional.",
+      "prompt_imagen": "Restos aplastados de un casco de submarino de acero bajo el agua, deformados por presión extrema, foto realista"
+    },
+    {
+      "texto": "Además, allí se originó el terremoto de 1918.",
+      "prompt_imagen": "Portada de periódico de 1918 mostrando titular del terremoto en Puerto Rico, estilo vintage, foto realista"
+    },
+    {
+      "texto": "Desencadenó un tsunami que arrasó costas puertorriqueñas.",
+      "prompt_imagen": "Gran ola de tsunami arrasando la costa de Puerto Rico, vista aérea, agua turbulenta, foto hiperrealista"
+    },
+    {
+      "texto": "Hoy científicos estudian microbios que sobreviven allí.",
+      "prompt_imagen": "Imagen microscópica de microbios extremófilos de la Fosa de Puerto Rico, colores vivos, estilo fotográfico científico"
+    },
+    {
+      "texto": "¿Sobrevivirías a 860 atm bajo el Atlántico?",
+      "prompt_imagen": "Oscura profundidad del océano Atlántico, vista del fondo de la Fosa de Puerto Rico, agua negra, sin luz, estilo fotográfico hiperrealista"
+    }
+  ],
+  "modo": "lugar"
+}
