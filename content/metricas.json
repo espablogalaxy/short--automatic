@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T13:41:59.744269+00:00",
+ "actualizado": "2026-11-11T12:53:38.311387+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -1405,7 +1405,7 @@
   "WEIl-lrZBPY": {
    "titulo": "¿Qué lago te quemaría la piel a 60 °C?",
    "subida": "2026-11-06T22:38:50+00:00",
-   "vistas": 951,
+   "vistas": 956,
    "historial": [
     [
      "2026-11-07",
@@ -1422,6 +1422,10 @@
     [
      "2026-11-10",
      951
+    ],
+    [
+     "2026-11-11",
+     956
     ]
    ]
   },
@@ -1444,6 +1448,10 @@
     ],
     [
      "2026-11-10",
+     64
+    ],
+    [
+     "2026-11-11",
      64
     ]
    ]
@@ -1468,13 +1476,17 @@
     [
      "2026-11-10",
      133
+    ],
+    [
+     "2026-11-11",
+     133
     ]
    ]
   },
   "SEqIeuAaFwk": {
    "titulo": "¿Cómo desaparece una pared de hielo a 3,5 m al día?",
    "subida": "2026-11-07T21:20:11+00:00",
-   "vistas": 993,
+   "vistas": 996,
    "historial": [
     [
      "2026-11-08",
@@ -1487,6 +1499,10 @@
     [
      "2026-11-10",
      993
+    ],
+    [
+     "2026-11-11",
+     996
     ]
    ]
   },
@@ -1505,6 +1521,10 @@
     ],
     [
      "2026-11-10",
+     99
+    ],
+    [
+     "2026-11-11",
      99
     ]
    ]
@@ -1525,13 +1545,17 @@
     [
      "2026-11-10",
      90
+    ],
+    [
+     "2026-11-11",
+     90
     ]
    ]
   },
   "njhLf3V9-Ck": {
    "titulo": "¿Sobrevivirías a –89,2 °C, el frío más mortal?",
    "subida": "2026-11-08T21:34:50+00:00",
-   "vistas": 79,
+   "vistas": 82,
    "historial": [
     [
      "2026-11-09",
@@ -1540,13 +1564,17 @@
     [
      "2026-11-10",
      79
+    ],
+    [
+     "2026-11-11",
+     82
     ]
    ]
   },
   "-MX4OX8xhsw": {
    "titulo": "¿Este islote de 43 ha te mataría en minutos?",
    "subida": "2026-11-08T15:53:32+00:00",
-   "vistas": 108,
+   "vistas": 118,
    "historial": [
     [
      "2026-11-09",
@@ -1555,13 +1583,17 @@
     [
      "2026-11-10",
      108
+    ],
+    [
+     "2026-11-11",
+     118
     ]
    ]
   },
   "wo5WHP-6NeI": {
    "titulo": "¿Cuál es la base humana más aislada (1 380 km)?",
    "subida": "2026-11-08T12:34:06+00:00",
-   "vistas": 93,
+   "vistas": 95,
    "historial": [
     [
      "2026-11-09",
@@ -1570,39 +1602,88 @@
     [
      "2026-11-10",
      93
+    ],
+    [
+     "2026-11-11",
+     95
     ]
    ]
   },
   "DJleiOziWaQ": {
    "titulo": "¿Cuánta energía liberó el cráter de Chicxulub?",
    "subida": "2026-11-10T01:04:35+00:00",
-   "vistas": 17,
+   "vistas": 30,
    "historial": [
     [
      "2026-11-10",
      17
+    ],
+    [
+     "2026-11-11",
+     30
     ]
    ]
   },
   "3es1ztIPtEQ": {
    "titulo": "¡Un temblor bajo el hielo de magnitud 5,5 te enterraría!",
    "subida": "2026-11-09T19:40:20+00:00",
-   "vistas": 13,
+   "vistas": 23,
    "historial": [
     [
      "2026-11-10",
      13
+    ],
+    [
+     "2026-11-11",
+     23
     ]
    ]
   },
   "kx0dKkWi3Z8": {
    "titulo": "¿Qué tan mortal es un rayo de 321 km?",
    "subida": "2026-11-09T14:51:26+00:00",
-   "vistas": 27,
+   "vistas": 32,
    "historial": [
     [
      "2026-11-10",
      27
+    ],
+    [
+     "2026-11-11",
+     32
+    ]
+   ]
+  },
+  "RGxLvCbm4lU": {
+   "titulo": "¿Qué lugar alcanza 56,7 °C y te quemaría?",
+   "subida": "2026-11-10T22:44:38+00:00",
+   "vistas": 24,
+   "historial": [
+    [
+     "2026-11-11",
+     24
+    ]
+   ]
+  },
+  "HuMMbyoiS_A": {
+   "titulo": "¿Por qué la Isla Queimada Grande, de 43 ha, mata con una sola mordida?",
+   "subida": "2026-11-10T16:55:05+00:00",
+   "vistas": 145,
+   "historial": [
+    [
+     "2026-11-11",
+     145
+    ]
+   ]
+  },
+  "OjkG5e1HlG4": {
+   "titulo": "¿Qué presión aplasta al fondo del lago más profundo?",
+   "subida": "2026-11-10T14:03:44+00:00",
+   "vistas": 23,
+   "historial": [
+    [
+     "2026-11-11",
+     23
     ]
    ]
   }
