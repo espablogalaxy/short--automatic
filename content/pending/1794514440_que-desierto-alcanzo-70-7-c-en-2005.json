@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué desierto alcanzó 70,7 °C en 2005?",
+  "descripcion": "En 2005 los satélites registraron 70,7 °C en el desierto de Lut, la superficie más caliente del planeta. ¿Te atreverías a cruzar esa quemadura? #shorts #curiosidades #planeta #DesiertoLut #TemperaturaExtrema #Satélites",
+  "tags": [
+    "Desierto de Lut",
+    "Dasht-e Lut",
+    "temperatura más alta",
+    "satélite MODIS",
+    "70 grados",
+    "desierto caliente",
+    "superficie de vidrio",
+    "fenómeno natural",
+    "Irán",
+    "calor extremo"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué desierto puede quemar al paso?",
+      "prompt_imagen": "Vista aérea del desierto de Lut, Irán, con superficie rojiza bajo sol abrasador",
+      "lugar_real": "Dasht-e Lut"
+    },
+    {
+      "texto": "En 2005, satélites registraron 70,7°C",
+      "prompt_imagen": "Imagen del satélite MODIS mostrando mapa térmico del desierto con zona roja brillante"
+    },
+    {
+      "texto": "Es la temperatura de superficie más alta",
+      "prompt_imagen": "Close-up del terreno del desierto mostrando arena fundida y grietas"
+    },
+    {
+      "texto": "El suelo se vuelve vidrio en segundos",
+      "prompt_imagen": "Detalle de arena del desierto transformándose en una capa vitrificada brillante"
+    },
+    {
+      "texto": "Esta arena fundida mata a cualquier ser",
+      "prompt_imagen": "Microfoto de microorganismo carbonizado en la arena vitrificada"
+    },
+    {
+      "texto": "Los viajeros deben llevar ropa ignífuga",
+      "prompt_imagen": "Explorador con traje resistente caminando por el desierto de Lut"
+    },
+    {
+      "texto": "El desierto de Lut, trampa mortal",
+      "prompt_imagen": "Panorámica del desierto con horizonte ondulado bajo intenso calor"
+    },
+    {
+      "texto": "¿Te atreverías a cruzar esa quemadura?",
+      "prompt_imagen": "Vista del horizonte del desierto al atardecer, con calor visible ondulante"
+    }
+  ],
+  "modo": "fenomeno"
+}
