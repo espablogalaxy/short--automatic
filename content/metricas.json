@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T12:53:38.311387+00:00",
+ "actualizado": "2026-11-12T13:56:17.522561+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -1486,7 +1486,7 @@
   "SEqIeuAaFwk": {
    "titulo": "¿Cómo desaparece una pared de hielo a 3,5 m al día?",
    "subida": "2026-11-07T21:20:11+00:00",
-   "vistas": 996,
+   "vistas": 999,
    "historial": [
     [
      "2026-11-08",
@@ -1503,6 +1503,10 @@
     [
      "2026-11-11",
      996
+    ],
+    [
+     "2026-11-12",
+     999
     ]
    ]
   },
@@ -1525,6 +1529,10 @@
     ],
     [
      "2026-11-11",
+     99
+    ],
+    [
+     "2026-11-12",
      99
     ]
    ]
@@ -1549,6 +1557,10 @@
     [
      "2026-11-11",
      90
+    ],
+    [
+     "2026-11-12",
+     90
     ]
    ]
   },
@@ -1567,6 +1579,10 @@
     ],
     [
      "2026-11-11",
+     82
+    ],
+    [
+     "2026-11-12",
      82
     ]
    ]
@@ -1587,6 +1603,10 @@
     [
      "2026-11-11",
      118
+    ],
+    [
+     "2026-11-12",
+     118
     ]
    ]
   },
@@ -1606,13 +1626,17 @@
     [
      "2026-11-11",
      95
+    ],
+    [
+     "2026-11-12",
+     95
     ]
    ]
   },
   "DJleiOziWaQ": {
    "titulo": "¿Cuánta energía liberó el cráter de Chicxulub?",
    "subida": "2026-11-10T01:04:35+00:00",
-   "vistas": 30,
+   "vistas": 38,
    "historial": [
     [
      "2026-11-10",
@@ -1621,13 +1645,17 @@
     [
      "2026-11-11",
      30
+    ],
+    [
+     "2026-11-12",
+     38
     ]
    ]
   },
   "3es1ztIPtEQ": {
    "titulo": "¡Un temblor bajo el hielo de magnitud 5,5 te enterraría!",
    "subida": "2026-11-09T19:40:20+00:00",
-   "vistas": 23,
+   "vistas": 30,
    "historial": [
     [
      "2026-11-10",
@@ -1636,13 +1664,17 @@
     [
      "2026-11-11",
      23
+    ],
+    [
+     "2026-11-12",
+     30
     ]
    ]
   },
   "kx0dKkWi3Z8": {
    "titulo": "¿Qué tan mortal es un rayo de 321 km?",
    "subida": "2026-11-09T14:51:26+00:00",
-   "vistas": 32,
+   "vistas": 33,
    "historial": [
     [
      "2026-11-10",
@@ -1651,39 +1683,88 @@
     [
      "2026-11-11",
      32
+    ],
+    [
+     "2026-11-12",
+     33
     ]
    ]
   },
   "RGxLvCbm4lU": {
    "titulo": "¿Qué lugar alcanza 56,7 °C y te quemaría?",
    "subida": "2026-11-10T22:44:38+00:00",
-   "vistas": 24,
+   "vistas": 41,
    "historial": [
     [
      "2026-11-11",
      24
+    ],
+    [
+     "2026-11-12",
+     41
     ]
    ]
   },
   "HuMMbyoiS_A": {
    "titulo": "¿Por qué la Isla Queimada Grande, de 43 ha, mata con una sola mordida?",
    "subida": "2026-11-10T16:55:05+00:00",
-   "vistas": 145,
+   "vistas": 305,
    "historial": [
     [
      "2026-11-11",
      145
+    ],
+    [
+     "2026-11-12",
+     305
     ]
    ]
   },
   "OjkG5e1HlG4": {
    "titulo": "¿Qué presión aplasta al fondo del lago más profundo?",
    "subida": "2026-11-10T14:03:44+00:00",
-   "vistas": 23,
+   "vistas": 36,
    "historial": [
     [
      "2026-11-11",
      23
+    ],
+    [
+     "2026-11-12",
+     36
+    ]
+   ]
+  },
+  "GVEILMEUl3Y": {
+   "titulo": "¿Cómo sobreviven 30 m bajo tierra al calor de 45 °C?",
+   "subida": "2026-11-11T23:59:55+00:00",
+   "vistas": 27,
+   "historial": [
+    [
+     "2026-11-12",
+     27
+    ]
+   ]
+  },
+  "qYfwHoBYAvs": {
+   "titulo": "¿Qué lago mata al instante con pH 10,5?",
+   "subida": "2026-11-11T17:00:28+00:00",
+   "vistas": 102,
+   "historial": [
+    [
+     "2026-11-12",
+     102
+    ]
+   ]
+  },
+  "7zNelMISRPg": {
+   "titulo": "¿Qué lava a 60 km/h podría enterrarte en minutos?",
+   "subida": "2026-11-11T13:20:42+00:00",
+   "vistas": 19,
+   "historial": [
+    [
+     "2026-11-12",
+     19
     ]
    ]
   }
