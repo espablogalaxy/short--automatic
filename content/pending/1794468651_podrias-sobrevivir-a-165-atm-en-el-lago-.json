@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Podrías sobrevivir a 165 atm en el lago más profundo?",
+  "descripcion": "El lago Baikal, con 1 642 m de profundidad, genera una presión de 165 atm en su fondo, suficiente para aplastar un submarino. ¿Te atreverías a sumergirte allí? #shorts #curiosidades #planeta #LakeBaikal #presión #agua #profundo",
+  "tags": [
+    "Lake Baikal",
+    "deepest lake",
+    "165 atm",
+    "pressure",
+    "fresh water",
+    "Siberia",
+    "1990 drilling",
+    "microbes",
+    "extreme environment",
+    "world record"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Podrías aguantar 165 atm bajo agua?",
+      "prompt_imagen": "Digital pressure gauge reading 165 atm against deep blue underwater background, hyperrealistic"
+    },
+    {
+      "texto": "Este es el lago Baikal, Siberia.",
+      "prompt_imagen": "Frozen surface of Lake Baikal with Siberian mountains reflected, hyperrealistic",
+      "lugar_real": "Lake Baikal"
+    },
+    {
+      "texto": "Mide 1,642 metros de profundidad máxima.",
+      "prompt_imagen": "Cross‑section view of Lake Baikal showing depth marker at 1,642 meters, underwater layers, hyperrealistic"
+    },
+    {
+      "texto": "A esa presión, el metal se deforma.",
+      "prompt_imagen": "Submarine hull bending under extreme pressure in deep sea, hyperrealistic"
+    },
+    {
+      "texto": "Contiene 20% del agua dulce mundial.",
+      "prompt_imagen": "World map highlighting Lake Baikal with 20% fresh water annotation, blue water graphic, hyperrealistic"
+    },
+    {
+      "texto": "Perforaron 1,600 metros en 1990.",
+      "prompt_imagen": "Scientists drilling through ice on Lake Baikal in 1990 with drilling rig, hyperrealistic"
+    },
+    {
+      "texto": "Microbios únicos viven en su fondo.",
+      "prompt_imagen": "Microscopic view of glowing unique microbes on lake bottom, hyperrealistic"
+    },
+    {
+      "texto": "¿Podrías aguantar 165 atm bajo agua?",
+      "prompt_imagen": "Digital pressure gauge reading 165 atm against deep blue underwater background, hyperrealistic"
+    }
+  ],
+  "modo": "lugar"
+}
