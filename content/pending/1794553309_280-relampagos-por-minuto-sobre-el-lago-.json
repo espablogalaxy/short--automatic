@@ -1,0 +1,54 @@
+{
+  "titulo": "¿280 relámpagos por minuto sobre el lago Maracaibo?",
+  "descripcion": "La famosa “rayo de Catatumbo” lanza hasta 280 destellos por minuto sobre el lago Maracaibo, una de las tormentas más intensas del planeta. ¿Te atreverías a atravesarla? #shorts #curiosidades #planeta #Catatumbo #relámpagos #Venezuela",
+  "tags": [
+    "Catatumbo",
+    "Lake Maracaibo",
+    "lightning",
+    "relámpagos",
+    "tormenta",
+    "Venezuela",
+    "meteorología",
+    "fenómeno natural",
+    "electricidad atmosférica",
+    "ciencia",
+    "cortos",
+    "naturaleza"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Una tormenta lanza 280 relámpagos cada minuto?",
+      "prompt_imagen": "Lightning bolts striking the night sky over Lake Maracaibo, Venezuela, hyperrealistic, dramatic lighting, high detail, no people"
+    },
+    {
+      "texto": "Solo ocurre constantemente sobre el lago Maracaibo.",
+      "prompt_imagen": "Aerial view of Lake Maracaibo at dusk, calm water reflecting the sky, hyperrealistic, high resolution",
+      "lugar_real": "Lake Maracaibo"
+    },
+    {
+      "texto": "Desde 1969 se ha registrado sin pausa.",
+      "prompt_imagen": "Vintage meteorological station monitoring lightning over Lake Maracaibo, 1970s equipment, hyperrealistic, indoor setting"
+    },
+    {
+      "texto": "260 noches al año, sin descanso.",
+      "prompt_imagen": "Night sky over Lake Maracaibo with continuous lightning flashes, hyperrealistic, dramatic clouds"
+    },
+    {
+      "texto": "Cada chispa equivale a 1 MW.",
+      "prompt_imagen": "Close-up of a single lightning bolt with an overlayed digital meter showing 1 megawatt, hyperrealistic"
+    },
+    {
+      "texto": "Aviones pueden perder sistemas allí.",
+      "prompt_imagen": "Commercial aircraft flying through a storm with lightning, cockpit instruments flickering, hyperrealistic"
+    },
+    {
+      "texto": "Científicos estudian la atmósfera allí.",
+      "prompt_imagen": "Field scientists in protective gear measuring lightning with sensors near Lake Maracaibo, hyperrealistic"
+    },
+    {
+      "texto": "¿Te atreverías a cruzar esa tormenta?",
+      "prompt_imagen": "Stormy view of Lake Maracaibo with lightning in background, hyperrealistic, inviting atmosphere"
+    }
+  ],
+  "modo": "lugar"
+}
