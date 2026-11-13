@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué cueva te aplastaría a 2 212 metros?",
+  "descripcion": "La Veryovkina Cave en Georgia es la cueva más profunda del planeta con 2 212 metros bajo la superficie. Su presión y falta de oxígeno la convierten en un lugar mortal. ¿Te atreverías a explorarla? #shorts #curiosidades #planeta #cavernas #georgia #profundidad",
+  "tags": [
+    "Veryovkina Cave",
+    "deepest cave",
+    "cave depth",
+    "Georgia",
+    "caving",
+    "subterranean",
+    "extreme pressure",
+    "exploration",
+    "record",
+    "cave record"
+  ],
+  "escenas": [
+    {
+      "texto": "Una caída de 2 200 m te mataría",
+      "prompt_imagen": "Entrada oscura de Veryovkina Cave en Georgia, vista aérea con niebla y montaña al fondo"
+    },
+    {
+      "texto": "Es la cueva más profunda conocida",
+      "prompt_imagen": "Interior estrecho de Veryovkina Cave, túneles verticales iluminados por linternas, rocas húmedas",
+      "lugar_real": "Veryovkina Cave"
+    },
+    {
+      "texto": "Mide 2 212 metros de profundidad",
+      "prompt_imagen": "Panel digital de medición de profundidad mostrando 2 212 metros dentro de la cueva"
+    },
+    {
+      "texto": "Eso supera al Burj Khalifa 2,7 veces",
+      "prompt_imagen": "Comparación visual: silueta del Burj Khalifa al lado de una barra que indica 2 212 metros, resaltando 2,7 veces su altura"
+    },
+    {
+      "texto": "Y si te quedas sin oxígeno",
+      "prompt_imagen": "Indicador de oxígeno rojo parpadeante en cámara subterránea, señal de escasez"
+    },
+    {
+      "texto": "A 2 200 m la presión supera 200",
+      "prompt_imagen": "Gráfico de presión con escala, mostrando 200 atm a 2 200 metros bajo tierra"
+    },
+    {
+      "texto": "Nadie ha llegado al fondo sin equipo",
+      "prompt_imagen": "Equipo de espeleólogos con cuerdas y lámparas descendiendo por un pozo vertical en la cueva"
+    },
+    {
+      "texto": "Una caída de 2 200 m te mataría",
+      "prompt_imagen": "Abismo negro profundo de Veryovkina Cave, sensación de caída infinita, luz tenue al fondo"
+    }
+  ],
+  "modo": "record"
+}

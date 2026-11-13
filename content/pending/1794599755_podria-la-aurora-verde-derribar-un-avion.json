@@ -1,0 +1,53 @@
+{
+  "titulo": "¿Podría la aurora verde derribar un avión a 300 km?",
+  "descripcion": "La aurora boreal no solo es un espectáculo, también puede interferir con la comunicación de los aviones. ¿Te atreverías a volar bajo ese verde mortal? #shorts #curiosidades #planeta #aurora #tormentasolar #aviación",
+  "tags": [
+    "aurora boreal",
+    "aurora verde",
+    "tormenta solar",
+    "evento carrington",
+    "comunicación aérea",
+    "GPS",
+    "oxígeno 557 nm",
+    "atmósfera",
+    "espacio",
+    "peligro aviación"
+  ],
+  "escenas": [
+    {
+      "texto": "Ese verde nocturno puede derribar aviones.",
+      "prompt_imagen": "Aurora boreal verde brillante sobre cielo nocturno ártico, fotografía hiperrealista, sin texto",
+      "lugar_real": "Aurora Borealis"
+    },
+    {
+      "texto": "Partículas del Sol chocan con la atmósfera.",
+      "prompt_imagen": "Erupción solar con eyección de masa coronal visible, foto realista del Sol, alta resolución"
+    },
+    {
+      "texto": "Ese choque excita oxígeno y nitrógeno.",
+      "prompt_imagen": "Capa superior de la atmósfera terrestre iluminada por partículas solares, vista desde el espacio, foto hiperrealista"
+    },
+    {
+      "texto": "El oxígeno emite luz verde a 557 nm.",
+      "prompt_imagen": "Descarga de oxígeno en cámara de laboratorio emitiendo luz verde a 557 nanómetros, foto macro hiperrealista"
+    },
+    {
+      "texto": "Los fotones alcanzan trescientos kilómetros de altura.",
+      "prompt_imagen": "Aurora verde vista desde satélite a 300 km de altitud sobre la Tierra, fotografía hiperrealista"
+    },
+    {
+      "texto": "A trescientos kilómetros, aviones pierden señal.",
+      "prompt_imagen": "Cabina de avión nocturna con indicadores de comunicación apagados, atmósfera tensa, foto realista"
+    },
+    {
+      "texto": "En 1999, la tormenta solar apagó GPS.",
+      "prompt_imagen": "Pantalla de GPS mostrando señal perdida durante tormenta solar de 1999, captura de pantalla realista"
+    },
+    {
+      "texto": "Ese verde nocturno puede derribar aviones.",
+      "prompt_imagen": "Aurora boreal verde brillante sobre cielo nocturno ártico, fotografía hiperrealista, sin texto",
+      "lugar_real": "Aurora Borealis"
+    }
+  ],
+  "modo": "fenomeno"
+}

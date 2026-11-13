@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Te quemarías al instante a 1 100 °C?",
+  "descripcion": "El volcán Erta Ale, en el desierto de Danakil, alberga un lago de lava permanente que supera los 1 100 °C, suficiente para fundir acero al instante. ¿Te atreverías a acercarte? #shorts #curiosidades #planeta #volcanes #lava #Ethiopia #ErtaAle",
+  "tags": [
+    "Erta Ale",
+    "lava lake",
+    "Danakil",
+    "volcano",
+    "1100°C",
+    "extreme heat",
+    "volcanic hazard",
+    "Ethiopia",
+    "geology",
+    "lava temperature"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Qué te quemaría al instante a 1 100 °C?",
+      "prompt_imagen": "Close-up of intensely glowing lava surface, heat distortion, bright orange-red, hyperrealistic photograph, desert background, no people"
+    },
+    {
+      "texto": "En el Danakil, Erta Ale arde",
+      "prompt_imagen": "Panoramic view of Danakil Depression, Erta Ale volcano spewing smoke, barren salt flats, vivid colors, hyperrealistic photograph",
+      "lugar_real": "Erta Ale"
+    },
+    {
+      "texto": "Su lago de lava vive desde 1900",
+      "prompt_imagen": "Inside Erta Ale crater, a bright lava lake shimmering, night sky, hyperrealistic photograph, no text"
+    },
+    {
+      "texto": "Mide unos 70 metros de ancho",
+      "prompt_imagen": "Aerial shot of lava lake with measurement overlay showing 70 meters width, bright molten surface, hyperrealistic photograph"
+    },
+    {
+      "texto": "Supera el punto de fusión del acero",
+      "prompt_imagen": "Molten steel pouring next to lava, both glowing, temperature comparison graphic, hyperrealistic photograph"
+    },
+    {
+      "texto": "El suelo se vuelve cristal de vidrio",
+      "prompt_imagen": "Volcanic ground turning into black glassy obsidian, smooth surface, hyperrealistic photograph"
+    },
+    {
+      "texto": "Cualquier paso desencadena explosiones mortales",
+      "prompt_imagen": "Footstep near lava lake causing a sudden steam explosion, rocks flying, hyperrealistic photograph"
+    },
+    {
+      "texto": "¿Qué te quemaría al instante a 1 100 °C?",
+      "prompt_imagen": "Close-up of intensely glowing lava surface, heat distortion, bright orange-red, hyperrealistic photograph, desert background, no people"
+    }
+  ],
+  "modo": "lugar"
+}

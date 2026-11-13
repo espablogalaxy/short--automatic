@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué te pasaría si caes en el lago de 60 °C?",
+  "descripcion": "El Lago Natron en Tanzania alcanza 60 °C y un pH de diez punto cinco, lo que calcifica cualquier ave que se posa. ¿Te convertiría este lago en estatua? #shorts #curiosidades #planeta #LakeNatron #Tanzania #pH10_5",
+  "tags": [
+    "Lake Natron",
+    "Tanzania",
+    "hot lake",
+    "pH 10.5",
+    "calcified birds",
+    "extreme places",
+    "geology",
+    "dangerous lakes",
+    "nature facts",
+    "shorts"
+  ],
+  "escenas": [
+    {
+      "texto": "Este lago te convertiría realmente en estatua",
+      "prompt_imagen": "Lago Natron al atardecer, aguas rojas y un ave convertida en estatua de piedra, vista aérea hiperrealista"
+    },
+    {
+      "texto": "Se llama Lago Natron, Tanzania",
+      "prompt_imagen": "Mapa político de Tanzania con resaltado del Lago Natron, estilo fotográfico hiperrealista",
+      "lugar_real": "Lake Natron"
+    },
+    {
+      "texto": "Su agua alcanza sesenta grados",
+      "prompt_imagen": "Termómetro digital marcando 60 grados Celsius sobre la superficie del Lago Natron, fotografía realista"
+    },
+    {
+      "texto": "Eso es suficiente para cocinar carne",
+      "prompt_imagen": "Carne asándose en una parrilla al borde del Lago Natron, vapor caliente, foto hiperrealista"
+    },
+    {
+      "texto": "Su pH es diez punto cinco",
+      "prompt_imagen": "Medidor de pH digital indicando 10,5 en el agua del Lago Natron, primer plano realista"
+    },
+    {
+      "texto": "Los flamencos que se posan se calcifican",
+      "prompt_imagen": "Flamenco posado en el lago, mitad vivo mitad petrificado, detalle hiperrealista"
+    },
+    {
+      "texto": "Sus huesos quedan petrificados para siempre",
+      "prompt_imagen": "Esqueleto de ave petrificada en la orilla del Lago Natron, luz tenue, foto realista"
+    },
+    {
+      "texto": "¿Te convertiría este lago en estatua?",
+      "prompt_imagen": "Mano extendida sobre la superficie del Lago Natron, reflejo distorsionado, estilo fotográfico hiperrealista"
+    }
+  ],
+  "modo": "lugar"
+}
