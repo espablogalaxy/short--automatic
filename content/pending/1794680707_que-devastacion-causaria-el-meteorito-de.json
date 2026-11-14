@@ -1,0 +1,59 @@
+{
+  "titulo": "¿Qué devastación causaría el meteorito de 60 toneladas Hoba?",
+  "descripcion": "El meteorito de hierro Hoba, descubierto en 1920, pesa 60 000 kg y nunca se ha movido. Imagina su impacto hoy. ¿Qué harías si cayera ahora? #shorts #curiosidades #planeta #meteorito #Namibia #Hoba",
+  "tags": [
+    "Hoba meteorite",
+    "meteorito Hoba",
+    "Namibia",
+    "impacto meteorito",
+    "60 toneladas",
+    "descubrimiento 1920",
+    "cráter 5 km",
+    "gigaton TNT",
+    "fenómeno natural",
+    "ciencia"
+  ],
+  "escenas": [
+    {
+      "texto": "Un meteorito de 60 toneladas cayó aquí",
+      "prompt_imagen": "massive iron meteorite lying on arid Namibian desert, close-up, hyperrealistic photography",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Descubierto en 1920 por el pastor",
+      "prompt_imagen": "early 20th century Namibian shepherd standing beside huge meteorite, sepia tone, hyperrealistic",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Se llama Hoba, está en Namibia",
+      "prompt_imagen": "the Hoba meteorite, massive iron-nickel block displayed outdoors in Namibia, hyperrealistic photography",
+      "lugar_real": "Hoba meteorite"
+    },
+    {
+      "texto": "Pesa 60 000 kg, nunca se movió",
+      "prompt_imagen": "close-up of massive meteorite with a 60,000 kg weight label, hyperrealistic photography",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Si impactara hoy, crearía cráter de 5 km",
+      "prompt_imagen": "computer simulation of a 5 km wide impact crater forming in desert, hyperrealistic rendering",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Liberaría energía equivalente a 2 gigatones",
+      "prompt_imagen": "massive explosion generating 2 gigaton TNT equivalent, bright fireball over desert, hyperrealistic photography",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Basta una explosión para vaporizar 10 km³ aire",
+      "prompt_imagen": "gigantic plume of vaporized air and dust rising 10 km high over impact site, hyperrealistic photography",
+      "lugar_real": ""
+    },
+    {
+      "texto": "¿Qué harías si el Hoba cayera ahora?",
+      "prompt_imagen": "massive iron meteorite streaking down sky towards Namibia, dramatic lighting, hyperrealistic photography",
+      "lugar_real": ""
+    }
+  ],
+  "modo": "fenomeno"
+}
