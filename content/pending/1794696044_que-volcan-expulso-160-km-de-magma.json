@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué volcán expulsó 160 km³ de magma?",
+  "descripcion": "En 1815, el Monte Tambora liberó 160 km³ de magma, apagando el sol y provocando el año sin verano. ¿Te atreverías a vivir bajo esa nube mortal? #shorts #curiosidades #planeta #volcán #Tambora #erupción",
+  "tags": [
+    "Mount Tambora",
+    "volcano",
+    "eruption",
+    "160 km³",
+    "year without summer",
+    "volcanic ash",
+    "historical eruption",
+    "volcanic disaster",
+    "geology",
+    "climate change"
+  ],
+  "escenas": [
+    {
+      "texto": "Una erupción que oscureció el cielo",
+      "prompt_imagen": "Dramatic volcanic ash cloud darkening a bright daytime sky over a tropical landscape, hyperrealistic, cinematic lighting"
+    },
+    {
+      "texto": "En 1815, el Monte Tambora explotó",
+      "prompt_imagen": "Mount Tambora volcano in Indonesia, early 19th century landscape, clear sky before eruption, hyperrealistic",
+      "lugar_real": "Mount Tambora"
+    },
+    {
+      "texto": "Expulsó más de ciento sesenta km³",
+      "prompt_imagen": "Massive volcanic eruption spewing thick magma and ash, gigantic plume rising over the volcano, hyperrealistic"
+    },
+    {
+      "texto": "Equivalente a sesenta y cuatro mil estadios",
+      "prompt_imagen": "Aerial view of thousands of football stadiums filled with piles of volcanic rock, hyperrealistic"
+    },
+    {
+      "texto": "Ceniza cubrió dos mil kilómetros cuadrados",
+      "prompt_imagen": "Landscape completely covered in thick gray ash, villages barely visible, hyperrealistic"
+    },
+    {
+      "texto": "Causó setenta y un mil muertos",
+      "prompt_imagen": "Deserted village with collapsed huts and signs of famine, dead bodies scattered, hyperrealistic"
+    },
+    {
+      "texto": "El año sin verano bajó un grado",
+      "prompt_imagen": "European winter scene with frosted fields and people shivering in 1816, hyperrealistic"
+    },
+    {
+      "texto": "¿Sobrevivirías bajo una nube mortal?",
+      "prompt_imagen": "Person looking up at a dark ash-filled sky, expression of fear, hyperrealistic"
+    }
+  ],
+  "modo": "record"
+}

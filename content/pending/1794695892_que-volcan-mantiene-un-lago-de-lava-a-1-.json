@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué volcán mantiene un lago de lava a 1 150 °C?",
+  "descripcion": "El Monte Erebus, en la Antártida, alberga el único lago de lava permanente del planeta con una temperatura de 1 150 °C, capaz de fundir metal y lanzar rocas a más de 200 m. ¿Te atreverías a acercarte? #shorts #curiosidades #planeta #volcán #lava #MonteErebus",
+  "tags": [
+    "Monte Erebus",
+    "lava lake",
+    "volcano",
+    "Antarctica",
+    "permanent lava lake",
+    "volcanic temperature",
+    "extreme heat",
+    "volcanic eruption",
+    "geology",
+    "science"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Te quemarías en un lago de lava?",
+      "prompt_imagen": "Vista aérea del cráter del Monte Erebus con su lago de lava brillante, cielo polar, estilo foto documental",
+      "lugar_real": "Mount Erebus"
+    },
+    {
+      "texto": "Monte Erebus lo mantiene encendido",
+      "prompt_imagen": "Cono nevado del Monte Erebus en la Antártida, con humo blanco y rojo emergiendo del cráter"
+    },
+    {
+      "texto": "Temperatura constante: mil ciento cincuenta grados",
+      "prompt_imagen": "Superficie incandescente del lago de lava del Monte Erebus, ondas rojas brillando bajo la nieve"
+    },
+    {
+      "texto": "Supera el punto de fusión del hierro",
+      "prompt_imagen": "Metal fundiéndose sobre la superficie del lago de lava, chispas y brillo rojo intenso"
+    },
+    {
+      "texto": "A 100 metros el aire hiere",
+      "prompt_imagen": "Distancia de 100 metros desde el cráter, aire ondulado por calor, vapor y distorsión visual"
+    },
+    {
+      "texto": "Una explosión puede lanzar rocas a 200 m",
+      "prompt_imagen": "Erupción parcial del Monte Erebus, rocas incandescentes volando cientos de metros"
+    },
+    {
+      "texto": "Solo científicos con trajes especiales se acercan",
+      "prompt_imagen": "Científico con traje espacial antártico observando el lago de lava, equipo de protección completo"
+    },
+    {
+      "texto": "¿Te quemarías en un lago de lava?",
+      "prompt_imagen": "Vista aérea del cráter del Monte Erebus con su lago de lava brillante, cielo polar, estilo foto documental"
+    }
+  ],
+  "modo": "lugar"
+}
