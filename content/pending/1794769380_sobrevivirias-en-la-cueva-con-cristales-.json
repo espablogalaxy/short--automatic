@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Sobrevivirías en la cueva con cristales de 12 m?",
+  "descripcion": "La Cueva de los Cristales de Naica alberga gigantes de gipsita de hasta doce metros, pero su calor de 58 °C y humedad total hacen imposible entrar sin equipo especializado. ¿Te atreverías a explorarla? #shorts #curiosidades #planeta #Naica #CaveOfTheCrystals #geología",
+  "tags": [
+    "Cueva de los Cristales",
+    "Naica",
+    "cristales gigantes",
+    "gipsita",
+    "temperatura extrema",
+    "humedad 100%",
+    "cueva subterránea",
+    "geología mexicana",
+    "exploración",
+    "peligro"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Podrías entrar en la cueva de 12 metros?",
+      "prompt_imagen": "Interior de la Cueva de los Cristales de Naica, enormes cristales de gipsita de doce metros bajo luz tenue, vista panorámica."
+    },
+    {
+      "texto": "Naica, bajo el desierto de Chihuahua.",
+      "prompt_imagen": "Desierto de Chihuahua visto desde satélite, con el pozo minero Naica resaltado en el centro.",
+      "lugar_real": "Cave of the Crystals"
+    },
+    {
+      "texto": "Temperatura constante de cincuenta y ocho grados.",
+      "prompt_imagen": "Termómetro digital marcando 58 °C dentro de la cueva, vapor caliente saliendo del suelo."
+    },
+    {
+      "texto": "Humedad al cien por ciento, vapor permanente.",
+      "prompt_imagen": "Niebla densa y vapor llenando la cueva, gotas de agua cubriendo los cristales."
+    },
+    {
+      "texto": "Gipsita forma cristales de hasta doce metros.",
+      "prompt_imagen": "Cristal de gipsita de doce metros de altura emergiendo del suelo de la cueva, iluminado por luces."
+    },
+    {
+      "texto": "Crecen milímetros por año bajo presión.",
+      "prompt_imagen": "Detalle macro de un cristal de gipsita mostrando finas capas de crecimiento anual."
+    },
+    {
+      "texto": "Sin traje, solo dos minutos vivos.",
+      "prompt_imagen": "Explorador con traje de protección dentro de la cueva, cronómetro marcando dos minutos."
+    },
+    {
+      "texto": "Así que, ¿sobrevivirías en la cueva?",
+      "prompt_imagen": "Vista panorámica de la cueva con luz dramática, resaltando su peligrosidad."
+    }
+  ],
+  "modo": "lugar"
+}

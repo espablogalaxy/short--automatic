@@ -1,0 +1,52 @@
+{
+  "titulo": "¿A cuántos kilómetros está Pitcairn, a 2 150 km del resto?",
+  "descripcion": "Pitcairn es la comunidad habitada más remota del planeta, a 2 150 km del continente más cercano. ¿Te atreverías a vivir allí? #shorts #curiosidades #planeta #Pitcairn #islaaislada #distancia",
+  "tags": [
+    "Pitcairn Island",
+    "isolated island",
+    "remote island",
+    "2150 km",
+    "population 50",
+    "Pacific Ocean",
+    "extreme isolation",
+    "survival",
+    "geography",
+    "travel"
+  ],
+  "escenas": [
+    {
+      "texto": "¿A cuántos kilómetros está la isla?",
+      "prompt_imagen": "Aerial view of a tiny speck island in the middle of the Pacific Ocean, endless blue water, hyperrealistic photography"
+    },
+    {
+      "texto": "Se llama Pitcairn, en medio del Pacífico",
+      "prompt_imagen": "Pitcairn Island seen from above, green vegetation, rocky cliffs, clear sky, hyperrealistic photography",
+      "lugar_real": "Pitcairn Island"
+    },
+    {
+      "texto": "Está a 2 150 km de la civilización",
+      "prompt_imagen": "Top-down map illustration highlighting Pitcairn Island with a 2150 km radius line to the nearest inhabited land, realistic style"
+    },
+    {
+      "texto": "Solo 50 personas viven allí permanentemente",
+      "prompt_imagen": "Small community on Pitcairn Island: wooden houses, a few residents walking, tranquil atmosphere, hyperrealistic"
+    },
+    {
+      "texto": "Una urgencia médica tarda tres días",
+      "prompt_imagen": "Simple medical tent on a remote island, a clock showing passing hours, sense of urgency, hyperrealistic"
+    },
+    {
+      "texto": "Los barcos llegan apenas cada tres meses",
+      "prompt_imagen": "Supply ship docking at Pitcairn's modest pier under a clear sky, hyperrealistic photography"
+    },
+    {
+      "texto": "Si algo falla, la muerte es segura",
+      "prompt_imagen": "Abandoned medical kit on a storm‑tossed shore of Pitcairn Island, dark clouds overhead, hyperrealistic"
+    },
+    {
+      "texto": "¿A cuántos kilómetros está la isla?",
+      "prompt_imagen": "Aerial view of a tiny speck island in the middle of the Pacific Ocean, endless blue water, hyperrealistic photography"
+    }
+  ],
+  "modo": "lugar"
+}
