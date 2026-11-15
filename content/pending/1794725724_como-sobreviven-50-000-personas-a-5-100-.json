@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Cómo sobreviven 50 000 personas a 5 100 m?",
+  "descripcion": "La Rinconada, la ciudad más alta del mundo, vive a 5 100 m donde el aire tiene sólo un tercio de oxígeno. ¿Te atreverías a vivir allí? #shorts #curiosidades #planeta #altitud #Perú #LaRinconada #minería",
+  "tags": [
+    "La Rinconada",
+    "alta altitud",
+    "vida extrema",
+    "presión atmosférica",
+    "adaptación humana",
+    "minería de oro",
+    "Perú",
+    "5 100 metros"
+  ],
+  "escenas": [
+    {
+      "texto": "A 5 100 m, morirías en minutos",
+      "prompt_imagen": "Vista aérea de montañas nevadas con señal de altitud 5,100 metros, atmósfera tenue, estilo foto hiperrealista"
+    },
+    {
+      "texto": "La Rinconada, Perú, una mina de oro",
+      "prompt_imagen": "Ciudad minera La Rinconada en los Andes peruanos, casas de madera y maquinaria rodeada de nieve, estilo foto hiperrealista",
+      "lugar_real": "La Rinconada"
+    },
+    {
+      "texto": "La ciudad más alta del planeta",
+      "prompt_imagen": "Panorama de La Rinconada visto desde arriba, mostrando su ubicación en la cordillera de los Andes, foto hiperrealista"
+    },
+    {
+      "texto": "Su presión atmosférica es un tercio",
+      "prompt_imagen": "Panel de medidor de presión atmosférica mostrando un tercio de la presión normal al nivel del mar, foto hiperrealista"
+    },
+    {
+      "texto": "Eso equivale a respirar a 1 500 m",
+      "prompt_imagen": "Persona con máscara de oxígeno en una altitud de 1,500 metros, paisaje montañoso, foto hiperrealista"
+    },
+    {
+      "texto": "Los habitantes aumentan su hemoglobina un 60 %",
+      "prompt_imagen": "Microscopio mostrando glóbulos rojos densos, señal de aumento del 60 % de hemoglobina, foto hiperrealista"
+    },
+    {
+      "texto": "Censo 2022 muestra 50 000 personas",
+      "prompt_imagen": "Mapa de Perú con punto rojo en La Rinconada y cifra 50,000 habitantes, foto hiperrealista"
+    },
+    {
+      "texto": "¿Podrías vivir donde el aire escasea?",
+      "prompt_imagen": "Persona mirando un horizonte nevado en alta montaña, expresión pensativa, foto hiperrealista"
+    }
+  ],
+  "modo": "fenomeno"
+}
