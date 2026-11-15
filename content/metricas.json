@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T12:25:50.127614+00:00",
+ "actualizado": "2026-11-15T12:54:38.939594+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -1746,13 +1746,17 @@
     [
      "2026-11-14",
      40
+    ],
+    [
+     "2026-11-15",
+     40
     ]
    ]
   },
   "HuMMbyoiS_A": {
    "titulo": "¿Por qué la Isla Queimada Grande, de 43 ha, mata con una sola mordida?",
    "subida": "2026-11-10T16:55:05+00:00",
-   "vistas": 309,
+   "vistas": 312,
    "historial": [
     [
      "2026-11-11",
@@ -1769,6 +1773,10 @@
     [
      "2026-11-14",
      309
+    ],
+    [
+     "2026-11-15",
+     312
     ]
    ]
   },
@@ -1792,13 +1800,17 @@
     [
      "2026-11-14",
      41
+    ],
+    [
+     "2026-11-15",
+     41
     ]
    ]
   },
   "GVEILMEUl3Y": {
    "titulo": "¿Cómo sobreviven 30 m bajo tierra al calor de 45 °C?",
    "subida": "2026-11-11T23:59:55+00:00",
-   "vistas": 28,
+   "vistas": 27,
    "historial": [
     [
      "2026-11-12",
@@ -1811,6 +1823,10 @@
     [
      "2026-11-14",
      28
+    ],
+    [
+     "2026-11-15",
+     27
     ]
    ]
   },
@@ -1829,6 +1845,10 @@
     ],
     [
      "2026-11-14",
+     108
+    ],
+    [
+     "2026-11-15",
      108
     ]
    ]
@@ -1849,13 +1869,17 @@
     [
      "2026-11-14",
      19
+    ],
+    [
+     "2026-11-15",
+     19
     ]
    ]
   },
   "2Hi7UpDitdE": {
    "titulo": "¿Por qué el Lago Natron (pH 10.5) mata a los animales?",
    "subida": "2026-11-12T23:05:32+00:00",
-   "vistas": 341,
+   "vistas": 383,
    "historial": [
     [
      "2026-11-13",
@@ -1864,13 +1888,17 @@
     [
      "2026-11-14",
      341
+    ],
+    [
+     "2026-11-15",
+     383
     ]
    ]
   },
   "xBGPh3kQsC8": {
    "titulo": "¿Qué tan ancho fue el tornado de El Reno, 4,2 km?",
    "subida": "2026-11-12T17:29:10+00:00",
-   "vistas": 46,
+   "vistas": 66,
    "historial": [
     [
      "2026-11-13",
@@ -1879,6 +1907,10 @@
     [
      "2026-11-14",
      46
+    ],
+    [
+     "2026-11-15",
+     66
     ]
    ]
   },
@@ -1894,39 +1926,88 @@
     [
      "2026-11-14",
      1
+    ],
+    [
+     "2026-11-15",
+     1
     ]
    ]
   },
   "UNAFchsTaa0": {
    "titulo": "¿Qué te mataría a 8 376 m bajo el Atlántico?",
    "subida": "2026-11-13T23:08:46+00:00",
-   "vistas": 47,
+   "vistas": 90,
    "historial": [
     [
      "2026-11-14",
      47
+    ],
+    [
+     "2026-11-15",
+     90
     ]
    ]
   },
   "b3CcDnhLuuQ": {
    "titulo": "¿Una lava a 30 km/h puede devorar una carretera?",
    "subida": "2026-11-13T17:03:48+00:00",
-   "vistas": 31,
+   "vistas": 38,
    "historial": [
     [
      "2026-11-14",
      31
+    ],
+    [
+     "2026-11-15",
+     38
     ]
    ]
   },
   "oF_q17xhrj8": {
    "titulo": "¿Sobrevivirías a 1 100 atm en la Fosa de las Marianas?",
    "subida": "2026-11-13T13:44:58+00:00",
-   "vistas": 38,
+   "vistas": 55,
    "historial": [
     [
      "2026-11-14",
      38
+    ],
+    [
+     "2026-11-15",
+     55
+    ]
+   ]
+  },
+  "YDcoD2Ji9d4": {
+   "titulo": "¿Qué presión de 720 atm mata al instante en la Fosa de Java?",
+   "subida": "2026-11-14T21:54:22+00:00",
+   "vistas": 1,
+   "historial": [
+    [
+     "2026-11-15",
+     1
+    ]
+   ]
+  },
+  "FN3uWf7FbsI": {
+   "titulo": "¿Qué glaciar puede arrastrarte a 30 km/h?",
+   "subida": "2026-11-14T15:41:59+00:00",
+   "vistas": 18,
+   "historial": [
+    [
+     "2026-11-15",
+     18
+    ]
+   ]
+  },
+  "VWBt82412pw": {
+   "titulo": "¿Qué isla está a 2 600 km del continente más cercano?",
+   "subida": "2026-11-14T12:48:18+00:00",
+   "vistas": 28,
+   "historial": [
+    [
+     "2026-11-15",
+     28
     ]
    ]
   }
