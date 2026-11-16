@@ -1,0 +1,57 @@
+{
+  "titulo": "¿Una plancha de hielo que hundiría continentes?",
+  "descripcion": "Descubre el enorme Ross Ice Shelf y su amenaza al nivel del mar. ¿Te atreverías a vivir bajo agua? #shorts #curiosidades #planeta #RossIceShelf #Antarctica #IceShelf #SeaLevelRise #NASA",
+  "tags": [
+    "Ross Ice Shelf",
+    "Antarctica",
+    "ice shelf",
+    "sea level rise",
+    "satellite",
+    "NASA",
+    "James Ross",
+    "record"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Una plancha de hielo que hundiría continentes?",
+      "prompt_imagen": "Vista satelital dramática de una enorme placa de hielo flotante en la Antártida, con sombras intensas y océano azul oscuro, estilo fotografía hiperrealista de reportaje.",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Es la plataforma de Ross, 487 000 km².",
+      "prompt_imagen": "Imagen aérea del Ross Ice Shelf mostrando su vasta extensión blanca sobre el mar, con bordes definidos y detalle de grietas, fotografía hiperrealista.",
+      "lugar_real": "Ross Ice Shelf"
+    },
+    {
+      "texto": "Descubierta por James Ross en 1841.",
+      "prompt_imagen": "Retrato histórico en blanco y negro del capitán James Ross a bordo de su barco, observando la costa antártica, estilo fotografía de época.",
+      "lugar_real": ""
+    },
+    {
+      "texto": "NASA la mide desde satélite en 2020.",
+      "prompt_imagen": "Satélite de la NASA sobrevolando la Antártida, con pantalla de datos de medición del ice shelf, fotografía hiperrealista con luz solar reflejada en el hielo.",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Fundirla elevaría el nivel marino tres metros.",
+      "prompt_imagen": "Representación del océano subiendo tres metros, cubriendo costas de ciudades, con la silueta del Ross Ice Shelf desvaneciéndose, estilo foto realista.",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Eso borraría ciudades costeras como Nueva York.",
+      "prompt_imagen": "Panorama de la skyline de Nueva York sumergida bajo agua, con edificios parcialmente visibles, foto hiperrealista de desastre.",
+      "lugar_real": ""
+    },
+    {
+      "texto": "¿Podrías imaginar el mundo bajo agua?",
+      "prompt_imagen": "Mundo visto desde el espacio con grandes extensiones oceánicas cubriendo continentes, estilo fotografía hiperrealista.",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Esa enorme placa de hielo, ¿te hundiría?",
+      "prompt_imagen": "Vista satelital del Ross Ice Shelf al atardecer, resaltando su tamaño gigantesco, foto hiperrealista que vuelve al inicio del video.",
+      "lugar_real": "Ross Ice Shelf"
+    }
+  ],
+  "modo": "fenomeno"
+}

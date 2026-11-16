@@ -1,0 +1,59 @@
+{
+  "titulo": "¿Te quemaría tocar el agua pH 10 del cráter Lonar?",
+  "descripcion": "El cráter Lonar en India alberga un lago con pH 10 y 5 % de sal, lo suficiente para quemar la piel al contacto. ¿Te atreverías a probarlo? #shorts #curiosidades #planeta #Lonar #cráter #meteorito #aguaalkalina",
+  "tags": [
+    "Lonar Crater",
+    "India",
+    "meteorite impact",
+    "alkaline lake",
+    "pH ten",
+    "extreme environment",
+    "crater lake",
+    "geology",
+    "extremophiles",
+    "science"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Te quemaría tocar agua pH diez?",
+      "prompt_imagen": "close-up of a hand hovering over bright turquoise lake water, pH indicator floating, dramatic lighting, hyperrealistic photograph",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Es el cráter de Lonar, 1,8 km.",
+      "prompt_imagen": "aerial view of Lonar Crater, circular lake in arid landscape, clear sky, hyperrealistic photograph",
+      "lugar_real": "Lonar Crater"
+    },
+    {
+      "texto": "Formado hace 52 000 años por meteoro.",
+      "prompt_imagen": "meteor streaking across night sky over Indian plains, bright fireball, hyperrealistic illustration",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Agua pH diez, 5 % sal.",
+      "prompt_imagen": "surface of Lonar Lake showing sparkling salt crystals, floating pH meter reading ten, hyperrealistic photograph",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Ese nivel quema la piel en segundos.",
+      "prompt_imagen": "close-up of a person's hand touching turquoise lake water, immediate skin redness, dramatic effect, hyperrealistic photograph",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Además, el cráter es 137 m profundo.",
+      "prompt_imagen": "cross-section view of Lonar Crater showing rugged walls and depth of 137 meters, hyperrealistic illustration",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Solo los científicos usan trajes protectores aquí.",
+      "prompt_imagen": "scientists wearing hazmat suits standing at the rim of Lonar Crater, holding instruments, hyperrealistic photograph",
+      "lugar_real": ""
+    },
+    {
+      "texto": "¿Te quemaría tocar agua pH diez?",
+      "prompt_imagen": "close-up of a hand hovering over bright turquoise lake water, pH indicator floating, dramatic lighting, hyperrealistic photograph",
+      "lugar_real": ""
+    }
+  ],
+  "modo": "lugar"
+}
