@@ -1,0 +1,57 @@
+{
+  "titulo": "¿Qué microburst derribó al AA 587 a 160 km/h?",
+  "descripcion": "Un microburst es una ráfaga descendente que puede alcanzar hasta 180 km/h y derribó al vuelo AA 587 en 2001. ¿Te atreverías a volar bajo estas condiciones? #shorts #curiosidades #planeta #microburst #aviación #tormenta",
+  "tags": [
+    "microburst",
+    "downdraft",
+    "AA 587",
+    "Ted Fujita",
+    "viento extremo",
+    "corte de viento",
+    "meteorología",
+    "avión"
+  ],
+  "escenas": [
+    {
+      "texto": "Este microburst destruye aviones en segundos letales",
+      "prompt_imagen": "Avión comercial volando bajo cielo nublado, visible corriente descendente de viento, estilo fotografía hiperrealista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Se trata de una ráfaga descendente",
+      "prompt_imagen": "Nube de tormenta con corriente descendente marcada, vista lateral, foto hiperrealista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Ted Fujita la describió en 1980",
+      "prompt_imagen": "Retrato de Ted Fujita, científico de meteorología, año 1980, estilo foto documental",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Velocidad: hasta ciento ochenta km/h",
+      "prompt_imagen": "Anemómetro digital marcando ciento ochenta km/h, fondo de aeropuerto, foto realista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "En 2001, AA 587 cayó",
+      "prompt_imagen": "Avión de American Airlines 587 en tierra, humo y fuego, foto de archivo 2001, perspectiva aérea",
+      "lugar_real": "JFK Airport"
+    },
+    {
+      "texto": "Microburst sopló a ciento sesenta km/h",
+      "prompt_imagen": "Viento fuerte sobre pista de aeropuerto, flechas indicando ciento sesenta km/h, foto realista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "El avión perdió el control al instante",
+      "prompt_imagen": "Cabina de avión con indicadores de alerta, piloto preocupado, vista interior, estilo foto realista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Ese microburst destruye aviones en segundos",
+      "prompt_imagen": "Avión atravesando microburst, cielo turbulento, foto hiperrealista",
+      "lugar_real": ""
+    }
+  ],
+  "modo": "fenomeno"
+}
