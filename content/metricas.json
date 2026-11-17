@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T13:55:06.131194+00:00",
+ "actualizado": "2026-11-17T14:48:01.583569+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -1908,13 +1908,17 @@
     [
      "2026-11-16",
      386
+    ],
+    [
+     "2026-11-17",
+     386
     ]
    ]
   },
   "xBGPh3kQsC8": {
    "titulo": "¿Qué tan ancho fue el tornado de El Reno, 4,2 km?",
    "subida": "2026-11-12T17:29:10+00:00",
-   "vistas": 67,
+   "vistas": 69,
    "historial": [
     [
      "2026-11-13",
@@ -1931,6 +1935,10 @@
     [
      "2026-11-16",
      67
+    ],
+    [
+     "2026-11-17",
+     69
     ]
    ]
   },
@@ -1954,6 +1962,10 @@
     [
      "2026-11-16",
      1
+    ],
+    [
+     "2026-11-17",
+     1
     ]
    ]
   },
@@ -1973,13 +1985,17 @@
     [
      "2026-11-16",
      101
+    ],
+    [
+     "2026-11-17",
+     101
     ]
    ]
   },
   "b3CcDnhLuuQ": {
    "titulo": "¿Una lava a 30 km/h puede devorar una carretera?",
    "subida": "2026-11-13T17:03:48+00:00",
-   "vistas": 38,
+   "vistas": 37,
    "historial": [
     [
      "2026-11-14",
@@ -1992,6 +2008,10 @@
     [
      "2026-11-16",
      38
+    ],
+    [
+     "2026-11-17",
+     37
     ]
    ]
   },
@@ -2011,13 +2031,17 @@
     [
      "2026-11-16",
      56
+    ],
+    [
+     "2026-11-17",
+     56
     ]
    ]
   },
   "YDcoD2Ji9d4": {
    "titulo": "¿Qué presión de 720 atm mata al instante en la Fosa de Java?",
    "subida": "2026-11-14T21:54:22+00:00",
-   "vistas": 1,
+   "vistas": 35,
    "historial": [
     [
      "2026-11-15",
@@ -2026,6 +2050,10 @@
     [
      "2026-11-16",
      1
+    ],
+    [
+     "2026-11-17",
+     35
     ]
    ]
   },
@@ -2041,13 +2069,17 @@
     [
      "2026-11-16",
      35
+    ],
+    [
+     "2026-11-17",
+     35
     ]
    ]
   },
   "VWBt82412pw": {
    "titulo": "¿Qué isla está a 2 600 km del continente más cercano?",
    "subida": "2026-11-14T12:48:18+00:00",
-   "vistas": 40,
+   "vistas": 41,
    "historial": [
     [
      "2026-11-15",
@@ -2056,39 +2088,88 @@
     [
      "2026-11-16",
      40
+    ],
+    [
+     "2026-11-17",
+     41
     ]
    ]
   },
   "y8hwWsdpPb4": {
    "titulo": "¿Qué lago convierte animales en piedra a 60 °C?",
    "subida": "2026-11-15T22:23:52+00:00",
-   "vistas": 31,
+   "vistas": 49,
    "historial": [
     [
      "2026-11-16",
      31
+    ],
+    [
+     "2026-11-17",
+     49
     ]
    ]
   },
   "ca8IQ9yHrMA": {
    "titulo": "¿Podrías sobrevivir a 860 atm en la Fosa de Puerto Rico?",
    "subida": "2026-11-15T16:12:08+00:00",
-   "vistas": 16,
+   "vistas": 25,
    "historial": [
     [
      "2026-11-16",
      16
+    ],
+    [
+     "2026-11-17",
+     25
     ]
    ]
   },
   "s9Gg3P3aDPY": {
    "titulo": "¿Qué te mataría al caer 979 metros?",
    "subida": "2026-11-15T13:16:19+00:00",
-   "vistas": 20,
+   "vistas": 27,
    "historial": [
     [
      "2026-11-16",
      20
+    ],
+    [
+     "2026-11-17",
+     27
+    ]
+   ]
+  },
+  "dOaUYCy0A1Q": {
+   "titulo": "¿Qué isla está a 2 400 km del continente más cercano?",
+   "subida": "2026-11-17T01:26:28+00:00",
+   "vistas": 207,
+   "historial": [
+    [
+     "2026-11-17",
+     207
+    ]
+   ]
+  },
+  "zK5vgfyQ_-4": {
+   "titulo": "¿Qué te pasaría bajo un cráter de 180 km?",
+   "subida": "2026-11-16T19:26:54+00:00",
+   "vistas": 190,
+   "historial": [
+    [
+     "2026-11-17",
+     190
+    ]
+   ]
+  },
+  "fxFkQ9LtzUs": {
+   "titulo": "¿Qué peligros esconde el tubo de lava de 65 km?",
+   "subida": "2026-11-16T14:26:44+00:00",
+   "vistas": 34,
+   "historial": [
+    [
+     "2026-11-17",
+     34
     ]
    ]
   }
