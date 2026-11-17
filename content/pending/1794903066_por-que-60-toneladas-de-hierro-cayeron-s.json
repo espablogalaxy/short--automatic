@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Por qué 60 toneladas de hierro cayeron sin cráter?",
+  "descripcion": "El meteorito Hoba en Namibia es el bloque de hierro natural más pesado del planeta y aterrizó intacto sobre el terreno. ¿Te imaginas encontrar una roca del espacio así en mitad del campo? #shorts #curiosidades #planeta #meteorito #espacio #geologia",
+  "tags": [
+    "meteorito hoba",
+    "meteoritos gigantes",
+    "meteorito namibia",
+    "curiosidades geologia",
+    "impactos de meteoritos",
+    "record del planeta",
+    "ciencias de la tierra",
+    "records planeta tierra",
+    "meteoritos intactos",
+    "astronomia shorts"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Por qué sesenta toneladas cayeron sin explotar?",
+      "prompt_imagen": "A massive metallic dark meteorite resting on dry reddish soil under a harsh desert sun, cinematic wide shot, realistic travel photography."
+    },
+    {
+      "texto": "Ocurrió en Namibia hace ochenta milenios.",
+      "prompt_imagen": "Arid savannah landscape of northern Namibia with acacia trees and open plains, golden hour sunlight, hyperrealistic documentary style."
+    },
+    {
+      "texto": "Un proyectil de hierro puro impactó aquí.",
+      "prompt_imagen": "Close-up of the dense metallic surface of a nickel-iron meteorite with distinct regmaglypts and natural metallic sheen, natural daylight."
+    },
+    {
+      "texto": "Pesa lo mismo que diez elefantes juntos.",
+      "prompt_imagen": "A group of African elephants standing in the savannah, scale comparison context, photorealistic wildlife photography."
+    },
+    {
+      "texto": "Pero cabe en una furgoneta pequeña.",
+      "prompt_imagen": "A compact delivery van parked on a desert dirt road next to marked ground measurements, photorealistic documentary shot."
+    },
+    {
+      "texto": "La atmósfera frenó su trayectoria plana.",
+      "prompt_imagen": "A flat slab-shaped meteor entering Earth atmosphere during daylight, leaving a dense white condensation trail without disintegrating."
+    },
+    {
+      "texto": "Es Hoba, el meteorito intacto más grande.",
+      "prompt_imagen": "The actual Hoba meteorite resting in its circular stone amphitheatre in Namibia, viewed from an elevated angle, clear sunny day.",
+      "lugar_real": "Hoba meteorite"
+    },
+    {
+      "texto": "Así sesenta toneladas cayeron sin explotar.",
+      "prompt_imagen": "Low-angle cinematic close shot of the massive Hoba meteorite embedded slightly in the dusty Namibian ground, dramatic sunlight."
+    }
+  ],
+  "modo": "record"
+}

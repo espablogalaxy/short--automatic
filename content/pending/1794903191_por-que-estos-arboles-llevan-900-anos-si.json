@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Por qué estos árboles llevan 900 años sin pudrirse?",
+  "descripcion": "En el corazón del desierto de Namib existe una cuenca de arcilla blanca donde los árboles murieron hace nueve siglos y el aire es tan seco que ni las bacterias sobreviven para descomponerlos. ¿Te atreverías a caminar por este valle bajo el sol del desierto? #shorts #curiosidades #planeta #geografia #naturaleza #desierto #namibia",
+  "tags": [
+    "Deadvlei",
+    "desierto de Namib",
+    "árboles milenarios",
+    "curiosidades del planeta",
+    "lugares extremos",
+    "Namibia",
+    "árboles momificados",
+    "lugares más secos del mundo",
+    "geografia extrema",
+    "misterios de la Tierra"
+  ],
+  "escenas": [
+    {
+      "texto": "Estos árboles llevan novecientos años totalmente muertos.",
+      "prompt_imagen": "Fotografía cinematográfica a ras de suelo de troncos de acacias secos y ennegrecidos clavados en un suelo de arcilla agrietada y blanquecina, cielo azul intenso despejado."
+    },
+    {
+      "texto": "El sol africano los quemó sin piedad.",
+      "prompt_imagen": "Plano medio de un tronco de acacia seco y retorcido con corteza negra carbonizada por el sol, sombras duras sobre el suelo cuarteado."
+    },
+    {
+      "texto": "Dunas de trescientos metros cortaron su agua.",
+      "prompt_imagen": "Vista panorámica dramática de gigantescas dunas de arena roja de trescientos metros de altura rodeando una cuenca blanca y plana."
+    },
+    {
+      "texto": "La humedad cayó a un nivel letal.",
+      "prompt_imagen": "Plano detalle de suelo arcilloso reseco con profundas grietas geométricas, aire distorsionado por el calor extremo del desierto."
+    },
+    {
+      "texto": "Sin bacterias, la madera jamás se pudre.",
+      "prompt_imagen": "Primer plano hiperrealista de una rama de madera centenaria intacta y petrificada, textura rugosa y seca sin rastro de moho ni hongos."
+    },
+    {
+      "texto": "Quedaron disecados como momias de madera negra.",
+      "prompt_imagen": "Grupo de árboles esqueléticos y oscuros erguidos en medio del desierto árido, contrastando fuertemente con la arena naranja brillante del fondo."
+    },
+    {
+      "texto": "Este cementerio es Deadvlei, en Namibia.",
+      "prompt_imagen": "Toma aérea majestuosa de Deadvlei mostrando la cuenca de arcilla blanca pálida salpicada de árboles negros, cercada por las colosales dunas anaranjadas de Namibia.",
+      "lugar_real": "Deadvlei"
+    },
+    {
+      "texto": "Un paisaje congelado donde nada puede desaparecer.",
+      "prompt_imagen": "Composición cinematográfica al atardecer en Deadvlei con sombras largas proyectadas por los troncos muertos sobre el suelo blanco hacia el horizonte."
+    }
+  ],
+  "modo": "lugar"
+}

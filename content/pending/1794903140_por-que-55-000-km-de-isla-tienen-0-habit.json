@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Por qué 55.000 km² de isla tienen 0 habitantes?",
+  "descripcion": "La isla Devon es la mayor isla deshabitada del planeta, un desierto polar tan hostil que la NASA la utiliza para simular Marte. ¿Aguantarías un día a cincuenta bajo cero? #shorts #curiosidades #planeta #geografia #ciencia #isladevon #marte",
+  "tags": [
+    "isla devon",
+    "islas desiertas",
+    "lugares extremos",
+    "geografia extrema",
+    "curiosidades del planeta",
+    "planeta tierra",
+    "nasa marte",
+    "artico",
+    "desierto polar",
+    "ciencia"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Por qué esta isla gigante está desierta?",
+      "prompt_imagen": "Dramatic wide aerial drone shot of a massive, frozen Arctic island rising from a dark, freezing ocean, desolate rocky terrain, cinematic cold lighting."
+    },
+    {
+      "texto": "Mide cincuenta y cinco mil kilómetros cuadrados.",
+      "prompt_imagen": "High altitude satellite view of a colossal Arctic island covered in rock, permafrost, and glaciers, surrounded by deep blue sea."
+    },
+    {
+      "texto": "Es más extensa que toda Suiza.",
+      "prompt_imagen": "Vast panoramic view of an endless Arctic plateau with brown gravel and patches of snow stretching toward the horizon under a grey sky."
+    },
+    {
+      "texto": "El invierno cae a cincuenta bajo cero.",
+      "prompt_imagen": "Violent polar blizzard sweeping across a barren, frozen rocky terrain, white snowdrifts and heavy frost covering the ground."
+    },
+    {
+      "texto": "Su suelo imita la superficie de Marte.",
+      "prompt_imagen": "Wide cinematic shot of Haughton impact crater on Devon Island, barren reddish-brown rocky desert, impact breccia, resembling a Martian landscape."
+    },
+    {
+      "texto": "La NASA entrena aquí a sus astronautas.",
+      "prompt_imagen": "Field scientists and researchers in modern Arctic exploration gear and white concept rover vehicle traversing a desolate rocky crater."
+    },
+    {
+      "texto": "Hablamos de la remota isla Devon.",
+      "prompt_imagen": "Grand aerial landscape photograph of the rugged sea cliffs and barren Arctic desert of Devon Island, dramatic sunlight breaking through polar clouds.",
+      "lugar_real": "Devon Island"
+    },
+    {
+      "texto": "Por eso esta isla gigante sigue desierta.",
+      "prompt_imagen": "Cinematic wide angle shot of the vast empty rocky coastline of Devon Island under a cold polar sun, completely devoid of human life."
+    }
+  ],
+  "modo": "lugar"
+}

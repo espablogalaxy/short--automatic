@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Cómo se vive en Mawsynram con 11.872 mm de lluvia?",
+  "descripcion": "El pueblo de Mawsynram en la India ostenta el récord de precipitaciones de la Tierra debido al choque del monzón con sus montañas. ¿Aguantarías vivir en un lugar con lluvia casi constante? #shorts #curiosidades #planeta #clima #mawsynram #meteorologia",
+  "tags": [
+    "Mawsynram",
+    "lluvia extrema",
+    "monzon",
+    "clima terrestre",
+    "fenomenos atmosfericos",
+    "curiosidades del planeta",
+    "puentes de raices",
+    "Meghalaya",
+    "lugares extremos",
+    "ciencia de la Tierra"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Soportarías doce metros de lluvia al año?",
+      "prompt_imagen": "Cinematic wide shot of an overwhelming deluge of torrential rain pouring down on dense tropical green hills, dark overcast sky, streaming water cascades, documentary style"
+    },
+    {
+      "texto": "En Mawsynram, la lluvia nunca da tregua.",
+      "prompt_imagen": "A village road in Mawsynram under intense rainfall, local residents wearing traditional knup bamboo rain shields on their backs, thick mist and water puddles",
+      "lugar_real": "Mawsynram"
+    },
+    {
+      "texto": "El monzón choca contra montañas implacables.",
+      "prompt_imagen": "Massive dark storm clouds of the Indian monsoon sweeping low and hitting the vertical green slopes of the Khasi Hills, dramatic atmospheric lighting"
+    },
+    {
+      "texto": "El aire húmedo asciende y colapsa.",
+      "prompt_imagen": "Dense moisture and clouds rising violently up a sheer mountain cliffside, rapid condensation creating thick curtains of downpour, realistic nature photography"
+    },
+    {
+      "texto": "Los puentes normales se pudren rápido.",
+      "prompt_imagen": "Decaying and rotting wooden bridge planks collapsing over a misty jungle stream, covered in thick green moss and tropical fungus from constant dampness"
+    },
+    {
+      "texto": "Por eso crean puentes con raíces vivas.",
+      "prompt_imagen": "Spectacular living root bridge made of trained ficus elastica tree roots crossing a roaring river in Meghalaya, surrounded by lush rainforest"
+    },
+    {
+      "texto": "Acumulan once mil ochocientos milímetros anuales.",
+      "prompt_imagen": "Extreme wall of falling water splashing on rocky terrain, torrential rainfall creating endless rivers of runoff, dramatic hyperrealistic outdoor shot"
+    },
+    {
+      "texto": "Por eso pocos soportan vivir aquí...",
+      "prompt_imagen": "A solitary local person walking down a stone path in dense fog and heavy rain under a large bamboo shell shield, cinematic atmosphere"
+    }
+  ],
+  "modo": "fenomeno"
+}
