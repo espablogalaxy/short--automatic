@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué tan mortal es la cueva de 58 °C y cristales de 12 m?",
+  "descripcion": "La Cueva de los Cristales, descubierta en 2000, alcanza 58 °C y alberga cristales de hasta 12 m, imposibles de visitar sin equipo especial. ¿Te atreverías a entrar a esta sauna subterránea? #shorts #curiosidades #planeta #CuevaDeLosCristales #Naica #cristalesgigantes #calorextremo",
+  "tags": [
+    "Cueva de los Cristales",
+    "Naica",
+    "cristales gigantes",
+    "58°C",
+    "12 metros",
+    "cave of crystals",
+    "extreme heat",
+    "dangerous caves",
+    "Mexico",
+    "geology"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Entrarías a la sauna subterránea mortal?",
+      "prompt_imagen": "Entrada de la Cueva de los Cristales, Naica, México, con vapor caliente saliendo del interior, foto hiperrealista, iluminación dramática",
+      "lugar_real": "Cave of Crystals"
+    },
+    {
+      "texto": "La Cueva de los Cristales alcanza 58 °C",
+      "prompt_imagen": "Interior de la Cueva de los Cristales mostrando termómetro marcando 58°C, paredes cubiertas de cristales gigantes, foto hiperrealista"
+    },
+    {
+      "texto": "Y una humedad del cien por ciento",
+      "prompt_imagen": "Ambiente de la cueva con gotas de agua brillantes y medidor de humedad al 100%, foto hiperrealista"
+    },
+    {
+      "texto": "Los cristales más grandes miden doce metros",
+      "prompt_imagen": "Cristal de yeso de 12 metros de longitud dentro de la cueva, comparado con una persona al lado, foto hiperrealista"
+    },
+    {
+      "texto": "Un cristal alberga un autobús doble",
+      "prompt_imagen": "Gigante cristal en la Cueva de los Cristales con un autobús de dos pisos al lado, foto hiperrealista"
+    },
+    {
+      "texto": "Solo diez minutos sin traje te matan",
+      "prompt_imagen": "Reloj marcando diez minutos y señal de peligro rojo dentro de la cueva, foto hiperrealista"
+    },
+    {
+      "texto": "Por eso la mina está cerrada",
+      "prompt_imagen": "Puerta de acero cerrada con cartel de prohibido el paso en la entrada de la cueva, foto hiperrealista"
+    },
+    {
+      "texto": "¿Entrarías a la sauna subterránea mortal?",
+      "prompt_imagen": "Misma entrada de la Cueva de los Cristales con vapor visible, foto hiperrealista"
+    }
+  ],
+  "modo": "record"
+}

@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Por qué este espejo de 10.582 km² ciega satélites?",
+  "descripcion": "El Salar de Uyuni refleja tanta luz solar que las agencias espaciales lo utilizan para calibrar sus sensores orbitales. ¿Te atreverías a cruzar este desierto blanco? #shorts #curiosidades #planeta #salardeuyuni #bolivia #espacio #tierra",
+  "tags": [
+    "salar de uyuni",
+    "curiosidades del planeta",
+    "visto desde el espacio",
+    "records de la tierra",
+    "lugares extremos",
+    "bolivia",
+    "ciencia",
+    "geografia extrema",
+    "satelites nasa",
+    "desierto de sal"
+  ],
+  "escenas": [
+    {
+      "texto": "Un destello blanco confunde sensores espaciales.",
+      "prompt_imagen": "Cinematic satellite photograph looking down at Earth from orbit, showing a blindingly bright white reflective patch contrasting sharply against the brown and red mountainous continental terrain."
+    },
+    {
+      "texto": "Parece una masa alienígena sobre la Tierra.",
+      "prompt_imagen": "Astronaut perspective view through the International Space Station cupola window, looking at an enormous, perfectly flat white geographic anomaly on the surface of the planet."
+    },
+    {
+      "texto": "Sin gafas, quema tus ojos en minutos.",
+      "prompt_imagen": "Ground level shot of a traveler wearing protective dark glacier glasses walking across a blinding white cracked salt surface under a harsh, intense midday sun."
+    },
+    {
+      "texto": "Se ubica a tres mil metros.",
+      "prompt_imagen": "Wide panoramic landscape of an endless white salt plain surrounded by rugged arid Andean volcanic peaks on the horizon under a thin, dark blue high-altitude atmosphere."
+    },
+    {
+      "texto": "Refleja el ochenta por ciento solar.",
+      "prompt_imagen": "Extreme low-angle shot of a thin sheet of still water covering the white salt crust, creating a perfect mirror reflection of the sky and sun with intense glare."
+    },
+    {
+      "texto": "Oculta la mayor reserva de litio.",
+      "prompt_imagen": "Cinematic aerial documentary photograph of geometric turquoise and deep blue brine evaporation pools bordered by brilliant white salt crusts."
+    },
+    {
+      "texto": "Es el Salar de Uyuni boliviano.",
+      "prompt_imagen": "Epic ultra-realistic wide photograph of the vast Salar de Uyuni in Bolivia with distinctive geometric hexagonal salt patterns stretching to the distant horizon under bright dramatic lighting.",
+      "lugar_real": "Salar de Uyuni"
+    },
+    {
+      "texto": "Por eso deslumbra cámaras en órbita.",
+      "prompt_imagen": "High-altitude orbital view of the South American continent focusing on the intense specular reflection of the sun bouncing off the Bolivian salt flats directly toward space."
+    }
+  ],
+  "modo": "lugar"
+}
