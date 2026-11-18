@@ -1,0 +1,59 @@
+{
+  "titulo": "¿Qué bacteria sobrevive a 5 000 Gy de radiación?",
+  "descripcion": "La bacteria Deinococcus radiodurans, descubierta en 1956, resiste 5 000 Gy, mil veces la dosis letal para humanos. ¿Te atreverías a probar su resistencia? #shorts #curiosidades #planeta #radiación #bacterias #ciencia",
+  "tags": [
+    "Deinococcus radiodurans",
+    "radiación",
+    "bacteria extrema",
+    "ciencia",
+    "curiosidades",
+    "planeta",
+    "shorts",
+    "5,000 Gy",
+    "resistencia",
+    "microorganismo"
+  ],
+  "escenas": [
+    {
+      "texto": "Radiación mil veces letal, no lo mata",
+      "prompt_imagen": "Radiation meter needle soaring past lethal levels, bright blue radiation beams, hyperrealistic photograph",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Es la bacteria Deinococcus radiodurans",
+      "prompt_imagen": "Microscopic hyperrealistic image of spherical Deinococcus radiodurans cells, bright orange staining",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Descubierta en 1956 dentro de carne enlatada",
+      "prompt_imagen": "1950s laboratory with opened canned meat, scientist in white coat, vintage equipment, hyperrealistic",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Sobrevive a cinco mil Gy de radiación",
+      "prompt_imagen": "Radiation gauge reading 5000 Gy, glowing, bacteria culture unchanged, hyperrealistic",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Para humanos, cinco Gy bastan para morir",
+      "prompt_imagen": "Human silhouette with warning sign, 5 Gy label, dark background, hyperrealistic",
+      "lugar_real": ""
+    },
+    {
+      "texto": "ADN enrollado en ocho capas protectoras",
+      "prompt_imagen": "Close-up of DNA double helix with eight concentric protective layers, illuminated, hyperrealistic",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Proteínas reparan el daño en segundos",
+      "prompt_imagen": "Animated proteins binding to DNA, repairing damage instantly, bright colors, hyperrealistic",
+      "lugar_real": ""
+    },
+    {
+      "texto": "¿Podrías sobrevivir a mil veces tu límite?",
+      "prompt_imagen": "Radiation meter again, question overlay, dramatic lighting, hyperrealistic, creating loop effect",
+      "lugar_real": ""
+    }
+  ],
+  "modo": "fenomeno"
+}
