@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T14:48:01.583569+00:00",
+ "actualizado": "2026-11-18T14:28:01.444695+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -1972,7 +1972,7 @@
   "UNAFchsTaa0": {
    "titulo": "¿Qué te mataría a 8 376 m bajo el Atlántico?",
    "subida": "2026-11-13T23:08:46+00:00",
-   "vistas": 101,
+   "vistas": 99,
    "historial": [
     [
      "2026-11-14",
@@ -1989,13 +1989,17 @@
     [
      "2026-11-17",
      101
+    ],
+    [
+     "2026-11-18",
+     99
     ]
    ]
   },
   "b3CcDnhLuuQ": {
    "titulo": "¿Una lava a 30 km/h puede devorar una carretera?",
    "subida": "2026-11-13T17:03:48+00:00",
-   "vistas": 37,
+   "vistas": 39,
    "historial": [
     [
      "2026-11-14",
@@ -2012,6 +2016,10 @@
     [
      "2026-11-17",
      37
+    ],
+    [
+     "2026-11-18",
+     39
     ]
    ]
   },
@@ -2035,6 +2043,10 @@
     [
      "2026-11-17",
      56
+    ],
+    [
+     "2026-11-18",
+     56
     ]
    ]
   },
@@ -2053,6 +2065,10 @@
     ],
     [
      "2026-11-17",
+     35
+    ],
+    [
+     "2026-11-18",
      35
     ]
    ]
@@ -2073,6 +2089,10 @@
     [
      "2026-11-17",
      35
+    ],
+    [
+     "2026-11-18",
+     35
     ]
    ]
   },
@@ -2092,13 +2112,17 @@
     [
      "2026-11-17",
      41
+    ],
+    [
+     "2026-11-18",
+     41
     ]
    ]
   },
   "y8hwWsdpPb4": {
    "titulo": "¿Qué lago convierte animales en piedra a 60 °C?",
    "subida": "2026-11-15T22:23:52+00:00",
-   "vistas": 49,
+   "vistas": 50,
    "historial": [
     [
      "2026-11-16",
@@ -2107,13 +2131,17 @@
     [
      "2026-11-17",
      49
+    ],
+    [
+     "2026-11-18",
+     50
     ]
    ]
   },
   "ca8IQ9yHrMA": {
    "titulo": "¿Podrías sobrevivir a 860 atm en la Fosa de Puerto Rico?",
    "subida": "2026-11-15T16:12:08+00:00",
-   "vistas": 25,
+   "vistas": 26,
    "historial": [
     [
      "2026-11-16",
@@ -2122,6 +2150,10 @@
     [
      "2026-11-17",
      25
+    ],
+    [
+     "2026-11-18",
+     26
     ]
    ]
   },
@@ -2137,39 +2169,88 @@
     [
      "2026-11-17",
      27
+    ],
+    [
+     "2026-11-18",
+     27
     ]
    ]
   },
   "dOaUYCy0A1Q": {
    "titulo": "¿Qué isla está a 2 400 km del continente más cercano?",
    "subida": "2026-11-17T01:26:28+00:00",
-   "vistas": 207,
+   "vistas": 345,
    "historial": [
     [
      "2026-11-17",
      207
+    ],
+    [
+     "2026-11-18",
+     345
     ]
    ]
   },
   "zK5vgfyQ_-4": {
    "titulo": "¿Qué te pasaría bajo un cráter de 180 km?",
    "subida": "2026-11-16T19:26:54+00:00",
-   "vistas": 190,
+   "vistas": 209,
    "historial": [
     [
      "2026-11-17",
      190
+    ],
+    [
+     "2026-11-18",
+     209
     ]
    ]
   },
   "fxFkQ9LtzUs": {
    "titulo": "¿Qué peligros esconde el tubo de lava de 65 km?",
    "subida": "2026-11-16T14:26:44+00:00",
-   "vistas": 34,
+   "vistas": 37,
    "historial": [
     [
      "2026-11-17",
      34
+    ],
+    [
+     "2026-11-18",
+     37
+    ]
+   ]
+  },
+  "sWzNs99StY0": {
+   "titulo": "¿Podrías sobrevivir a 165 atm en el lago más profundo?",
+   "subida": "2026-11-18T00:23:03+00:00",
+   "vistas": 56,
+   "historial": [
+    [
+     "2026-11-18",
+     56
+    ]
+   ]
+  },
+  "iI0H1HtQ4i0": {
+   "titulo": "¿280 relámpagos por minuto sobre el lago Maracaibo?",
+   "subida": "2026-11-17T18:20:19+00:00",
+   "vistas": 31,
+   "historial": [
+    [
+     "2026-11-18",
+     31
+    ]
+   ]
+  },
+  "lHllENFQJMY": {
+   "titulo": "¿Qué desierto alcanzó 70,7 °C en 2005?",
+   "subida": "2026-11-17T15:23:22+00:00",
+   "vistas": 110,
+   "historial": [
+    [
+     "2026-11-18",
+     110
     ]
    ]
   }
