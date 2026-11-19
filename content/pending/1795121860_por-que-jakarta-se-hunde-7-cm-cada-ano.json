@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Por qué Jakarta se hunde 7 cm cada año?",
+  "descripcion": "Jakarta pierde tierra cada año por la extracción de agua subterránea y la presión de la placa de Sunda. ¿Crees que la ciudad sobrevivirá? #shorts #curiosidades #planeta #Jakarta #subsidence #tectonica",
+  "tags": [
+    "Jakarta",
+    "subsidence",
+    "groundwater extraction",
+    "Sunda Plate",
+    "tectonic plates",
+    "urban sinking",
+    "sea level rise",
+    "Indonesia",
+    "geología",
+    "cambio climático"
+  ],
+  "escenas": [
+    {
+      "texto": "¡Jakarta se hunde 7 cm al año!",
+      "prompt_imagen": "Aerial view of Jakarta, Indonesia, dense skyscrapers and canals, overcast sky, hyperrealistic photography",
+      "lugar_real": "Jakarta"
+    },
+    {
+      "texto": "El suelo se compacta bajo tu pie",
+      "prompt_imagen": "Close-up of cracked urban soil in Jakarta, a foot pressing, hyperrealistic photography"
+    },
+    {
+      "texto": "Agua subterránea se extrae sin límite",
+      "prompt_imagen": "Industrial pump extracting groundwater in Jakarta, water flowing into a large container, hyperrealistic photography"
+    },
+    {
+      "texto": "Cada litro extrae 0,01 mm de tierra",
+      "prompt_imagen": "Hand holding a ruler beside a small sinkhole in Jakarta, indicating 0.01 mm, hyperrealistic photography"
+    },
+    {
+      "texto": "La placa de Sunda empuja la ciudad",
+      "prompt_imagen": "Tectonic plate map highlighting the Sunda Plate moving beneath Java, hyperrealistic illustration"
+    },
+    {
+      "texto": "En 2015, científicos midieron 7,5 cm/año",
+      "prompt_imagen": "Scientists in field with GPS equipment in Jakarta, 2015, data screen showing 7.5 cm per year, hyperrealistic photography"
+    },
+    {
+      "texto": "Si sigue, en 2050 la costa desaparecerá",
+      "prompt_imagen": "Future projection of Jakarta coastline submerged, streets underwater, hyperrealistic photography"
+    },
+    {
+      "texto": "¿Jakarta se hunde 7 cm al año?",
+      "prompt_imagen": "Aerial view of Jakarta, Indonesia, dense skyscrapers and canals, overcast sky, hyperrealistic photography"
+    }
+  ],
+  "modo": "fenomeno"
+}

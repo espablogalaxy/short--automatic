@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Sobrevivirías diez minutos a 58 °C en Naica?",
+  "descripcion": "La Cueva de los Cristales, descubierta en 2000, mantiene 58 °C y 90 % de humedad, lo que mata en minutos. Sus cristales de selenita alcanzan los doce metros. ¿Te atreverías a entrar? #shorts #curiosidades #planeta #Naica #caveofcrystals #geología",
+  "tags": [
+    "Cueva de los Cristales",
+    "Naica",
+    "cristales gigantes",
+    "selenita",
+    "temperatura extrema",
+    "humedad alta",
+    "geología de cuevas",
+    "minerales",
+    "exploración subterránea",
+    "fenómeno natural"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Sobrevivirías diez minutos en 58 °C extrema?",
+      "prompt_imagen": "Thermometer displaying 58 °C inside a dark cave, condensation on glass, dramatic low-key lighting, hyperrealistic photography"
+    },
+    {
+      "texto": "En la Cueva de Naica, México profundo",
+      "prompt_imagen": "Massive underground cavern entrance of Naica Mine, towering selenite crystals, mining equipment, dramatic shadows, hyperrealistic photography",
+      "lugar_real": "Cave of the Crystals"
+    },
+    {
+      "texto": "Temperatura constante: cincuenta y ocho grados",
+      "prompt_imagen": "Digital temperature gauge reading 58 °C mounted on a rock wall, heat haze visible, hyperrealistic photography"
+    },
+    {
+      "texto": "Humedad al noventa por ciento, insoportable",
+      "prompt_imagen": "Close-up of wet cave walls with heavy water droplets, high humidity effect, hyperrealistic photography"
+    },
+    {
+      "texto": "Forman cristales gigantes bajo presión extrema",
+      "prompt_imagen": "Gigantic selenite crystals growing from mineral-rich water, crystal facets illuminated, hyperrealistic photography"
+    },
+    {
+      "texto": "Hasta doce metros de selenita pura brillante",
+      "prompt_imagen": "12‑meter long selenite crystal standing in the cave, person for scale, bright translucent glow, hyperrealistic photography"
+    },
+    {
+      "texto": "Descubierta en 2000 por mineros incautos",
+      "prompt_imagen": "Early‑2000s miners in helmets uncovering the crystal cave, dusty air, torchlight, hyperrealistic photography"
+    },
+    {
+      "texto": "¿Sobrevivirías diez minutos en 58 °C extrema?",
+      "prompt_imagen": "Thermometer showing 58 °C again, same ominous cave background, hyperrealistic photography"
+    }
+  ],
+  "modo": "fenomeno"
+}
