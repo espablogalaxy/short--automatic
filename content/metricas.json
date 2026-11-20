@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T14:38:37.786682+00:00",
+ "actualizado": "2026-11-20T14:16:15.645246+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -2074,6 +2074,10 @@
     [
      "2026-11-19",
      35
+    ],
+    [
+     "2026-11-20",
+     35
     ]
    ]
   },
@@ -2151,6 +2155,10 @@
     [
      "2026-11-19",
      49
+    ],
+    [
+     "2026-11-20",
+     49
     ]
    ]
   },
@@ -2173,6 +2181,10 @@
     ],
     [
      "2026-11-19",
+     25
+    ],
+    [
+     "2026-11-20",
      25
     ]
    ]
@@ -2197,13 +2209,17 @@
     [
      "2026-11-19",
      24
+    ],
+    [
+     "2026-11-20",
+     24
     ]
    ]
   },
   "dOaUYCy0A1Q": {
    "titulo": "¿Qué isla está a 2 400 km del continente más cercano?",
    "subida": "2026-11-17T01:26:28+00:00",
-   "vistas": 376,
+   "vistas": 372,
    "historial": [
     [
      "2026-11-17",
@@ -2216,6 +2232,10 @@
     [
      "2026-11-19",
      376
+    ],
+    [
+     "2026-11-20",
+     372
     ]
    ]
   },
@@ -2235,13 +2255,17 @@
     [
      "2026-11-19",
      217
+    ],
+    [
+     "2026-11-20",
+     217
     ]
    ]
   },
   "fxFkQ9LtzUs": {
    "titulo": "¿Qué peligros esconde el tubo de lava de 65 km?",
    "subida": "2026-11-16T14:26:44+00:00",
-   "vistas": 39,
+   "vistas": 40,
    "historial": [
     [
      "2026-11-17",
@@ -2254,13 +2278,17 @@
     [
      "2026-11-19",
      39
+    ],
+    [
+     "2026-11-20",
+     40
     ]
    ]
   },
   "sWzNs99StY0": {
    "titulo": "¿Podrías sobrevivir a 165 atm en el lago más profundo?",
    "subida": "2026-11-18T00:23:03+00:00",
-   "vistas": 68,
+   "vistas": 79,
    "historial": [
     [
      "2026-11-18",
@@ -2269,13 +2297,17 @@
     [
      "2026-11-19",
      68
+    ],
+    [
+     "2026-11-20",
+     79
     ]
    ]
   },
   "iI0H1HtQ4i0": {
    "titulo": "¿280 relámpagos por minuto sobre el lago Maracaibo?",
    "subida": "2026-11-17T18:20:19+00:00",
-   "vistas": 38,
+   "vistas": 40,
    "historial": [
     [
      "2026-11-18",
@@ -2284,13 +2316,17 @@
     [
      "2026-11-19",
      38
+    ],
+    [
+     "2026-11-20",
+     40
     ]
    ]
   },
   "lHllENFQJMY": {
    "titulo": "¿Qué desierto alcanzó 70,7 °C en 2005?",
    "subida": "2026-11-17T15:23:22+00:00",
-   "vistas": 136,
+   "vistas": 141,
    "historial": [
     [
      "2026-11-18",
@@ -2299,39 +2335,77 @@
     [
      "2026-11-19",
      136
+    ],
+    [
+     "2026-11-20",
+     141
     ]
    ]
   },
   "bU5ISc1OvnE": {
    "titulo": "¿Te quemarías al instante a 1 100 °C?",
    "subida": "2026-11-19T00:01:27+00:00",
-   "vistas": 12,
+   "vistas": 32,
    "historial": [
     [
      "2026-11-19",
      12
+    ],
+    [
+     "2026-11-20",
+     32
     ]
    ]
   },
   "KjP2KDvc1WQ": {
    "titulo": "¿Qué cueva te aplastaría a 2 212 metros?",
    "subida": "2026-11-18T17:55:05+00:00",
-   "vistas": 15,
+   "vistas": 37,
    "historial": [
     [
      "2026-11-19",
      15
+    ],
+    [
+     "2026-11-20",
+     37
     ]
    ]
   },
   "ryELu11fAUo": {
    "titulo": "¿Podría la aurora verde derribar un avión a 300 km?",
    "subida": "2026-11-18T14:54:05+00:00",
-   "vistas": 6,
+   "vistas": 11,
    "historial": [
     [
      "2026-11-19",
      6
+    ],
+    [
+     "2026-11-20",
+     11
+    ]
+   ]
+  },
+  "dl-JjLcVO7k": {
+   "titulo": "¿Cómo sobreviven 50 000 personas a 5 100 m?",
+   "subida": "2026-11-19T18:13:14+00:00",
+   "vistas": 30,
+   "historial": [
+    [
+     "2026-11-20",
+     30
+    ]
+   ]
+  },
+  "fCoUPBrSy3M": {
+   "titulo": "¿Qué te pasaría si caes en el lago de 60 °C?",
+   "subida": "2026-11-19T15:00:28+00:00",
+   "vistas": 274,
+   "historial": [
+    [
+     "2026-11-20",
+     274
     ]
    ]
   }
