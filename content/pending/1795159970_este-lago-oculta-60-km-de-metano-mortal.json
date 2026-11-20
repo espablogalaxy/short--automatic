@@ -1,0 +1,52 @@
+{
+  "titulo": "¡Este lago oculta 60 km³ de metano mortal!",
+  "descripcion": "El lago Kivu en África almacena enormes cantidades de metano y CO₂ que, si se liberan, pueden asfixiar a millones. ¿Te atreverías a vivir junto a él? #shorts #curiosidades #planeta #LakeKivu #GasLago #Riesgo",
+  "tags": [
+    "Lake Kivu",
+    "metano",
+    "CO2",
+    "limnic eruption",
+    "gas subacuático",
+    "riesgo natural",
+    "África",
+    "geología",
+    "cambio climático",
+    "energía"
+  ],
+  "escenas": [
+    {
+      "texto": "Este lago podría asfixiar a una ciudad",
+      "prompt_imagen": "Aerial view of a bustling city on the shore of a large lake, dark clouds looming overhead, dramatic lighting"
+    },
+    {
+      "texto": "Se llama Lago Kivu, en África",
+      "prompt_imagen": "Lake Kivu, turquoise water surrounded by volcanic mountains, clear sky, Africa",
+      "lugar_real": "Lake Kivu"
+    },
+    {
+      "texto": "Almacena 60 km cúbicos de metano",
+      "prompt_imagen": "Close-up of methane bubbles rising from the surface of a lake, sunlight reflecting on water"
+    },
+    {
+      "texto": "Y 300 km cúbicos de CO₂",
+      "prompt_imagen": "Visualization of dense CO2 gas bubbles swirling beneath a lake's surface, muted colors"
+    },
+    {
+      "texto": "Descubierto en 1975 por científicos su riesgo",
+      "prompt_imagen": "1970s research team on a boat measuring gas concentrations in a lake, vintage equipment"
+    },
+    {
+      "texto": "Una erupción de gas mataría miles",
+      "prompt_imagen": "Illustration of a limnic eruption, massive steam and gas cloud exploding from a lake, surrounding forest"
+    },
+    {
+      "texto": "Desde 2009 extraen metano para evitar desastre",
+      "prompt_imagen": "Modern gas extraction facility on a lake shore, pipelines leading to turbines, engineers working"
+    },
+    {
+      "texto": "Así que, ¿puede asfixiar tu ciudad?",
+      "prompt_imagen": "Aerial view of the same city, now with a subtle question mark formed by clouds over the lake"
+    }
+  ],
+  "modo": "fenomeno"
+}
