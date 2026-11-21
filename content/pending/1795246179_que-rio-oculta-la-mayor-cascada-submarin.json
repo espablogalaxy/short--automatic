@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué río oculta la mayor cascada submarina de 100 m?",
+  "descripcion": "En la cuenca del Congo una caída de 100 m bajo el agua mueve 40 000 m³/s, la mayor del planeta. ¿Te atreverías a cruzar esa corriente? #shorts #curiosidades #planeta #CongoRiver #cascadaSubmarina #geografía",
+  "tags": [
+    "Congo River",
+    "underwater waterfall",
+    "NASA 2004",
+    "100 meters",
+    "40,000 m3 per second",
+    "river extremes",
+    "Congo basin",
+    "hydrology",
+    "natural wonders",
+    "dangerous rivers"
+  ],
+  "escenas": [
+    {
+      "texto": "Una corriente te arrastraría bajo una catarata",
+      "prompt_imagen": "Fast river current pulling a swimmer towards a dark underwater waterfall, mist, hyperrealistic photography, dramatic lighting"
+    },
+    {
+      "texto": "En la cuenca del Congo ocurre",
+      "prompt_imagen": "Satellite view of the Congo River basin winding through dense rainforest, realistic colors, high detail"
+    },
+    {
+      "texto": "Una caída de 100 m bajo el agua",
+      "prompt_imagen": "Underwater view of a vertical 100‑meter drop in the Congo River, water rushing down, hyperrealistic",
+      "lugar_real": "Congo River"
+    },
+    {
+      "texto": "Descubierta por satélites NASA en 2004",
+      "prompt_imagen": "NASA satellite image of the Congo River with altitude data overlay, 2004, hyperrealistic"
+    },
+    {
+      "texto": "Mueve 40 000 m³ por segundo",
+      "prompt_imagen": "Cross‑section illustration showing 40,000 cubic meters per second flowing through an underwater waterfall, realistic water texture"
+    },
+    {
+      "texto": "Más caudal que Niagara o Iguazú",
+      "prompt_imagen": "Comparison graphic of Congo underwater waterfall volume versus Niagara and Iguazú falls, massive water torrents, realistic"
+    },
+    {
+      "texto": "Si te sumerges, el impulso te aplastaría",
+      "prompt_imagen": "Swimmer underwater near a powerful downward current, water pressure visibly crushing, hyperrealistic"
+    },
+    {
+      "texto": "¿Te atreverías a cruzar esa corriente?",
+      "prompt_imagen": "Calm river surface hiding a dangerous underwater drop, same angle as first scene, hyperrealistic"
+    }
+  ],
+  "modo": "fenomeno"
+}
