@@ -12,17 +12,20 @@ directamente a la segunda sin gastar reintentos en la primera; para otros
 errores puntuales (red, 5xx) se reintenta la misma cuenta antes de pasar a la
 siguiente.
 
-Para cada cuenta se prueba primero un modelo "lightning" (rápido, ~5s,
-timeout corto) y solo si falla se cae al modelo SDXL base (más lento, mejor
-calidad). Esto evita que un timeout largo en el modelo lento bloquee el
-pipeline entero antes de pasar a la siguiente cuenta (portado del fix de la
-Raspberry Pi del 2026-10-14, adaptado a que aquí no hay persistencia de
-estado entre ejecuciones porque GitHub Actions usa runners efímeros).
+2026-11-24: los dos modelos SDXL (lightning y base) que se usaban antes
+fueron retirados por Cloudflare (stable-diffusion-xl-base-1.0 tenía fecha de
+retirada planificada el 20/11/2026) y devuelven 410 Gone en todas las
+cuentas. Se sustituyen por flux-1-schnell, que sigue activo en el catálogo
+de Workers AI. A diferencia de los modelos SDXL (que devuelven el PNG en
+crudo en el cuerpo de la respuesta), flux-1-schnell devuelve JSON con la
+imagen codificada en base64 bajo result.image, así que _try_cloudflare ahora
+detecta el content-type de la respuesta y decodifica cuando hace falta.
 
 Todas las imágenes llevan añadido el mismo sufijo de estilo fotorrealista que
 usa la automatización de la Raspberry Pi (canal Soporte IT), para que las
 imágenes de este canal tengan el mismo aspecto realista en vez de parecer una
 ilustración digital."""
+import base64
 import os
 import re
 import time
@@ -43,10 +46,11 @@ ESTILO_REALISTA = (
 )
 
 # (nombre, endpoint del modelo, timeout en segundos). Se prueban en orden por
-# cada cuenta: primero el rápido, y solo si falla el lento.
+# cada cuenta. Antes había un modelo "lightning" rápido con fallback a un
+# SDXL "base" más lento; ambos fueron retirados por Cloudflare (410 Gone,
+# ver nota arriba), así que de momento solo queda flux-1-schnell.
 MODELOS = (
-    ("lightning", "@cf/bytedance/stable-diffusion-xl-lightning", 20),
-    ("base", "@cf/stabilityai/stable-diffusion-xl-base-1.0", 30),
+    ("flux-schnell", "@cf/black-forest-labs/flux-1-schnell", 30),
 )
 
 
@@ -111,6 +115,19 @@ def _cuentas_cloudflare() -> list[tuple[str, str, str]]:
     return cuentas
 
 
+def _extraer_imagen(r: requests.Response) -> bytes:
+    """Algunos modelos (SDXL) devuelven el PNG en crudo en el cuerpo; otros
+    (flux-1-schnell) devuelven JSON con la imagen en base64 bajo result.image."""
+    content_type = r.headers.get("content-type", "")
+    if content_type.startswith("image/"):
+        return r.content
+    datos = r.json()
+    imagen_b64 = (datos.get("result") or {}).get("image")
+    if not imagen_b64:
+        raise _CuotaAgotada(f"Respuesta de Cloudflare sin campo result.image: {r.text[:200]}")
+    return base64.b64decode(imagen_b64)
+
+
 def _try_cloudflare(prompt: str, account_id: str, token: str, modelo: str, timeout: int) -> bytes:
     url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/{modelo}"
     r = requests.post(
@@ -122,9 +139,10 @@ def _try_cloudflare(prompt: str, account_id: str, token: str, modelo: str, timeo
     if r.status_code in (402, 429):
         raise _CuotaAgotada(f"Cloudflare sin cuota/Neurons: {r.status_code} {r.text[:200]}")
     r.raise_for_status()
-    if not _es_imagen_valida(r.content):
+    imagen = _extraer_imagen(r)
+    if not _es_imagen_valida(imagen):
         raise _CuotaAgotada("Cloudflare devolvió una imagen en blanco/vacía (posible filtro silencioso)")
-    return r.content
+    return imagen
 
 
 def generar_imagen(prompt: str, destino: str, intentos_por_modelo: int = 1) -> bool:
