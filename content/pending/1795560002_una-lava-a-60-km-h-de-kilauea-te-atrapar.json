@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Una lava a 60 km/h de Kilauea te atraparía?",
+  "descripcion": "En 2018 la erupción de Kilauea lanzó lava a 60 km/h, capaz de cubrir un kilómetro en un minuto y arrasar carreteras. ¿Te atreverías a cruzar su camino? #shorts #curiosidades #planeta #kilauea #lava #volcanes",
+  "tags": [
+    "Kilauea",
+    "lava speed",
+    "60 km/h",
+    "2018 eruption",
+    "volcanic hazard",
+    "fast lava flow",
+    "Hawaii volcano",
+    "lava temperature",
+    "volcanic eruption",
+    "lava danger"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Te atraparía una lava a 60 km/h?",
+      "prompt_imagen": "fast-moving lava flow across volcanic landscape, orange molten river, dramatic lighting, hyperrealistic photograph"
+    },
+    {
+      "texto": "En 2018, Kilauea lo hizo.",
+      "prompt_imagen": "Kilauea volcano, Hawaii, 2018 eruption, glowing lava fountain, aerial view, hyperrealistic photograph",
+      "lugar_real": "Kilauea"
+    },
+    {
+      "texto": "Una corriente de lava avanzó 60 km/h.",
+      "prompt_imagen": "close-up of molten lava streaming rapidly, bright orange, motion blur, hyperrealistic photograph"
+    },
+    {
+      "texto": "1 km en un minuto.",
+      "prompt_imagen": "aerial view of lava overtaking a highway, visible distance markers, orange flow, hyperrealistic photograph"
+    },
+    {
+      "texto": "Eso es más rápido que una ambulancia.",
+      "prompt_imagen": "ambulance on road with fast-moving lava beside, contrast of red vehicle and orange flow, hyperrealistic photograph"
+    },
+    {
+      "texto": "Arrasó carreteras y casas en segundos.",
+      "prompt_imagen": "houses and cars destroyed by advancing lava, charred remnants, orange river, hyperrealistic photograph"
+    },
+    {
+      "texto": "La temperatura superó los mil grados.",
+      "prompt_imagen": "molten lava glowing intensely, steel rod melting beside, bright heat haze, hyperrealistic photograph"
+    },
+    {
+      "texto": "¿Te atraparía una lava a 60 km/h?",
+      "prompt_imagen": "fast-moving lava flow across volcanic landscape, orange molten river, dramatic lighting, hyperrealistic photograph"
+    }
+  ],
+  "modo": "record"
+}
