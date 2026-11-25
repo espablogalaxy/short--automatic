@@ -1,0 +1,51 @@
+{
+  "titulo": "¿Una explosión que mató a 4 000 km?",
+  "descripcion": "En 1883 la erupción de Krakatoa generó la onda sonora más poderosa de la historia, escuchada a miles de kilómetros. ¿Te atreverías a estar allí cuando retumbó el planeta? #shorts #curiosidades #planeta #Krakatoa #Erupción #SonidoMundial",
+  "tags": [
+    "Krakatoa",
+    "erupción 1883",
+    "onda sonora",
+    "explosión más fuerte",
+    "megaton TNT",
+    "presión atmosférica",
+    "sonido alrededor del mundo",
+    "historia geológica",
+    "fenómeno acústico"
+  ],
+  "escenas": [
+    {
+      "texto": "Una explosión que mató a 4 000 km",
+      "prompt_imagen": "Vista aérea del océano con una explosión iluminando el horizonte y una columna de humo negro elevándose, estilo fotografía hiperrealista de reportaje"
+    },
+    {
+      "texto": "En 1883, Krakatoa rugió sin igual",
+      "prompt_imagen": "Isla de Krakatoa en 1883, volcán en plena erupción con columna de ceniza roja y fuego, fotografía hiperrealista",
+      "lugar_real": "Krakatoa"
+    },
+    {
+      "texto": "Liberó energía de 200 megatoneladas TNT",
+      "prompt_imagen": "Representación gráfica de una explosión gigantesca comparada con 200 megatones de TNT, estilo foto hiperrealista con efectos de luz y humo"
+    },
+    {
+      "texto": "La onda sonora dio una vuelta mundial",
+      "prompt_imagen": "Mapa mundi con ondas circulares emanando del punto de Krakatoa, resaltando la trayectoria que rodea el planeta, fotografía de estilo documental"
+    },
+    {
+      "texto": "Se escuchó en Australia, 5 000 km lejos",
+      "prompt_imagen": "Costa australiana con gente señalando al cielo, expresión de asombro mientras el sonido viaja a 5 000 km, foto hiperrealista"
+    },
+    {
+      "texto": "Los barógrafos registraron una sobrepresión de 0,12 hPa",
+      "prompt_imagen": "Barógrafo antiguo de 1883 mostrando una línea de presión marcada en 0,12 hPa, detalle close‑up, fotografía documental"
+    },
+    {
+      "texto": "Esa presión pudo romper oídos a 1 000 m",
+      "prompt_imagen": "Persona con audífonos, expresión de dolor, indicando ruptura de oídos a 1 000 metros de distancia, foto realista"
+    },
+    {
+      "texto": "¿Una explosión que mató a 4 000 km?",
+      "prompt_imagen": "Repetición del horizonte con la explosión inicial, zoom al mismo punto del océano, estilo foto hiperrealista"
+    }
+  ],
+  "modo": "fenomeno"
+}
