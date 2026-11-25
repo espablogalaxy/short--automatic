@@ -1,0 +1,53 @@
+{
+  "titulo": "¿Qué rayo supera los treinta mil grados?",
+  "descripcion": "Los relámpagos alcanzan hasta 30 000 °C, diez veces más caliente que la superficie del Sol. ¿Te atreverías a estar bajo una tormenta así? #shorts #curiosidades #planeta #relámpagos #tormenta #temperatura",
+  "tags": [
+    "rayo",
+    "relámpago",
+    "temperatura",
+    "tormenta",
+    "cielo",
+    "atmósfera",
+    "fenómeno",
+    "calor extremo",
+    "sol",
+    "ciencia",
+    "registro",
+    "30 000 grados"
+  ],
+  "escenas": [
+    {
+      "texto": "Un rayo puede quemarte en milisegundos",
+      "prompt_imagen": "close-up of a lightning strike hitting the ground, bright white bolt, dramatic dark storm sky, hyperrealistic photography"
+    },
+    {
+      "texto": "Su temperatura alcanza los treinta mil grados",
+      "prompt_imagen": "intense lightning channel glowing blue‑white, visible plasma, high detail, hyperrealistic photograph"
+    },
+    {
+      "texto": "Diez veces más caliente que el Sol",
+      "prompt_imagen": "half view of the Sun's surface, half view of a lightning bolt, side by side, hyperrealistic, vivid colors"
+    },
+    {
+      "texto": "Solo la corona solar supera ese calor",
+      "prompt_imagen": "bright solar corona during a total eclipse, radiant plasma, contrasted with a lightning bolt, hyperrealistic"
+    },
+    {
+      "texto": "Un golpe de rayo puede vaporizar metal",
+      "prompt_imagen": "metal rod on the ground struck by lightning, sparks flying, molten metal droplets, hyperrealistic photography"
+    },
+    {
+      "texto": "En una fracción de segundo, todo arde",
+      "prompt_imagen": "instantaneous fireball from a lightning strike, intense flames and smoke, motion blur, hyperrealistic"
+    },
+    {
+      "texto": "Por eso, estar bajo tormenta es mortal",
+      "prompt_imagen": "silhouette of a person standing under dark storm clouds, lightning flashing in the background, dramatic lighting, hyperrealistic"
+    },
+    {
+      "texto": "¿Te atreves a sentir ese rayo?",
+      "prompt_imagen": "lightning bolt striking again, same dramatic dark sky as the opening, hyperrealistic photography"
+    }
+  ],
+  "modo": "record"
+}

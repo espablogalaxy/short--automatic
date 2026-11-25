@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Sobrevivirías a la presión del Challenger Deep?",
+  "descripcion": "El Challenger Deep, con 10 984 m de profundidad, ejerce una presión de 1 086 atm, suficiente para aplastar un coche al instante. ¿Te atreverías a descender allí? #shorts #curiosidades #planeta #ChallengerDeep #presión #océano",
+  "tags": [
+    "Challenger Deep",
+    "Fosa de las Marianas",
+    "presión oceánica",
+    "profundidad oceánica",
+    "submarinos",
+    "coche aplastado",
+    "elefantes peso",
+    "sumergibles",
+    "ciencia",
+    "curiosidades"
+  ],
+  "escenas": [
+    {
+      "texto": "Una presión que te convertiría en polvo",
+      "prompt_imagen": "metal sphere crushing into fine dust particles underwater, dark abyss background, hyperrealistic photography"
+    },
+    {
+      "texto": "En el Challenger Deep, 10 984 metros bajo",
+      "prompt_imagen": "map view of Mariana Trench highlighting Challenger Deep with depth marker, deep blue ocean, hyperrealistic style",
+      "lugar_real": "Challenger Deep"
+    },
+    {
+      "texto": "La fuerza allí es de 1 086 atm",
+      "prompt_imagen": "analog pressure gauge displaying 1 086 atm, submerged in deep sea, realistic lighting"
+    },
+    {
+      "texto": "Como 100 elefantes sobre una sala",
+      "prompt_imagen": "small underwater room floor with 100 realistic elephants standing, illustrating massive weight, hyperrealistic"
+    },
+    {
+      "texto": "Un coche se desinflaría al instante",
+      "prompt_imagen": "car hull collapsing under extreme pressure in deep ocean, water swirling, realistic detail"
+    },
+    {
+      "texto": "Solo los sumergibles especiales lo soportan",
+      "prompt_imagen": "modern deep‑sea submersible (Limiting Factor) navigating Challenger Deep, bright lights, hyperrealistic"
+    },
+    {
+      "texto": "El Titanic explotaría al llegar",
+      "prompt_imagen": "model of the Titanic being crushed and exploding under water pressure, dramatic lighting"
+    },
+    {
+      "texto": "Una presión que te convertiría en polvo",
+      "prompt_imagen": "metal sphere crushing into fine dust particles underwater, dark abyss background, hyperrealistic photography"
+    }
+  ],
+  "modo": "record"
+}

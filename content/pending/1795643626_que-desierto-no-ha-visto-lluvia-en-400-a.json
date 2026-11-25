@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Qué desierto no ha visto lluvia en 400 años?",
+  "descripcion": "El desierto de Atacama lleva 400 años sin una gota de lluvia. ¿Te atreverías a pasar un día allí sin agua? #shorts #curiosidades #planeta #Atacama #desierto #sequía #record #Chile",
+  "tags": [
+    "Atacama Desert",
+    "desierto más seco",
+    "sequía extrema",
+    "récord de sequía",
+    "clima árido",
+    "lugares sin lluvia",
+    "récord mundial",
+    "desierto sin agua",
+    "Chile",
+    "curiosidades del planeta"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Un desierto sin lluvia en 400 años?",
+      "prompt_imagen": "hyperrealistic photograph of an endless desert with cracked soil, clear blue sky, no clouds, sun low, vast horizon, dramatic lighting"
+    },
+    {
+      "texto": "El aire allí no lleva humedad",
+      "prompt_imagen": "hyperrealistic photograph of hot dry air shimmering above desert sand, no visible moisture, intense sunlight"
+    },
+    {
+      "texto": "Los cactus mueren al primer rocío",
+      "prompt_imagen": "hyperrealistic photograph of a withered cactus lying on cracked desert floor under harsh sun"
+    },
+    {
+      "texto": "Ni una nube se forma nunca",
+      "prompt_imagen": "hyperrealistic photograph of a completely cloudless sky above a barren desert, endless blue, bright sunlight"
+    },
+    {
+      "texto": "El registro oficial lo certifica: Atacama",
+      "prompt_imagen": "hyperrealistic photograph of a desert signpost reading 'Atacama Desert, Chile' surrounded by arid landscape",
+      "lugar_real": "Atacama Desert"
+    },
+    {
+      "texto": "Cero milímetros de lluvia, promedio anual",
+      "prompt_imagen": "hyperrealistic photograph of a rain gauge in the desert showing 0 mm, bright sun overhead"
+    },
+    {
+      "texto": "Una gota cada mil años",
+      "prompt_imagen": "hyperrealistic photograph of a solitary water droplet hanging on a rock in an arid desert background"
+    },
+    {
+      "texto": "¿Un desierto sin lluvia en 400 años?",
+      "prompt_imagen": "hyperrealistic photograph of the same endless cracked desert horizon, clear sky, sun low, dramatic lighting"
+    }
+  ],
+  "modo": "record"
+}
