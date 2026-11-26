@@ -1,0 +1,61 @@
+{
+  "titulo": "¿Qué destruiría un meteorito de 150 km?",
+  "descripcion": "El impacto de Chicxulub, con un diámetro de 150 km, provocó la extinción masiva hace 66 millones de años. ¿Te atreverías a vivir bajo su sombra? #shorts #curiosidades #planeta #Chicxulub #meteoritos #extincion",
+  "tags": [
+    "Chicxulub",
+    "meteorito",
+    "cráter",
+    "extinción",
+    "dinosaurios",
+    "impacto",
+    "150 km",
+    "66 millones",
+    "Yucatán",
+    "catástrofe",
+    "geología",
+    "ciencia"
+  ],
+  "escenas": [
+    {
+      "texto": "Un meteorito de 150 km arrasaría continentes",
+      "prompt_imagen": "Gigantic meteorite 150 km wide approaching Earth, continents visible from space, hyperrealistic photography, dramatic lighting",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Ese fue Chicxulub, hace 66 millones años",
+      "prompt_imagen": "Aerial view of the Chicxulub crater in Yucatán, Mexico, with overlay indicating 66 million years old, hyperrealistic photography",
+      "lugar_real": "Chicxulub crater"
+    },
+    {
+      "texto": "Impactó en la península de Yucatán, México",
+      "prompt_imagen": "Satellite image of the Yucatán Peninsula, Mexico, highlighting the Chicxulub impact site, dramatic lighting, hyperrealistic",
+      "lugar_real": "Yucatán Peninsula"
+    },
+    {
+      "texto": "Liberó energía de cien mil millones bombas",
+      "prompt_imagen": "Massive explosion over ocean with huge mushroom cloud, visual cue suggesting energy equal to 100 billion nuclear bombs, hyperrealistic photography",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Causó incendios globales y oscuridad durante meses",
+      "prompt_imagen": "Earth under thick ash cloud, sun dimmed, global firestorm, realistic atmospheric effects, hyperrealistic",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Desaparecieron los dinosaurios, sobrevivieron solo 15 especies",
+      "prompt_imagen": "Fossilized dinosaur skeletons turning to dust, dramatic close-up, hyperrealistic photography",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Hoy el cráter mide 150 km",
+      "prompt_imagen": "Aerial view of the present-day Chicxulub crater, 150 km diameter, clear terrain, hyperrealistic photography",
+      "lugar_real": "Chicxulub crater"
+    },
+    {
+      "texto": "¿Sobrevivirías a un meteorito de 150 km?",
+      "prompt_imagen": "View of Earth from space with the same huge meteorite approaching, same composition as scene 1, hyperrealistic photography",
+      "lugar_real": ""
+    }
+  ],
+  "modo": "fenomeno"
+}
