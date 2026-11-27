@@ -1,0 +1,52 @@
+{
+  "titulo": "¿319 km bajo tierra? La cueva sumergida más larga",
+  "descripcion": "Ox Bel Ha, en la península de Yucatán, supera los 319 km y es la red de cuevas subacuáticas más extensa del planeta. ¿Te atreverías a explorar sus profundidades? #shorts #curiosidades #planeta #cavassumergidas #OxBelHa #Mexico",
+  "tags": [
+    "Ox Bel Ha",
+    "cueva sumergida",
+    "cuevas subacuáticas",
+    "México",
+    "sistema de cuevas",
+    "longitud récord",
+    "319 km",
+    "exploración submarina",
+    "geología",
+    "cave diving"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Te atreverías a bucear 319 km bajo tierra?",
+      "prompt_imagen": "Caverna subacuática oscura con estalactitas de agua y luz tenue, sensación de gran profundidad"
+    },
+    {
+      "texto": "Es la cueva sumergida más extensa",
+      "prompt_imagen": "Vista panorámica de una caverna bajo el agua con formaciones rocosas y agua cristalina"
+    },
+    {
+      "texto": "Se llama Ox Bel Ha, México",
+      "prompt_imagen": "Entrada de la cueva Ox Bel Ha en la península de Yucatán, rodeada de vegetación tropical",
+      "lugar_real": "Ox Bel Ha"
+    },
+    {
+      "texto": "Su longitud total supera los 319 km",
+      "prompt_imagen": "Mapa topográfico resaltando la red de túneles subacuáticos de Ox Bel Ha, con medida de 319 km"
+    },
+    {
+      "texto": "Eso equivale a casi la distancia Madrid‑Valencia",
+      "prompt_imagen": "Mapa de carretera mostrando la distancia entre Madrid y Valencia al lado de una ilustración de la caverna subacuática"
+    },
+    {
+      "texto": "Imagínate quedarte sin aire allí",
+      "prompt_imagen": "Buzo dentro de la caverna oscura con tanque de oxígeno casi vacío, burbujas diminutas"
+    },
+    {
+      "texto": "La presión y la oscuridad te aplastarían",
+      "prompt_imagen": "Gran roca bajo el agua sobre un buzo, transmitiendo sensación de presión extrema y oscuridad"
+    },
+    {
+      "texto": "¿Te atreverías a bucear 319 km bajo tierra?",
+      "prompt_imagen": "Caverna subacuática oscura con estalactitas de agua y luz tenue, sensación de gran profundidad"
+    }
+  ],
+  "modo": "record"
+}
