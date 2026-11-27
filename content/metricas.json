@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T15:37:38.090299+00:00",
+ "actualizado": "2026-11-27T15:28:29.198982+00:00",
  "videos": {
   "WW2jNQKfemQ": {
    "titulo": "¿Qué lago alcanza 1 642 metros de profundidad?",
@@ -2457,6 +2457,10 @@
     [
      "2026-11-26",
      79
+    ],
+    [
+     "2026-11-27",
+     79
     ]
    ]
   },
@@ -2582,6 +2586,10 @@
     [
      "2026-11-26",
      33
+    ],
+    [
+     "2026-11-27",
+     33
     ]
    ]
   },
@@ -2620,6 +2628,10 @@
     ],
     [
      "2026-11-26",
+     40
+    ],
+    [
+     "2026-11-27",
      40
     ]
    ]
@@ -2660,6 +2672,10 @@
     [
      "2026-11-26",
      14
+    ],
+    [
+     "2026-11-27",
+     14
     ]
    ]
   },
@@ -2694,6 +2710,10 @@
     ],
     [
      "2026-11-26",
+     33
+    ],
+    [
+     "2026-11-27",
      33
     ]
    ]
@@ -2730,13 +2750,17 @@
     [
      "2026-11-26",
      345
+    ],
+    [
+     "2026-11-27",
+     345
     ]
    ]
   },
   "qFuD9Da1vEA": {
    "titulo": "¿Qué volcán mantiene un lago de lava a 1 150 °C?",
    "subida": "2026-11-25T01:50:33+00:00",
-   "vistas": 14,
+   "vistas": 15,
    "historial": [
     [
      "2026-11-25",
@@ -2745,13 +2769,17 @@
     [
      "2026-11-26",
      14
+    ],
+    [
+     "2026-11-27",
+     15
     ]
    ]
   },
   "5g4F8INgWqQ": {
    "titulo": "¿Qué devastación causaría el meteorito de 60 toneladas Hoba?",
    "subida": "2026-11-24T20:03:26+00:00",
-   "vistas": 47,
+   "vistas": 49,
    "historial": [
     [
      "2026-11-25",
@@ -2760,6 +2788,10 @@
     [
      "2026-11-26",
      47
+    ],
+    [
+     "2026-11-27",
+     49
     ]
    ]
   },
@@ -2775,39 +2807,88 @@
     [
      "2026-11-26",
      50
+    ],
+    [
+     "2026-11-27",
+     50
     ]
    ]
   },
   "rumT4hKfBQI": {
    "titulo": "¿Una plancha de hielo que hundiría continentes?",
    "subida": "2026-11-26T01:26:43+00:00",
-   "vistas": 341,
+   "vistas": 392,
    "historial": [
     [
      "2026-11-26",
      341
+    ],
+    [
+     "2026-11-27",
+     392
     ]
    ]
   },
   "VXTN5_2PneQ": {
    "titulo": "¿A cuántos kilómetros está Pitcairn, a 2 150 km del resto?",
    "subida": "2026-11-25T19:04:11+00:00",
-   "vistas": 1222,
+   "vistas": 1326,
    "historial": [
     [
      "2026-11-26",
      1222
+    ],
+    [
+     "2026-11-27",
+     1326
     ]
    ]
   },
   "tvc1CAAAMcM": {
    "titulo": "¿Qué volcán expulsó 160 km³ de magma?",
    "subida": "2026-11-25T16:35:43+00:00",
-   "vistas": 286,
+   "vistas": 316,
    "historial": [
     [
      "2026-11-26",
      286
+    ],
+    [
+     "2026-11-27",
+     316
+    ]
+   ]
+  },
+  "0Ks_ONL-gfU": {
+   "titulo": "¿Cómo se vive en Mawsynram con 11.872 mm de lluvia?",
+   "subida": "2026-11-27T01:24:17+00:00",
+   "vistas": 813,
+   "historial": [
+    [
+     "2026-11-27",
+     813
+    ]
+   ]
+  },
+  "i701ArM_awg": {
+   "titulo": "¿Por qué 60 toneladas de hierro cayeron sin cráter?",
+   "subida": "2026-11-26T18:55:13+00:00",
+   "vistas": 1042,
+   "historial": [
+    [
+     "2026-11-27",
+     1042
+    ]
+   ]
+  },
+  "tBKcU_staB0": {
+   "titulo": "¿Te quemaría tocar el agua pH 10 del cráter Lonar?",
+   "subida": "2026-11-26T16:08:46+00:00",
+   "vistas": 140,
+   "historial": [
+    [
+     "2026-11-27",
+     140
     ]
    ]
   }
