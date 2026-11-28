@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Qué pasaría si 0,7 km³ de lava te cubrieran?",
+  "descripcion": "En 2018 la erupción de Kīlauea escupió 0,7 km³ de lava, sepultando la aldea de Kalapana y más de 700 hogares. ¿Te atreverías a estar bajo esa ola ardiente? #shorts #curiosidades #planeta #Kilauea #lava #volcán",
+  "tags": [
+    "Kilauea",
+    "lava flow",
+    "2018 eruption",
+    "Kalapana",
+    "volcano",
+    "Hawaii",
+    "lava volume",
+    "volcanic disaster"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Te cubriría 0,7 km³ de lava incandescente?",
+      "prompt_imagen": "Vista aérea de un torrente de lava incandescente avanzando sobre terreno volcánico, colores rojos y naranjas intensos, estilo foto hiperrealista, dramatismo natural"
+    },
+    {
+      "texto": "En Hawái, Kilauea desató la catástrofe.",
+      "prompt_imagen": "Cráter del volcán Kīlauea en Hawái, con fumarolas y lava fluyendo, fotografía hiperrealista de día, detalle del cono volcánico",
+      "lugar_real": "Kīlauea"
+    },
+    {
+      "texto": "La erupción comenzó en mayo de 2018.",
+      "prompt_imagen": "Calendario marcando mayo 2018 sobre fondo de humo volcánico, fotografía hiperrealista con enfoque en la fecha"
+    },
+    {
+      "texto": "En pocos meses, expulsó 0,7 km³ de lava.",
+      "prompt_imagen": "Cinta métrica gigante superpuesta a un río de lava, mostrando gran cantidad, foto hiperrealista con contraste de luz y sombra"
+    },
+    {
+      "texto": "Ese flujo cubrió doce kilómetros cuadrados.",
+      "prompt_imagen": "Mapa topográfico de Hawái resaltando una zona de 12 km² cubierta por lava, colores rojos sobre verde, estilo foto realista"
+    },
+    {
+      "texto": "Enterró bajo ceniza la aldea de Kalapana.",
+      "prompt_imagen": "Ruinas parcialmente cubiertas de ceniza y lava de la aldea de Kalapana, vista panorámica, fotografía hiperrealista con atmósfera grisácea"
+    },
+    {
+      "texto": "Más de setecientos hogares desaparecieron para siempre.",
+      "prompt_imagen": "Líneas de casas vacías bajo una capa de lava negra, foto hiperrealista con sensación de desolación"
+    },
+    {
+      "texto": "¿Podrías sobrevivir bajo esa ola ardiente?",
+      "prompt_imagen": "Persona imaginaria de pie frente a un muro de lava incandescente, vista en primera persona, foto hiperrealista con efecto de calor"
+    }
+  ],
+  "modo": "lugar"
+}

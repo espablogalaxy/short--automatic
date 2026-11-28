@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Podrías sobrevivir a un tornado de 2,6 km?",
+  "descripcion": "En 1999 Oklahoma se registró el tornado más ancho del planeta, 2,6 km, capaz de arrasar ciudades. ¿Te atreverías a enfrentarlo? #shorts #curiosidades #planeta #tornado #Oklahoma #clima",
+  "tags": [
+    "tornado",
+    "Bridge Creek–Moore",
+    "Oklahoma",
+    "1999",
+    "widest tornado",
+    "extreme weather",
+    "wind speed",
+    "atmospheric record",
+    "natural disaster",
+    "climate"
+  ],
+  "escenas": [
+    {
+      "texto": "Un tornado de 2,6 km aplasta",
+      "prompt_imagen": "tornado gigantesco sobre un campo abierto, vista aérea, nubes de tormenta girando, hiperrealista, estilo documental",
+      "lugar_real": "Bridge Creek–Moore tornado"
+    },
+    {
+      "texto": "Registrado en Oklahoma, EE UU, 1999",
+      "prompt_imagen": "mapa de Oklahoma con marcador en Bridge Creek, fecha 1999 superpuesta, estilo fotográfico realista"
+    },
+    {
+      "texto": "Mide 2,6 km de ancho total",
+      "prompt_imagen": "tornado visto desde arriba con línea de medida de 2,6 km, colores vivos, estilo hiperrealista"
+    },
+    {
+      "texto": "Equivale a 26 campos de fútbol",
+      "prompt_imagen": "vista comparativa mostrando 26 campos de fútbol alineados bajo el ancho del tornado, perspectiva aérea, realista"
+    },
+    {
+      "texto": "Más ancho que la autopista I‑40",
+      "prompt_imagen": "autopista interestatal I‑40 cubierta por el ancho del tornado, carretera visible, estilo foto de alta resolución"
+    },
+    {
+      "texto": "Vientos alcanzan 300 km/h en segundos",
+      "prompt_imagen": "árboles y estructuras doblándose bajo vientos fuertes, medidor de velocidad marcando 300 km/h, ambiente tormentoso"
+    },
+    {
+      "texto": "Arranca casas, levanta autos, destruye todo",
+      "prompt_imagen": "casas volando, autos en el aire, escombros dispersos bajo el tornado, dramatismo visual"
+    },
+    {
+      "texto": "¿Sobrevivirías 10 minutos bajo ese tornado?",
+      "prompt_imagen": "persona observando el tornado a distancia, mirada de temor, cielo oscuro, estilo cinematográfico"
+    }
+  ],
+  "modo": "record"
+}

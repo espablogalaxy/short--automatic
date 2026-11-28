@@ -1,0 +1,59 @@
+{
+  "titulo": "¿El estruendo del Krakatoa mató a miles a 4 800 km?",
+  "descripcion": "En 1883 la explosión del Krakatoa generó un rugido de 180 dB que se escuchó a 4 800 km, rompiendo cristales. ¿Te atreverías a escucharlo a esa distancia? #shorts #curiosidades #planeta #Krakatoa #sonido #volcán",
+  "tags": [
+    "Krakatoa",
+    "1883 eruption",
+    "volcanic sound",
+    "180 dB",
+    "4800 km",
+    "sound wave",
+    "Australia",
+    "pressure wave",
+    "volcanic disaster",
+    "extreme sound"
+  ],
+  "escenas": [
+    {
+      "texto": "Un estruendo mató a miles a 4 800 km",
+      "prompt_imagen": "Krakatoa volcano erupting violently in 1883, massive ash column, dark sky, hyperrealistic photography",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Fue la erupción del Krakatoa, 1883",
+      "prompt_imagen": "Historic view of Krakatoa volcano during the 1883 eruption, realistic rendering, dramatic lighting",
+      "lugar_real": "Krakatoa"
+    },
+    {
+      "texto": "Alcanzó 180 dB en la superficie",
+      "prompt_imagen": "Analog decibel meter showing 180 dB, sea level background, hyperrealistic close-up",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Se escuchó en Australia, 4 800 km lejos",
+      "prompt_imagen": "World map highlighting Krakatoa and Australia, sound wave arcs covering 4 800 km distance, realistic style",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Rompiendo cristales y sacudiendo ventanas",
+      "prompt_imagen": "Interior of a house with shattered glass windows and trembling curtains, hyperrealistic detail",
+      "lugar_real": ""
+    },
+    {
+      "texto": "El aire frío amplificó la onda",
+      "prompt_imagen": "Cold winter air over the ocean, visible temperature inversion layers, illustrating wave amplification, hyperrealistic",
+      "lugar_real": ""
+    },
+    {
+      "texto": "La onda dio la vuelta al planeta",
+      "prompt_imagen": "Earth seen from space with concentric sound wave circles encircling the globe four times, hyperrealistic",
+      "lugar_real": ""
+    },
+    {
+      "texto": "¿Ese estruendo mató a miles a 4 800 km?",
+      "prompt_imagen": "Krakatoa eruption with distant echo lines reaching Australia, question overlay, hyperrealistic",
+      "lugar_real": ""
+    }
+  ],
+  "modo": "fenomeno"
+}

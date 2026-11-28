@@ -1,0 +1,59 @@
+{
+  "titulo": "¿Podrías sobrevivir al tornado más ancho del mundo (2,6 km)?",
+  "descripcion": "El tornado El Reno, Kansas, alcanzó una anchura récord de 2,6 km, más amplio que Manhattan. ¿Te atreverías a enfrentarlo? #shorts #curiosidades #planeta #tornado #Kansas #meteorología",
+  "tags": [
+    "tornado",
+    "El Reno",
+    "tornado más ancho",
+    "Kansas",
+    "tormenta",
+    "meteorología",
+    "registro",
+    "ciclón",
+    "cambio climático",
+    "fenómeno atmosférico"
+  ],
+  "escenas": [
+    {
+      "texto": "¿Podrías sobrevivir a la tormenta más ancha?",
+      "prompt_imagen": "Tornado gigante sobre llanuras de Kansas bajo cielo oscuro, fotografía hiperrealista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "El 31 de mayo de 2013, Kansas",
+      "prompt_imagen": "Mapa de EE. UU. resaltando Kansas con fecha 31 de mayo de 2013, estilo reportaje",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Se formó el tornado El Reno",
+      "prompt_imagen": "Tornado El Reno 2013 visto desde satélite, enorme embudo, hiperrealista",
+      "lugar_real": "El Reno, Kansas"
+    },
+    {
+      "texto": "Medía dos coma seis kilómetros",
+      "prompt_imagen": "Imagen del tornado con barra de medida 2.6 km sobre el embudo, estilo científico",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Eso supera la anchura de Manhattan",
+      "prompt_imagen": "Mapa de Manhattan con barra de 2.0 km comparada al ancho del tornado, fotografía",
+      "lugar_real": ""
+    },
+    {
+      "texto": "O casi 26 campos de fútbol",
+      "prompt_imagen": "Veintiséis campos de fútbol alineados vistos desde el aire, comparación de tamaño",
+      "lugar_real": ""
+    },
+    {
+      "texto": "Arrasaba todo a su paso",
+      "prompt_imagen": "Objetos y árboles arrasados por el tornado, escena de destrucción, hiperrealista",
+      "lugar_real": ""
+    },
+    {
+      "texto": "¿Podrías sobrevivir a la tormenta más ancha?",
+      "prompt_imagen": "Tornado gigantesco bajo cielo tormentoso, enfoque dramático, como al inicio",
+      "lugar_real": ""
+    }
+  ],
+  "modo": "record"
+}
